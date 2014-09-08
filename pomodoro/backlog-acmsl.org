@@ -1,0 +1,14 @@
+* Backlog - acm-sl.org
+** Define a procedure to recover the acm-sl.org web sites:
+*** Launch docker
+*** Launch shipyard
+*** Change shipyard password
+*** Launch data container
+*** Launch mariadb container:
+- import databases from last backup
+*** Launch artifactory
+- Research using mariadb database instead of built-in derby's.
+*** Launch jenkins
+- Deploy jobs
+*** Launch getboo
+** Setup firefox sync

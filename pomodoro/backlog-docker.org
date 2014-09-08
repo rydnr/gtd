@@ -1,0 +1,14 @@
+* Backlog - Docker
+** Automate shrinking of images
+** Create image for exim
+** Create image for puppet
+** Read about etcd
+** Setup a puppet master in euler
+** Provision a docker image from Puppet
+** Docker for old acm-sl.com
+- Create a docker image based on gentoo
+- Copy the tarball
+- Uncompress the tarball
+- Setup Apache
+- Run Apache
+** Firefox Sync based on Docker

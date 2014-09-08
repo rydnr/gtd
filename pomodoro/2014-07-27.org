@@ -1,0 +1,21 @@
+* 2014/07/27
+** CI para QueryJ / Java-Commons:
+*** Jenkins en luna:
+**** TODO Deploy jenkins en shipyard en luna: 2
+**** Setup CI en jenkins: 1
+**** Config jenkins en git: 1
+** QueryJ:
+*** Finish template debugging work (only reload supported): 2 ->
+*** Nuevo parent pom: 1
+** Packer
+*** DONE template hello world test: 1 -> 1
+** Docker luna:
+*** mysql in shipyard
+*** redmine in shipyard
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** Pieza portapilas + potenciómetro: 1 ->
+* Docker
+** Setup volumes for backup for each container
+* Backlog
+** Comprar memoria en amazon: 1

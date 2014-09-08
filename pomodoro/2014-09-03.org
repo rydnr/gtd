@@ -1,0 +1,12 @@
+* 2014/09/03
+** TODO Implement a script to generate Dockerfiles based on templates, as wking's 3 -> 1
+** Read one chapter of "Design for hackers"
+** Recover bm.acm-sl.org: 3 -> 1
+** Test docker-backup
+** Research deis
+** AspectJ in LambdaControlFlowPoC: 2 ->
+** Fix backup script on luna 
+** Read one chapter of OCMJEA (Oracle Certified Master, Java EE 6 Enterprise Architect) exam guide
+** Buy Assange book
+** Make room in S3's SD card
+  

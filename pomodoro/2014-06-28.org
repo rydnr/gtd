@@ -1,0 +1,7 @@
+* 2014/06/28
+** DONE Unetbootin crack windows: 1 -> 1
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** impresora:
+*** DONE comprar recambios: 1 -> X
+*** cambiar bases espirales: 1 ->

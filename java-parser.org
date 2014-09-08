@@ -1,0 +1,20 @@
+* Java Parser
+** Code can be touched by hand.
+** A DSL reads an order, and applies a transformation on the source code.
+** Synchronization between ANTLR parser and ST template:
+*** A ST template for each rule.
+*** Each node in the AST contains information about the ST to call.
+*** It always has to contain enough information to be able to call the ST template.
+** Prototype:
+*** A Java parser, that, for each rule, injects a ST template into the AST node.
+*** The AST exports a method to serialize the code back to a Java source file.
+*** PoC: automatically inject @SuppressWarnings("unused") annotations in methods.
+* DSL
+** Commands:
+*** Create Java class (class comment).
+*** Make [X] extend [Y].
+*** Make [X] implement [Y].
+*** Add attribute [X] of type [Y].
+*** Add constructor with: ([X] ([Y]), [parameter comment].*)
+*** Add method [Z] with: ([X] ([Y]), [parameter comment].)*
+*** Add preamble: [class comment].

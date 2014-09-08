@@ -1,0 +1,20 @@
+* 2014/08/23
+** DONE Find out how to add lyrics to songs automatically
+** TODO AspectJ in LambdaControlFlowPoC: 2 -> 4
+** DONE Create project control-flow in github: 1 -> 1
+** DONE Setup last computer: 1 -> 1
+** Import DBs in Luna into a new MariaDB container
+
+* Backlog
+** Watch printer videos: 1
+** Write script to download ebooks: 2
+** Fix music collection: 4
+** QueryJ: Replace for loop in BasePerTableTemplateBuildHandler
+** Fix bath door: 1
+** Setup laptop for movies
+*** http://www.mediahuman.com/lyrics-finder
+** Read about etcd: 1
+** acm-sl.com:
+*** Check domain
+*** Check how to associate two domains to the same drupal instance
+*** Check how to manage the files within

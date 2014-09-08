@@ -1,0 +1,17 @@
+* 2014/07/14
+** DONE Tarjetas ANKI: 2 (aleman) + 1 (calc) -> 3
+** DONE Unetbootin ubuntu + install : 1 -> 1
+** QueryJ: 2 ->
+** Docker luna:
+*** jenkins in shipyard:
+**** Dockerfile based on baseimage-docker: 3 -> 3
+*** mysql in shipyard
+*** redmine in shipyard
+
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** Pieza portapilas + potenciómetro: 1 ->
+* Docker
+** Setup volumes for backup for each container
+* Backlog
+** Kata Netty + ANTLR4: Design protocol, implement server, implement client. 

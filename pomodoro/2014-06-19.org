@@ -1,0 +1,5 @@
+* 2014/06/19
+** DEVDEL
+*** Setup devdel-rt: 1 ->
+*** Setup gradle: 1 ->
+*** Define a generator to write ST for each rule of an ANTLR grammar: 2 -> 

@@ -1,0 +1,18 @@
+* 2014/08/24
+** TODO AspectJ in LambdaControlFlowPoC: 2 ->
+** DONE Create and clean up Calibre collection: 7 -> 7
+** DONE Import DBs in Luna into a new MariaDB container: 2
+** Recover bm.acm-sl.org: 3
+** DONE Watch printer videos: 1
+
+* Backlog
+** Write script to download ebooks: 2
+** Fix music collection: 4
+** QueryJ: Replace for loop in BasePerTableTemplateBuildHandler
+** Fix bath door: 1
+** Read about etcd: 1
+** acm-sl.com:
+*** Check domain
+*** Check how to associate two domains to the same drupal instance
+*** Check how to manage the files within
+** Find out how to mount android phone

@@ -1,0 +1,5 @@
+* 2014/07/01
+** TODO Unetbootin ubuntu: 1 -> 1
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** TODO Docker pull luna: 1 -> 1

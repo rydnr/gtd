@@ -1,0 +1,3 @@
+* C-c . -> insert date from calendar
+* C-c C-c -> insert tag
+* C-c C-t -> TODO item

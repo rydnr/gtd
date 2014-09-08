@@ -1,0 +1,13 @@
+* Casillero
+| c | 0     | 1     | 2     | 3       | 4     | 5     | 6     | 7      | 8      | 9     |
+| 0 | arar  | roto  | araña | ramo    | rico  | raíl  | Rusia | Rufo   | arruga | rabo  |
+| 1 | atar  | dedo  | daño  | timo    | tic   | tela  | tiza  | dafo   | tocha  | tapia |
+| 2 | Nuria | nota  | niño  | Inma    | nuca  | Nilo  | nazi  | naíf   | Nacho  | nube  |
+| 3 | mora  | midi  | mano  | mamá    | moco  | mil   | mesa  | mafia  | miga   | miope |
+| 4 | Cari  | Cati  | cuñao | cama    | caca  | culo  | cazo  | cofia  | coche  | capó  |
+| 5 | Laura | lata  | Elena | lima    | Lucía | lila  | lazo  | Alfie  | leche  | capó  |
+| 6 | zorro | sed   | sueño | suma    | saco  | silla | siseo | esfera | saga   | sopa  |
+| 7 | forro | foto  | fan   | familia | foca  | fail  | FAES  | FIFA   | fajo   | FIBA  |
+| 8 | gorro | Chita | China | goma    | chica | gol   | Jose  | chufa  | chicha | Javi  |
+| 9 | porro | bote  | vino  | VIM     | Bic   | boli  | pus   | puf    | viejo  | papá  |
+

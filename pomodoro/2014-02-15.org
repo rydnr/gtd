@@ -1,0 +1,5 @@
+** DONE Katas <2014-02-15 Sat>
+- Finish GoL in nodejs
+- Record as screencast
+** TODO Coursera
+*** Check any new courses pending to download

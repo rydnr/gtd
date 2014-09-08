@@ -1,0 +1,49 @@
+* org mode
+** DONE Find out how to define custom tags: C-c C-q
+** github:
+*** Setup blog
+** Graal / Truffle
+*** Download / install
+*** Find an example of its capabilities and test it
+** Vim
+*** Take a Vim book or screencast and practice new features
+** Jenkins in acm-sl.org
+*** Configure QueryJ job
+*** Review continuous delivery approach for Maven
+** Yubikey
+*** Configure the yubikey mode and key.
+** OpenVPN
+*** Setup and test the OpenVPN server in euler:
+- Mapping ports + testing the port mapping with netcat
+** Raspberry PI
+*** Finish the IDS configuration from instructables
+** shelr.tv
+** Watch printer videos
+** Rebuild printer
+** Write script to download ebooks
+** Fix music collection
+** Fix bath door
+** acm-sl.com:
+*** Check how to associate two domains to the same drupal instance
+*** Check how to manage the files within
+** Recover tab links from Firefox's backup sessions
+
+** Think of a way to acknowledge the amount spent on: books/videos, magazines, hosting, DNS.
+** Learn to solve Rubik's cube
+
+** Write a "development plan" for me, a system to:
+*** Read more:
+**** Linux journal, Java Magazine
+**** Plan which books to read, and focus
+*** Write more:
+**** Mindmaps
+**** PoCs
+*** Listen to podcasts
+*** Watch technical videos
+*** Coursera / Udacity / Weka / Analytics
+*** Exercise more and regularly
+*** Build a regular feedback loop:
+**** Review mindmaps
+**** Review notes / TODOs
+**** Review Trellos
+

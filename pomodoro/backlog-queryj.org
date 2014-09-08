@@ -1,0 +1,5 @@
+* Backlog - QueryJ
+- Decide a new name
+- Write a script to replace all ocurrences of QueryJ with the new name
+- Replace for loop in BasePerTableTemplateBuildHandler
+- Fix bugs

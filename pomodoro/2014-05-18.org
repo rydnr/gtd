@@ -1,0 +1,9 @@
+* 2014/05/18
+** TODO Mail afiliación UGT: 1 ->
+** TODO Declaracion renta 2013: 3 ->
+** TODO Revisar si fetchmail se ha bajado el mail: 1 ->
+** Tarjetas Anki aleman: 1 ->
+** Curso EdX: 1 ->
+** Leer DDD: 1 ->
+** Mindmap LitProg / FP: 1 ->
+** Anotacion @pure

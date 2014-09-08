@@ -1,0 +1,3 @@
+** Docker
+*** Find out how to "enter" an image, not just running commands and exit
+*** Setup a puppet master in euler

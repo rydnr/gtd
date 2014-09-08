@@ -1,0 +1,7 @@
+* 2014/06/15
+** Docker
+*** Run an app inside a container: 1 ->
+*** Find out what docker commits: 1 ->
+** Shipyard
+*** Run in luna: 1 ->
+*** Follow the guide, deploy a container: 1 ->

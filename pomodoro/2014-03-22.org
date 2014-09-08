@@ -1,0 +1,2 @@
+* 2014/03/22
+** DONE Associate StringTemplate inspector windows to a given desktop in xmonad: 1 -> 1

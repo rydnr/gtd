@@ -1,0 +1,6 @@
+* 2014/03/04
+** DONE Manage ebook collection: 1 -> X
+** TODO Grunt + Gradle: 1 ->
+** TODO Anki german: 1 ->
+** TODO Anki math: 1 ->
+** TODO Read First century C : 1 ->

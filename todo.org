@@ -1,0 +1,792 @@
+MY PROJECTS  -*- mode: org; fill-column: 78 -*-
+
+* Tasks
+#+CATEGORY: Tasks
+** TODO Read Con el cariño no basta			 :kids:book:homework:
+** TODO Read El colegio invisible			:novel:book:homework:
+** TODO Read Educar con sentido común (Urra)		 :kids:book:homework:
+** TODO Read Fortalece a tu hijo (Urra)			 :kids:book:homework:
+** TODO Read Teaching children self-discipline		 :kids:book:homework:
+** TODO Read Cypherpunks (Assange)	     :politics:assange:book:homework:
+** TODO Read Razones para la rebeldía		     :politics:book:homework:
+** TODO Read Científica				      :science:book:homework:
+** TODO Read 501 TV-free activities for kids		 :kids:book:homework:
+** TODO Read Todos los niños pueden ser Einstein	 :kids:book:homework:
+** TODO Read To engineer is human		  :engineering:book:homework:
+** TODO Read Hombre en busca de sentido (Frankl)   :psychology:book:homework:
+** TODO Read Miedo a la libertad (Fromm) 	   :psychology:book:homework:
+** TODO Read Humanismo como utopía real (Fromm)    :psychology:book:homework:
+** TODO Read Arte de amar (Fromm) 		   :psychology:book:homework:
+** TODO Read Del tener al ser (Fromm)		   :psychology:book:homework:
+** TODO Read Lenguaje del cuerpo 		   :psychology:book:homework:
+** TODO Read Habilidades sociales		   :psychology:book:homework:
+** TODO Read Six sigma para todos		     :business:book:homework:
+** TODO Read Cien años de soledad (García Márquez)	:novel:book:homework:
+** TODO Read Introducción al psicoanálisis (Freud) :psychology:book:homework:
+** TODO Read Las tribulaciones de Wilt			:novel:book:homework:
+** TODO Read Entrenamiento abdominal		       :health:book:homework:
+** TODO Read 50 teorías filosóficas		   :philosophy:book:homework:
+** TODO Read Algunos problemas básicos del análisis de varianza :stats:book:homework:
+** TODO Read Cómo piensan los cerebros		   :psychology:book:homework:
+** TODO Read Confianza			  :psychology:business:book:homework:
+** TODO Read Miedo, pánico, fobias 		   :psychology:book:homework:
+** TODO Read Mind hacks				      :science:book:homework:
+** TODO Read Meme eléctrico 			      :science:book:homework:
+** TODO Read Yo y el ello (Freud) 		   :psychology:book:homework:
+** TODO Read Bosquejo de una teoría de las emociones (Sartre) :psychology:book:homework:
+** TODO Read Klein para principiantes :comic:biography:psychology:book:homework:
+** TODO Read 7 hábitos de la gente altamente efectiva :business:book:homework:
+** TODO Read Jean-Paul Sartre		 :psychology:biography:book:homework:
+** TODO Read Manual práctico de Psicoterapia Gestalt :psychology:book:homework:
+** TODO Read En los archivos de Freud		   :psychology:book:homework:
+** TODO Read Utilidades de las casas		   :psychology:book:homework:
+** TODO Read Historia de la filosofía (Russell)	   :philosophy:book:homework:
+** TODO Read Guía práctica de psicología	   :psychology:book:homework:
+** TODO Read Escuela de ajedrez				:chess:book:homework:
+** TODO Read Club de las malas madres 			 :kids:book:homework:
+** TODO Read Querer sin malcriar			 :kids:book:homework:
+** TODO Read Vendedor más grande del mundo 	     :business:book:homework:
+** TODO Read Backyard ballistics		 :kids:science:book:homework:
+** TODO Read Make magazine 22	  :arduino:electronics:diy:magazine:homework:
+** TODO Read Visual guide to lock picking :lockpicking:hacking:book:homework:
+** TODO Read Piense en grande, actúe en pequeño	     :business:book:homework:
+** TODO Read Conflictos interiores		   :psychology:book:homework:
+** TODO Read Grafología				   :psychology:book:homework:
+** TODO Read Cobweb (Stephenson)			:novel:book:homework:
+** TODO Read Fish! A remarkable way to boost morale and improve results :business:book:homework:
+** TODO Read Manual para el cubo de Rubik		      :book:homework:
+** TODO Read Amazing science experiments with everyday materials :kids:science:book:homework:
+** TODO Read Humo (Faulkner)				:novel:book:homework:
+** TODO Read Hombre que confundió a su mujer con un espejo (Sacks) :psychology:book:homework:
+** TODO Read Alicia en el país de las maravillas, a través del espejo :novel:book:homework:
+** TODO Read Diarios de las estrellas (Lem)		:novel:book:homework:
+** TODO Read Comer animales				      :book:homework:
+** TODO Read Televisión digital: fundamentos y teorías 	      :book:homework:
+** TODO Read Weaving the web (Berners-Lee) 		      :book:homework:
+** TODO Read Jungla de los grupos de noticias 		      :book:homework:
+** TODO Read Historia oculta de Internet a través de sus personajes :book:homework:
+** TODO Read Más allá de El Capital		    :economics:book:homework:
+** TODO Read Capital (Marx) 			    :economics:book:homework:
+** TODO Read Manifiesto comunista (Marx, Engels)     :politics:book:homework:
+** TODO Read Riqueza de las naciones (Adam Smith)   :economics:book:homework:
+** TODO Read Qué es el comunismo	       :comic:politics:book:homework:
+** TODO Read Obras escogidas de Marx y Engels (Marx, Engels) :politics:book:homework:
+** TODO Read Comuna de París (Marx, Engels, Lenin)   :politics:book:homework:
+** TODO Read Fundamentos del leninismo (Stalin)	     :politics:book:homework:
+** TODO Read Cultura y la revolución cultural (Lenin) :politics:book:homework:
+** TODO Read Max Weber El político y el científico :biography:politics:book:homework:
+** TODO Read Lucha de clases (Chomsky)	     :chomsky:politics:book:homework:
+** TODO Read Chomsky y la globalización	     :chomsky:politics:book:homework:
+** TODO Read Conversaciones con Chomsky	     :chomsky:politics:book:homework:
+** TODO Read Cómo se reparte la tarta (Chomsky) :chomsky:politics:book:homework:
+** TODO Read Sobre el poder y la ideología (Chomsky) :chomsky:politics:book:homework:
+** TODO Read Mundo después de Irak (Chomsky) :chomsky:politics:book:homework:
+** TODO Read Microfísica del poder (Foucault)	     :politics:book:homework:
+** TODO Read Qué es la propiedad? (Proudhon) :philosophy:politics:book:homework:
+** TODO Read Beneficio es lo que cuenta (Chomsky) :chomsky:politics:book:homework:
+** TODO Read Gobierno del futuro (Chomsky)   :chomsky:politics:book:homework:
+** TODO Read Che Guevara para principiantes   :comic:biography:book:homework:
+** TODO Read De Los delitos y las penas		   :philosophy:book:homework:
+** TODO Read Lacan y el postfeminismo		   :psychology:book:homework:
+** TODO Read Liberalismo político 		     :politics:book:homework:
+** TODO Read Contradicciones (Mao Tse Tung) 	     :politics:book:homework:
+** TODO Read Cuba, Dictadura o democracia?	     :politics:book:homework:
+** TODO Read Razón y revolución			    :economics:book:homework:
+** TODO Read Turbocapitalismo			    :economics:book:homework:
+** TODO Read Economía del fraude inocente (Galbraith) :economics:book:homework:
+** TODO Read Sociedad opulenta (Galbraith) 	    :economics:book:homework:
+** TODO Read Deseducación (Chomsky)	     :chomsky:politics:book:homework:
+** TODO Read Maldita trinidad 			    :economics:book:homework:
+** TODO Read Introducción a la economía (Galbraith) :economics:book:homework:
+** TODO Read Malestar en la globalización (Stiglitz) :economics:book:homework:
+** TODO Read Sobre la democracia y la educación (Chomsky) :politics:book:homework:
+** TODO Read Nuevos intelectuales (Chomsky)  :chomsky:politics:book:homework:
+** TODO Read Conocimiento y libertad (Chomsky) :chomsky:politics:book:homework:
+** TODO Read Chomsky, obra esencial	     :chomsky:politics:book:homework:
+** TODO Read Estados fallidos (Chomsky)	     :chomsky:politics:book:homework:
+** TODO Read 1984				     :politics:book:homework:
+** TODO Read Filosofía de House 		   :philosophy:book:homework:
+** TODO Read Fractales y finanzas			 :math:book:homework:
+** TODO Read Super Freakonomics			    :economics:book:homework:
+** TODO Read Freakonomics			    :economics:book:homework:
+** TODO Read Money confidential		   :economics:politics:book:homework:
+** TODO Read Children of Satan			     :politics:book:homework:
+** TODO Read The bubble of American supremacy (Soros) :economics:book:homework:
+** TODO Read Informe 11-S 		       :comic:politics:book:homework:
+** TODO Read Desafíos de la economía mundial en el siglo XXI :economics:book:homework:
+** TODO Read Lucro sucio		   :politics:economics:book:homework:
+** TODO Read Free Software, free society		      :book:homework:
+** TODO Read Antropología cultural		     :politics:book:homework:
+** TODO Read Nuevo rostro del capitalismo 	    :economics:book:homework:
+** TODO Read Espejismo de Dios 			      :science:book:homework:
+** TODO Read Obras Completas (Gödel)		      :science:book:homework:
+** TODO Read Camino a la realidad (Penrose) 	      :science:book:homework:
+** TODO Read Historia de la luz 		      :science:book:homework:
+** TODO Read Brevísima historia del tiempo (Hawking)  :science:book:homework:
+** TODO Read Gödel, Escher, Bach		      :science:book:homework:
+** TODO Read Little book of big ideas science	      :science:book:homework:
+** TODO Read Universo elegante (Greene) 	      :science:book:homework:
+** TODO Read New kind of science (Wolfram) 	      :science:book:homework:
+** TODO Read Hablando de la relatividad		      :science:book:homework:
+** TODO Read Mente y materia (Schrödinger)	      :science:book:homework:
+** TODO Read Ciencia y humanismo (Schrödinger)	      :science:book:homework:
+** TODO Read Complejidad del mundo 		      :science:book:homework:
+** TODO Read Mentes y máquinas 			      :science:book:homework:
+** TODO Read Seis piezas fáciles (Feynman) 	      :science:book:homework:
+** TODO Read Planck Autobiografía científica :biography:science:book:homework:
+** TODO Read Feynman, Los caminos cuánticos :biography:science:book:homework:
+** TODO Read Materia y movimiento (Maxwell)	      :science:book:homework:
+** TODO Read Ojalá lo supiera! (Feynman)    :biography:science:book:homework:
+** TODO Read The life and science of R. Feynman :biography:science:book:homework:
+** TODO Read Está Vd de broma, Sr Feynman?	      :science:book:homework:
+** TODO Read Proporción aúrea 				 :math:book:homework:
+** TODO Read Arquímedes Alrededor del círculo :SCHOOL:biography:book:homework:
+** TODO Read Fermat El mago de los números :science:biography:math:book:homework:
+** TODO Read Newton El umbral de la ciencia moderna :biography:book:homework:
+** TODO Read Galois Revolución y matemáticas :science:biography:math:book:homework:
+** TODO Read Euler El maestro de todos los matemáticos :science:biography:math:book:homework:
+** TODO Read Mujeres, manzanas y matemáticas entretejidas :science:biography:math:book:homework:
+** TODO Read Descartes Geometría y método :science:philosophy:biography:book:homework:
+** TODO Read Pitágoras El filósofo del número  :biography:math:book:homework:
+** TODO Read Legendre La honestidad de un científico :science:biography:math:book:homework:
+** TODO Read Monge Libertad, igualdad, fraternidad y geometría :science:biography:math:book:homework:
+** TODO Read Lagrange La elegancia matemática :science:biography:math:book:homework:
+** TODO Read Kolmogórov El zar del azar :science:biography:math:book:homework:
+** TODO Read Laplace el matemático de los cielos :biography:math:book:homework:
+** TODO Read Turing Del primer ordenador a la inteligencia artificial :biography:science:book:homework:
+** TODO Read Ruffini Popular y desconocido :science:biography:math:book:homework:
+** TODO Read Riemann Una visión nueva de la geometría :science:biography:math:book:homework:
+** TODO Read Gödel La lógica de los escépticos :biography:math:book:homework:
+** TODO Read Los médicos de la mente	   :psychology:science:book:homework:
+** TODO Read Matemática discreta y lógica		 :math:book:homework:
+** TODO Read Recreaciones matemáticas		 :puzzles:math:book:homework:
+** TODO Read Rosquillas anudadas (Gardner)	 :puzzles:math:book:homework:
+** TODO Read Viajes por el tiempo y otras perplejidades matemáticas (Gardner) :puzzles:math:book:homework:
+** TODO Read Paradojas que hacen pensar			      :book:homework:
+** TODO Read Por qué no se mojan los pies de los pingüinos? :math:book:homework:
+** TODO Read 150 puzzles in crypt-arithmetic :puzzles:hacking:math:book:homework:
+** TODO Read Cómo mojar una galleta		      :science:book:homework:
+** TODO Read Matemáticas de Oz 			 :puzzles:math:book:homework:
+** TODO Read Por qué wuelan los aviones?	      :science:book:homework:
+** TODO Read Tablas de integrales 			 :math:book:homework:
+** TODO Read AspectJ in action			      :aspectj:book:homework:
+** TODO Read Conferencia perdida de Feynman (Feynman) 	      :book:homework:
+** TODO Read Cuestiones curiosas de ciencia	      :science:book:homework:
+** TODO Read Matematica, estás ahí?			 :math:book:homework:
+** TODO Read Futuro borroso o el cielo en un chip     :science:book:homework:
+** TODO Read Alicia en el país de los cuantos	      :science:book:homework:
+** TODO Read Conjetura de Poincaré 			 :math:book:homework:
+** TODO Read Stephen Hawking y el destino del universo :science:book:homework:
+** TODO Read 13 lectures on Fermat's last theorem	 :math:book:homework:
+** TODO Read Pizarra de Yuri 			      :science:book:homework:
+** TODO Read Secretos del espionaje digital	      :hacking:book:homework:
+** TODO Read Matemáticos, espías y piratas informáticos :hacking:math:book:homework:
+** TODO Read Números primos 				 :math:book:homework:
+** TODO Read 50 teorías científicas revolucionarias e imaginativas :science:book:homework:
+** TODO Read Pprodigio de los números (Pickover) 	 :math:book:homework:
+** TODO Read Möbius 				 :math:book:homework:
+** TODO Read Matemáticas y juegos de azar	 :lottery:math:book:homework:
+** TODO Read Understanding genome		      :science:book:homework:
+** TODO Read Intuición matemática			 :math:book:homework:
+** TODO Read Ingeniosos encuentros entre juegos y matemática :math:book:homework:
+** TODO Read 13 cosas que no tienen sentido (Brooks)  :science:book:homework:
+** TODO Read Viajes en el tiempo 		      :science:book:homework:
+** TODO Read Geometría fractal de la naturaleza (Mandelbrot) :math:book:homework:
+** TODO Read Conferencias sobre computación (Feynman)	      :book:homework:
+** TODO Read Física de lo imposible (Kaku)	      :science:book:homework:
+** TODO Read Ábaco a la revolución digital 	      :science:book:homework:
+** TODO Read Modern science 			      :science:book:homework:
+** TODO Read Dios creó los números (Hawking) 		 :math:book:homework:
+** TODO Read ABC de la relatividad (Russell) 	      :science:book:homework:
+** TODO Read Caos y orden				 :math:book:homework:
+** TODO Read Los secretos del infinito			 :math:book:homework:
+** TODO Read Libro de las matemáticas 			 :math:book:homework:
+** TODO Read Libro de la física 		      :science:book:homework:
+** TODO Read Comunismo				     :politics:book:homework:
+** TODO Read Tu dinero y tu cerebro, neuroeconomía  :economics:book:homework:
+** TODO Read How to think creatively (Conni Gordon)  :art:kids:book:homework:
+** TODO Read Contrato social 		       :politics:comic:book:homework:
+** TODO Read Capital 			       :politics:comic:book:homework:
+** TODO Read Guía manga de Física 		:comic:science:book:homework:
+** TODO Read Futuro de nuestra mente (Kaku) 	      :science:book:homework:
+** TODO Read Realidad oculta (Greene) 		      :science:book:homework:
+** TODO Read Más alla de la teoria cuántica 	      :science:book:homework:
+** TODO Read Hombros de gigantes (Hawking) 	      :science:book:homework:
+** TODO Read Física del futuro (Michio Kaku) 	      :science:book:homework:
+** TODO Read Tejido del cosmos (Greene) 	      :science:book:homework:
+** TODO Read Guía manga del Cálculo diferencial e integral :comic:book:math:homework:
+** TODO Read Statistics hacks				:stats:book:homework:
+** TODO Learn about selinux 					   :homework:
+** TODO Read The grsecurity2 quick introduction :hacking:gentoo:book:homework:
+** TODO Read Gentoo guide to system testing with User-mode linux :gentoo:article:homework:
+** TODO Read The secret of hacking (1st and 3rd editions) :hacking:book:homework:
+** TODO Read Kicking down the cross domain door xss :xss:hacking:book:homework:
+** TODO Read JDBC 4.1 spec			    :java:jdbc:book:homework:
+** TODO Read JDBC transaction optimization		      :jdbc:homework:
+** TODO Read Software engineering standards of the European Space Agency :engineering:book:homework:
+** TODO Read Struts reference		       :java:struts:article:homework:
+** TODO Read Firewall and proxy server how-to :linux:hacking:article:homework:
+** TODO Read LinuxDoc + Emacs + Ispell how-to	     :emacs:article:homework:
+** TODO Read Gentoo Linux Security Guide :gentoo:linux:hacking:article:homework:
+** TODO Read Gentoo Prelude Intrusion Detection system :gentoo:linux:hacking:article:homework:
+** TODO Read The Printing how-to		     :linux:article:homework:
+** TODO Read Installing Emacspeak how-to	     :emacs:article:homework:
+** TODO Read Secure POP via SSH how-to		       :ssh:article:homework:
+** TODO Read DNS how-to				       :dns:article:homework:
+** TODO Read JDK1.4 tutorial				 :java:book:homework:
+** TODO Read Bitter Java				 :java:book:homework:
+** TODO Read Better builds with Maven		   :maven:java:book:homework:
+** TODO Read Java Management Extensions			 :java:book:homework:
+** TODO Read Como funciona el mundo (Chomsky)	     :politics:book:homework:
+** TODO Read Liars and outliers				      :book:homework:
+** TODO Read Lotto wheel five to win		      :lottery:book:homework:
+** TODO Read Lotto How to wheel a fortune	      :lottery:book:homework:
+** TODO Read Lottery master guide		      :lottery:book:homework:
+** TODO Read Oracle SQL recipes 		   :oracle:sql:book:homework:
+** TODO Read Web design index 2005		       :design:book:homework:
+** TODO Read The web application hackers handbook     :hacking:book:homework:
+** TODO Read XSLT					 :xslt:book:homework:
+** TODO Read UML y patrones		      :engineering:uml:book:homework:
+** TODO Read Informando y educando			      :book:homework:
+** TODO Read The cucumber book			     :cucumber:book:homework:
+** TODO Read The Texbook (Knuth)			      :book:homework:
+** TODO Read Software engineering project management	      :book:homework:
+** TODO Read Snort cookbook			:hacking:snort:book:homework:
+** TODO Read Texinfo					:linux:book:homework:
+** TODO Read ssh, the definitive guide			  :ssh:book:homework:
+** TODO Read mod_perl				  :apache:perl:book:homework:
+** TODO Read Puzzlers for hackers		      :hacking:book:homework:
+** TODO Read Java Persistence with Hibernate :hibernate:sql:java:book:homework:
+** TODO Read Java network programming			 :java:book:homework:
+** TODO Read Professional Java Web Services	       :javaee:book:homework:
+** TODO Read The Java Virtual Machine Specification :engineering:java:book:homework:
+** TODO Read JBoss seam					 :java:book:homework:
+** TODO Read Apache Practico			       :apache:book:homework:
+** TODO Read Java 1.5 A developer's notebook		 :java:book:homework:
+** TODO Read Hacking Knoppix			:linux:knoppix:book:homework:
+** TODO Read Knoppix hacks			:linux:knoppix:book:homework:
+** TODO Read A guide to Latex				:latex:book:homework:
+** TODO Read Latex una imprenta en sus manos		:latex:book:homework:
+** TODO Read Linux companion		       :sysadmin:linux:book:homework:
+** TODO Read Linux debugging and performance tuning :engineering:linux:book:homework:
+** TODO Read Linux DNS server administration :dns:linux:sysadmin:book:homework:
+** TODO Read Linux System Security		:hacking:linux:book:homework:
+** TODO Define what "Read XXX"/"Watch XXX" mean 		     :method:
+*** Identify knowledge items?
+*** Write Anki cards?
+*** Consider XXX as learnt?
+*** Practice XXX?
+** TODO Read Literate programming		  :engineering:book:homework:
+** TODO Read Open source licensing			      :book:homework:
+** TODO Read Organizational patterns of agile software development :agile:book:homework:
+** TODO Read Programming Erlang			       :erlang:book:homework:
+** TODO Read Programming Linux Hacker tools uncovered :linux:hacking:book:homework:
+** TODO Read Programming Prolog			       :prolog:book:homework:
+** TODO Read Programming Ruby				 :ruby:book:homework:
+** TODO Read Selectividad 2011			      :science:book:homework:
+** TODO Read A discipline for software engineering (PSP) :engineering:psp:book:homework:
+** TODO Read Essential Lisp				 :lisp:book:homework:
+** TODO Read Exploring Expect			       :expect:book:homework:
+** TODO Read Evolution as Computation		  :engineering:book:homework:
+** TODO Read Generative programming		  :engineering:book:homework:
+** TODO Read GNU Autoconf, Automake and Libtool :c:engineering:book:homework:
+** TODO Read GNU Emacs pocket reference			:emacs:book:homework:
+** TODO Read An introduction to programming in Emacs Lisp :emacs:book:homework:
+** TODO Read Learning GNU Emacs				:emacs:book:homework:
+** TODO Read Smalltalk				    :smalltalk:book:homework:
+** TODO Read Effective Java				 :java:book:homework:
+** TODO Read Hacker's challenge 3		      :hacking:book:homework:
+** TODO Read Hacking, the art of exploitation	      :hacking:book:homework:
+** TODO Read Java Web Services				 :java:book:homework:
+** TODO Read Building parsers with Java	     :engineering:java:book:homework:
+** TODO Read Java concurrency in practice    :engineering:java:book:homework:
+** TODO Read Java Enterprise Design Patterns	       :javaee:book:homework:
+** TODO Read Modern Java compiler implementation in Java :engineering:java:book:homework:
+** TODO Read Patterns in Java, vol 1	     :engineering:java:book:homework:
+** TODO Make a mind-controlled Arduino robot	  :diy:arduino:book:homework:
+** TODO Read The data model resource book	  :engineering:book:homework:
+** TODO Read Refactoring databases			  :sql:book:homework:
+** TODO Read Database system concepts	      :engineering:sql:book:homework:
+** TODO Read Copyleft, manual de usuario		      :book:homework:
+** TODO Read Constructing intelligent agents using Java :engineering:java:book:homework:
+** TODO Read The first computers		  :engineering:book:homework:
+** TODO Read Computer networks (Tanenbaum)	  :engineering:book:homework:
+** TODO Read Compiler construction: theory and practice :engineering:book:homework:
+** TODO Read The book of Xen			     :sysadmin:book:homework:
+** TODO Read Best software writing			      :book:homework:
+** TODO Read The best of 2600			      :hacking:book:homework:
+** TODO Read Beautiful code				      :book:homework:
+** TODO Read The art of assembly language	      :hacking:book:homework:
+** TODO Read ANSI Common Lisp				 :lisp:book:homework:
+** TODO Read The Art of computer programming (Knuth) :engineering:book:homework:
+** TODO Read org mode 7 reference manual		  :org:book:homework:
+** TODO Read Acabad ya con esta crisis	   :economics:politics:book:homework:
+** TODO Read Grokking the Gimp			  :design:gimp:book:homework:
+** TODO Read System performance tuning :sysadmin:engineering:linux:book:homework:
+** TODO Read Classic shell scripting			 :bash:book:homework:
+** TODO Read Struts recipes			  :struts:java:book:homework:
+** TODO Read The art of SQL				  :sql:book:homework:
+** TODO Read SQL puzzles and answers			  :sql:book:homework:
+** TODO Read GNU Emacs manual				:emacs:book:homework:
+** TODO Read R in a nutshell				    :R:book:homework:
+** TODO Read Hack proofing your network		      :hacking:book:homework:
+** TODO Read Programming Scala				:scala:book:homework:
+** TODO Read Web site measurement hacks		  :engineering:book:homework:
+** TODO Read Linux Enterprise Clusters :engineering:sysadmin:linux:book:homework:
+** TODO Read Oracle Internals Monitoring and tuning    :oracle:book:homework:
+** TODO Reading Oracle 11g beginner's guide	       :oracle:book:homework:
+** TODO Read Oracle performance troubleshooting	       :oracle:book:homework:
+** TODO Read Algorithms (Sedgewick) :engineering:java:algorithms:book:homework:
+** TODO Read Modsecurity 2.5			      :hacking:book:homework:
+** TODO Attempt Osoco's grails game		      :grails:osoco:homework:
+** TODO Read The definitive guide to Grails	       :grails:book:homework:
+** TODO Read Hacking con buscadores		      :hacking:book:homework:
+** TODO Read Reversing 				      :hacking:book:homework:
+** TODO Read Pro Spring				  :spring:java:book:homework:
+** TODO Read Linuk Security cookbook	     :sysadmin:hacking:book:homework:
+** TODO Read experimentos para entender el mundo	 :kids:book:homework:
+** TODO Read Sneakier uses for everyday things		 :kids:book:homework:
+** TODO Read Java Puzzlers		      :interviews:java:book:homework:
+** TODO Read Ciclos del tiempo (Penrose)	      :science:book:homework:
+** TODO Read J2EE security			 :hacking:java:book:homework:
+** TODO Read Integrales (Crisser)			 :math:book:homework:
+** TODO Read Concurrent and Real-time programming in Java :engineering:java:book:homework:
+** TODO Read Data structures and algorithms in Java :engineering:algorithms:java:book:homework:
+** TODO Read Causality					 :math:book:homework:
+** TODO Read Analytic Combinatorics    :engineering:algorithms:book:homework:
+** TODO Read Cracking the coding interview	   :interviews:book:homework:
+** TODO Read Desnudando a Google		       :RETURN:book:homework:
+** TODO Read Running lean			:business:lean:book:homework:
+** TODO Read Technology ventures		 :lean:startup:book:homework:
+** TODO Read The startup owner's manual		 :lean:startup:book:homework:
+** TODO Read Four steps to the Epiphany		 :startup:lean:book:homework:
+** TODO Read Programming concurrency on the JVM :engineering:java:ebook:book:homework:
+** TODO Read Hacker épico			      :hacking:book:homework:
+** TODO Read Programming interviews    :engineering:interviews:book:homework:
+** TODO Read Hacking de aplicaciones web: sql injection :hacking:book:homework:
+** TODO Read 21st century C				    :c:book:homework:
+** TODO Read How to win friends and influence people	:ebook:book:homework:
+** TODO Read MySQL avanzado				:mysql:book:homework:
+** TODO Read Learning Debian GNU/Linux	      :sysadmin:debian:book:homework:
+** TODO Read The IDA Pro book			      :hacking:book:homework:
+** TODO Read 50 dangerous things			 :kids:book:homework:
+** TODO Read Occupy (Chomsky)			     :politics:book:homework:
+** TODO Read Exploring everyday things with R and Ruby	       :stats:ruby:R:
+** TODO Read Web performance daybook Vol 2	  :engineering:book:homework:
+** TODO Read Metasploit para pentesters		      :hacking:book:homework:
+** TODO Read Making the future (Chomsky)	     :politics:book:homework:
+** TODO Read Tabla periodica 			      :science:book:homework:
+** TODO Read Geek dad					 :kids:book:homework:
+** TODO Read Applied security visualization	      :hacking:book:homework:
+** TODO Read De la crisis a la revolución democrática :economics:politics:book:homework:
+** TODO Read Raspberry Pi Home automation with Arduino :electronics:diy:arduino:raspberrypi:book:homework:
+** TODO Read Don't buy it			     :politics:book:homework:
+** TODO Read Enigmas de la ciencia		      :science:book:homework:
+** TODO Watch chesscademy			       :chess:video:homework:
+** TODO Read Ajedrez para dummies			:chess:book:homework:
+** TODO Read Naturaleza del espacio y el tiempo       :science:book:homework:
+** TODO Read Contra la ceguera			     :politics:book:homework:
+** TODO Read Python for kids			  :kids:python:book:homework:
+** TODO Read Gray Hat Hacking			      :hacking:book:homework:
+** TODO Watch Clojure inside out		     :clojure:video:homework:
+** TODO Watch Mastering Advanced Git			 :git:video:homework:
+** TODO Watch Mastering Git				 :git:video:homework:
+** TODO Watch Introduction to machine learning with web data :engineering:video:homework:
+** TODO Watch Designing for mobile first	      :design:video:homework:
+** TODO Watch Temporal Data and Relational theory	 :sql:video:homework:
+** TODO Watch Learning Perl				:perl:video:homework:
+** TODO Watch HTML5 Canvas for developers	       :html5:video:homework:
+** TODO Watch Get started with Arduino		 :diy:arduino:video:homework:
+** TODO Watch Agile engineering practices	       :agile:video:homework:
+** TODO Watch Responsive web design		      :design:video:homework:
+** TODO Watch Database design and relational theory	 :sql:video:homework:
+** TODO Watch Mastering Cassandra for Architects   :cassandra:video:homework:
+** TODO Watch Functional thinking			     :video:homework:
+** TODO Watch Web Programming with Python	      :python:video:homework:
+** TODO Watch Strata conference 2014	  :bigdata:conference:video:homework:
+** TODO Watch Lean UX workshop			     :lean:ux:video:homework:
+** TODO Watch Suits and Spooks Washington DC 2014 :conference:video:homework:
+** TODO Watch Software architecture fundamentals :engineering:video:homework:
+** TODO Watch Cloud computing with AWS			 :aws:video:homework:
+** TODO Watch Build a strong AngularJS Foundation :javascript:video:homework:
+** TODO Watch Just enough math				:math:video:homework:
+** TODO Watch Building an application in Coffeescript :coffeescript:video:homework:
+** TODO Watch Designing APIs for the web		     :video:homework:
+** TODO Watch Programming 3D apps in HTML5 and WebGL   :html5:video:homework:
+** TODO Watch Learning MongoDB			     :mongodb:video:homework:
+** TODO Watch Building a RepRap printer			 :diy:video:homework:
+** TODO Watch Mastering VIM				 :vim:video:homework:
+** TODO Watch Mastering Magento			     :magento:video:homework:
+** TODO Watch Learning Sass				:sass:video:homework:
+** TODO Watch CSS3 properties				     :video:homework:
+** TODO Watch Building games with Scratch 2.0 :diy:kids:scratch:video:homework:
+** TODO Watch Apple Final Cut Pro X		:finalcutprox:video:homework:
+** TODO Watch Advanced white hack hacking and penetration testing :hacking:video:homework:
+** TODO Read Whoever tells the best story wins	       :design:ebook:homework:
+** TODO Read The Pin Drop principle		     :business:ebook:homework:
+** TODO Read The EQ interview			   :interviews:ebook:homework:
+** TODO Read Unbeatable resumes			   :interviews:ebook:homework:
+** TODO Read Powerful phrases for successful interviews :interviews:ebook:homework:
+** TODO Read Acing the interview		   :interviews:ebook:homework:
+** TODO Read 21st Century skills		     :politics:ebook:homework:
+** TODO Read User Story Mapping			    :ux:design:ebook:homework:
+** TODO Read Building microservices		  :engineering:ebook:homework:
+** TODO Read Why programs fail			  :engineering:ebook:homework:
+** TODO Read The nonviolence handbook		     :politics:ebook:homework:
+** TODO Read Let's stop meeting like this	     :business:ebook:homework:
+** TODO Read It's the way you say it  :business:publicspeaking:ebook:homework:
+** TODO Read Expert Python Programming		       :python:ebook:homework:
+** TODO Read The algorithm Design Manual :engineering:algorithms:ebook:homework:
+** TODO Read Mondrian in action			     :mondrian:ebook:homework:
+** TODO Read Magento Extension Developers guide	      :magento:ebook:homework:
+** TODO Read Magento 1.4 Development cookbook	:book:magento:ebook:homework:
+** TODO Read Secrets of the Javascript ninja	   :javascript:ebook:homework:
+** TODO Read Third-party Javascript		   :javascript:ebook:homework:
+** TODO Read Este libro le hará más inteligente		      :ebook:homework:
+** TODO Read The C programming language			    :c:ebook:homework:
+** TODO Read Network flow analysis		      :hacking:ebook:homework:
+** TODO Read Progresar, entender, disfrutar y divulgar	      :ebook:homework:
+** TODO Read Selenium 2 beginner's guide	     :selenium:ebook:homework:
+** TODO Read The do it yourself security audit	      :hacking:ebook:homework:
+** TODO Read Problemas y experimentos recreativos	 :math:ebook:homework:
+** TODO Read Gamification: A simple introduction and a bit more :gamification:ebook:homework:
+** TODO Read The Goal				     :business:ebook:homework:
+** TODO Read Secure IT up! Cyber insurance dure diligence :hacking:ebook:homework:
+** TODO Read Pro Git					  :git:ebook:homework:
+** TODO Read Clean code				  :engineering:ebook:homework:
+** TODO Read Lo que dice la ciencia para adelgazar     :health:ebook:homework:
+** TODO Read The Self illusion: Why there is no 'You' inside your head :science:ebook:homework:
+** TODO Read How to think like Sherlock			      :ebook:homework:
+** TODO Read Hay alternativas			     :politics:ebook:homework:
+** TODO Read Building a Digital Analytics Organization :business:analytics:ebook:homework:
+** TODO Read Even faster web sites		  :engineering:ebook:homework:
+** TODO Read High Performance Browser networking  :engineering:ebook:homework:
+** TODO Read High Performance web sites		  :engineering:ebook:homework:
+** TODO Read The Body Economic			    :economics:ebook:homework:
+** TODO Read Functional Javascript		   :javascript:ebook:homework:
+** TODO Read The modern web			       :design:ebook:homework:
+** TODO Read The universe inside you		      :science:ebook:homework:
+** TODO Read Cuerpo habla 		      :publicspeaking:ebook:homework:
+** TODO Read Public speaking: storytelling techniques :publicspeaking:ebook:homework:
+** TODO Read How to deliver a great TED talk   :publicspeaking:ebook:homework:
+** TODO Read How to deliver a TED talk	       :publicspeaking:ebook:homework:
+** TODO Read Lean analytics		       :analytics:lean:ebook:homework:
+** TODO Read OOPs and AHAs: 1001 speaker tips  :publicspeaking:ebook:homework:
+** TODO Read Tomcat 7 essentials		:devops:tomcat:ebook:homework:
+** TODO Read OpenStack operations guide	   :sysadmin:openstack:ebook:homework:
+** TODO Read Deploying OpenStack	   :openstack:sysadmin:ebook:homework:
+** TODO Read Arduino workshop			  :diy:arduino:ebook:homework:
+** TODO Read Modular Java				 :java:ebook:homework:
+** TODO Read Language implementation patterns		      :ebook:homework:
+** TODO Read Desarrolla una mente prodigiosa		      :ebook:homework:
+** TODO Read Where is the constraint?		     :business:ebook:homework:
+** TODO Read Reaching the goal			     :business:ebook:homework:
+** TODO Read Education gamification survival kit :gamification:ebook:homework:
+** TODO Read Functional programming in Scala		:scala:ebook:homework:
+** TODO Read Libro rojo del poder popular 	    :politics:ebook:homework:
+** TODO Read Building Websites with Plone	 :plone:python:ebook:homework:
+** TODO Read Piwik web analytics essentials   :analytics:piwik:ebook:homework:
+** TODO Read NMAP 6 Network exploration and security auditing cookbook :hacking:nmap:ebook:homework:
+** TODO Read Investigating Internet Crimes	      :hacking:ebook:homework:
+** TODO Read GNUPlot in action				      :ebook:homework:
+** TODO Read Learning JQuery Deferreds		   :javascript:ebook:homework:
+** TODO Read JavaEE 7 essentials		       :javaee:ebook:homework:
+** TODO Read Raspberry Pi User Guide	      :diy:raspberrypi:ebook:homework:
+** TODO Read Git in Practice				  :git:ebook:homework:
+** TODO Read Instant Varnish Cache How-to      :devops:varnish:ebook:homework:
+** TODO Read Maven Dependency Management		:maven:ebook:homework:
+** TODO Read Instant traffic analysis with TShark     :hacking:ebook:homework:
+** TODO Read HTML5 graphing and data visualization cookbook :html5:ebook:homework:
+** TODO Read Programming for musicians and digital artists :art:ebook:homework:
+** TODO Read Plain english explanation of Big O :engineering:article:homework:
+** TODO Read The joy of Clojure			      :clojure:ebook:homework:
+** TODO Read Play for Scala			   :play:scala:ebook:homework:
+** TODO Read Sonar in action			  :engineering:ebook:homework:
+** TODO Read 97 things every programmer should know :engineering:ebook:homework:
+** TODO Read Las claves de la argumentacion		      :ebook:homework:
+** TODO Read Es real la realidad		      :science:ebook:homework:
+** TODO Read Debian 7 best practices	      :sysadmin:debian:ebook:homework:
+** TODO Read Generative Art				  :art:ebook:homework:
+** TODO Read Gamestorming			 :gamification:ebook:homework:
+** TODO Read Cuckoo Malware Analysis		      :hacking:ebook:homework:
+** TODO Read A theory fo fun for game design :gamification:design:ebook:homework:
+** TODO Read Clojure data analysis cookbook   :bigdata:clojure:ebook:homework:
+** TODO Read Practical lock picking		  :lockpicking:ebook:homework:
+** TODO Read Keys to the kingdom		  :lockpicking:ebook:homework:
+** TODO Read Designing for behavior change     :design:startup:ebook:homework:
+** TODO Read Practical Malware Analysis		      :hacking:ebook:homework:
+** TODO Read RESTful Java with JAX-RS 2.0	    :rest:java:ebook:homework:
+** TODO Read Interviewing users			 :startup:lean:ebook:homework:
+** TODO Read Cooking for geeks 				      :ebook:homework:
+** TODO Read Job Reconnaissance			      :hacking:ebook:homework:
+** TODO Read Think Bayes			   :math:stats:ebook:homework:
+** TODO Read The Art Of Capacity Planning  :devops:engineering:ebook:homework:
+** TODO Read Pulling Strings with Puppet	:devops:puppet:ebook:homework:
+** TODO Read HTML5 in action				:html5:ebook:homework:
+** TODO Read Complete web monitoring		  :engineering:ebook:homework:
+** TODO Read Akka in action				:scala:ebook:homework:
+** TODO Read SASS and Compass in action		       :design:ebook:homework:
+** TODO Read Mindset					      :ebook:homework:
+** TODO Read The big questions: physics		      :science:ebook:homework:
+** TODO Read Busca en tu interior			      :ebook:homework:
+** TODO Read The well-grounded Java developer		 :java:ebook:homework:
+** TODO Read Do you think what you think you think?	      :ebook:homework:
+** TODO Read 3D Game Programming for kids		 :kids:ebook:homework:
+** TODO Read Bandit Algorithms for Website Optimization :engineering:ebook:homework:
+** TODO Read Por qué E=mc2?			      :science:ebook:homework:
+** TODO Read Understanding and using C pointers		    :c:ebook:homework:
+** TODO Read Practical VIM				  :vim:ebook:homework:
+** TODO Read Predicting malicious behavior	      :hacking:ebook:homework:
+** TODO Read Practical anonymity		      :hacking:ebook:homework:
+** TODO Read Hay vida después de la crisis :politics:economics:ebook:homework:
+** TODO Read Writing Emacs extensions			:emacs:ebook:homework:
+** TODO Read Sueños lucidos en 30 días			      :ebook:homework:
+** TODO Read Play at work			 :gamification:ebook:homework:
+** TODO Read Building scalable web sites	  :engineering:ebook:homework:
+** TODO Read Website Optimization	  :startup:engineering:ebook:homework:
+** TODO Read Data Analysis with open source tools :engineering:ebook:homework:
+** TODO Read RESTful Web APIs				 :rest:ebook:homework:
+** TODO Read JavaSpecialists articles		      :java:article:homework:
+** TODO Read The Linux Programming Interface	:hacking:linux:ebook:homework:
+** TODO Read You should test that		      :startup:ebook:homework:
+** TODO Read Business Analysis for Dummies  :startup:economics:ebook:homework:
+** TODO Watch Erlang videos			      :erlang:video:homework:
+** TODO Read Learn you some Erlang for great good      :erlang:ebook:homework:
+** TODO Read Learning the VI and VIM editors		  :vim:ebook:homework:
+** TODO Read Blender Master Class		      :blender:ebook:homework:
+** TODO Read Influence					      :ebook:homework:
+** TODO Read I could do anything if I only knew what it was   :ebook:homework:
+** TODO Read Recipes with Angular.js		   :javascript:ebook:homework:
+** TODO Read Perl One-Liners				 :perl:ebook:homework:
+** TODO Read Team Geek					      :ebook:homework:
+** TODO Read Learning Android			      :android:ebook:homework:
+** TODO Read Storytelling for UX		  :startup::ux:ebook:homework:
+** TODO Read CMIS and Apache Chemistry in action	  :cms:ebook:homework:
+** TODO Read Magento PHP Developer's guide 	      :magento:ebook:homework:
+** TODO Read Digital design and computer architecture :engineering:ebook:homework:
+** TODO Read Oracle PL/SQL programming		       :oracle:ebook:homework:
+** TODO Read Single Page Web Applications	   :javascript:ebook:homework:
+** TODO Read Jump Start CSS			       :design:ebook:homework:
+** TODO Read Essential algorithms		  :engineering:ebook:homework:
+** TODO Read Version control with git			  :git:ebook:homework:
+** TODO Read Mobile HTML5				      :ebook:homework:
+** TODO Read Graal / VMIL articles		      :java:article:homework:
+** TODO Read From Zero to Infinity			 :math:ebook:homework:
+** TODO Read Master space and time with Javascript :javascript:ebook:homework:
+** TODO Read Javascript application design	   :javascript:ebook:homework:
+** TODO Read Mobile security: How to secure, privatize and recover your devices :hacking:ebook:homework:
+** TODO Read The basics of digital privacy	     :politics:ebook:homework:
+** TODO Read Database nation		     :politics:hacking:ebook:homework:
+** TODO Read Javascript the definitive guide	   :javascript:ebook:homework:
+** TODO Read Learning Javascript Design Patterns   :javascript:ebook:homework:
+** TODO Read Testable Javascript	     :agile:javascript:ebook:homework:
+** TODO Read Effective Unit Testing			:agile:ebook:homework:
+** TODO Read ATDD by example				:agile:ebook:homework:
+** TODO Read Programming 3D applications with HTML5 and WebGL :javascript:ebook:homework:
+** TODO Read Growing Object-Oriented Software, guided by tests :agile:ebook:homework:
+** TODO Read Codermetrics			  :engineering:ebook:homework:
+** TODO Read Secure Programming Cookbook for C and C++	    :c:ebook:homework:
+** TODO Read The practice of network security monitoring :hacking:ebook:homework:
+** TODO Read Network security through data analysis :bigdata:hacking:ebook:homework:
+** TODO Read Dart: Up and running			 :dart:ebook:homework:
+** TODO Read Unmasking the Social Engineer	      :hacking:ebook:homework:CALL:
+** TODO Read Social engineering			      :hacking:ebook:homework:
+** TODO Read 48 laws of power			     :politics:ebook:homework:
+** TODO Read High Performance MySQL	    :engineering:mysql:ebook:homework:
+** TODO Read Clojure cookbook			      :clojure:ebook:homework:
+** TODO Read Lean marketing for startups	 :startup:lean:ebook:homework:
+** TODO Read Bitcoin and the Bitcoin Ecosystem :economics:bitcoin:ebook:homework:
+** TODO Read Pipple: The Ultimate Beginner's Guide for understanding Ripple currency :ripple:economics:ebook:homework:
+** TODO Read Societal Renaissance		     :politics:ebook:homework:
+** TODO Read Scrum, the complete overview		:agile:ebook:homework:
+** TODO Read CSS and Documents			       :design:ebook:homework:
+** TODO Read The Privacy Engineer Manifesto	  :engineering:ebook:homework:
+** TODO Read What is Dart?				 :dart:ebook:homework:
+** TODO Read This is Brilliant				      :ebook:homework:
+** TODO Read Statistics 				:math:ebook:homework:
+** TODO Read Reacciona				     :politics:ebook:homework:
+** TODO Read App Design Checklist	       :startup:design:ebook:homework:
+** TODO Read What's new in CSS3			       :design:ebook:homework:
+** TODO Read Amusements in Mathematics			 :math:ebook:homework:
+** TODO Read The web platform				      :ebook:homework:
+** TODO Read Agile Data Science			:bigdata:agile:ebook:homework:
+** TODO Read Practical Reverse Engineering	      :hacking:ebook:homework:
+** TODO Read Commercial Data Minning			      :ebook:homework:
+** TODO Read Archilian Testing Guide			 :java:ebook:homework:
+** TODO Read The reality-based rules of the workplace	      :ebook:homework:
+** TODO Read Raspberry Pi Robotic Projects :raspberrypi:electronics:diy:ebook:homework:
+** TODO Read The Birkman method				      :ebook:homework:
+** TODO Read Plan, activity, and intent recognition :engineering:ebook:homework:
+** TODO Read Make:sensors		      :electronics:diy:ebook:homework:
+** TODO Read Scope and closures			   :javascript:ebook:homework:
+** TODO Read Targetted cyber attacks		      :hacking:ebook:homework:
+** TODO Read Applied Predictive Analytics      :analytics:math:ebook:homework:
+** TODO Read CISSP certification guide		:hacking:cissp:ebook:homework:
+** TODO Read Java Performance the definitive guide :engineering:java:ebook:homework:
+** TODO Read Value Types for Java article	      :java:article:homework:
+** TODO Read Hadoop MapReduce cookbook		      :bigdata:ebook:homework:
+** TODO Read Apprentice patterns			      :ebook:homework:
+** TODO Read Piketty's Capital in the 21 century :politics:economics:ebook:homework:
+** TODO Read Designing for performance		       :design:ebook:homework:
+** TODO Read CISSP Practice			:cissp:hacking:ebook:homework:
+** TODO Read From macro to microservices   :devops:engineering:ebook:homework:
+** TODO Read The hardware startup     :startup:electronics:diy:ebook:homework:
+** TODO Read The art of application performance testing :engineering:devops:ebook:homework:
+** TODO Read Practical Electronics	      :electronics:diy:ebook:homework:
+** TODO Read Developing Analytic talent		   :stats:math:ebook:homework:
+** TODO Read Lean Enterprise			:startup:agile:ebook:homework:
+** TODO Read Principles of Object-oriented Javascript :javascript:ebook:homework:
+** TODO Read Hack the stack			      :hacking:ebook:homework:
+** TODO Read Getting started with OpenShift  :devops:openshift:ebook:homework:
+** TODO Read Java Cookbook			     :java:ebook:housekeeping:
+** TODO Read Testing in Scrum				:agile:ebook:homework:
+** TODO Read Java 7 new features cookbook		 :java:ebook:homework:
+** TODO Read this & Object prototypes		   :javascript:ebook:homework:
+** TODO Read Aprende un idioma...			      :ebook:homework:
+** TODO Read 2k to 10k: Writing faster, ...		      :ebook:homework:
+** TODO Read Netty in action			   :netty:java:ebook:homework:
+** TODO Read Speed math for kids		    :kids:math:ebook:homework:
+** TODO Read Puppet Types and Providers		:devops:puppet:ebook:homework:
+** TODO Read Choosing a Javascript framework	   :javascript:ebook:homework:
+** TODO Read Economics-driven software architecture	      :ebook:homework:
+** TODO Read Learning MCollective	   :devops:mcollective:ebook:homework:
+** TODO Migrate home network to ipv6		     :sysadmin:ipv6:homework:
+** TODO Read IPv6 address planning		:sysadmin:ipv6:ebook:homework:
+** TODO Read Creating development environments with Vagrant :devops:vagrant:ebook:homework:
+** TODO Read Drools JBoss Rules 5.x		       :javaee:ebook:homework:
+** TODO Read RE for beginners			      :hacking:ebook:homework:
+** TODO Read JBoss AS 7 Development		       :javaee:ebook:homework:
+** TODO Read Java 8 in action: lambdas, streams and functional-style programming :java8:ebook:homework:
+** TODO Read Mastering Puppet			       :puppet:ebook:homework:
+** TODO Read Puppet Reporting and Monitoring	       :puppet:ebook:homework:
+** TODO Read Java 8 Lambdas in action			:java8:ebook:homework:
+** TODO Read Extending Puppet			       :puppet:ebook:homework:
+** TODO Read Good math					 :math:ebook:homework:
+** TODO Read 7 web frameworks in 7 weeks		      :ebook:homework:
+** TODO Read SQL Antipatterns				:book:ebook:homework:
+** TODO Read Technical blogging				      :ebook:homework:
+** TODO Practice ANTLR + Netty kata			      :kata:homework:
+** TODO Read the healthy programmer			      :ebook:homework:
+** TODO Read Web Development with Clojure		      :ebook:homework:
+** TODO Read Practical VIM				      :ebook:homework:
+** TODO Read Practices of an Agile developer		:book:ebook:homework:
+** TODO watch redis at twitter talk			      :ebook:homework:
+** TODO Read GTD book
+** TODO github example project					 :codemotion:
+** TODO Slide boilerplate					 :codemotion:
+** TODO Outline of the speech					 :codemotion:
+** TODO API rest to export a git diff as a json object			 :RT:
+** TODO Allow scripts to override defineEnv() function in drywit     :drywit:
+** TODO Migrate current backlog.org and latest pomodoro files to todo.org :homework:
+** TODO Write a "development plan" for me, a system to:		   :homework:
+*** Read more:
+**** Linux journal, Java Magazine
+**** Plan which books to read, and focus
+*** Write more:
+**** Mindmaps
+**** PoCs
+*** Listen to podcasts
+*** Watch technical videos
+*** Coursera / Udacity / Weka / Analytics
+*** Exercise more and regularly
+*** Build a regular feedback loop:
+**** Review mindmaps
+**** Review notes / TODOs
+**** Review Trellos
+** TODO Learn to solve Rubik's cube				   :homework:
+** TODO Think of a way to acknowledge the amount spent on: books/videos, magazines, hosting, DNS. :homework:
+** TODO Check how to recover tab links from Firefox's backup sessions :homework:
+** TODO Check how to manage the files within the openshift instance :acmsl.com:
+** TODO Check how to associate two domains to the same drupal instance for acm-sl.com :acmsl.com:
+** TODO Replace basement lamp				       :housekeeping:
+** TODO shelr.tv
+** TODO Finish the IDS configuration for raspberrypi from instructables :homework:raspberrypi:
+** TODO OpenVPN server in euler			    :openvpn:docker:homework:
+*** Mapping ports + testing the port mapping with netcat
+** TODO Configure the yubikey mode and key.			   :homework:
+** TODO Implement a recovery mechanism for jenkins.acm-sl.org. jenkins-cli? backup? :jenkins:docker:
+** TODO Take a Vim book or screencast and practice new features		:vim:
+** TODO Graal / Truffle						    :startup:
+*** Download / install
+*** Find an example of its capabilities and test it
+** TODO Setup blog using github					     :github:
+** TODO Fix template bugs					     :queryj:
+** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
+** TODO Write a script to replace all ocurrences of QueryJ with the new name :queryj:
+** TODO Decide a new name for QueryJ				     :queryj:
+** TODO Fix bath door					       :housekeeping:
+** TODO Fix music collection					   :homework:
+** TODO Write script to download ebooks				   :homework:
+** TODO Rebuild printer							:diy:
+** TODO Watch printer videos						:diy:
+** TODO Buy domains:						    :startup:
+*** euromillones.juegos
+*** euromillones.tienda
+*** euromillones.online
+*** loteria.chrismas
+*** loteria-navidad.club
+*** loteria-navidad.tienda
+** TODO Docker for old acm-sl.com				     :docker:
+*** Create a docker image based on gentoo
+*** Copy the tarball
+*** Uncompress the tarball
+*** Setup Apache
+*** Run Apache
+** TODO Provision a docker image from Puppet			     :docker:
+** TODO Setup a puppet master in euler				     :docker:
+** TODO Read about etcd						     :docker:
+** TODO Create image for exim					     :docker:
+** TODO Automate shrinking of images				     :docker:
+** TODO Setup firefox sync					     :docker:
+** TODO Define a procedure to recover the acm-sl.org web sites:	     :docker:
+*** Launch docker
+*** Launch shipyard
+*** Change shipyard password
+*** Launch data container
+*** Launch mariadb container:
+- import databases from last backup
+*** Launch artifactory
+- Research using mariadb database instead of built-in derby's.
+*** Launch jenkins
+- Deploy jobs
+*** Launch getboo
+** TODO Make room in S3's SD card
+** TODO Buy Assange book
+** TODO Fix backup script on luna				      :acmsl:
+** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
+** TODO Research deis						     :docker:
+** TODO Test docker-backup					     :docker:
+** TODO Recover bm.acm-sl.org					     :docker:
+** TODO Read "Design for hackers"		       :design:ebook:homework:
+** TODO Build Puppet image					     :docker:
+** TODO Implement a script to generate Dockerfiles based on templates, as wking's :docker:
+** TODO Fix lognotestate						:org:
+* Sample project milestone
+#+CATEGORY: MilestoneX
+  DEADLINE: 
+
+
+* ACM-SL
+#+CATEGORY: ACM-SL
+* Docker
+* Health
+#+CATEGORY: Health
+* Finances
+#+CATEGORY: Finance
+* Miscellaneous
+#+CATEGORY: Misc
+
+
+* Anniversaries and Holidays
+    test note
+#+CATEGORY: Holiday
+%%(org-calendar-holiday)
+%%(diary-date 10 25 t) Grenada's Thanksgiving
+#+CATEGORY: Birthday
+%%(diary-anniversary  1 1 1960) Someone is %d years old
+
+
+#+STARTUP: content
+#+STARTUP: lognotestate
+#+SEQ_TODO: TODO STARTED WAITING DELEGATED APPT | DONE DEFERRED CANCELLED
+#+TAGS: { SCHOOL(s) WORK(w) } CALL(c) ERRAND(e)

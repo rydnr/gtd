@@ -1,0 +1,17 @@
+* 2014/07/06
+** Docker luna:
+*** TODO jenkins in shipyard:
+**** Dockerfile based on baseimage-docker: 3 -> 3
+*** mysql in shipyard
+*** redmine in shipyard
+
+** Tarjetas ANKI: 1 ->
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** Pieza portapilas + potenciómetro: 1 ->
+
+* Backlog
+** Unetbootin ubuntu: 1 -> 1
+
+* Docker
+** Setup volumes for backup for each container

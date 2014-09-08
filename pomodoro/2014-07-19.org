@@ -1,0 +1,23 @@
+* 2014/07/19
+** CI para QueryJ / Java-Commons:
+*** Nuevo parent pom: 1
+*** Jenkins en luna:
+**** Dockerfile jenkins basado en gentoo: 2
+**** Deploy en shipyard en luna: 2
+**** Setup CI en jenkins: 1
+**** Config jenkins en git: 1
+** QueryJ: 2 ->
+** Packer
+*** DONE template hello world test: 1 -> 1
+** Docker luna:
+*** jenkins in shipyard:
+**** Dockerfile based on baseimage-docker: 3 -> 3
+*** mysql in shipyard
+*** redmine in shipyard
+
+** reparar disco iomega: 1 -> 
+** yubikey: 1 ->
+** Pieza portapilas + potenciómetro: 1 ->
+* Docker
+** Setup volumes for backup for each container
+* Backlog

@@ -1,0 +1,5 @@
+* 2014/05/03
+** TODO EdX course: 1 ->
+** TODO New Anki cards: 1 ->
+** DONE Review documentation windmill: 1 -> 1
+** TODO Read DDD book: 1 ->
