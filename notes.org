@@ -1,3 +1,32 @@
 * Notes
+** [2014-09-12 Fri] WARNING: if a job does not pass tests, it screws up the release process, and SNAPSHOTs can appear in the release
+** [2014-09-12 Fri] New skill: git
+** [2014-09-12 Fri] New skill: architect diagrams
+** [2014-09-12 Fri] New skill: electronics
+** [2014-09-12 Fri] New skill: arduino
+** [2014-09-12 Fri] New skill: blender
+** [2014-09-12 Fri] New skill: guitar
+** [2014-09-12 Fri] New skill: rubik cube
+** [2014-09-12 Fri] New skill: reversing
+** [2014-09-12 Fri] New skill: vim
+** [2014-09-12 Fri] New skill: emacs
+** [2014-09-09 Tue] Don't know how to write the question mark on emacs :(
+** [2014-09-09 Tue] Question: Can Artifactory use MySQL instead of derby
+** [2014-09-09 Tue] Vagrant: From the book: vagrant init precise64 http://files.vagrantup.com/precise64.box
+** [2014-09-09 Tue] Vagrant: vagrant box add precise64 https://vagrantcloud.com/hashicorp/boxes/precise64/versions/2/providers/virtualbox.box
+** [2014-09-09 Tue] Vagrant: config.vm.synced_folder -> compartir webapps de Tomcat
+** [2014-09-09 Tue] Vagrant: config.vm.post_message -> meter versión de nlp-webapp
+** [2014-09-09 Tue] C-x v =
+vc-diff
+git diff
+** [2014-09-09 Tue] C-x v v
+vc-next-action
+git commit
+** [2014-09-09 Tue] C-x v d
+vc-directory
+git status
+** [2014-09-09 Tue] C-x v +
+vc-update
+git pull
 ** [2014-09-05 Fri] Remind to learn org!
 ** [2014-09-05 Fri] Remind to buy milk

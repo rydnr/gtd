@@ -1,7 +1,192 @@
 MY PROJECTS  -*- mode: org; fill-column: 78 -*-
-
+:PROPERTIES:
+:LOGGING: TODO(!) STARTED(!) DONE(!) CANCELLED(!) 
+:END:
+#+STARTUP: lognotedone
+#+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
+* Today
+#+CATEGORY: today
+** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
+** STARTED Read The first 20 hours
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
+   [2014-09-11 Thu]
+** STARTED Use emacs bookmarks					      :emacs:
+   [2014-09-10 Wed]
+- C-x r m -> new bookmark
+- C-x r l -> list bookmarks
+** STARTED Think about a new-skill plan
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Fix nlp-clubs job and publish a tag
+   [2014-09-12 Fri]
+** TODO Fix why nlp-webapp-jar/pom.xml and nlp-webapp-war/pom.xml point to latest-SNAPSHOT once tagged
+   [2014-09-12 Fri]
+** TODO Fix GEA-Webapp version
+   [2014-09-12 Fri]
+** TODO Setup emacs-server and EDITOR variable
+   [2014-09-12 Fri]
+** TODO Build release from branch
+   [2014-09-12 Fri]
+** TODO Fix the NPE in PostPaymentAction
+   [2014-09-12 Fri]
+** TODO Create branch for tag nlp-webapp
+   [2014-09-12 Fri]
+* Sindicato
+  #+CATEGORY: sindicato
+** TODO Add Enrique Segura to google spreadsheet
+* GTD / org
+  #+CATEGORY: GTD
+** TODO Read GTD book                                    :gtd:ebook:homework:
+** TODO Publish org files in github				 :github:org:
+   [2014-09-10 Wed]
+** TODO Customize org to use single keys for my tags
+   [2014-09-11 Thu]
+** TODO Commit automatically todo.org on a daily basis			:org:
+   [2014-09-10 Wed]
+* VIM
+  #+CATEGORY: VIM
+** TODO Take a Vim book or screencast and practice new features		:vim:
+** TODO Read VILEARN							:vim:
+* emacs
+  #+CATEGORY: emacs
+** TODO Change Emacs theme					      :emacs:
+   [2014-09-10 Wed]
+** TODO Install and use magit
+** TODO Check how to customize the indentation amount when editing bash files in emacs
+   [2014-09-11 Thu]
+** TODO Check how to go back camel-case-sensitive words in emacs
+   [2014-09-11 Thu]
+* LaTeX
+  #+CATEGORY: latex
+** TODO Write a pgf shape
+   [2014-09-10 Wed]
+* Ventura24
+  #+CATEGORY: V24
+** TODO Build a baseimage-based Jenkins and deploy PCI jobs
+** TODO Make http://www.ventura24.es/environmentpropertiestest.jsp available only from within the internal network :v24:
+** TODO Fix ventura24services1 DNS and virtual host
+** TODO Check why jenkins do not upload SNAPSHOTs to Artifactory
+** TODO Fix localtime in new jlean
+   [2014-09-11 Thu]
+** TODO Check why Vagrant/VirtualBox complains abount VT- not supported
+   [2014-09-11 Thu]
+** TODO Customize xmonad to associate ff, mail, console, pidgin to their virtual desktops
+   [2014-09-11 Thu]
+** TODO Check if mobar works
+   [2014-09-11 Thu]
+* Codemotion
+  #+CATEGORY: Codemotion
+** TODO github example project					 :codemotion:
+** TODO Slide boilerplate					 :codemotion:
+** TODO Outline of the speech					 :codemotion:
+* QueryJ
+  #+CATEGORY: QUERYJ
+** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
+** TODO Fix template bugs					     :queryj:
+** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
+** TODO Write a script to replace all ocurrences of QueryJ with the new name :queryj:
+** TODO Decide a new name for QueryJ				     :queryj:
+* ACM-SL
+  #+CATEGORY: ACM-SL
+** TODO Read about etcd						     :docker:
+** TODO Create image for exim					     :docker:
+** TODO Automate shrinking of images				     :docker:
+** TODO Setup firefox sync					     :docker:
+** TODO Define a procedure to recover the acm-sl.org web sites:	     :docker:
+*** Launch docker
+*** Launch shipyard
+*** Change shipyard password
+*** Launch data container
+*** Launch mariadb container:
+- import databases from last backup
+*** Launch artifactory
+- Research using mariadb database instead of built-in derby's.
+*** Launch jenkins
+- Deploy jobs
+*** Launch getboo
+** TODO Docker for old acm-sl.com				     :docker:
+*** Create a docker image based on gentoo
+*** Copy the tarball
+*** Uncompress the tarball
+*** Setup Apache
+*** Run Apache
+** TODO Provision a docker image from Puppet			     :docker:
+** TODO Check how to manage the files within the openshift instance :acmsl.com:
+** TODO Check how to associate two domains to the same drupal instance for acm-sl.com :acmsl.com:
+** TODO Implement a recovery mechanism for jenkins.acm-sl.org. jenkins-cli? backup? :jenkins:docker:
+** TODO Fix backup script on luna				      :acmsl:
+** TODO Research deis						     :docker:
+** TODO Test docker-backup					     :docker:
+** TODO Recover bm.acm-sl.org					     :docker:
+** TODO Build Puppet image					     :docker:
+** TODO Implement a script to generate Dockerfiles based on templates, as wking's :docker:
+* github
+  #+CATEGORY: GITHUB
+** TODO API rest to export a git diff as a json object			 :RT:
+** TODO Allow scripts to override defineEnv() function in drywit     :drywit:
+
+** TODO Setup blog using github					     :github:
+* Graal / Truffle                                                     
+** TODO Download / install                                            :graal:
+** TODO Find an example of its capabilities and test it               :graal:
+
+* Health
+#+CATEGORY: Health
+* Finances
+#+CATEGORY: Finance
+* Courses
+  #+CATEGORY: COURSES
+** TODO Study for JavaEE architect exam              :javaee:course:homework:
+** TODO Enroll in http://www.criptored.upm.es/crypt4you/portada.html :hacking:course:homework:
+* Videos
+  #+CATEGORY: Videos
+** TODO Watch one http://vimeo.com/ndcoslo/videos            :video:homework:
+** TODO Watch one Parleys.com video                          :video:homework:
+** TODO shelr.tv
+** TODO Watch chesscademy			       :chess:video:homework:
+** TODO Watch Clojure inside out		     :clojure:video:homework:
+** TODO Watch Mastering Advanced Git			 :git:video:homework:
+** TODO Watch Mastering Git				 :git:video:homework:
+** TODO Watch Introduction to machine learning with web data :engineering:video:homework:
+** TODO Watch Designing for mobile first	      :design:video:homework:
+** TODO Watch Temporal Data and Relational theory	 :sql:video:homework:
+** TODO Watch Learning Perl				:perl:video:homework:
+** TODO Watch HTML5 Canvas for developers	       :html5:video:homework:
+** TODO Watch Get started with Arduino		 :diy:arduino:video:homework:
+** TODO Watch Agile engineering practices	       :agile:video:homework:
+** TODO Watch Responsive web design		      :design:video:homework:
+** TODO Watch Database design and relational theory	 :sql:video:homework:
+** TODO Watch Mastering Cassandra for Architects   :cassandra:video:homework:
+** TODO Watch Functional thinking			     :video:homework:
+** TODO Watch Web Programming with Python	      :python:video:homework:
+** TODO Watch Strata conference 2014	  :bigdata:conference:video:homework:
+** TODO Watch Lean UX workshop			     :lean:ux:video:homework:
+** TODO Watch Suits and Spooks Washington DC 2014 :conference:video:homework:
+** TODO Watch Software architecture fundamentals :engineering:video:homework:
+** TODO Watch Cloud computing with AWS			 :aws:video:homework:
+** TODO Watch Build a strong AngularJS Foundation :javascript:video:homework:
+** TODO Watch Just enough math				:math:video:homework:
+** TODO Watch Building an application in Coffeescript :coffeescript:video:homework:
+** TODO Watch Designing APIs for the web		     :video:homework:
+** TODO Watch Programming 3D apps in HTML5 and WebGL   :html5:video:homework:
+** TODO Watch Learning MongoDB			     :mongodb:video:homework:
+** TODO Watch Building a RepRap printer			 :diy:video:homework:
+** TODO Watch Mastering VIM				 :vim:video:homework:
+** TODO Watch Mastering Magento			     :magento:video:homework:
+** TODO Watch Learning Sass				:sass:video:homework:
+** TODO Watch CSS3 properties				     :video:homework:
+** TODO Watch Building games with Scratch 2.0 :diy:kids:scratch:video:homework:
+** TODO Watch Apple Final Cut Pro X		:finalcutprox:video:homework:
+** TODO Watch Advanced white hack hacking and penetration testing :hacking:video:homework:
+* Books
+  #+CATEGORY: Books
+** TODO Read Domain-driver design			      :book:homework:
+** TODO Buy Assange book
+** TODO Read one of http://research.google.com/pubs/papers.html :ebook:homework:
+** TODO Read "Design for hackers"		       :design:ebook:homework:
 ** TODO Read Con el cariño no basta			 :kids:book:homework:
 ** TODO Read El colegio invisible			:novel:book:homework:
 ** TODO Read Educar con sentido común (Urra)		 :kids:book:homework:
@@ -382,46 +567,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read Raspberry Pi Home automation with Arduino :electronics:diy:arduino:raspberrypi:book:homework:
 ** TODO Read Don't buy it			     :politics:book:homework:
 ** TODO Read Enigmas de la ciencia		      :science:book:homework:
-** TODO Watch chesscademy			       :chess:video:homework:
 ** TODO Read Ajedrez para dummies			:chess:book:homework:
 ** TODO Read Naturaleza del espacio y el tiempo       :science:book:homework:
 ** TODO Read Contra la ceguera			     :politics:book:homework:
 ** TODO Read Python for kids			  :kids:python:book:homework:
 ** TODO Read Gray Hat Hacking			      :hacking:book:homework:
-** TODO Watch Clojure inside out		     :clojure:video:homework:
-** TODO Watch Mastering Advanced Git			 :git:video:homework:
-** TODO Watch Mastering Git				 :git:video:homework:
-** TODO Watch Introduction to machine learning with web data :engineering:video:homework:
-** TODO Watch Designing for mobile first	      :design:video:homework:
-** TODO Watch Temporal Data and Relational theory	 :sql:video:homework:
-** TODO Watch Learning Perl				:perl:video:homework:
-** TODO Watch HTML5 Canvas for developers	       :html5:video:homework:
-** TODO Watch Get started with Arduino		 :diy:arduino:video:homework:
-** TODO Watch Agile engineering practices	       :agile:video:homework:
-** TODO Watch Responsive web design		      :design:video:homework:
-** TODO Watch Database design and relational theory	 :sql:video:homework:
-** TODO Watch Mastering Cassandra for Architects   :cassandra:video:homework:
-** TODO Watch Functional thinking			     :video:homework:
-** TODO Watch Web Programming with Python	      :python:video:homework:
-** TODO Watch Strata conference 2014	  :bigdata:conference:video:homework:
-** TODO Watch Lean UX workshop			     :lean:ux:video:homework:
-** TODO Watch Suits and Spooks Washington DC 2014 :conference:video:homework:
-** TODO Watch Software architecture fundamentals :engineering:video:homework:
-** TODO Watch Cloud computing with AWS			 :aws:video:homework:
-** TODO Watch Build a strong AngularJS Foundation :javascript:video:homework:
-** TODO Watch Just enough math				:math:video:homework:
-** TODO Watch Building an application in Coffeescript :coffeescript:video:homework:
-** TODO Watch Designing APIs for the web		     :video:homework:
-** TODO Watch Programming 3D apps in HTML5 and WebGL   :html5:video:homework:
-** TODO Watch Learning MongoDB			     :mongodb:video:homework:
-** TODO Watch Building a RepRap printer			 :diy:video:homework:
-** TODO Watch Mastering VIM				 :vim:video:homework:
-** TODO Watch Mastering Magento			     :magento:video:homework:
-** TODO Watch Learning Sass				:sass:video:homework:
-** TODO Watch CSS3 properties				     :video:homework:
-** TODO Watch Building games with Scratch 2.0 :diy:kids:scratch:video:homework:
-** TODO Watch Apple Final Cut Pro X		:finalcutprox:video:homework:
-** TODO Watch Advanced white hack hacking and penetration testing :hacking:video:homework:
 ** TODO Read Whoever tells the best story wins	       :design:ebook:homework:
 ** TODO Read The Pin Drop principle		     :business:ebook:homework:
 ** TODO Read The EQ interview			   :interviews:ebook:homework:
@@ -612,7 +762,7 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read Agile Data Science			:bigdata:agile:ebook:homework:
 ** TODO Read Practical Reverse Engineering	      :hacking:ebook:homework:
 ** TODO Read Commercial Data Minning			      :ebook:homework:
-** TODO Read Archilian Testing Guide			 :java:ebook:homework:
+** TODO Read Archilian Testing Guide                    :java:ebook:homework:
 ** TODO Read The reality-based rules of the workplace	      :ebook:homework:
 ** TODO Read Raspberry Pi Robotic Projects :raspberrypi:electronics:diy:ebook:homework:
 ** TODO Read The Birkman method				      :ebook:homework:
@@ -672,12 +822,33 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read Practices of an Agile developer		:book:ebook:homework:
 ** TODO watch redis at twitter talk			      :ebook:homework:
 ** TODO Read GTD book
-** TODO github example project					 :codemotion:
-** TODO Slide boilerplate					 :codemotion:
-** TODO Outline of the speech					 :codemotion:
-** TODO API rest to export a git diff as a json object			 :RT:
-** TODO Allow scripts to override defineEnv() function in drywit     :drywit:
-** TODO Migrate current backlog.org and latest pomodoro files to todo.org :homework:
+* Miscellaneous
+#+CATEGORY: Misc
+** TODO Take photo of the phone appliance in the bedroom
+   [2014-09-10 Wed]
+** TODO Fix bath door					       :housekeeping:
+** TODO Fix music collection					   :homework:
+** TODO Write script to download ebooks				   :homework:
+** TODO Rebuild printer							:diy:
+** TODO Watch printer videos						:diy:
+** WAITING Buy domains:						    :startup:
+*** DONE euromillones.tienda
+*** DONE loteria-nacional.juegos
+*** DONE loteria-navidad.club
+*** DONE loteria-navidad.juegos
+*** DONE loteria.christmas
+*** WAITING euromillones.buy
+*** WAITING euromillones.online
+*** WAITING euromillones.rich
+*** WAITING euromillones.trust
+** TODO Setup a puppet master in euler				     :docker:
+** TODO Replace basement lamp				       :housekeeping:
+
+** TODO Finish the IDS configuration for raspberrypi from instructables :homework:raspberrypi:
+** TODO OpenVPN server in euler			    :openvpn:docker:homework:
+*** Mapping ports + testing the port mapping with netcat
+** TODO Configure the yubikey mode and key.			   :homework:
+
 ** TODO Write a "development plan" for me, a system to:		   :homework:
 *** Read more:
 **** Linux journal, Java Magazine
@@ -696,87 +867,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Learn to solve Rubik's cube				   :homework:
 ** TODO Think of a way to acknowledge the amount spent on: books/videos, magazines, hosting, DNS. :homework:
 ** TODO Check how to recover tab links from Firefox's backup sessions :homework:
-** TODO Check how to manage the files within the openshift instance :acmsl.com:
-** TODO Check how to associate two domains to the same drupal instance for acm-sl.com :acmsl.com:
-** TODO Replace basement lamp				       :housekeeping:
-** TODO shelr.tv
-** TODO Finish the IDS configuration for raspberrypi from instructables :homework:raspberrypi:
-** TODO OpenVPN server in euler			    :openvpn:docker:homework:
-*** Mapping ports + testing the port mapping with netcat
-** TODO Configure the yubikey mode and key.			   :homework:
-** TODO Implement a recovery mechanism for jenkins.acm-sl.org. jenkins-cli? backup? :jenkins:docker:
-** TODO Take a Vim book or screencast and practice new features		:vim:
-** TODO Graal / Truffle						    :startup:
-*** Download / install
-*** Find an example of its capabilities and test it
-** TODO Setup blog using github					     :github:
-** TODO Fix template bugs					     :queryj:
-** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
-** TODO Write a script to replace all ocurrences of QueryJ with the new name :queryj:
-** TODO Decide a new name for QueryJ				     :queryj:
-** TODO Fix bath door					       :housekeeping:
-** TODO Fix music collection					   :homework:
-** TODO Write script to download ebooks				   :homework:
-** TODO Rebuild printer							:diy:
-** TODO Watch printer videos						:diy:
-** TODO Buy domains:						    :startup:
-*** euromillones.juegos
-*** euromillones.tienda
-*** euromillones.online
-*** loteria.chrismas
-*** loteria-navidad.club
-*** loteria-navidad.tienda
-** TODO Docker for old acm-sl.com				     :docker:
-*** Create a docker image based on gentoo
-*** Copy the tarball
-*** Uncompress the tarball
-*** Setup Apache
-*** Run Apache
-** TODO Provision a docker image from Puppet			     :docker:
-** TODO Setup a puppet master in euler				     :docker:
-** TODO Read about etcd						     :docker:
-** TODO Create image for exim					     :docker:
-** TODO Automate shrinking of images				     :docker:
-** TODO Setup firefox sync					     :docker:
-** TODO Define a procedure to recover the acm-sl.org web sites:	     :docker:
-*** Launch docker
-*** Launch shipyard
-*** Change shipyard password
-*** Launch data container
-*** Launch mariadb container:
-- import databases from last backup
-*** Launch artifactory
-- Research using mariadb database instead of built-in derby's.
-*** Launch jenkins
-- Deploy jobs
-*** Launch getboo
-** TODO Make room in S3's SD card
-** TODO Buy Assange book
-** TODO Fix backup script on luna				      :acmsl:
-** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
-** TODO Research deis						     :docker:
-** TODO Test docker-backup					     :docker:
-** TODO Recover bm.acm-sl.org					     :docker:
-** TODO Read "Design for hackers"		       :design:ebook:homework:
-** TODO Build Puppet image					     :docker:
-** TODO Implement a script to generate Dockerfiles based on templates, as wking's :docker:
-** TODO Fix lognotestate						:org:
-* Sample project milestone
-#+CATEGORY: MilestoneX
-  DEADLINE: 
-
-
-* ACM-SL
-#+CATEGORY: ACM-SL
-* Docker
-* Health
-#+CATEGORY: Health
-* Finances
-#+CATEGORY: Finance
-* Miscellaneous
-#+CATEGORY: Misc
-
-
 * Anniversaries and Holidays
     test note
 #+CATEGORY: Holiday
@@ -790,3 +880,40 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+STARTUP: lognotestate
 #+SEQ_TODO: TODO STARTED WAITING DELEGATED APPT | DONE DEFERRED CANCELLED
 #+TAGS: { SCHOOL(s) WORK(w) } CALL(c) ERRAND(e)
+* Completed Tasks
+** DONE Install Maven
+** DONE Buy headphones + mstick for PSP
+   [2014-09-10 Wed]
+
+** DONE Find out if workstation has bluetooth -> no
+** DONE Find out how to resize buffers easily in emacs -> C-x { , C-x } :emacs:
+   [2014-09-10 Wed]
+
+** DONE Make room in S3's SD card
+** DONE Migrate current backlog.org and latest pomodoro files to todo.org :homework:
+** DONE Fix lognotestate						:org:
+   CLOSED: [2014-09-11 Thu 01:24]
+   - State "DONE"       from "TODO"       [2014-09-11 Thu 01:24]
+
+** DONE Configure the f.lux tool properly
+   CLOSED: [2014-09-11 Thu 01:25]
+   - State "DONE"       from "TODO"       [2014-09-11 Thu 01:25]
+
+** DONE Check how to remove my own custom font everywhere
+   CLOSED: [2014-09-11 Thu 01:25]
+   - State "DONE"       from "TODO"       [2014-09-11 Thu 01:25]
+** DONE Fix X clipboard in new workstation
+   CLOSED: [2014-09-11 Thu 01:26]
+   - State "DONE"       from "TODO"       [2014-09-11 Thu 01:26]
+** DONE Finish build script for baseimage-phusion-based Docker templates :docker:
+   CLOSED: [2014-09-12 Fri 01:35]
+   - State "DONE"       from "TODO"       [2014-09-12 Fri 01:35]
+   [2014-09-11 Thu]
+
+** DONE Deploy webapp locally					       :#135:
+   CLOSED: [2014-09-12 Fri 01:37]
+   - State "DONE"       from "TODO"       [2014-09-12 Fri 01:37]
+** DONE Review / buy The first 20 hours book
+   CLOSED: [2014-09-12 Fri 01:39]
+   - State "DONE"       from "TODO"       [2014-09-12 Fri 01:39]
+   [2014-09-11 Thu]
