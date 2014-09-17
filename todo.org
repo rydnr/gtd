@@ -6,9 +6,14 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+** TODO Adapt b2g document
+   [2014-09-17 Wed]
+** TODO Fix ssh access to new jlean					:v24:
+   [2014-09-17 Wed]
+** TODO Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-** STARTED Read The first 20 hours
+** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
    [2014-09-11 Thu]
 ** STARTED Use emacs bookmarks					      :emacs:
@@ -20,8 +25,10 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-12 Fri]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Fix nlp-clubs job and publish a tag
-   [2014-09-12 Fri]
+** TODO Use vcsh
+   [2014-09-17 Wed]
+** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly
+   [2014-09-15 Mon]
 ** TODO Fix why nlp-webapp-jar/pom.xml and nlp-webapp-war/pom.xml point to latest-SNAPSHOT once tagged
    [2014-09-12 Fri]
 ** TODO Fix GEA-Webapp version
@@ -30,18 +37,19 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-12 Fri]
 ** TODO Build release from branch
    [2014-09-12 Fri]
-** TODO Fix the NPE in PostPaymentAction
-   [2014-09-12 Fri]
 ** TODO Create branch for tag nlp-webapp
    [2014-09-12 Fri]
 * Sindicato
   #+CATEGORY: sindicato
-** TODO Add Enrique Segura to google spreadsheet
+** TODO Send invitations
+   [2014-09-17 Wed]
 * GTD / org
   #+CATEGORY: GTD
+** TODO Integrate pomodoro with org-mode/gtd		       :org:homework:
+   [2014-09-17 Wed]
 ** TODO Read GTD book                                    :gtd:ebook:homework:
-** TODO Publish org files in github				 :github:org:
-   [2014-09-10 Wed]
+** TODO Use agenda in org
+   [2014-09-17 Wed]
 ** TODO Customize org to use single keys for my tags
    [2014-09-11 Thu]
 ** TODO Commit automatically todo.org on a daily basis			:org:
@@ -65,14 +73,16 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Fix environment properties					:v24:
+   - State "TODO"       from ""           [2014-09-15 Mon 11:12]
+** TODO nlp-companies-webapp injects SNAPSHOTs				:v24:
+   [2014-09-15 Mon]
 ** TODO Build a baseimage-based Jenkins and deploy PCI jobs
 ** TODO Make http://www.ventura24.es/environmentpropertiestest.jsp available only from within the internal network :v24:
 ** TODO Fix ventura24services1 DNS and virtual host
+** TODO Bug in nlp-process-generator: generated code (ProcessCommandImpl and CLI) don't compile if an explicit process parameter is not used anywhere :v24:
+   [2014-09-15 Mon]
 ** TODO Check why jenkins do not upload SNAPSHOTs to Artifactory
-** TODO Fix localtime in new jlean
-   [2014-09-11 Thu]
-** TODO Check why Vagrant/VirtualBox complains abount VT- not supported
-   [2014-09-11 Thu]
 ** TODO Customize xmonad to associate ff, mail, console, pidgin to their virtual desktops
    [2014-09-11 Thu]
 ** TODO Check if mobar works
@@ -913,7 +923,49 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** DONE Deploy webapp locally					       :#135:
    CLOSED: [2014-09-12 Fri 01:37]
    - State "DONE"       from "TODO"       [2014-09-12 Fri 01:37]
-** DONE Review / buy The first 20 hours book
+** DONE Review / buy The first 20 hours book		     :ebook:homework:
    CLOSED: [2014-09-12 Fri 01:39]
    - State "DONE"       from "TODO"       [2014-09-12 Fri 01:39]
    [2014-09-11 Thu]
+** DONE Add Enrique Segura to google spreadsheet		  :sindicato:
+   CLOSED: [2014-09-15 Mon 11:07]
+   - State "DONE"       from "TODO"       [2014-09-15 Mon 11:07]
+
+** DONE Check why Vagrant/VirtualBox complains abount VT- not supported :vagrant:
+   CLOSED: [2014-09-15 Mon 11:09]
+   - State "DONE"       from "TODO"       [2014-09-15 Mon 11:09]
+   [2014-09-11 Thu]
+
+** DONE Fix the NPE in PostPaymentAction				:v24:
+   CLOSED: [2014-09-15 Mon 11:10]
+   - State "DONE"       from "STARTED"    [2014-09-15 Mon 11:10]
+   - State "STARTED"    from "TODO"       [2014-09-15 Mon 11:09]
+   [2014-09-12 Fri]
+
+** DONE Fix nlp-clubs job and publish a tag				:v24:
+   CLOSED: [2014-09-15 Mon 11:13]
+   - State "DONE"       from "TODO"       [2014-09-15 Mon 11:13]
+   [2014-09-12 Fri]
+
+** DONE Merge nlp-webapp, v24-pom!					:v24:
+   CLOSED: [2014-09-15 Mon 11:58]
+   - State "DONE"       from "STARTED"    [2014-09-15 Mon 11:58]
+   - State "STARTED"    from "TODO"       [2014-09-15 Mon 11:10]
+
+   [2014-09-15 Mon]
+
+** DONE Fix localtime in new jlean					:v24:
+   CLOSED: [2014-09-17 Wed 10:19]
+   - State "DONE"       from "TODO"       [2014-09-17 Wed 10:19]
+   [2014-09-11 Thu]
+
+** DONE Publish org files in github				 :github:org:
+   CLOSED: [2014-09-17 Wed 10:20]
+   - State "DONE"       from "TODO"       [2014-09-17 Wed 10:20]
+   [2014-09-10 Wed]
+
+** DONE Loomio proposals					  :sindicato:
+   CLOSED: [2014-09-17 Wed 10:21]
+   - State "DONE"       from "TODO"       [2014-09-17 Wed 10:21]
+   - State "TODO"       from ""           [2014-09-15 Mon 11:08] \\
+     Added task for first loomio proposals
