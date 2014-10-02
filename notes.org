@@ -1,4 +1,19 @@
 * Notes
+** [2014-09-27 Sat] GRSec (webinar)
+- Don't run things as root
+- Drop capabilities
+- Enable user namespaces
+- Get rid of shady SUID binaries
+- Enable SELinux
+- Use seccomp-bpf
+- Get a GRSEC kernel
+- Update kernels often
+- Mount everything read-only
+- Fence things in VMs
+** [2014-09-22 Mon] Should I use a different git repository for Docker?
+** [2014-09-22 Mon] C-x r b -> jump to bookmark
+** [2014-09-22 Mon] C-x r m -> create bookmark
+** [2014-09-22 Mon] Exit from emacsclient buffer: C-x # or (server-edit)
 ** [2014-09-12 Fri] WARNING: if a job does not pass tests, it screws up the release process, and SNAPSHOTs can appear in the release
 ** [2014-09-12 Fri] New skill: git
 ** [2014-09-12 Fri] New skill: architect diagrams
@@ -29,4 +44,3 @@ git status
 vc-update
 git pull
 ** [2014-09-05 Fri] Remind to learn org!
-** [2014-09-05 Fri] Remind to buy milk
