@@ -6,45 +6,43 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Adapt b2g document
-   [2014-09-17 Wed]
-** TODO Fix ssh access to new jlean					:v24:
-   [2014-09-17 Wed]
-** TODO Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+** TODO Update jenkins jobs
+   [2014-09-26 Fri]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+** TODO Build a Puppet master image, for a tag in "sysadmin" repository
+   [2014-09-22 Mon]
+** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 ** STARTED Read The first 20 hours			     :ebook:homework:
+   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
+   - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
+     Stopped some days ago. I'll resume it today
+   - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
    [2014-09-11 Thu]
-** STARTED Use emacs bookmarks					      :emacs:
-   [2014-09-10 Wed]
-- C-x r m -> new bookmark
-- C-x r l -> list bookmarks
 ** STARTED Think about a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
+** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
+   [2014-09-15 Mon]
+** STARTED Review mindmaps
 * Tasks
 #+CATEGORY: Tasks
-** TODO Use vcsh
-   [2014-09-17 Wed]
-** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly
-   [2014-09-15 Mon]
-** TODO Fix why nlp-webapp-jar/pom.xml and nlp-webapp-war/pom.xml point to latest-SNAPSHOT once tagged
-   [2014-09-12 Fri]
-** TODO Fix GEA-Webapp version
-   [2014-09-12 Fri]
-** TODO Setup emacs-server and EDITOR variable
-   [2014-09-12 Fri]
-** TODO Build release from branch
-   [2014-09-12 Fri]
-** TODO Create branch for tag nlp-webapp
-   [2014-09-12 Fri]
+** TODO Fix parsing version in jenkins jobs for B2G
+   [2014-09-26 Fri]
+** TODO Use burp or wireshark to check the actual response for cms1
+   [2014-09-26 Fri]
 * Sindicato
   #+CATEGORY: sindicato
-** TODO Send invitations
-   [2014-09-17 Wed]
 * GTD / org
   #+CATEGORY: GTD
+** STARTED Check how to use todo.org_archive -> C-c C-x a
+   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:38]
+   [2014-09-22 Mon]
 ** TODO Integrate pomodoro with org-mode/gtd		       :org:homework:
    [2014-09-17 Wed]
 ** TODO Read GTD book                                    :gtd:ebook:homework:
@@ -73,13 +71,34 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-** TODO Fix environment properties					:v24:
-   - State "TODO"       from ""           [2014-09-15 Mon 11:12]
+** TODO Fix branch / noverify error in nlp-webapp-jar tests
+   [2014-09-24 Wed]
+** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1
+   [2014-09-23 Tue]
+** TODO Build nlp-companies-webapp Docker image
+   [2014-09-23 Tue]
+** TODO Build Apache Docker image for nlp-companies-webapp
+   [2014-09-23 Tue]
+** TODO Build release from branch
+   [2014-09-12 Fri]
+** TODO Create branch for tag nlp-webapp
+   [2014-09-12 Fri]
+** TODO Talk to Esther
+   [2014-09-22 Mon]
+** TODO Talk to M.A. about his inner thoughts
+   [2014-09-22 Mon]
+** TODO Add a script to halt the machine should the local_entities file is not present :docker:v24:
+   [2014-09-22 Mon]
+** TODO Fix "Missing Application-Name manifest attribute for: https://procurement.ventura24.es/pub/dss-plugin-printer-6.13-SNAPSHOT.jar" in Proval :proval:v24:
+   [2014-09-22 Mon]
+** TODO New printer gives a "235.0" is not an integer -> The type for the printer id is a double, not an int :proval:v24:
+   [2014-09-18 Thu]
+** TODO Fix GEA-Webapp version
+   [2014-09-12 Fri]
 ** TODO nlp-companies-webapp injects SNAPSHOTs				:v24:
    [2014-09-15 Mon]
 ** TODO Build a baseimage-based Jenkins and deploy PCI jobs
 ** TODO Make http://www.ventura24.es/environmentpropertiestest.jsp available only from within the internal network :v24:
-** TODO Fix ventura24services1 DNS and virtual host
 ** TODO Bug in nlp-process-generator: generated code (ProcessCommandImpl and CLI) don't compile if an explicit process parameter is not used anywhere :v24:
    [2014-09-15 Mon]
 ** TODO Check why jenkins do not upload SNAPSHOTs to Artifactory
@@ -101,6 +120,14 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Setup a blog on excuse.io
+   [2014-09-22 Mon]
+** TODO Setup a Jekyll blog on rydnr.me
+   [2014-09-22 Mon]
+** TODO Research how to squeeze images (maybe generating a new image afterwards and removing stuff via shell scripts?) :docker:
+   [2014-09-22 Mon]
+** TODO Use vcsh							:git:
+   [2014-09-17 Wed]
 ** TODO Read about etcd						     :docker:
 ** TODO Create image for exim					     :docker:
 ** TODO Automate shrinking of images				     :docker:
@@ -194,7 +221,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 * Books
   #+CATEGORY: Books
 ** TODO Read Domain-driver design			      :book:homework:
-** TODO Buy Assange book
 ** TODO Read one of http://research.google.com/pubs/papers.html :ebook:homework:
 ** TODO Read "Design for hackers"		       :design:ebook:homework:
 ** TODO Read Con el cariño no basta			 :kids:book:homework:
@@ -841,6 +867,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Write script to download ebooks				   :homework:
 ** TODO Rebuild printer							:diy:
 ** TODO Watch printer videos						:diy:
+** TODO Define what to do with SEO domains			    :startup:
+   [2014-09-22 Mon]
 ** WAITING Buy domains:						    :startup:
 *** DONE euromillones.tienda
 *** DONE loteria-nacional.juegos
@@ -871,7 +899,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 *** Coursera / Udacity / Weka / Analytics
 *** Exercise more and regularly
 *** Build a regular feedback loop:
-**** Review mindmaps
 **** Review notes / TODOs
 **** Review Trellos
 ** TODO Learn to solve Rubik's cube				   :homework:
@@ -891,81 +918,181 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+SEQ_TODO: TODO STARTED WAITING DELEGATED APPT | DONE DEFERRED CANCELLED
 #+TAGS: { SCHOOL(s) WORK(w) } CALL(c) ERRAND(e)
 * Completed Tasks
-** DONE Install Maven
-** DONE Buy headphones + mstick for PSP
+** DONE Install Maven						    :ARCHIVE:
+** DONE Buy headphones + mstick for PSP				    :ARCHIVE:
    [2014-09-10 Wed]
 
-** DONE Find out if workstation has bluetooth -> no
-** DONE Find out how to resize buffers easily in emacs -> C-x { , C-x } :emacs:
+** DONE Find out if workstation has bluetooth -> no		    :ARCHIVE:
+** DONE Find out how to resize buffers easily in emacs -> C-x { , C-x } :emacs:ARCHIVE:
    [2014-09-10 Wed]
 
-** DONE Make room in S3's SD card
-** DONE Migrate current backlog.org and latest pomodoro files to todo.org :homework:
-** DONE Fix lognotestate						:org:
+** DONE Make room in S3's SD card				    :ARCHIVE:
+** DONE Migrate current backlog.org and latest pomodoro files to todo.org :homework:ARCHIVE:
+** DONE Fix lognotestate					:org:ARCHIVE:
    CLOSED: [2014-09-11 Thu 01:24]
    - State "DONE"       from "TODO"       [2014-09-11 Thu 01:24]
 
-** DONE Configure the f.lux tool properly
+** DONE Configure the f.lux tool properly			    :ARCHIVE:
    CLOSED: [2014-09-11 Thu 01:25]
    - State "DONE"       from "TODO"       [2014-09-11 Thu 01:25]
 
-** DONE Check how to remove my own custom font everywhere
+** DONE Check how to remove my own custom font everywhere	    :ARCHIVE:
    CLOSED: [2014-09-11 Thu 01:25]
    - State "DONE"       from "TODO"       [2014-09-11 Thu 01:25]
-** DONE Fix X clipboard in new workstation
+** DONE Fix X clipboard in new workstation			    :ARCHIVE:
    CLOSED: [2014-09-11 Thu 01:26]
    - State "DONE"       from "TODO"       [2014-09-11 Thu 01:26]
-** DONE Finish build script for baseimage-phusion-based Docker templates :docker:
+** DONE Finish build script for baseimage-phusion-based Docker templates :docker:ARCHIVE:
    CLOSED: [2014-09-12 Fri 01:35]
    - State "DONE"       from "TODO"       [2014-09-12 Fri 01:35]
    [2014-09-11 Thu]
 
-** DONE Deploy webapp locally					       :#135:
+** DONE Deploy webapp locally				       :#135:ARCHIVE:
    CLOSED: [2014-09-12 Fri 01:37]
    - State "DONE"       from "TODO"       [2014-09-12 Fri 01:37]
-** DONE Review / buy The first 20 hours book		     :ebook:homework:
+** DONE Review / buy The first 20 hours book	     :ebook:homework:ARCHIVE:
    CLOSED: [2014-09-12 Fri 01:39]
    - State "DONE"       from "TODO"       [2014-09-12 Fri 01:39]
    [2014-09-11 Thu]
-** DONE Add Enrique Segura to google spreadsheet		  :sindicato:
+** DONE Add Enrique Segura to google spreadsheet	  :sindicato:ARCHIVE:
    CLOSED: [2014-09-15 Mon 11:07]
    - State "DONE"       from "TODO"       [2014-09-15 Mon 11:07]
 
-** DONE Check why Vagrant/VirtualBox complains abount VT- not supported :vagrant:
+** DONE Check why Vagrant/VirtualBox complains abount VT- not supported :vagrant:ARCHIVE:
    CLOSED: [2014-09-15 Mon 11:09]
    - State "DONE"       from "TODO"       [2014-09-15 Mon 11:09]
    [2014-09-11 Thu]
 
-** DONE Fix the NPE in PostPaymentAction				:v24:
+** DONE Fix the NPE in PostPaymentAction			:v24:ARCHIVE:
    CLOSED: [2014-09-15 Mon 11:10]
    - State "DONE"       from "STARTED"    [2014-09-15 Mon 11:10]
    - State "STARTED"    from "TODO"       [2014-09-15 Mon 11:09]
    [2014-09-12 Fri]
 
-** DONE Fix nlp-clubs job and publish a tag				:v24:
+** DONE Fix nlp-clubs job and publish a tag			:v24:ARCHIVE:
    CLOSED: [2014-09-15 Mon 11:13]
    - State "DONE"       from "TODO"       [2014-09-15 Mon 11:13]
    [2014-09-12 Fri]
 
-** DONE Merge nlp-webapp, v24-pom!					:v24:
+** DONE Merge nlp-webapp, v24-pom!				:v24:ARCHIVE:
    CLOSED: [2014-09-15 Mon 11:58]
    - State "DONE"       from "STARTED"    [2014-09-15 Mon 11:58]
    - State "STARTED"    from "TODO"       [2014-09-15 Mon 11:10]
 
    [2014-09-15 Mon]
 
-** DONE Fix localtime in new jlean					:v24:
+** DONE Fix localtime in new jlean				:v24:ARCHIVE:
    CLOSED: [2014-09-17 Wed 10:19]
    - State "DONE"       from "TODO"       [2014-09-17 Wed 10:19]
    [2014-09-11 Thu]
 
-** DONE Publish org files in github				 :github:org:
+** DONE Publish org files in github			 :github:org:ARCHIVE:
    CLOSED: [2014-09-17 Wed 10:20]
    - State "DONE"       from "TODO"       [2014-09-17 Wed 10:20]
    [2014-09-10 Wed]
 
-** DONE Loomio proposals					  :sindicato:
+** DONE Loomio proposals				  :sindicato:ARCHIVE:
    CLOSED: [2014-09-17 Wed 10:21]
    - State "DONE"       from "TODO"       [2014-09-17 Wed 10:21]
    - State "TODO"       from ""           [2014-09-15 Mon 11:08] \\
      Added task for first loomio proposals
+
+** DONE Adapt b2g document 				    :b2g:v24:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 11:31]
+   - State "DONE"       from "TODO"       [2014-09-18 Thu 11:31]
+   [2014-09-17 Wed]
+
+** DONE Fix ssh access to new jlean				:v24:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 11:31]
+   - State "DONE"       from "TODO"       [2014-09-18 Thu 11:31]
+   [2014-09-17 Wed]
+
+** DONE Send invitations				  :sindicato:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 11:33]
+   - State "DONE"       from "TODO"       [2014-09-18 Thu 11:33]
+   [2014-09-17 Wed]
+
+** DONE Add Tania and Mercedes to loomio 		  :sindicato:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 11:34]
+   - State "DONE"       from "TODO"       [2014-09-18 Thu 11:34]
+   [2014-09-18 Thu]
+
+** DONE Change Oracle password					:v24:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 15:58]
+   - State "DONE"       from "STARTED"    [2014-09-18 Thu 15:58]
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 15:37]
+   [2014-09-18 Thu]
+
+** DONE Setup support laptop				:support:v24:ARCHIVE:
+   CLOSED: [2014-09-18 Thu 16:17]
+   - State "DONE"       from "STARTED"    [2014-09-18 Thu 16:17]
+   - State "DONE"       from "TODO"       [2014-09-18 Thu 11:38]
+   [2014-09-18 Thu]
+** DONE Fix environment properties				:v24:ARCHIVE:
+   CLOSED: [2014-09-22 Mon 09:21]
+   - State "DONE"       from "TODO"       [2014-09-22 Mon 09:21]
+     In location C it's working
+   - State "TODO"       from ""           [2014-09-15 Mon 11:12]
+** DONE Write initial mindmap for the first 5-6 chapters of "Emacs in 20 hours" :ARCHIVE:
+   CLOSED: [2014-09-22 Mon 09:22]
+   - State "DONE"       from "TODO"       [2014-09-22 Mon 09:22]
+   [2014-09-18 Thu]
+
+** DONE Setup emacs-server and EDITOR variable			    :ARCHIVE:
+   CLOSED: [2014-09-22 Mon 09:26]
+   - State "DONE"       from "TODO"       [2014-09-22 Mon 09:26]
+   [2014-09-12 Fri]
+
+** DONE Mindmap 					 :codemotion:ARCHIVE:
+   CLOSED: [2014-09-22 Mon 09:34]
+   - State "DONE"       from "TODO"       [2014-09-22 Mon 09:34]
+   [2014-09-22 Mon]
+
+** DONE Buy Assange book					    :ARCHIVE:
+   CLOSED: [2014-09-23 Tue 09:29]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 09:29]
+** DONE Use emacs bookmarks				      :emacs:ARCHIVE:
+   CLOSED: [2014-09-23 Tue 09:39]
+   - State "DONE"       from "STARTED"    [2014-09-23 Tue 09:39]
+   [2014-09-10 Wed]
+- C-x r m -> new bookmark
+- C-x r l -> list bookmarks
+
+** DONE Fix ventura24services1 DNS and virtual host    :services:v24:ARCHIVE:
+   CLOSED: [2014-09-23 Tue 10:34]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 10:34]
+*** Points to app-b2g-01-hh1
+** DONE Fix winnos					     :bomberismo:v24:
+   CLOSED: [2014-09-23 Tue 10:44]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 10:44]
+   [2014-09-23 Tue]
+
+** DONE Fix johnson&johnson logo			     :bomberismo:v24:
+   CLOSED: [2014-09-23 Tue 12:17]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 12:17]
+   [2014-09-23 Tue]
+
+** DONE Llamar servicio técnico frigorífico
+   CLOSED: [2014-09-23 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 13:11]
+   [2014-09-23 Tue]
+
+** DONE Imprimir instrucciones armario rack
+   CLOSED: [2014-09-23 Tue 13:41]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 13:41]
+   [2014-09-23 Tue]
+
+** DONE Configure Linux printer						:v24:
+   CLOSED: [2014-09-23 Tue 13:41]
+   - State "DONE"       from "TODO"       [2014-09-23 Tue 13:41]
+   [2014-09-23 Tue]
+
+** DONE Presupuesto electricidad
+   CLOSED: [2014-09-26 Fri 09:14]
+   - State "DONE"       from "TODO"       [2014-09-26 Fri 09:14]
+   [2014-09-23 Tue]
+
+** DONE Llamar servicio técnico lavadora
+   CLOSED: [2014-09-26 Fri 09:15]
+   - State "DONE"       from "TODO"       [2014-09-26 Fri 09:15]
+   [2014-09-23 Tue]
