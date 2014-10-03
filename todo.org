@@ -6,37 +6,24 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Update jenkins jobs
-   [2014-09-26 Fri]
+** TODO Rebuild Jenkins dockerfile using script	      :docker:acmsl:homework:
+   [2014-10-02 Thu]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Redactar propuesta "Racismo, machismo, etc."
-   [2014-09-27 Sat]
-** TODO Redactar propuesta Control de presencia
-   [2014-09-27 Sat]
-** TODO Redactar propuesta 360 grados
-   [2014-09-27 Sat]
-** TODO Redactar propuesta Teletrabajo
-   [2014-09-27 Sat]
-** TODO Redactar propuesta Horario de verano
-   [2014-09-27 Sat]
-** TODO Redactar propuesta Moderación en el gasto
-   [2014-09-27 Sat]
-** TODO Llamar jazztel para preguntar por la fibra
-   [2014-09-27 Sat]
-** TODO Research GRSEC
-   [2014-09-27 Sat]
-** TODO Llamar aduanas para tratar de recuperar el pedido
-   [2014-09-27 Sat]
-** TODO Cambiar seguro de coche
-   [2014-09-27 Sat]
-** TODO Fix parsing version in jenkins jobs for B2G
-   [2014-09-26 Fri]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-** TODO Build a Puppet master image, for a tag in "sysadmin" repository
-   [2014-09-22 Mon]
+** TODO Deploy a private docker registry in luna
+   [2014-10-02 Thu]
+** TODO Add jenkins.acm-sl.org configs to github, and use them in its dockerfile. :docker:acmsl:homework:
+   [2014-10-02 Thu]
+** TODO Fix maven.acm-sl.org			      :docker:acmsl:homework:
+   [2014-10-02 Thu]
+** TODO Fix motoax.com blog				 :openshift:homework:
+   [2014-10-02 Thu]
+** TODO Fix motoax.com DNS				       :dns:homework:
+   [2014-10-02 Thu]
+** TODO Write a PoC for calling a dll from javascript	     :acmsl:homework:
+   [2014-10-02 Thu]
+** TODO Install a mail app in ownCloud		   :openshift:acmsl:homework:
+   [2014-10-02 Thu]
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
    - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
@@ -51,9 +38,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** STARTED Think about a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
-** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
-   [2014-09-15 Mon]
-** STARTED Review mindmaps
 * Tasks
 #+CATEGORY: Tasks
 ** TODO Fix parsing version in jenkins jobs for B2G
@@ -63,6 +47,18 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 >>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 * Sindicato
   #+CATEGORY: sindicato
+** TODO Redactar propuesta "Racismo, machismo, etc."
+   [2014-09-27 Sat]
+** TODO Redactar propuesta Control de presencia
+   [2014-09-27 Sat]
+** TODO Redactar propuesta 360 grados
+   [2014-09-27 Sat]
+** TODO Redactar propuesta Teletrabajo
+   [2014-09-27 Sat]
+** TODO Redactar propuesta Horario de verano
+   [2014-09-27 Sat]
+** TODO Redactar propuesta Moderación en el gasto
+   [2014-09-27 Sat]
 * GTD / org
   #+CATEGORY: GTD
 ** STARTED Check how to use todo.org_archive -> C-c C-x a
@@ -97,6 +93,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 * Ventura24
   #+CATEGORY: V24
 <<<<<<< HEAD
+** TODO Build a Puppet master image, for a tag in "sysadmin" repository
+   [2014-09-22 Mon]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
 ** TODO Use burp or wireshark to check the actual response for cms1
    [2014-09-26 Fri]
 ** STARTED Fix logo bug in services T324		       :services:v24:
@@ -174,6 +175,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-12 Fri]
 =======
 >>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
+** TODO Research GRSEC
+   [2014-09-27 Sat]
 ** TODO Setup a blog on excuse.io
    [2014-09-22 Mon]
 ** TODO Setup a Jekyll blog on rydnr.me
@@ -917,6 +920,10 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** WAITING Solicitar estado despliegue fibra a movistar
    - State "DONE"       from "TODO"       [2014-09-27 Sat 08:17]
    [2014-09-27 Sat]
+** TODO Llamar aduanas para tratar de recuperar el pedido
+   [2014-09-27 Sat]
+** TODO Cambiar seguro de coche
+   [2014-09-27 Sat]
 ** TODO Fix bath door					       :housekeeping:
 ** TODO Fix music collection					   :homework:
 ** TODO Write script to download ebooks				   :homework:
@@ -1152,18 +1159,36 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "TODO"       [2014-09-26 Fri 09:15]
    [2014-09-23 Tue]
 
-** DONE Review mindmaps
-   CLOSED: [2014-09-27 Sat 08:16]
-   - State "DONE"       from "STARTED"    [2014-09-27 Sat 08:16]
 ** DONE Take photo of the phone appliance in the bedroom
    CLOSED: [2014-09-27 Sat 08:18]
    - State "DONE"       from "TODO"       [2014-09-27 Sat 08:18]
    [2014-09-10 Wed]
-** DONE Redactar propuesta Appraisals
+** DONE Redactar propuesta Appraisals				  :sindicato:
    CLOSED: [2014-09-28 Sun 19:59]
    - State "DONE"       from "TODO"       [2014-09-28 Sun 19:59]
    [2014-09-27 Sat]
-** DONE Redactar propuesta "Transparencia"
+** DONE Redactar propuesta "Transparencia"			  :sindicato:
    CLOSED: [2014-09-28 Sun 19:59]
    - State "DONE"       from "TODO"       [2014-09-28 Sun 19:59]
    [2014-09-27 Sat]
+** DONE Update jenkins jobs
+   CLOSED: [2014-10-02 Thu 05:39]
+   - State "DONE"       from "TODO"       [2014-10-02 Thu 05:39]
+   [2014-09-26 Fri]
+** DONE Fix parsing version in jenkins jobs for B2G
+   CLOSED: [2014-10-02 Thu 05:41]
+   - State "DONE"       from "TODO"       [2014-10-02 Thu 05:41]
+   [2014-09-26 Fri]
+
+** DONE mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
+   CLOSED: [2014-10-02 Thu 05:42]
+   - State "DONE"       from "TODO"       [2014-10-02 Thu 05:42]
+   [2014-09-15 Mon]
+
+** DONE Review mindmaps						   :homework:
+   CLOSED: [2014-10-02 Thu 05:42]
+   - State "DONE"       from "STARTED"    [2014-10-02 Thu 05:42]
+** DONE Find out how to persist shipyard configuration -> DB_HOST_VOLUME (folder to persist Postgres data) :docker:acmsl:homework:
+   CLOSED: [2014-10-02 Thu 06:00]
+   - State "DONE"       from "TODO"       [2014-10-02 Thu 06:00]
+   [2014-10-02 Thu]
