@@ -6,6 +6,7 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+<<<<<<< HEAD
 ** TODO Rebuild Jenkins dockerfile using script	      :docker:acmsl:homework:
    [2014-10-02 Thu]
 * Tasks
@@ -28,6 +29,26 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
+=======
+** TODO Debug why app-es-01-c processes do not take the correct properties
+   [2014-10-03 Fri]
+** TODO Fix sound on newjlean
+** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
+   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Research GRSEC
+   [2014-09-27 Sat]
+** TODO Fix parsing version in jenkins jobs for B2G
+   [2014-09-26 Fri]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+** TODO Build a Puppet master image, for a tag in "sysadmin" repository
+   [2014-09-22 Mon]
+>>>>>>> 55feb019c2398d030e56df377a48610db3a423d8
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -92,7 +113,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-<<<<<<< HEAD
 ** TODO Build a Puppet master image, for a tag in "sysadmin" repository
    [2014-09-22 Mon]
 ** STARTED Fix logo bug in services T324		       :services:v24:
@@ -111,8 +131,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 ** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
    [2014-09-15 Mon]
-=======
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 ** TODO Fix branch / noverify error in nlp-webapp-jar tests
    [2014-09-24 Wed]
 ** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1
@@ -162,7 +180,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
-<<<<<<< HEAD
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -173,8 +190,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** STARTED Think about a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
-=======
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 ** TODO Research GRSEC
    [2014-09-27 Sat]
 ** TODO Setup a blog on excuse.io
@@ -917,6 +932,12 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read GTD book
 * Miscellaneous
 #+CATEGORY: Misc
+** TODO Llamar jazztel para preguntar por la fibra
+   [2014-09-27 Sat]
+** TODO Llamar aduanas para tratar de recuperar el pedido
+   [2014-09-27 Sat]
+** TODO Cambiar seguro de coche
+   [2014-09-27 Sat]
 ** WAITING Solicitar estado despliegue fibra a movistar
    - State "DONE"       from "TODO"       [2014-09-27 Sat 08:17]
    [2014-09-27 Sat]
@@ -1180,11 +1201,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "TODO"       [2014-10-02 Thu 05:41]
    [2014-09-26 Fri]
 
-** DONE mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
-   CLOSED: [2014-10-02 Thu 05:42]
-   - State "DONE"       from "TODO"       [2014-10-02 Thu 05:42]
-   [2014-09-15 Mon]
-
 ** DONE Review mindmaps						   :homework:
    CLOSED: [2014-10-02 Thu 05:42]
    - State "DONE"       from "STARTED"    [2014-10-02 Thu 05:42]
@@ -1192,3 +1208,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-02 Thu 06:00]
    - State "DONE"       from "TODO"       [2014-10-02 Thu 06:00]
    [2014-10-02 Thu]
+** DONE mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
+   CLOSED: [2014-10-03 Fri 11:08]
+   - State "DONE"       from "TODO"       [2014-10-03 Fri 11:08]
+   [2014-09-15 Mon]
+* DONE Fix duplicate executions of db-schema-definition-translator
+   CLOSED: [2014-10-03 Fri 14:00]
+   - State "DONE"       from "TODO"       [2014-10-03 Fri 14:00]
+   [2014-10-03 Fri]
