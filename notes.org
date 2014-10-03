@@ -1,4 +1,8 @@
 * Notes
+** [2014-10-03 Fri]
+*** docker tag ventura24/nlp-webapp rm-es-01-hh1.office.tipp24.de:443/nlp-webapp
+*** docker push rm-es-01-hh1.office.tipp24.de:443/nlp-webapp
+** [2014-10-03 Fri] End emacs commit log: C-x #
 ** [2014-09-27 Sat] GRSec (webinar)
 - Don't run things as root
 - Drop capabilities

@@ -6,10 +6,43 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Update jenkins jobs
-   [2014-09-26 Fri]
+** TODO Debug why app-es-01-c processes do not take the correct properties
+   [2014-10-03 Fri]
+** TODO Fix sound on newjlean
+** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
+   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Research GRSEC
+   [2014-09-27 Sat]
+** TODO Fix parsing version in jenkins jobs for B2G
+   [2014-09-26 Fri]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+** TODO Build a Puppet master image, for a tag in "sysadmin" repository
+   [2014-09-22 Mon]
+** STARTED Read The first 20 hours			     :ebook:homework:
+   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
+   - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
+     Stopped some days ago. I'll resume it today
+   - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
+   [2014-09-11 Thu]
+** STARTED Think about a new-skill plan
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Fix parsing version in jenkins jobs for B2G
+   [2014-09-26 Fri]
+** TODO Use burp or wireshark to check the actual response for cms1
+   [2014-09-26 Fri]
+>>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
+* Sindicato
+  #+CATEGORY: sindicato
 ** TODO Redactar propuesta "Racismo, machismo, etc."
    [2014-09-27 Sat]
 ** TODO Redactar propuesta Control de presencia
@@ -22,47 +55,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-27 Sat]
 ** TODO Redactar propuesta Moderación en el gasto
    [2014-09-27 Sat]
-** TODO Llamar jazztel para preguntar por la fibra
-   [2014-09-27 Sat]
-** TODO Research GRSEC
-   [2014-09-27 Sat]
-** TODO Llamar aduanas para tratar de recuperar el pedido
-   [2014-09-27 Sat]
-** TODO Cambiar seguro de coche
-   [2014-09-27 Sat]
-** TODO Fix parsing version in jenkins jobs for B2G
-   [2014-09-26 Fri]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-** TODO Build a Puppet master image, for a tag in "sysadmin" repository
-   [2014-09-22 Mon]
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
-   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
-   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-** STARTED Read The first 20 hours			     :ebook:homework:
-   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
-   - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
-     Stopped some days ago. I'll resume it today
-   - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
-   [2014-09-11 Thu]
-** STARTED Think about a new-skill plan
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
-   [2014-09-12 Fri]
-** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
-   [2014-09-15 Mon]
-** STARTED Review mindmaps
-* Tasks
-#+CATEGORY: Tasks
-** TODO Fix parsing version in jenkins jobs for B2G
-   [2014-09-26 Fri]
-** TODO Use burp or wireshark to check the actual response for cms1
-   [2014-09-26 Fri]
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
-* Sindicato
-  #+CATEGORY: sindicato
 * GTD / org
   #+CATEGORY: GTD
 ** STARTED Check how to use todo.org_archive -> C-c C-x a
@@ -914,6 +906,12 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read GTD book
 * Miscellaneous
 #+CATEGORY: Misc
+** TODO Llamar jazztel para preguntar por la fibra
+   [2014-09-27 Sat]
+** TODO Llamar aduanas para tratar de recuperar el pedido
+   [2014-09-27 Sat]
+** TODO Cambiar seguro de coche
+   [2014-09-27 Sat]
 ** WAITING Solicitar estado despliegue fibra a movistar
    - State "DONE"       from "TODO"       [2014-09-27 Sat 08:17]
    [2014-09-27 Sat]
@@ -1167,3 +1165,20 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-09-28 Sun 19:59]
    - State "DONE"       from "TODO"       [2014-09-28 Sun 19:59]
    [2014-09-27 Sat]
+** DONE Update jenkins jobs
+   CLOSED: [2014-10-02 Thu 11:58]
+   - State "DONE"       from "TODO"       [2014-10-02 Thu 11:58]
+   [2014-09-26 Fri]
+
+** DONE mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
+   CLOSED: [2014-10-03 Fri 11:08]
+   - State "DONE"       from "TODO"       [2014-10-03 Fri 11:08]
+   [2014-09-15 Mon]
+
+** DONE Review mindmaps
+   CLOSED: [2014-10-03 Fri 11:09]
+   - State "DONE"       from "STARTED"    [2014-10-03 Fri 11:09]
+** DONE Fix duplicate executions of db-schema-definition-translator
+   CLOSED: [2014-10-03 Fri 14:00]
+   - State "DONE"       from "TODO"       [2014-10-03 Fri 14:00]
+   [2014-10-03 Fri]
