@@ -7,48 +7,22 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 * Today
 #+CATEGORY: today
 <<<<<<< HEAD
-** TODO Rebuild Jenkins dockerfile using script	      :docker:acmsl:homework:
-   [2014-10-02 Thu]
+** STARTED Fix music collection					   :homework:
+   - State "DONE"       from "TODO"       [2014-10-05 Sun 08:50]
+** STARTED Configure jenkins.acm-sl.org
+   - State "STARTED"    from "TODO"       [2014-10-05 Sun 08:51]
+   [2014-10-04 Sat]
+** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
+   [2014-10-04 Sat]
+** TODO Commit jenkins.acm-sl.org configuration
+   [2014-10-04 Sat]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Deploy a private docker registry in luna
-   [2014-10-02 Thu]
-** TODO Add jenkins.acm-sl.org configs to github, and use them in its dockerfile. :docker:acmsl:homework:
-   [2014-10-02 Thu]
-** TODO Fix maven.acm-sl.org			      :docker:acmsl:homework:
-   [2014-10-02 Thu]
-** TODO Fix motoax.com blog				 :openshift:homework:
-   [2014-10-02 Thu]
-** TODO Fix motoax.com DNS				       :dns:homework:
-   [2014-10-02 Thu]
-** TODO Write a PoC for calling a dll from javascript	     :acmsl:homework:
-   [2014-10-02 Thu]
-** TODO Install a mail app in ownCloud		   :openshift:acmsl:homework:
-   [2014-10-02 Thu]
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
-   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
-   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-=======
-** TODO Debug why app-es-01-c processes do not take the correct properties
-   [2014-10-03 Fri]
-** TODO Fix sound on newjlean
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
-   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
-   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Research GRSEC
-   [2014-09-27 Sat]
-** TODO Fix parsing version in jenkins jobs for B2G
-   [2014-09-26 Fri]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-** TODO Build a Puppet master image, for a tag in "sysadmin" repository
-   [2014-09-22 Mon]
->>>>>>> 55feb019c2398d030e56df377a48610db3a423d8
+** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it
+   [2014-10-05 Sun]
+** TODO Build a Puppet master image				 :codemotion:
+** TODO Decide the role of Puppet				 :codemotion:
+   [2014-10-04 Sat]
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -59,13 +33,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** STARTED Think about a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Fix parsing version in jenkins jobs for B2G
-   [2014-09-26 Fri]
-** TODO Use burp or wireshark to check the actual response for cms1
-   [2014-09-26 Fri]
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
+* Codemotion
+  #+CATEGORY: Codemotion
+** TODO github example project					 :codemotion:
+** TODO Slide boilerplate					 :codemotion:
+** TODO Outline of the speech					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
 ** TODO Redactar propuesta "Racismo, machismo, etc."
@@ -113,8 +85,19 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-** TODO Build a Puppet master image, for a tag in "sysadmin" repository
-   [2014-09-22 Mon]
+** TODO Use burp or wireshark to check the actual response for cms1
+   [2014-09-26 Fri]
+>>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
+** TODO Fix parsing version in jenkins jobs for B2G
+   [2014-09-26 Fri]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+** TODO Fix sound on newjlean
+** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
+   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
@@ -166,11 +149,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-11 Thu]
 ** TODO Check if mobar works
    [2014-09-11 Thu]
-* Codemotion
-  #+CATEGORY: Codemotion
-** TODO github example project					 :codemotion:
-** TODO Slide boilerplate					 :codemotion:
-** TODO Outline of the speech					 :codemotion:
 * QueryJ
   #+CATEGORY: QUERYJ
 ** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
@@ -180,6 +158,18 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Research GRSEC
+   [2014-09-27 Sat]
+** TODO Fix motoax.com blog				 :openshift:homework:
+   [2014-10-02 Thu]
+** TODO Fix motoax.com DNS				       :dns:homework:
+   [2014-10-02 Thu]
+** TODO Write a PoC for calling a dll from javascript	     :acmsl:homework:
+   [2014-10-02 Thu]
+** TODO Install a mail app in ownCloud		   :openshift:acmsl:homework:
+   [2014-10-02 Thu]
+** TODO Deploy a private docker registry in luna
+   [2014-10-02 Thu]
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -946,7 +936,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Cambiar seguro de coche
    [2014-09-27 Sat]
 ** TODO Fix bath door					       :housekeeping:
-** TODO Fix music collection					   :homework:
 ** TODO Write script to download ebooks				   :homework:
 ** TODO Rebuild printer							:diy:
 ** TODO Watch printer videos						:diy:
@@ -1212,7 +1201,33 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-03 Fri 11:08]
    - State "DONE"       from "TODO"       [2014-10-03 Fri 11:08]
    [2014-09-15 Mon]
-* DONE Fix duplicate executions of db-schema-definition-translator
+** DONE Fix duplicate executions of db-schema-definition-translator
    CLOSED: [2014-10-03 Fri 14:00]
    - State "DONE"       from "TODO"       [2014-10-03 Fri 14:00]
    [2014-10-03 Fri]
+** DONE Rebuild Jenkins dockerfile using script	      :docker:acmsl:homework:
+   CLOSED: [2014-10-04 Sat 19:11]
+   - State "DONE"       from "TODO"       [2014-10-04 Sat 19:11]
+   [2014-10-02 Thu]
+
+** DONE Add jenkins.acm-sl.org configs to github, and use them in its dockerfile. :docker:acmsl:homework:
+   CLOSED: [2014-10-04 Sat 19:11]
+   - State "DONE"       from "TODO"       [2014-10-04 Sat 19:11]
+   [2014-10-02 Thu]
+
+** DONE Fix maven.acm-sl.org			      :docker:acmsl:homework:
+   CLOSED: [2014-10-04 Sat 19:11]
+   - State "DONE"       from "TODO"       [2014-10-04 Sat 19:11]
+   [2014-10-02 Thu]
+
+** DONE Debug why app-es-01-c processes do not take the correct properties -> old 
+   CLOSED: [2014-10-04 Sat 19:11]
+   - State "DONE"       from "TODO"       [2014-10-04 Sat 19:11]
+   [2014-10-03 Fri]
+
+** DONE Find out how shipyard manages CPU and Memory for containers: :codemotion:
+  -m="[memory]m"
+  -c=X relative weight of CPU use
+   CLOSED: [2014-10-05 Sun 08:05]
+   - State "DONE"       from "TODO"       [2014-10-05 Sun 08:05]
+   [2014-10-04 Sat]

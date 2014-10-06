@@ -1,4 +1,5 @@
 * Notes
+** [2014-10-06 Mon] /usr/bin/sudo don't have the suid flag in jenkins container
 ** [2014-10-03 Fri]
 *** docker tag ventura24/nlp-webapp rm-es-01-hh1.office.tipp24.de:443/nlp-webapp
 *** docker push rm-es-01-hh1.office.tipp24.de:443/nlp-webapp
