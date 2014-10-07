@@ -1,4 +1,9 @@
 * Notes
+** [2014-10-07 Tue]
+Authorization: Basic bmxwLXdlYmFwcDo0NkU0JDZNZ2dzeGE3Nzg2
+Host: cms1
+Connection: Keep-Alive
+User-Agent: Sardine/146
 ** [2014-10-06 Mon] /usr/bin/sudo don't have the suid flag in jenkins container
 ** [2014-10-03 Fri]
 *** docker tag ventura24/nlp-webapp rm-es-01-hh1.office.tipp24.de:443/nlp-webapp

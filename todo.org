@@ -7,22 +7,24 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 * Today
 #+CATEGORY: today
 <<<<<<< HEAD
-** STARTED Fix music collection					   :homework:
-   - State "DONE"       from "TODO"       [2014-10-05 Sun 08:50]
-** STARTED Configure jenkins.acm-sl.org
-   - State "STARTED"    from "TODO"       [2014-10-05 Sun 08:51]
-   [2014-10-04 Sat]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
 ** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
    [2014-10-04 Sat]
-** TODO Commit jenkins.acm-sl.org configuration
-   [2014-10-04 Sat]
+** TODO Fix webapp-deploy
+   [2014-10-07 Tue]
+** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
+   - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Escribir a Renate
+   [2014-10-06 Mon]
+** TODO Redactar acta de la reunión del sindicato
+   [2014-10-06 Mon]
 ** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it
    [2014-10-05 Sun]
 ** TODO Build a Puppet master image				 :codemotion:
-** TODO Decide the role of Puppet				 :codemotion:
-   [2014-10-04 Sat]
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -90,30 +92,13 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 >>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 ** TODO Fix parsing version in jenkins jobs for B2G
    [2014-09-26 Fri]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
 ** TODO Fix sound on newjlean
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
    - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-** TODO Use burp or wireshark to check the actual response for cms1
-   [2014-09-26 Fri]
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
 ** TODO Build a Puppet master image, for a tag in "sysadmin" repository
    [2014-09-22 Mon]
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
-   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
-   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-** TODO mvn release doesn't deal with nlp-webapp-jar and nlp-webapp-war correctly :maven:v24:
-   [2014-09-15 Mon]
 ** TODO Fix branch / noverify error in nlp-webapp-jar tests
    [2014-09-24 Wed]
 ** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1
@@ -124,10 +109,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-23 Tue]
 ** TODO Build release from branch
    [2014-09-12 Fri]
-** TODO Create branch for tag nlp-webapp
-   [2014-09-12 Fri]
-** TODO Talk to Esther
-   [2014-09-22 Mon]
 ** TODO Talk to M.A. about his inner thoughts
    [2014-09-22 Mon]
 ** TODO Add a script to halt the machine should the local_entities file is not present :docker:v24:
@@ -138,13 +119,10 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-18 Thu]
 ** TODO Fix GEA-Webapp version
    [2014-09-12 Fri]
-** TODO nlp-companies-webapp injects SNAPSHOTs				:v24:
-   [2014-09-15 Mon]
 ** TODO Build a baseimage-based Jenkins and deploy PCI jobs
 ** TODO Make http://www.ventura24.es/environmentpropertiestest.jsp available only from within the internal network :v24:
 ** TODO Bug in nlp-process-generator: generated code (ProcessCommandImpl and CLI) don't compile if an explicit process parameter is not used anywhere :v24:
    [2014-09-15 Mon]
-** TODO Check why jenkins do not upload SNAPSHOTs to Artifactory
 ** TODO Customize xmonad to associate ff, mail, console, pidgin to their virtual desktops
    [2014-09-11 Thu]
 ** TODO Check if mobar works
@@ -905,7 +883,6 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Read RE for beginners			      :hacking:ebook:homework:
 ** TODO Read JBoss AS 7 Development		       :javaee:ebook:homework:
 ** TODO Read Java 8 in action: lambdas, streams and functional-style programming :java8:ebook:homework:
-** TODO Read Mastering Puppet			       :puppet:ebook:homework:
 ** TODO Read Puppet Reporting and Monitoring	       :puppet:ebook:homework:
 ** TODO Read Java 8 Lambdas in action			:java8:ebook:homework:
 ** TODO Read Extending Puppet			       :puppet:ebook:homework:
@@ -1231,3 +1208,45 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-05 Sun 08:05]
    - State "DONE"       from "TODO"       [2014-10-05 Sun 08:05]
    [2014-10-04 Sat]
+** DONE Fix music collection					   :homework:
+   CLOSED: [2014-10-06 Mon 13:13]
+   - State "DONE"       from "STARTED"    [2014-10-06 Mon 13:13]
+   - State "DONE"       from "TODO"       [2014-10-05 Sun 08:50]
+
+** DONE Commit jenkins.acm-sl.org configuration
+   CLOSED: [2014-10-06 Mon 13:14]
+   - State "DONE"       from "TODO"       [2014-10-06 Mon 13:14]
+   [2014-10-04 Sat]
+
+** DONE Configure jenkins.acm-sl.org
+   CLOSED: [2014-10-06 Mon 13:14]
+   - State "DONE"       from "STARTED"    [2014-10-06 Mon 13:14]
+   - State "STARTED"    from "TODO"       [2014-10-05 Sun 08:51]
+   [2014-10-04 Sat]
+
+** DONE Talk to Esther
+   CLOSED: [2014-10-06 Mon 13:14]
+   - State "DONE"       from "TODO"       [2014-10-06 Mon 13:14]
+   [2014-09-22 Mon]
+** DONE nlp-companies-webapp injects SNAPSHOTs				:v24:
+   CLOSED: [2014-10-06 Mon 13:15]
+   - State "DONE"       from "TODO"       [2014-10-06 Mon 13:15]
+   [2014-09-15 Mon]
+** DONE Check why jenkins do not upload SNAPSHOTs to Artifactory
+   CLOSED: [2014-10-06 Mon 13:17]
+   - State "DONE"       from "TODO"       [2014-10-06 Mon 13:17]
+** DONE Upload portel logo manually
+   CLOSED: [2014-10-07 Tue 09:11]
+   - State "DONE"       from "STARTED"    [2014-10-07 Tue 09:11]
+   - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:19]
+   [2014-10-06 Mon]
+
+** DONE Decide the role of Puppet				 :codemotion:
+   CLOSED: [2014-10-07 Tue 09:14]
+   - State "DONE"       from "TODO"       [2014-10-07 Tue 09:14]
+   [2014-10-04 Sat]
+
+** DONE Fix Artifactory maven-metadata.xml
+   CLOSED: [2014-10-07 Tue 09:57]
+   - State "DONE"       from "TODO"       [2014-10-07 Tue 09:57]
+   [2014-10-07 Tue]
