@@ -54,3 +54,19 @@ git status
 vc-update
 git pull
 ** [2014-09-05 Fri] Remind to learn org!
+* Acta 2014/10/06
+** Reuniones trimestrales:
+- Agenda concreta
+- Con más tiempo
+- Pueden facilitar información anticipadamente
+** Interpretación del tema de la temperatura:
+- Requisito de renovación de aire: no cumplíamos la normativa por el número de empleados.
+- Se tiene menos potencia en la tercera planta.
+- Se establece un equipo para mejorar este tema, compuesto por Chema, Felipe y Frannie.
+- Reuniones mensuales: se dará más información sobre los datos de Ventura24 y serán más concretos.
+** Z pide que "La gente se responsabilice y dé un paso adelante".
+** Como respuesta al "Have your say", el 10 de octubre las propuestas ganadoras hablarán con el board.
+** Propuesta de cómo atajar desavenencias con Dirección.
+- Chema: Cambios en el papel de Ventura24 con respecto al grupo. Se toman decisiones locales, pero dentro de la estrategia global del grupo. Hay inquietud debida a nuestra dificultad para adaptarnos. Los cambios tienen más implicaciones positivas que las que se interpretan.
+- Z: Empresa con 4 lineas de negocio que necesita un cambio cultural. Las empresas nacen y mueren.
+** En las reuniones generales se puede intervenir como Comité o a título personal.

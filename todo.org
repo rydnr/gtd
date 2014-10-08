@@ -12,19 +12,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-23 Tue]
 ** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
    [2014-10-04 Sat]
-** TODO Fix webapp-deploy
-   [2014-10-07 Tue]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Escribir a Renate
-   [2014-10-06 Mon]
-** TODO Redactar acta de la reunión del sindicato
-   [2014-10-06 Mon]
-** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it
-   [2014-10-05 Sun]
-** TODO Build a Puppet master image				 :codemotion:
 ** STARTED Read The first 20 hours			     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -35,13 +24,18 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** STARTED Think about a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
+* Tasks
+#+CATEGORY: Tasks
 * Codemotion
   #+CATEGORY: Codemotion
+** TODO Build a Puppet master image				 :codemotion:
 ** TODO github example project					 :codemotion:
 ** TODO Slide boilerplate					 :codemotion:
 ** TODO Outline of the speech					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
+** TODO Redactar acta de la reunión del sindicato
+   [2014-10-06 Mon]
 ** TODO Redactar propuesta "Racismo, machismo, etc."
    [2014-09-27 Sat]
 ** TODO Redactar propuesta Control de presencia
@@ -87,6 +81,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Escribir a Renate
+   [2014-10-06 Mon]
 ** TODO Use burp or wireshark to check the actual response for cms1
    [2014-09-26 Fri]
 >>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
@@ -136,6 +132,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it
+   [2014-10-05 Sun]
 ** TODO Research GRSEC
    [2014-09-27 Sat]
 ** TODO Fix motoax.com blog				 :openshift:homework:
@@ -260,6 +258,16 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Watch Advanced white hack hacking and penetration testing :hacking:video:homework:
 * Books
   #+CATEGORY: Books
+** TODO Read Astronomia for dummies			      :book:homework:
+   [2014-10-07 Tue]
+** TODO Read Fisica for dummies				      :book:homework:
+   [2014-10-07 Tue]
+** TODO Read Dios No Existe (C. Hitchens)		      :book:homework:
+   [2014-10-07 Tue]
+** TODO Read Hiperespacio (Michio Kaku)			      :book:homework:
+   [2014-10-07 Tue]
+** TODO Read El Principe (Maquiavelo)			      :book:homework:
+   [2014-10-07 Tue]
 ** TODO Read Domain-driver design			      :book:homework:
 ** TODO Read one of http://research.google.com/pubs/papers.html :ebook:homework:
 ** TODO Read "Design for hackers"		       :design:ebook:homework:
@@ -1158,11 +1166,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-09-28 Sun 19:59]
    - State "DONE"       from "TODO"       [2014-09-28 Sun 19:59]
    [2014-09-27 Sat]
-** DONE Update jenkins jobs
+** DONE Update jenkins jobs						:v24:
    CLOSED: [2014-10-02 Thu 05:39]
    - State "DONE"       from "TODO"       [2014-10-02 Thu 05:39]
    [2014-09-26 Fri]
-** DONE Fix parsing version in jenkins jobs for B2G
+** DONE Fix parsing version in jenkins jobs for B2G			:v24:
    CLOSED: [2014-10-02 Thu 05:41]
    - State "DONE"       from "TODO"       [2014-10-02 Thu 05:41]
    [2014-09-26 Fri]
@@ -1213,12 +1221,12 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "STARTED"    [2014-10-06 Mon 13:13]
    - State "DONE"       from "TODO"       [2014-10-05 Sun 08:50]
 
-** DONE Commit jenkins.acm-sl.org configuration
+** DONE Commit jenkins.acm-sl.org configuration			      :acmsl:
    CLOSED: [2014-10-06 Mon 13:14]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:14]
    [2014-10-04 Sat]
 
-** DONE Configure jenkins.acm-sl.org
+** DONE Configure jenkins.acm-sl.org				      :acmsl:
    CLOSED: [2014-10-06 Mon 13:14]
    - State "DONE"       from "STARTED"    [2014-10-06 Mon 13:14]
    - State "STARTED"    from "TODO"       [2014-10-05 Sun 08:51]
@@ -1232,10 +1240,10 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-06 Mon 13:15]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:15]
    [2014-09-15 Mon]
-** DONE Check why jenkins do not upload SNAPSHOTs to Artifactory
+** DONE Check why jenkins do not upload SNAPSHOTs to Artifactory	:v24:
    CLOSED: [2014-10-06 Mon 13:17]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:17]
-** DONE Upload portel logo manually
+** DONE Upload portel logo manually					:v24:
    CLOSED: [2014-10-07 Tue 09:11]
    - State "DONE"       from "STARTED"    [2014-10-07 Tue 09:11]
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:19]
@@ -1246,7 +1254,11 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "TODO"       [2014-10-07 Tue 09:14]
    [2014-10-04 Sat]
 
-** DONE Fix Artifactory maven-metadata.xml
+** DONE Fix Artifactory maven-metadata.xml				:v24:
    CLOSED: [2014-10-07 Tue 09:57]
    - State "DONE"       from "TODO"       [2014-10-07 Tue 09:57]
+   [2014-10-07 Tue]
+** DONE Fix webapp-deploy						:v24:
+   CLOSED: [2014-10-07 Tue 21:22]
+   - State "DONE"       from "TODO"       [2014-10-07 Tue 21:22]
    [2014-10-07 Tue]
