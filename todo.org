@@ -10,49 +10,46 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
+*** TODO Debug OpenCMS locally against remote db
+   [2014-10-09 Thu]
+*** TODO Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
+   [2014-10-09 Thu]
 ** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
    [2014-10-04 Sat]
-** TODO Fix webapp-deploy
-   [2014-10-07 Tue]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
+** STARTED Redactar acta de la reunión del sindicato		  :sindicato:
+   - State "STARTED"    from "TODO"       [2014-10-09 Thu 09:11]
+   [2014-10-06 Mon]
+** TODO Call UGT to find out if the acta has to be signed by the company :sindicato:
+   [2014-10-09 Thu]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Escribir a Renate
-   [2014-10-06 Mon]
-** TODO Redactar acta de la reunión del sindicato
-   [2014-10-06 Mon]
-** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it
-   [2014-10-05 Sun]
-** TODO Build a Puppet master image				 :codemotion:
-** STARTED Read The first 20 hours			     :ebook:homework:
-   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
-   - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
-     Stopped some days ago. I'll resume it today
-   - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
-   [2014-09-11 Thu]
-** STARTED Think about a new-skill plan
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
-   [2014-09-12 Fri]
+** TODO 
+   [2014-10-09 Thu]
+** TODO Hoja OnCall Septiembre
+   [2014-10-09 Thu]
 * Codemotion
   #+CATEGORY: Codemotion
 ** TODO github example project					 :codemotion:
 ** TODO Slide boilerplate					 :codemotion:
 ** TODO Outline of the speech					 :codemotion:
+** TODO Build a Puppet master image				 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
-** TODO Redactar propuesta "Racismo, machismo, etc."
+** TODO Escribir a Renate					  :sindicato:
+   [2014-10-06 Mon]
+** TODO Redactar propuesta "Racismo, machismo, etc."		  :sindicato:
    [2014-09-27 Sat]
-** TODO Redactar propuesta Control de presencia
+** TODO Redactar propuesta Control de presencia			  :sindicato:
    [2014-09-27 Sat]
-** TODO Redactar propuesta 360 grados
+** TODO Redactar propuesta 360 grados				  :sindicato:
    [2014-09-27 Sat]
-** TODO Redactar propuesta Teletrabajo
+** TODO Redactar propuesta Teletrabajo				  :sindicato:
    [2014-09-27 Sat]
-** TODO Redactar propuesta Horario de verano
+** TODO Redactar propuesta Horario de verano			  :sindicato:
    [2014-09-27 Sat]
-** TODO Redactar propuesta Moderación en el gasto
+** TODO Redactar propuesta Moderación en el gasto		  :sindicato:
    [2014-09-27 Sat]
 * GTD / org
   #+CATEGORY: GTD
@@ -136,6 +133,18 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it :homework:
+   [2014-10-05 Sun]
+** STARTED Think about a new-skill plan
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]
+** TODO Read The first 20 hours				     :ebook:homework:
+   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
+   - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
+     Stopped some days ago. I'll resume it today
+   - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
+   [2014-09-11 Thu]
 ** TODO Research GRSEC
    [2014-09-27 Sat]
 ** TODO Fix motoax.com blog				 :openshift:homework:
@@ -1213,7 +1222,7 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "STARTED"    [2014-10-06 Mon 13:13]
    - State "DONE"       from "TODO"       [2014-10-05 Sun 08:50]
 
-** DONE Commit jenkins.acm-sl.org configuration
+** DONE Commit jenkins.acm-sl.org configuration			      :acmsl:
    CLOSED: [2014-10-06 Mon 13:14]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:14]
    [2014-10-04 Sat]
@@ -1232,7 +1241,7 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-06 Mon 13:15]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:15]
    [2014-09-15 Mon]
-** DONE Check why jenkins do not upload SNAPSHOTs to Artifactory
+** DONE Check why jenkins do not upload SNAPSHOTs to Artifactory	:v24:
    CLOSED: [2014-10-06 Mon 13:17]
    - State "DONE"       from "TODO"       [2014-10-06 Mon 13:17]
 ** DONE Upload portel logo manually
@@ -1246,7 +1255,26 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "TODO"       [2014-10-07 Tue 09:14]
    [2014-10-04 Sat]
 
-** DONE Fix Artifactory maven-metadata.xml
+** DONE Fix Artifactory maven-metadata.xml				:v24:
    CLOSED: [2014-10-07 Tue 09:57]
    - State "DONE"       from "TODO"       [2014-10-07 Tue 09:57]
    [2014-10-07 Tue]
+** DONE Firmar hoja Javi
+   CLOSED: [2014-10-09 Thu 09:11]
+   - State "DONE"       from "TODO"       [2014-10-09 Thu 09:11]
+   [2014-10-09 Thu]
+
+** DONE Write codemotion to remove Rafa				 :codemotion:
+   CLOSED: [2014-10-09 Thu 09:19]
+   - State "DONE"       from "TODO"       [2014-10-09 Thu 09:19]
+   [2014-10-09 Thu]
+
+** DONE Fix webapp-deploy						:v24:
+   CLOSED: [2014-10-09 Thu 09:23]
+   - State "DONE"       from "TODO"       [2014-10-09 Thu 09:23]
+   [2014-10-07 Tue]
+
+** DONE Fix udhcpd's resolv.conf in jlean
+   CLOSED: [2014-10-09 Thu 09:41]
+   - State "DONE"       from "TODO"       [2014-10-09 Thu 09:41]
+   [2014-10-09 Thu]
