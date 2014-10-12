@@ -6,24 +6,26 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Learn about the way jenkins figures out the downstream order
+   [2014-10-10 Fri]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
-*** TODO Debug OpenCMS locally against remote db
-   [2014-10-09 Thu]
 *** TODO Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
    [2014-10-09 Thu]
-** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
-   [2014-10-04 Sat]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
 ** STARTED Redactar acta de la reunión del sindicato		  :sindicato:
    - State "STARTED"    from "TODO"       [2014-10-09 Thu 09:11]
    [2014-10-06 Mon]
-** TODO Call UGT to find out if the acta has to be signed by the company :sindicato:
-   [2014-10-09 Thu]
+** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
+   [2014-10-10 Fri]
+** TODO Fix title/description para la home en seo.properties
+   [2014-10-10 Fri]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Learn about rundeck.org
+   [2014-10-10 Fri]
 ** TODO 
    [2014-10-09 Thu]
 ** TODO Hoja OnCall Septiembre
@@ -135,6 +137,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
+   [2014-10-04 Sat]
 ** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it :homework:
    [2014-10-05 Sun]
 ** STARTED Think about a new-skill plan
@@ -147,7 +151,7 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    - State "DONE"       from "STARTED"    [2014-09-22 Mon 09:20]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:35]
    [2014-09-11 Thu]
-* TODO Research GRSEC
+** TODO Research GRSEC
    [2014-09-27 Sat]
 ** TODO Fix motoax.com blog				 :openshift:homework:
    [2014-10-02 Thu]
@@ -1294,3 +1298,25 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-07 Tue 21:22]
    - State "DONE"       from "TODO"       [2014-10-07 Tue 21:22]
    [2014-10-07 Tue]
+** CANCELLED Call UGT to find out if the acta has to be signed by the company :sindicato:
+   CLOSED: [2014-10-10 Fri 09:06]
+   [2014-10-09 Thu]
+** DONE Debug OpenCMS locally against remote db
+   CLOSED: [2014-10-10 Fri 09:06]
+   - State "DONE"       from "TODO"       [2014-10-10 Fri 09:06]
+   [2014-10-09 Thu]
+** DONE Fix process-generator template					:v24:
+   CLOSED: [2014-10-10 Fri 10:55]
+   - State "DONE"       from "TODO"       [2014-10-10 Fri 10:55]
+   [2014-10-10 Fri]
+
+** DONE Protect restricted/ urls in production				:v24:
+   CLOSED: [2014-10-10 Fri 12:22]
+   - State "DONE"       from "STARTED"    [2014-10-10 Fri 12:22]
+   - State "STARTED"    from "TODO"       [2014-10-10 Fri 10:55]
+   [2014-10-10 Fri]
+
+** DONE Fix/setup Apache config for mobile website in pre1		:v24:
+   CLOSED: [2014-10-10 Fri 14:04]
+   - State "DONE"       from "TODO"       [2014-10-10 Fri 14:04]
+   [2014-10-10 Fri]
