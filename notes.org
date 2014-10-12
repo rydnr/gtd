@@ -70,3 +70,10 @@ git pull
 - Chema: Cambios en el papel de Ventura24 con respecto al grupo. Se toman decisiones locales, pero dentro de la estrategia global del grupo. Hay inquietud debida a nuestra dificultad para adaptarnos. Los cambios tienen más implicaciones positivas que las que se interpretan.
 - Z: Empresa con 4 lineas de negocio que necesita un cambio cultural. Las empresas nacen y mueren.
 ** En las reuniones generales se puede intervenir como Comité o a título personal.
+* Docker/Shipyard
+** Run jenkins:
+shipyard run --name acmsl/jenkins --cpus 1 --memory 5120 --type service --hostname jenkins --domain jenkins.acm-sl.org --label service --pull --port tcp/8081:8080 -vol /home/chous/acmsl-jenkins-configs/:/home/jenkins
+** Stop container
+shipyard stop [containerId]
+** Destroy container
+shipyard destroy [containerId]

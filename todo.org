@@ -7,6 +7,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 * Today
 #+CATEGORY: today
 <<<<<<< HEAD
+** TODO Make jenkins work reliably
+   [2014-10-09 Thu]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
@@ -26,6 +28,8 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-09-12 Fri]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Use the shipyard load balancer extension
+   [2014-10-09 Thu]
 * Codemotion
   #+CATEGORY: Codemotion
 ** TODO Build a Puppet master image				 :codemotion:
