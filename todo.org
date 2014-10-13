@@ -1,5 +1,5 @@
-MY PROJECTS  -*- mode: org; fill-column: 78 -*-
-:PROPERTIES:
+#:MY PROJECTS  -*- mode: org; fill-column: 78 -*-
+#:PROPERTIES:
 :LOGGING: TODO(!) STARTED(!) DONE(!) CANCELLED(!) 
 :END:
 #+STARTUP: lognotedone
@@ -18,17 +18,14 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    [2014-10-09 Thu]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
-** STARTED Redactar acta de la reunión del sindicato		  :sindicato:
-   - State "STARTED"    from "TODO"       [2014-10-09 Thu 09:11]
-   [2014-10-06 Mon]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties
    [2014-10-10 Fri]
+** TODO Talk to Didier to access apache in backoffice-d.ventura24.es
+   [2014-10-13 Mon]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Use the shipyard load balancer extension
-   [2014-10-09 Thu]
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
@@ -1326,3 +1323,14 @@ MY PROJECTS  -*- mode: org; fill-column: 78 -*-
    CLOSED: [2014-10-10 Fri 14:04]
    - State "DONE"       from "TODO"       [2014-10-10 Fri 14:04]
    [2014-10-10 Fri]
+** DONE Use the shipyard load balancer extension	   :codemotion:acmsl:
+   CLOSED: [2014-10-13 Mon 09:42]
+   - State "DONE"       from ""           [2014-10-13 Mon 09:42]
+   - State "DONE"       from "TODO"       [2014-10-13 Mon 09:42]
+   [2014-10-09 Thu]
+
+** DONE Redactar acta de la reunión del sindicato		  :sindicato:
+   CLOSED: [2014-10-13 Mon 09:43]
+   - State "DONE"       from "STARTED"    [2014-10-13 Mon 09:43]
+   - State "STARTED"    from "TODO"       [2014-10-09 Thu 09:11]
+   [2014-10-06 Mon]
