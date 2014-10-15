@@ -72,8 +72,12 @@ git pull
 ** En las reuniones generales se puede intervenir como Comité o a título personal.
 * Docker/Shipyard
 ** Run jenkins:
-shipyard run --name acmsl/jenkins --cpus 1 --memory 5120 --type service --hostname jenkins --domain jenkins.acm-sl.org --label service --pull --port tcp/8081:8080 -vol /home/chous/acmsl-jenkins-configs/:/home/jenkins
+shipyard run --name acmsl/jenkins --cpus 0.3 --memory 1024 --type service --hostname jenkins --domain acm-sl.org --label service --pull --port tcp/8081:8080 -vol /home/chous/acmsl-jenkins-configs/:/home/jenkins
+** Run artifactory:
+shipyard run --name acmsl/artifactory --cpus 0.3 --memory 1024 --type service --hostname maven --domain acm-sl.org --label service --pull --port tcp/8082:8080 -vol /home/chous/artifactory-data/:/home/artifactory
 ** Stop container
 shipyard stop [containerId]
 ** Destroy container
 shipyard destroy [containerId]
+** Login
+shipyard login

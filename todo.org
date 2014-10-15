@@ -11,11 +11,6 @@
 ** TODO Learn about the way jenkins figures out the downstream order
    [2014-10-10 Fri]
 >>>>>>> b4050f1e6480880cbebcafd3b147bc8887d723f4
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-*** TODO Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
-   [2014-10-09 Thu]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
@@ -26,11 +21,10 @@
    [2014-10-13 Mon]
 * Tasks
 #+CATEGORY: Tasks
+   [2014-10-13 Mon]
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
-** TODO 
-   [2014-10-09 Thu]
 ** TODO Hoja OnCall Septiembre
    [2014-10-09 Thu]
  Codemotion
@@ -89,11 +83,6 @@
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-** TODO Escribir a Renate
-   [2014-10-06 Mon]
-** TODO Use burp or wireshark to check the actual response for cms1
-   [2014-09-26 Fri]
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 ** TODO Fix parsing version in jenkins jobs for B2G
    [2014-09-26 Fri]
 ** TODO Fix sound on newjlean
@@ -1334,3 +1323,21 @@
    - State "DONE"       from "STARTED"    [2014-10-13 Mon 09:43]
    - State "STARTED"    from "TODO"       [2014-10-09 Thu 09:11]
    [2014-10-06 Mon]
+** DONE Fix logo bug in services T324			       :services:v24:
+   CLOSED: [2014-10-13 Mon 19:30]
+   - State "DONE"       from "STARTED"    [2014-10-13 Mon 19:30]
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+*** DONE Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
+    CLOSED: [2014-10-14 Tue 07:34]
+    - State "DONE"       from "TODO"       [2014-10-14 Tue 07:34]
+   [2014-10-09 Thu]
+** DONE Use burp or wireshark to check the actual response for cms1 :cms:v24:
+   CLOSED: [2014-10-14 Tue 07:34]
+   - State "DONE"       from "TODO"       [2014-10-14 Tue 07:34]
+   [2014-09-26 Fri]
+>>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
+
+** DONE Create Dockerfile for activemq			  :docker:codemotion:
+   CLOSED: [2014-10-14 Tue 08:10]
+   - State "DONE"       from "TODO"       [2014-10-14 Tue 08:10]
