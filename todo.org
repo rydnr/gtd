@@ -6,22 +6,31 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Make jenkins work reliably
-   [2014-10-09 Thu]
 ** TODO Learn about the way jenkins figures out the downstream order
    [2014-10-10 Fri]
->>>>>>> b4050f1e6480880cbebcafd3b147bc8887d723f4
-** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
-   - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
+** STARTED Fix logo bug in services T324		       :services:v24:
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]
+*** TODO Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
+   [2014-10-09 Thu]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties
    [2014-10-10 Fri]
 ** TODO Talk to Didier to access apache in backoffice-d.ventura24.es
    [2014-10-13 Mon]
+** STARTED Take a Vim book or screencast and practice new features	:vim:
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+** STARTED Fix sound on newjlean
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+** TODO Hoja OnCall Septiembre
+   [2014-10-09 Thu]
+ Codemotion
+  #+CATEGORY: Codemotion
 * Tasks
 #+CATEGORY: Tasks
-   [2014-10-13 Mon]
+** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
+   [2014-10-15 Wed]
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
@@ -33,7 +42,6 @@
 ** TODO github example project					 :codemotion:
 ** TODO Slide boilerplate					 :codemotion:
 ** TODO Outline of the speech					 :codemotion:
-** TODO Build a Puppet master image				 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
 ** TODO Escribir a Renate					  :sindicato:
@@ -66,7 +74,6 @@
    [2014-09-10 Wed]
 * VIM
   #+CATEGORY: VIM
-** TODO Take a Vim book or screencast and practice new features		:vim:
 ** TODO Read VILEARN							:vim:
 * emacs
   #+CATEGORY: emacs
@@ -85,15 +92,12 @@
   #+CATEGORY: V24
 ** TODO Fix parsing version in jenkins jobs for B2G
    [2014-09-26 Fri]
-** TODO Fix sound on newjlean
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
    - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 ** TODO Build a Puppet master image, for a tag in "sysadmin" repository
    [2014-09-22 Mon]
-** TODO Fix branch / noverify error in nlp-webapp-jar tests
-   [2014-09-24 Wed]
 ** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1
    [2014-09-23 Tue]
 ** TODO Build nlp-companies-webapp Docker image
@@ -129,6 +133,8 @@
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
+   - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
 ** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
    [2014-10-04 Sat]
 ** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it :homework:
@@ -145,10 +151,6 @@
    [2014-09-11 Thu]
 ** TODO Research GRSEC
    [2014-09-27 Sat]
-** TODO Fix motoax.com blog				 :openshift:homework:
-   [2014-10-02 Thu]
-** TODO Fix motoax.com DNS				       :dns:homework:
-   [2014-10-02 Thu]
 ** TODO Write a PoC for calling a dll from javascript	     :acmsl:homework:
    [2014-10-02 Thu]
 ** TODO Install a mail app in ownCloud		   :openshift:acmsl:homework:
@@ -1336,8 +1338,33 @@
    CLOSED: [2014-10-14 Tue 07:34]
    - State "DONE"       from "TODO"       [2014-10-14 Tue 07:34]
    [2014-09-26 Fri]
->>>>>>> caf2284d274da4ba82fe62cd391c87efc342d47d
 
 ** DONE Create Dockerfile for activemq			  :docker:codemotion:
    CLOSED: [2014-10-14 Tue 08:10]
    - State "DONE"       from "TODO"       [2014-10-14 Tue 08:10]
+** DONE Make jenkins work reliably
+   CLOSED: [2014-10-15 Wed 09:15]
+   - State "DONE"       from "TODO"       [2014-10-15 Wed 09:15]
+   [2014-10-09 Thu]
+
+** DONE Fix motoax.com blog				 :openshift:homework:
+   CLOSED: [2014-10-15 Wed 09:15]
+   - State "DONE"       from "TODO"       [2014-10-15 Wed 09:15]
+   [2014-10-02 Thu]
+
+** DONE Fix motoax.com DNS				       :dns:homework:
+   CLOSED: [2014-10-15 Wed 09:15]
+   - State "DONE"       from "TODO"       [2014-10-15 Wed 09:15]
+   [2014-10-02 Thu]
+
+** CANCELLED Fix branch / noverify error in nlp-webapp-jar tests
+   CLOSED: [2014-10-15 Wed 09:17]
+   - State "CANCELLED"  from "TODO"       [2014-10-15 Wed 09:17] \\
+     Will be fixed in next JDK
+   [2014-09-24 Wed]
+
+** DONE Upload logos
+   CLOSED: [2014-10-15 Wed 10:49]
+   - State "DONE"       from "TODO"       [2014-10-15 Wed 10:49]
+   [2014-10-15 Wed]
+>>>>>>> 4fa0d244629e73b5e1859777ee3eaeaf63d02bcb
