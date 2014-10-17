@@ -6,33 +6,31 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Fix jenkins authentication against maven.acm-sl.org
-   [2014-10-16 Thu]
 ** TODO Learn about the way jenkins figures out the downstream order
    [2014-10-10 Fri]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
-** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
+** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
+>>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
    [2014-10-10 Fri]
-** TODO Fix title/description para la home en seo.properties
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
-** TODO Talk to Didier to access apache in backoffice-d.ventura24.es
+** TODO Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
    [2014-10-13 Mon]
 ** STARTED Take a Vim book or screencast and practice new features	:vim:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** STARTED Fix sound on newjlean
+** STARTED Fix sound on newjlean				   :homework:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** TODO Hoja OnCall Septiembre
+** TODO Hoja OnCall Septiembre						:v24:
    [2014-10-09 Thu]
  Codemotion
   #+CATEGORY: Codemotion
+** TODO Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
+   [2014-10-17 Fri]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Write Dockerfile for mcollective clients
-   [2014-10-16 Thu]
-** TODO Write Dockerfile for mcollective server
-   [2014-10-16 Thu]
+<<<<<<< HEAD
 ** TODO Tail the contents of each "catalina.out":
 *** Add the location as an environment property.
 *** Implement an action to read the contents of a trimmed copy of Catalina.out.
@@ -47,16 +45,14 @@
    [2014-10-16 Thu]
 ** TODO Download orgulloysatisfaccion magazine to ipad
    [2014-10-16 Thu]
-** TODO Order "Guía para comprender Ucrania"
-   [2014-10-16 Thu]
-** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
-   [2014-10-15 Wed]
+** TODO Enable debug in opencms@cms1
+   [2014-10-17 Fri]
+>>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
 ** TODO Build a Puppet master image				 :codemotion:
 ** TODO github example project					 :codemotion:
-** TODO Slide boilerplate					 :codemotion:
 ** TODO Outline of the speech					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
@@ -95,10 +91,10 @@
   #+CATEGORY: emacs
 ** TODO Change Emacs theme					      :emacs:
    [2014-09-10 Wed]
-** TODO Install and use magit
-** TODO Check how to customize the indentation amount when editing bash files in emacs
+** TODO Install and use magit					      :emacs:
+** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
-** TODO Check how to go back camel-case-sensitive words in emacs
+** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
    [2014-09-11 Thu]
 * LaTeX
   #+CATEGORY: latex
@@ -106,21 +102,24 @@
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-** TODO Fix parsing version in jenkins jobs for B2G
+** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
+   [2014-10-15 Wed]
+=======
+** TODO Fix parsing version in jenkins jobs for B2G 			:v24:
    [2014-09-26 Fri]
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
    - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
    - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
-** TODO Build a Puppet master image, for a tag in "sysadmin" repository
+** TODO Build a Puppet master image, for a tag in "sysadmin" repository :v24:
    [2014-09-22 Mon]
-** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1
+** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1	:v24:
    [2014-09-23 Tue]
-** TODO Build nlp-companies-webapp Docker image
+** TODO Build nlp-companies-webapp Docker image				:v24:
    [2014-09-23 Tue]
-** TODO Build Apache Docker image for nlp-companies-webapp
+** TODO Build Apache Docker image for nlp-companies-webapp		:v24:
    [2014-09-23 Tue]
-** TODO Build release from branch
+** TODO Build release from branch					:v24:
    [2014-09-12 Fri]
 ** TODO Talk to M.A. about his inner thoughts
    [2014-09-22 Mon]
@@ -130,15 +129,15 @@
    [2014-09-22 Mon]
 ** TODO New printer gives a "235.0" is not an integer -> The type for the printer id is a double, not an int :proval:v24:
    [2014-09-18 Thu]
-** TODO Fix GEA-Webapp version
+** TODO Fix GEA-Webapp version						:v24:
    [2014-09-12 Fri]
-** TODO Build a baseimage-based Jenkins and deploy PCI jobs
+** TODO Build a baseimage-based Jenkins and deploy PCI jobs		:v24:
 ** TODO Make http://www.ventura24.es/environmentpropertiestest.jsp available only from within the internal network :v24:
 ** TODO Bug in nlp-process-generator: generated code (ProcessCommandImpl and CLI) don't compile if an explicit process parameter is not used anywhere :v24:
    [2014-09-15 Mon]
-** TODO Customize xmonad to associate ff, mail, console, pidgin to their virtual desktops
+** TODO Customize xmonad to associate ff, mail, console, pidgin to their virtual desktops :v24:
    [2014-09-11 Thu]
-** TODO Check if mobar works
+** TODO Check if mobar works						:v24:
    [2014-09-11 Thu]
 * QueryJ
   #+CATEGORY: QUERYJ
@@ -149,6 +148,8 @@
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel :acmsl:
+   [2014-10-15 Wed]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
 ** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
@@ -296,6 +297,8 @@
 ** TODO Read El Principe (Maquiavelo)			      :book:homework:
    [2014-10-07 Tue]
 ** TODO Read Domain-driver design			      :book:homework:
+   - State "TODO"       from "TODO"       [2014-10-17 Fri 20:06]
+** TODO Read "Claves para entender Ucrania"		     :ebook:homework:
 ** TODO Read one of http://research.google.com/pubs/papers.html :ebook:homework:
 ** TODO Read "Design for hackers"		       :design:ebook:homework:
 ** TODO Read Con el cariño no basta			 :kids:book:homework:
@@ -1384,8 +1387,39 @@
    - State "DONE"       from "TODO"       [2014-10-15 Wed 10:49]
    [2014-10-15 Wed]
 >>>>>>> 4fa0d244629e73b5e1859777ee3eaeaf63d02bcb
+<<<<<<< HEAD
 *** CANCELLED Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
     CLOSED: [2014-10-16 Thu 11:49]
     - State "CANCELLED"  from "TODO"       [2014-10-16 Thu 11:49] \\
       It works if nlp-companies-webapp sees the "offline" project.
    [2014-10-09 Thu]
+** DONE Slide boilerplate					 :codemotion:
+   CLOSED: [2014-10-17 Fri 08:58]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 08:58]
+** DONE Fix jenkins authentication against maven.acm-sl.org
+   CLOSED: [2014-10-17 Fri 20:05]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:05]
+   [2014-10-16 Thu]
+
+** DONE Order "Guía para comprender Ucrania"
+   CLOSED: [2014-10-17 Fri 20:06]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:06]
+   [2014-10-16 Thu]
+
+** DONE Write "proposals" for retrospective
+   CLOSED: [2014-10-17 Fri 20:08]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
+   [2014-10-17 Fri]
+** DONE Write "problems" for retrospective
+   CLOSED: [2014-10-17 Fri 20:08]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
+   [2014-10-17 Fri]
+
+** DONE Write Dockerfile for mcollective clients
+   CLOSED: [2014-10-17 Fri 20:08]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
+   [2014-10-16 Thu]
+** DONE Write Dockerfile for mcollective server
+   CLOSED: [2014-10-17 Fri 20:08]
+   - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
+   [2014-10-16 Thu]
