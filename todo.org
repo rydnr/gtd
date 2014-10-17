@@ -6,13 +6,13 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Fix jenkins authentication against maven.acm-sl.org
+   [2014-10-16 Thu]
 ** TODO Learn about the way jenkins figures out the downstream order
    [2014-10-10 Fri]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
-*** TODO Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
-   [2014-10-09 Thu]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties
@@ -29,15 +29,31 @@
   #+CATEGORY: Codemotion
 * Tasks
 #+CATEGORY: Tasks
+** TODO Write Dockerfile for mcollective clients
+   [2014-10-16 Thu]
+** TODO Write Dockerfile for mcollective server
+   [2014-10-16 Thu]
+** TODO Tail the contents of each "catalina.out":
+*** Add the location as an environment property.
+*** Implement an action to read the contents of a trimmed copy of Catalina.out.
+*** Implement a script to pipe the last 100 lines of catalina.out to another file.
+*** Display them all in a phabricator page.
+   [2014-10-16 Thu]
+** TODO Implement a page in phabricator to refresh the caches in Tomcat processes
+   [2014-10-16 Thu]
+** TODO Add new calc tricks to Anki
+   [2014-10-16 Thu]
+** TODO Add new german words to Anki
+   [2014-10-16 Thu]
+** TODO Download orgulloysatisfaccion magazine to ipad
+   [2014-10-16 Thu]
+** TODO Order "Guía para comprender Ucrania"
+   [2014-10-16 Thu]
 ** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
    [2014-10-15 Wed]
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
-** TODO Hoja OnCall Septiembre
-   [2014-10-09 Thu]
- Codemotion
-  #+CATEGORY: Codemotion
 ** TODO Build a Puppet master image				 :codemotion:
 ** TODO github example project					 :codemotion:
 ** TODO Slide boilerplate					 :codemotion:
@@ -1368,3 +1384,8 @@
    - State "DONE"       from "TODO"       [2014-10-15 Wed 10:49]
    [2014-10-15 Wed]
 >>>>>>> 4fa0d244629e73b5e1859777ee3eaeaf63d02bcb
+*** CANCELLED Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
+    CLOSED: [2014-10-16 Thu 11:49]
+    - State "CANCELLED"  from "TODO"       [2014-10-16 Thu 11:49] \\
+      It works if nlp-companies-webapp sees the "offline" project.
+   [2014-10-09 Thu]
