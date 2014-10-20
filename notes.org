@@ -81,3 +81,15 @@ shipyard stop [containerId]
 shipyard destroy [containerId]
 ** Login
 shipyard login
+** Run mcollective-activemq
+docker run -d -P --name activemq -h activemq acmsl/mcollective-activemq:latest
+*** Test:
+/usr/lib/jvm/java-7-oracle/bin/java -Xms512M -Xmx512M -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Dcom.sun.management.jmxremote -Djava.io.tmpdir=/var/lib/activemq/tmp -Dactivemq.classpath=/etc/activemq/instances-enabled/main -Dactivemq.home=/usr/share/activemq -Dactivemq.base=/var/lib/activemq -Dactivemq.conf=/etc/activemq/instances-enabled/main -Dactivemq.data=/var/lib/activemq/data -jar /usr/share/activemq/bin/run.jar start xbean:activemq.xml
+** Run mcollective-server
+docker run -d --link activemq:activemq -h mcoserver acmsl/mcollective-server:latest
+** Run mcollective-client
+docker run -d --link activemq:activemq -h mcoclient1 acmsl/mcollective-client:latest
+** Remove stale containers / images
+https://stackoverflow.com/questions/24733160/docker-rmi-cannot-remove-images-with-no-such-id
+*** sudo docker ps -a -q | xargs -n 1 -I {} sudo docker rm {}
+** Test with --selinux-enabled=true

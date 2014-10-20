@@ -31,6 +31,8 @@
 * Tasks
 #+CATEGORY: Tasks
 <<<<<<< HEAD
+** TODO Revisar tutoriales
+   [2014-10-19 Sun]
 ** TODO Tail the contents of each "catalina.out":
 *** Add the location as an environment property.
 *** Implement an action to read the contents of a trimmed copy of Catalina.out.
