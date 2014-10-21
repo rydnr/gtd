@@ -12,7 +12,6 @@
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
->>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
@@ -28,13 +27,14 @@
   #+CATEGORY: Codemotion
 * Tasks
 #+CATEGORY: Tasks
-<<<<<<< HEAD
 ** TODO Ask jalca for a ticket for last friday's "cycle removal request".
    [2014-10-20 Mon]
 ** TODO Write an initial version of an mcollective plugin
    [2014-10-20 Mon]
 ** TODO Fix phone
    [2014-10-20 Mon]
+** TODO Revisar tutoriales
+   [2014-10-19 Sun]
 ** TODO Tail the contents of each "catalina.out":
 *** Add the location as an environment property.
 *** Implement an action to read the contents of a trimmed copy of Catalina.out.
@@ -51,7 +51,6 @@
    [2014-10-16 Thu]
 ** TODO Enable debug in opencms@cms1
    [2014-10-17 Fri]
->>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
@@ -108,7 +107,6 @@
   #+CATEGORY: V24
 ** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
    [2014-10-15 Wed]
-=======
 ** TODO Fix parsing version in jenkins jobs for B2G 			:v24:
    [2014-09-26 Fri]
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
@@ -1390,8 +1388,6 @@
    CLOSED: [2014-10-15 Wed 10:49]
    - State "DONE"       from "TODO"       [2014-10-15 Wed 10:49]
    [2014-10-15 Wed]
->>>>>>> 4fa0d244629e73b5e1859777ee3eaeaf63d02bcb
-<<<<<<< HEAD
 *** CANCELLED Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
     CLOSED: [2014-10-16 Thu 11:49]
     - State "CANCELLED"  from "TODO"       [2014-10-16 Thu 11:49] \\
