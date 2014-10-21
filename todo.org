@@ -26,11 +26,15 @@
    [2014-10-09 Thu]
  Codemotion
   #+CATEGORY: Codemotion
-** TODO Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
-   [2014-10-17 Fri]
 * Tasks
 #+CATEGORY: Tasks
 <<<<<<< HEAD
+** TODO Ask jalca for a ticket for last friday's "cycle removal request".
+   [2014-10-20 Mon]
+** TODO Write an initial version of an mcollective plugin
+   [2014-10-20 Mon]
+** TODO Fix phone
+   [2014-10-20 Mon]
 ** TODO Tail the contents of each "catalina.out":
 *** Add the location as an environment property.
 *** Implement an action to read the contents of a trimmed copy of Catalina.out.
@@ -1423,3 +1427,17 @@
    CLOSED: [2014-10-17 Fri 20:08]
    - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
    [2014-10-16 Thu]
+** DONE Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
+   CLOSED: [2014-10-20 Mon 09:57]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 09:57]
+   [2014-10-17 Fri]
+
+** DONE Change password for Tania in cms and cms1
+   CLOSED: [2014-10-20 Mon 10:37]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 10:37]
+   [2014-10-20 Mon]
+
+** DONE Transfer
+   CLOSED: [2014-10-20 Mon 11:17]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 11:17]
+   [2014-10-20 Mon]
