@@ -6,56 +6,27 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Learn about the way jenkins figures out the downstream order
-   [2014-10-10 Fri]
 ** STARTED Fix logo bug in services T324		       :services:v24:
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
-** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
->>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
-   [2014-10-10 Fri]
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
-   [2014-10-10 Fri]
-** TODO Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
-   [2014-10-13 Mon]
 ** STARTED Take a Vim book or screencast and practice new features	:vim:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** STARTED Fix sound on newjlean				   :homework:
-   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** TODO Hoja OnCall Septiembre						:v24:
-   [2014-10-09 Thu]
- Codemotion
-  #+CATEGORY: Codemotion
-** TODO Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
-   [2014-10-17 Fri]
+** WAITING Implement a page in phabricator to refresh the caches in Tomcat processes
+   - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
+     Waiting until Didier fixes the vhosts
+   [2014-10-16 Thu]
+** STARTED Download orgulloysatisfaccion magazine to ipad
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+   [2014-10-16 Thu]
+** STARTED Outline of the speech				 :codemotion:
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
 * Tasks
 #+CATEGORY: Tasks
-<<<<<<< HEAD
-** TODO Revisar tutoriales
-   [2014-10-19 Sun]
-** TODO Tail the contents of each "catalina.out":
-*** Add the location as an environment property.
-*** Implement an action to read the contents of a trimmed copy of Catalina.out.
-*** Implement a script to pipe the last 100 lines of catalina.out to another file.
-*** Display them all in a phabricator page.
-   [2014-10-16 Thu]
-** TODO Implement a page in phabricator to refresh the caches in Tomcat processes
-   [2014-10-16 Thu]
-** TODO Add new calc tricks to Anki
-   [2014-10-16 Thu]
-** TODO Add new german words to Anki
-   [2014-10-16 Thu]
-** TODO Download orgulloysatisfaccion magazine to ipad
-   [2014-10-16 Thu]
-** TODO Enable debug in opencms@cms1
-   [2014-10-17 Fri]
->>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
 * Codemotion
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
 ** TODO Build a Puppet master image				 :codemotion:
 ** TODO github example project					 :codemotion:
-** TODO Outline of the speech					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
 ** TODO Escribir a Renate					  :sindicato:
@@ -104,9 +75,17 @@
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
+>>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
+   [2014-10-10 Fri]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   [2014-10-10 Fri]
+** TODO Fix sound on newjlean					   :homework:
+   - State "TODO"       from "STARTED"    [2014-10-22 Wed 19:41] \\
+     PulseAudio is not working yet
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 ** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
    [2014-10-15 Wed]
-=======
 ** TODO Fix parsing version in jenkins jobs for B2G 			:v24:
    [2014-09-26 Fri]
 ** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
@@ -150,6 +129,12 @@
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Add new calc tricks to Anki				   :homework:
+   [2014-10-16 Thu]
+** TODO Add new german words to Anki				   :homework:
+   [2014-10-16 Thu]
+** TODO Revisar tutoriales					      :acmsl:
+   [2014-10-19 Sun]
 ** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel :acmsl:
    [2014-10-15 Wed]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
@@ -1388,8 +1373,6 @@
    CLOSED: [2014-10-15 Wed 10:49]
    - State "DONE"       from "TODO"       [2014-10-15 Wed 10:49]
    [2014-10-15 Wed]
->>>>>>> 4fa0d244629e73b5e1859777ee3eaeaf63d02bcb
-<<<<<<< HEAD
 *** CANCELLED Define a rule to automatically publish the contents of the company-logos folder to the "online" project in OpenCMS
     CLOSED: [2014-10-16 Thu 11:49]
     - State "CANCELLED"  from "TODO"       [2014-10-16 Thu 11:49] \\
@@ -1412,12 +1395,12 @@
    CLOSED: [2014-10-17 Fri 20:08]
    - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
    [2014-10-17 Fri]
-** DONE Write "problems" for retrospective
+** DONE Write "problems" for retrospective	     :codemotion:mcollective:
    CLOSED: [2014-10-17 Fri 20:08]
    - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
    [2014-10-17 Fri]
 
-** DONE Write Dockerfile for mcollective clients
+** DONE Write Dockerfile for mcollective clients     :mcollective:codemotion:
    CLOSED: [2014-10-17 Fri 20:08]
    - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
    [2014-10-16 Thu]
@@ -1425,3 +1408,41 @@
    CLOSED: [2014-10-17 Fri 20:08]
    - State "DONE"       from "TODO"       [2014-10-17 Fri 20:08]
    [2014-10-16 Thu]
+** DONE Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
+   CLOSED: [2014-10-22 Wed 19:34]
+   - State "DONE"       from "TODO"       [2014-10-22 Wed 19:34]
+   [2014-10-13 Mon]
+
+** DONE Hoja OnCall Septiembre						:v24:
+   CLOSED: [2014-10-22 Wed 19:43]
+   - State "DONE"       from "TODO"       [2014-10-22 Wed 19:43]
+   [2014-10-09 Thu]
+ Codemotion
+  #+CATEGORY: Codemotion
+** DONE Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
+   CLOSED: [2014-10-22 Wed 19:43]
+   - State "DONE"       from "TODO"       [2014-10-22 Wed 19:43]
+   [2014-10-17 Fri]
+
+** CANCELLED Tail the contents of each "catalina.out":
+   CLOSED: [2014-10-22 Wed 19:40]
+   - State "CANCELLED"  from "TODO"       [2014-10-22 Wed 19:40] \\
+     We'll give JAMON a try instead
+*** Add the location as an environment property.
+*** Implement an action to read the contents of a trimmed copy of Catalina.out.
+*** Implement a script to pipe the last 100 lines of catalina.out to another file.
+*** Display them all in a phabricator page.
+   [2014-10-16 Thu]
+** CANCELLED Learn about the way jenkins figures out the downstream order
+   CLOSED: [2014-10-22 Wed 19:43]
+   - State "CANCELLED"  from "TODO"       [2014-10-22 Wed 19:43] \\
+     Using Maven dependency update trigger instead
+   [2014-10-10 Fri]
+** DONE Enable debug in opencms@cms1				    :cms:v24:
+   CLOSED: [2014-10-22 Wed 19:44]
+   - State "DONE"       from "TODO"       [2014-10-22 Wed 19:44]
+   [2014-10-17 Fri]
+** DONE Redactar propuesta Expatriación equipo Once		  :sindicato:
+   CLOSED: [2014-10-22 Wed 19:51]
+   - State "DONE"       from "TODO"       [2014-10-22 Wed 19:51]
+   [2014-09-27 Sat]
