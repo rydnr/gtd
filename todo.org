@@ -15,25 +15,19 @@
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
-** TODO Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
-   [2014-10-13 Mon]
 ** STARTED Take a Vim book or screencast and practice new features	:vim:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 ** STARTED Fix sound on newjlean				   :homework:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** TODO Hoja OnCall Septiembre						:v24:
-   [2014-10-09 Thu]
- Codemotion
-  #+CATEGORY: Codemotion
+** TODO Write notes for git workshop
+   [2014-10-21 Tue]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Ask jalca for a ticket for last friday's "cycle removal request".
+** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
+   [2014-10-21 Tue]
+** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
-** TODO Write an initial version of an mcollective plugin
-   [2014-10-20 Mon]
-** TODO Fix phone
-   [2014-10-20 Mon]
-** TODO Revisar tutoriales
+** TODO Revisar tutoriales					      :acmsl:
    [2014-10-19 Sun]
 ** TODO Tail the contents of each "catalina.out":
 *** Add the location as an environment property.
@@ -1433,7 +1427,43 @@
    - State "DONE"       from "TODO"       [2014-10-20 Mon 10:37]
    [2014-10-20 Mon]
 
-** DONE Transfer
+** DONE Transfer						   :homework:
    CLOSED: [2014-10-20 Mon 11:17]
    - State "DONE"       from "TODO"       [2014-10-20 Mon 11:17]
    [2014-10-20 Mon]
+** DONE Fix phone						   :homework:
+   CLOSED: [2014-10-21 Tue 09:40]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:40]
+   [2014-10-20 Mon]
+
+** DONE Buy snickers for Clara
+   CLOSED: [2014-10-21 Tue 09:40]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:40]
+   [2014-10-21 Tue]
+
+** DONE Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
+   CLOSED: [2014-10-21 Tue 09:41]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:41]
+   [2014-10-13 Mon]
+
+** DONE Ask jalca for a ticket for last friday's "cycle removal request". :v24:
+   CLOSED: [2014-10-21 Tue 09:46]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:46]
+   [2014-10-20 Mon]
+
+** DONE Call Sergio Martos
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-21 Tue]
+
+** DONE Hoja OnCall Septiembre						:v24:
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-09 Thu]
+ Codemotion
+  #+CATEGORY: Codemotion
+
+** DONE Tag release (fix Pablo's missing pieces)			:v24:
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-21 Tue]
