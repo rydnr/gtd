@@ -24,6 +24,8 @@
 *** Use a ubuntu image to package the plugin
 * Tasks
 #+CATEGORY: Tasks
+** TODO Mount euler disks by name with udev		     :homework:acmsl:
+   [2014-10-27 Mon]
 ** TODO Write 360 proposal in english
    [2014-10-25 Sat]
 ** TODO Write Transparency proposal in english
