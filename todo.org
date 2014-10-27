@@ -24,6 +24,10 @@
 *** Use a ubuntu image to package the plugin
 * Tasks
 #+CATEGORY: Tasks
+** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
+   [2014-10-27 Mon]
+** TODO Test VLO4J and give feedback
+   [2014-10-27 Mon]
 ** TODO Mount euler disks by name with udev		     :homework:acmsl:
    [2014-10-27 Mon]
 ** TODO Write 360 proposal in english
