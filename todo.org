@@ -6,31 +6,41 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Fix logo bug in services T324		       :services:v24:
-   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
-   [2014-09-23 Tue]
-** STARTED Take a Vim book or screencast and practice new features	:vim:
-   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 ** WAITING Implement a page in phabricator to refresh the caches in Tomcat processes
    - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
      Waiting until Didier fixes the vhosts
-   [2014-10-16 Thu]
-** STARTED Download orgulloysatisfaccion magazine to ipad
-   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
-   [2014-10-16 Thu]
-** STARTED Outline of the speech				 :codemotion:
-   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   [2014-10-10 Fri]
+** STARTED Take a Vim book or screencast and practice new features	:vim:
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+** STARTED Fix sound on newjlean				   :homework:
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+** STARTED Setup laptop for codemotion
+   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
+   [2014-10-25 Sat]
+** STARTED mcollective-docker-plugin: docker pull and docker push
+   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
+   [2014-10-25 Sat]
+*** Use a ubuntu image to package the plugin
 * Tasks
 #+CATEGORY: Tasks
+** TODO Write 360 proposal in english
+   [2014-10-25 Sat]
+** TODO Write Transparency proposal in english
+   [2014-10-25 Sat]
+** TODO Write Appraisals proposal in english
+   [2014-10-25 Sat]
 * Codemotion
+** STARTED Outline of the speech				 :codemotion:
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+** TODO Write an initial version of an mcollective plugin	 :codemotion:
+   [2014-10-20 Mon]
 ** TODO Learn about rundeck.org
    [2014-10-10 Fri]
 ** TODO Build a Puppet master image				 :codemotion:
 ** TODO github example project					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
-** TODO Escribir a Renate					  :sindicato:
-   [2014-10-06 Mon]
 ** TODO Redactar propuesta "Racismo, machismo, etc."		  :sindicato:
   [2014-09-27 Sat]
 ** TODO Redactar propuesta Control de presencia			  :sindicato:
@@ -48,7 +58,7 @@
 ** STARTED Check how to use todo.org_archive -> C-c C-x a
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:38]
    [2014-09-22 Mon]
-** TODO Integrate pomodoro with org-mode/gtd		       :org:homework:
+** TODO Integrate pomodoro with org-mode/gtd 		       :org:homework:
    [2014-09-17 Wed]
 ** TODO Read GTD book                                    :gtd:ebook:homework:
 ** TODO Use agenda in org
@@ -75,8 +85,11 @@
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Write notes for git workshop
+   [2014-10-21 Tue]
+** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
+   [2014-10-21 Tue]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
->>>>>>> 78fd022e0aa92801f9cbf45472eb00405daa15a1
    [2014-10-10 Fri]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
@@ -129,6 +142,8 @@
 ** TODO Decide a new name for QueryJ				     :queryj:
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Revisar tutoriales					      :acmsl:
+   [2014-10-19 Sun]
 ** TODO Add new calc tricks to Anki				   :homework:
    [2014-10-16 Thu]
 ** TODO Add new german words to Anki				   :homework:
@@ -1446,3 +1461,64 @@
    CLOSED: [2014-10-22 Wed 19:51]
    - State "DONE"       from "TODO"       [2014-10-22 Wed 19:51]
    [2014-09-27 Sat]
+** DONE Test and fix mcollective (server - activemq - mcollective client) setup :mcollective:codemotion:
+   CLOSED: [2014-10-20 Mon 09:57]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 09:57]
+   [2014-10-17 Fri]
+
+** DONE Change password for Tania in cms and cms1
+   CLOSED: [2014-10-20 Mon 10:37]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 10:37]
+   [2014-10-20 Mon]
+
+** DONE Transfer						   :homework:
+   CLOSED: [2014-10-20 Mon 11:17]
+   - State "DONE"       from "TODO"       [2014-10-20 Mon 11:17]
+   [2014-10-20 Mon]
+** DONE Fix phone						   :homework:
+   CLOSED: [2014-10-21 Tue 09:40]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:40]
+   [2014-10-20 Mon]
+
+** DONE Buy snickers for Clara
+   CLOSED: [2014-10-21 Tue 09:40]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:40]
+   [2014-10-21 Tue]
+
+** DONE Talk to Didier to access apache in backoffice-d.ventura24.es	:v24:
+   CLOSED: [2014-10-21 Tue 09:41]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:41]
+   [2014-10-13 Mon]
+
+** DONE Ask jalca for a ticket for last friday's "cycle removal request". :v24:
+   CLOSED: [2014-10-21 Tue 09:46]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 09:46]
+   [2014-10-20 Mon]
+
+** DONE Call Sergio Martos
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-21 Tue]
+
+** DONE Hoja OnCall Septiembre						:v24:
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-09 Thu]
+ Codemotion
+  #+CATEGORY: Codemotion
+
+** DONE Tag release (fix Pablo's missing pieces)			:v24:
+   CLOSED: [2014-10-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2014-10-21 Tue 13:11]
+   [2014-10-21 Tue]
+** DONE Download orgulloysatisfaccion magazine to ipad
+   CLOSED: [2014-10-25 Sat 13:16]
+   - State "DONE"       from "STARTED"    [2014-10-25 Sat 13:16]
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+   [2014-10-16 Thu]
+
+** DONE Fix logo bug in services T324			       :services:v24:
+   CLOSED: [2014-10-25 Sat 13:16]
+   - State "DONE"       from "STARTED"    [2014-10-25 Sat 13:16]
+   - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
+   [2014-09-23 Tue]

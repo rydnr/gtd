@@ -88,8 +88,11 @@ docker run -d -P --name activemq -h activemq acmsl/mcollective-activemq:latest
 ** Run mcollective-server
 docker run -d --link activemq:activemq -h mcoserver acmsl/mcollective-server:latest
 ** Run mcollective-client
-docker run -d --link activemq:activemq -h mcoclient1 acmsl/mcollective-client:latest
+docker run -d --link activemq:activemq -h mcoclient acmsl/mcollective-client:latest
 ** Remove stale containers / images
 https://stackoverflow.com/questions/24733160/docker-rmi-cannot-remove-images-with-no-such-id
 *** sudo docker ps -a -q | xargs -n 1 -I {} sudo docker rm {}
 ** Test with --selinux-enabled=true
+** Write a mcollective plugin:
+http://blog.mague.com/?p=382
+Copy from https://github.com/puppetlabs/mcollective-package-agent.git
