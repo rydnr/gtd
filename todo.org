@@ -13,20 +13,17 @@
    [2014-10-10 Fri]
 ** STARTED Take a Vim book or screencast and practice new features	:vim:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** STARTED Fix sound on newjlean				   :homework:
-   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 ** STARTED Setup laptop for codemotion
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** STARTED mcollective-docker-plugin: docker pull and docker push
-   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
-   [2014-10-25 Sat]
-*** Use a ubuntu image to package the plugin
+** STARTED Outline of the speech				 :codemotion:
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+** TODO Annotate FF tab links					   :homework:
 * Tasks
 #+CATEGORY: Tasks
 ** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
    [2014-10-27 Mon]
-** TODO Test VLO4J and give feedback
+** TODO Test http://valjogen.41concepts.com/ and give feedback
    [2014-10-27 Mon]
 ** TODO Mount euler disks by name with udev		     :homework:acmsl:
    [2014-10-27 Mon]
@@ -37,8 +34,10 @@
 ** TODO Write Appraisals proposal in english
    [2014-10-25 Sat]
 * Codemotion
-** STARTED Outline of the speech				 :codemotion:
-   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+** STARTED mcollective-docker-plugin: docker pull and docker push
+   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
+   [2014-10-25 Sat]
+*** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
 ** TODO Learn about rundeck.org
@@ -1528,3 +1527,7 @@
    - State "DONE"       from "STARTED"    [2014-10-25 Sat 13:16]
    - State "STARTED"    from "TODO"       [2014-09-24 Wed 10:49]
    [2014-09-23 Tue]
+** DONE Fix sound on newjlean					   :homework:
+   CLOSED: [2014-10-29 Wed 18:52]
+   - State "DONE"       from "STARTED"    [2014-10-29 Wed 18:52]
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
