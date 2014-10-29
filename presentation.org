@@ -1,0 +1,56 @@
+#+TITLE:     Writing Beamer presentations in org-mode
+#+AUTHOR:    Eric S Fraga
+#+EMAIL:     e.fraga@ucl.ac.uk
+#+DATE:      2010-03-30 Tue
+#+DESCRIPTION: 
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME:
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+* Introduction
+** TODO A simple slide
+This slide consists of some text with a number of bullet points:
+
+code: @@beamer:some code@@
+- the first, very @@beamer: @important@@@, point!
+- the previous point shows the use of the special markup which
+  translates to the Beamer specific /alert/ command for highlighting
+  text.
+
+
+The above list could be numbered or any other type of list and may
+include sub-lists.
+
+* This is the first structural section
+     
+** Frame 1
+*** Thanks to Eric Fraga 				      :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_COL: 0.48
+:BEAMER_ENV: block
+:END:
+for the first viable Beamer setup in Org
+*** Thanks to everyone else 				      :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_COL: 0.48
+:BEAMER_ACT: <2->
+:BEAMER_ENV: block
+:END:
+for contributing to the discussion
+**** This will be formatted as a beamer note 			     :B_note:
+:PROPERTIES:
+:BEAMER_env: note
+:END:
+     ** Frame 2 (where we will not use columns)
+     *** Request
+         Please test this stuff!
