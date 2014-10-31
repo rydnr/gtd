@@ -2,8 +2,8 @@
 #+AUTHOR:    Eric S Fraga
 #+EMAIL:     e.fraga@ucl.ac.uk
 #+DATE:      2010-03-30 Tue
-#+DESCRIPTION: 
-#+KEYWORDS: 
+#+DESCRIPTION: Description metadata
+#+KEYWORDS: beamer,org
 #+LANGUAGE:  en
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
@@ -22,7 +22,7 @@
 This slide consists of some text with a number of bullet points:
 
 code: @@beamer:some code@@
-- the first, very @@beamer: @important@@@, point!
+- the first, very @important@, point!
 - the previous point shows the use of the special markup which
   translates to the Beamer specific /alert/ command for highlighting
   text.
@@ -54,3 +54,37 @@ for contributing to the discussion
      ** Frame 2 (where we will not use columns)
      *** Request
          Please test this stuff!
+
+# * A more complex slide
+# ** A more complex slide
+# This slide illustrates the use of Beamer blocks.  The following text,
+# with its own headline, is displayed in a block:
+# *** Org mode increases productivity                               :B_theorem:
+# :PROPERTIES:
+# :BEAMER_env: theorem
+# :END:
+#     - org mode means not having to remember LaTeX commands.
+#     - it is based on ascii text which is inherently portable.
+#     - Emacs!
+
+#     \hfill \(\qed\)
+
+** Two columns
+
+*** A block                                           :B_ignoreheading:BMCOL:
+:PROPERTIES:
+:BEAMER_env: ignoreheading
+:BEAMER_col: 0.4
+:END:
+    - this slide consists of two columns
+    - the first (left) column has no heading and consists of text
+    - the second (right) column has an image and is enclosed in an
+      @example@ block
+
+*** A screenshot                                            :BMCOL:B_example:
+:PROPERTIES:
+:BEAMER_col: 0.6
+:BEAMER_env: example
+:END:
+#+ATTR_LATEX: width=\textwidth
+    [[[[https://dict.leo.org/img/leo-schriftzug-160x60-eae10aca.png]]]]

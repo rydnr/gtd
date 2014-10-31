@@ -18,21 +18,10 @@
    [2014-10-25 Sat]
 ** STARTED Outline of the speech				 :codemotion:
    - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
-** TODO Annotate FF tab links					   :homework:
+** TODO PoF Beamer via org				    :codemotion:CALL:
 * Tasks
 #+CATEGORY: Tasks
-** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
-   [2014-10-27 Mon]
-** TODO Test http://valjogen.41concepts.com/ and give feedback
-   [2014-10-27 Mon]
-** TODO Mount euler disks by name with udev		     :homework:acmsl:
-   [2014-10-27 Mon]
-** TODO Write 360 proposal in english
-   [2014-10-25 Sat]
-** TODO Write Transparency proposal in english
-   [2014-10-25 Sat]
-** TODO Write Appraisals proposal in english
-   [2014-10-25 Sat]
+   [2014-10-30 Thu]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
@@ -49,8 +38,6 @@
 ** TODO Redactar propuesta "Racismo, machismo, etc."		  :sindicato:
   [2014-09-27 Sat]
 ** TODO Redactar propuesta Control de presencia			  :sindicato:
-   [2014-09-27 Sat]
-** TODO Redactar propuesta 360 grados				  :sindicato:
    [2014-09-27 Sat]
 ** TODO Redactar propuesta Teletrabajo				  :sindicato:
    [2014-09-27 Sat]
@@ -145,8 +132,14 @@
 ** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
 ** TODO Write a script to replace all ocurrences of QueryJ with the new name :queryj:
 ** TODO Decide a new name for QueryJ				     :queryj:
+** TODO Test http://valjogen.41concepts.com/ and give feedback	     :queryj:
+   [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Mount euler disks by name with udev		     :homework:acmsl:
+   [2014-10-27 Mon]
+** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
+   [2014-10-27 Mon]
 ** TODO Revisar tutoriales					      :acmsl:
    [2014-10-19 Sun]
 ** TODO Add new calc tricks to Anki				   :homework:
@@ -1531,3 +1524,23 @@
    CLOSED: [2014-10-29 Wed 18:52]
    - State "DONE"       from "STARTED"    [2014-10-29 Wed 18:52]
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+
+** DONE Annotate FF tab links					   :homework:
+   CLOSED: [2014-10-29 Wed 20:46]
+   - State "DONE"       from "TODO"       [2014-10-29 Wed 20:46]
+** DONE Redactar propuesta 360 grados				  :sindicato:
+   CLOSED: [2014-10-30 Thu 06:31]
+   - State "DONE"       from "TODO"       [2014-10-30 Thu 06:31]
+   [2014-09-27 Sat]
+** DONE Write 360 proposal in english				  :sindicato:
+   CLOSED: [2014-10-30 Thu 06:30]
+   - State "DONE"       from "TODO"       [2014-10-30 Thu 06:30]
+   [2014-10-25 Sat]
+** DONE Write Transparency proposal in english			  :sindicato:
+   CLOSED: [2014-10-30 Thu 06:30]
+   - State "DONE"       from "TODO"       [2014-10-30 Thu 06:30]
+   [2014-10-25 Sat]
+** DONE Write Appraisals proposal in english			  :sindicato:
+   CLOSED: [2014-10-30 Thu 06:30]
+   - State "DONE"       from "TODO"       [2014-10-30 Thu 06:30]
+   [2014-10-25 Sat]

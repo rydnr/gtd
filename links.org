@@ -161,3 +161,8 @@
 ** ownCloud and email: http://jamieflarity.com/computers/owncloud-and-email/ :mail:owncloud:
 ** mcollective configure clients: https://docs.puppetlabs.com/mcollective/configure/client.html :mcollective:
 ** ownCloud@acmsl http://owncloud-acmsl.rhcloud.com	 :owncloud:openshift:
+** Solucionando crackmes precargando librerias http://www.securitybydefault.com/2014/09/solucionando-crackmes-precargando.html :reversing:
+** org-trello http://org-trello.github.io		     :org:gtd:trello:
+** Reddit.st in 10 cool pharo classes https://medium.com/@svenvc/reddit-st-in-10-cool-pharo-classes-1b5327ca0740 :smalltalk:
+** Propuestas asambleas ciudadanas de Podemos: http://propuestas.podemos.info/propuestas.html :politics:podemos:
+** Entrevista Pablo Iglesias en Reddit: https://docs.google.com/document/d/1_dk6EWUFolpgvdPf6YjvQhEUVpadlHGSkSTCQwUY3fo/pub :politics:podemos:
