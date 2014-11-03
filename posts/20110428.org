@@ -1,0 +1,50 @@
+* Enumerating exceptions
+
+I'd like to request for comments about implementing exceptions around enums.
+
+Instead of 
+<code>
+throw new MyVeryOwnMeaningfulException("the remote server responded with a 500 error code", ioException);
+</code>
+
+Implement something like:
+<ul>
+	<li>Message:
+<code>public enum MyVeryOwnMeaningfulExceptionMessage
+{
+  REMOTE_500("remote.server.500"),
+  [...]
+  ;
+  private String key;
+  private MyVeryOwnMeaningfulExceptionMessage(final String key) { .. };
+}
+</code>
+</li>
+
+<li>Exception: 
+
+<code>
+public MyVeryOwnMeaningfulException(final MyVeryOwnMeaningfulExceptionMessage message, String... args) { ... };
+public MyVeryOwnMeaningfulException(final MyVeryOwnMeaningfulExceptionMessage message, final Throwable cause, String... args) { ... };
+</code>
+
+</li>
+</ul>
+Finally, the exception is thrown as follows:
+
+<code>
+[..]
+import static ..MyVeryOwnExceptionMessage.*;
+[..]
+throw new MyVeryOwnExceptionMessage(ERROR_500, ioException, server, "" + timeout);
+</code>
+
+The main benefits for me are:
+<ul>
+<li>Normalized, consistent exception messages</li>
+<li>Allows i18n easily</li>
+<li>Supports producing rich messages via MessageFormat or alternate 'engines'</li>
+<li>Allows clear distinction between different exceptions in nature (class), or just different particular cases (instances).</li>
+</ul>
+
+Sorry for the formatting. Preview and post drives me to a blank page.

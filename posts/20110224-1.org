@@ -1,0 +1,11 @@
+* Webinars
+
+I'd like to ask you which webinars you attend or you find interesting. I'll try today Terracotta's <a href="https://terracotta.webex.com/mw0306lc/mywebex/default.do?nomenu=true&amp;siteurl=terracotta&amp;service=6&amp;main_url=https%3A%2F%2Fterracotta.webex.com%2Fec0605lc%2Feventcenter%2Fevent%2FeventAction.do%3FtheAction%3Ddetail%26confViewID%3D279242301%26siteurl%3Dterracotta%26%26%26">High-Performance Scalability for Enterprise Applications with Enterprise Ehcache</a> and <a href="http://www.redhat.com/webinars/">RedHat</a>'s <a href="http://www.redhat.com/webinars/?zPage=8a70ca0f2da51578012dc560f8f81048">Streamline Your Business Processes and Enhance Productivity with jBPM</a>.
+
+Recently I got (surprisingly, I'd say) somehow interested in SEO and certain aspects of online marketing, and found some webinars useful: <a href="https://www3.gotomeeting.com/register/727427070?utm_source=February+2011+PRO+Newsletter&amp;utm_campaign=d24187f5c7-PRO_Webinar_Overview_2_24_2011&amp;utm_medium=email">Getting Value from XML Sitemaps, HTML Sitemaps + Feeds</a> or <a href="http://www.hubspot.com/marketing-webinar/optimizing-your-website-for-maximum-lead-flow/">Optimize Your Website for Maximum Lead Flow</a>.
+
+I've noticed there're some <a href="http://live.eclipse.org/">Eclipse-centered</a> ones: Do you like them?.
+
+In my opinion, the percentage of self-advertisement is not annoying, and you get relevant pieces of valuable information. I remember last year I purchased from Manning a set of Erlang screencasts and found them very useful. Maybe not for newcomers, but once you are introduced to the subject I think you profit from the time spent more than reading a 'XXX in action' book.
+
+P.D.: I hope you enjoy the celebration. Congrats!

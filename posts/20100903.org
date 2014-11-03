@@ -1,0 +1,3 @@
+* Comparative Studies of 10 Programming Languages within 10 Diverse Criteria
+
+Arxiv's <a href="http://arxiv.org/pdf/1009.0305v1">article</a> for those interested. I'm not judging it since I'd have to read it first :). I just went right to the conclusions.

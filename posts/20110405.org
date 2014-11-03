@@ -1,0 +1,7 @@
+* hackxor
+
+A new interesting <a href="http://hackxor.sourceforge.net/cgi-bin/index.pl">tool</a> has just been released:
+
+<blockquote>Hackxor is a webapp hacking game where players must locate and exploit vulnerabilities to progress through the story. Think WebGoat but with a plot and a focus on realism &amp; difficulty. Contains XSS, CSRF, SQLi, ReDoS, DOR, command injection, etc.</blockquote>
+
+For SQLi, <a href="http://esploit.blogspot.com/2011/04/sql-injection-scanners-list.html">here</a> you can find a list of tools (beyond the famous <a href="http://www.nosec.org/2009/0920/74.html">pangolin</a>).

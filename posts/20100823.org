@@ -1,0 +1,9 @@
+* Lessons from Play!
+
+Hi,
+
+I've started working with <a href="http://www.playframework.org">Play!</a>, and started wondering how much it'd take to follow its (somehow radical) recommendation of not using sessions.
+Well, in fact, there're no sessions in Play!. The consequences: you have to use cookies for storing information across requests. So you're tied to 4k per cookie.
+The benefits: stateless servers =&gt; scalability boost. They can be added or stopped at will, depending on the traffic. So they are specially suited for cloud hosting.
+
+How much do we use the Session object in webshop? Do the Flash callbacks require session information? If the no-session version of ws is feasible, we could take back the plain old dns balancing instead of staging for installing releases: no need for sticky sessions at apache level.

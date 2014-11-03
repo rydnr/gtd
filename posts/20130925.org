@@ -1,0 +1,15 @@
+* HTTP quiz: Virtual hosts under https
+Hi,
+
+Web servers usually allow defining different configurations based on the Host: header. That's called name-based virtual hosting.
+Consider HTTPS traffic, in which the Host header is not known until the whole SSL negotiation finishes.
+
+Which of the following sentences are correct?
+
+<ol>
+	<li>The web server has to offer a certificate with a given host name, before knowing which host name the client is requesting, so name-based virtual hosting cannot work for HTTPS hosts.</li>
+	<li>The web server offers a default virtual host, and redirects when the Host header differs from the default.</li>
+	<li>An update for SSL protocol is required for name-based virtual hosting over HTTPS.</li>
+	<li>The easy option is to use IP-based virtual hosting for HTTPS hosts.</li>
+</ol>
+

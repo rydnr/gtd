@@ -1,0 +1,23 @@
+* Protected? not really
+
+<p>One gotcha regarding the "protected" keyword. Not really a quiz, but...</p>
+
+<p>Let's say you have:</p>
+
+<pre><code>package a;
+class A {
+    protected void childrenAddingUp() { ... };
+}
+
+package b;
+class B
+  extends A {
+    @Override
+    protected void childrenAddingUp() {
+        super.childrenAddingUp();
+    }
+}
+</code></pre>
+
+<p>Does it make any sense? In which scenario?
+Hint: "protected" means two things...</p>

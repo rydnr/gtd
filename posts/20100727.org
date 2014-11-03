@@ -1,0 +1,6 @@
+* Java NIO is dead, long live Java IO
+
+Pretty surprising stuff. I'd bet Tomcat and Jetty moved to NIO long time ago.
+In summary, it seems that running threads is much cheaper with an increasing number of cores. So NIO tried to overcome thread creation without noticing it would be solved via hardware.
+
+<a href="http://www.thebuzzmedia.com/java-io-faster-than-nio-old-is-new-again/">http://www.thebuzzmedia.com/java-io-faster-than-nio-old-is-new-again/</a>

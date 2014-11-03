@@ -1,0 +1,7 @@
+* Java 6 update 24
+
+<a href="http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html">Sad news</a>.
+
+The guy from <a href="http://www.grc.com/securitynow.htm">securitynow</a> is advocating for the complete removal of Java (referring to JRE), stating that it's now worse than Adobe Flash or Adobe Reader in terms of vulnerabilities.
+
+So far, I'm unable to retrieve details of any of the CVEs :(.

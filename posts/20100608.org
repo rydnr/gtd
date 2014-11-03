@@ -1,0 +1,3 @@
+* Does someone know Gradle?
+
+I'm just curious about whether someone has given <a href="http://www.gradle.org">gradle</a> a try.

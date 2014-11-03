@@ -1,0 +1,9 @@
+* Free VPN
+
+For those of you concerned about your privacy, and don't want to pay a monthly fee in privateinternetaccess.com [1] (as I do), you can use <a href="http://www.hideman.net/">this VPN</a> for free. But only up to 5 h/week (and the client is only available for windows and android):
+
+<a href="http://toolsyard.thehackernews.com/2012/08/hideman-free-vpn-service-with-mutliple.html">
+http://toolsyard.thehackernews.com/2012/08/hideman-free-vpn-service-with-mutliple.html</a>
+
+[1] <a href="http://www.privateinternetaccess.com">http://www.privateinternetaccess.com</a>
+

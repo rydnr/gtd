@@ -1,0 +1,5 @@
+* If you own a Raspberry Pi
+
+<p>You might be interested in this free course, which starts on May, 30th:</p>
+
+<p><a href="https://apex.oracle.com/pls/apex/f?p=44785:145:0::::P145_EVENT_ID,P145_PREV_PAGE:1841,143">Develop Java Embedded Applications Using a Raspberry Pi</a></p>

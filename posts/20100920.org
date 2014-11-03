@@ -1,0 +1,10 @@
+* JDK 7 features
+
+As anticipated, no closures yet:
+
+<a href="http://openjdk.java.net/projects/jdk7/features">http://openjdk.java.net/projects/jdk7/features</a>.
+
+The language additions are interesting. For example, we'll be allowed to use <code>m["a"] = "b"</code>, being m a Map, or catch exceptions of different types at once:
+<code>try {
+} catch (final IOException|SQLException ex) {
+}</code>

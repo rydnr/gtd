@@ -1,0 +1,5 @@
+* Someone saying it's ok not to write unit tests
+
+I've found this <a href="http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx">post</a> inspiring.
+
+At some point, it fits with John's remarks of FDC as "they thought they were too good to need unit tests".

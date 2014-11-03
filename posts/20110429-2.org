@@ -1,0 +1,5 @@
+* Clustering HB's second level cache
+
+I thought it could be interesting to take a look at <a href="http://code.google.com/p/hazelcast/">Hazelcast</a>:
+
+http://code.google.com/p/hazelcast/wiki/HibernateSecondLevelCache

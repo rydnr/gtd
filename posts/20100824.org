@@ -1,0 +1,9 @@
+* Readme driver development
+
+Nice reading.
+
+http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+
+I agree that writing down a README beforehand allows you to focus and define the scope of what you're going to do. And that is helpful for newcomers trying to understand the <em>why</em>s. But still, there's no way to enforce the <em>how</em> respect the original intent, specially as the code evolves.
+
+Still, a not accurate README is better than no README at all. I know some of you disagree, at least when it comes to Javadoc...

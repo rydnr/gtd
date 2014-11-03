@@ -1,0 +1,33 @@
+* Data structure visualizations (and the excuse to complain about misusing hash tables)
+
+<a href="http://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Really</a> nice for non-trivial algorithms (albeit there are not lots of them).
+
+It's fun to play with the simple <a href="http://www.cs.usfca.edu/~galles/visualization/OpenHash.html">open hash table</a>, and verify that <a href="http://download.oracle.com/javase/1.4.2/docs/api/java/util/Hashtable.html">java.util.Hashtable</a>'s performance depends on the <a href="http://www.cs.usfca.edu/~galles/visualization/ClosedHashBucket.html">length of the key</a>.
+
+Maybe I, who has been reusing hash maps ad-infinitum (by fighting key conflicts), should have spent time finding out which <em>load-factor</em> values give better results than the default 0.75.
+
+Of course, with generics nobody cared about the waste of creating new hash tables just to make the compiler happy and ensure type consistency. I heard from someone (a hardcore C programmer) that most people don't know what a hash table really is. I don't see FindBugs complaints about (ab)using hash tables, so I tend to think we (as a whole), don't care. ArrayLists' internals uses arrays. Hash tables use something else. Who cares? I have an index, I use an List. I have a key, I use a hash table. I heard someone actually used LinkedLists or Sets, so I had to refactor it to a more clean and understandable List or Map, since I'm an advocate of the KISS principle  :).
+.
+
+What I'm saying is: I miss the old days when we actually dealt with algorithms. When there were science (kind-of) supporting us. When we talked about if something was O(n) or O(log n). Nowadays, it's different. We just mangle data to make it easier to consume when it's needed. And there's no better structure to model, than what is already assumed as 'standard'. There's nothing to optimize, since a profiler would say there're lots of more important spots to concentrate on. I mean, who of you would dare to implement your own ArrayList, even if only for fun? I mean, actually importing and using it and facing the skepticism. Not to mention other structures.
+
+I'm not 100% with Knuth when he states that he doesn't understand why people like programming nowadays, when all we do is using APIs and a little bit of data processing. But I still feel we lost value somewhere...
+
+
+** comment 
+
+I haven’t read them. I didn’t even knew they existed ￼ .
+
+Meanwhile, I like the ‘pop culture’ hypothesis of what happened to computer science (see Alan Kay interview [1]). But of course there’re people [2] you probably agree more.
+
+[1] http://queue.acm.org/detail.cfm?id=1039523
+[2] http://blog.akash.im/an-open-letter-to-those-who-want-to-start
+
+** comment
+
+Uwe, we’re surrounded by The Ultimate Pragmatists.
+
+“But what the heck – we use computation as a tool to solve problems and not for its own sake.”… Interesting. Would you say the same of maths?
+
+And about your argument of layers on top of layers… Would you say there’s no value of understanding what’s happening behind-the-scenes when you’re using an API? Where’s the boundary? Should we master the upper-most layers, where the actual business value is more obvious? And then, when something doesn’t work as expected, what? Hire experts?
+You’re not stressing enough why *understanding* is important. I’m not saying we are expected to be experts in everything, but I don’t buy we shouldn’t try.

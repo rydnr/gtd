@@ -1,0 +1,5 @@
+* Windows beware!
+
+I wanted to provide a link to a new (free) <a href="http://www.microsoft.com/security/pc-security/malware-removal.aspx">Microsoft tool</a> aimed towards removing malware and spyware. It possibly complements <a href="http://www.microsoft.com/security_essentials/">Security Essentials</a> (which has recently failed me to detect some viruses, so beware). For some reason, the strategy this time is to force you to download the tool every 10 days.
+
+Anyway, there's also an interesting guide regarding <a href="http://www.nsa.gov/ia/_files/factsheets/Best_Practices_Datasheets.pdf">Best practices for keeping your home network secure</a> from the NSA.

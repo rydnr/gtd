@@ -1,0 +1,23 @@
+* Free online courses
+
+From the procastination department:
+<ul>
+	<li><a href="http://www.crypto-class.org/">Applied cryptography</a></li>
+	<li><a href="http://www.algo-class.org/">Design and analysis of algorithms</a></li>
+	<li><a href="http://www.modelthinker-class.org/">Model thinking</a></li>
+	<li><a href="http://venture-lab.org/">Technology entrepeneurship</a></li>
+	<li><a href="http://www.udacity.com/overview/Course/cs101">CS101 - Building a Search Engine</a></li>
+	<li><a href="http://norvig.com/">Peter Norvig</a>'s <a href="http://www.udacity.com/overview/Course/cs212">CS212 - Design of Computer Programs</a></li>
+	<li><a href="http://www.udacity.com/overview/Course/cs253">CS253 - Web Application Engineering</a></li>
+	<li><a href="http://www.udacity.com/overview/Course/cs262">CS262 - Programming Languages</a></li>
+	<li><a href="http://www.udacity.com/overview/Course/cs373">CS373 - Programming A Robotic Car</a></li>
+	<li><a href="http://www.udacity.com/overview/Course/cs387">CS387 - Applied Cryptography</a></li>
+	<li>MIT's <a href="https://6002x.mitx.mit.edu/">Circuits and Electronics</a></li>
+</ul>
+
+Catalogs:
+<ul>
+	<li>MIT's <a href="http://ocw.mit.edu/index.htm">opencourseware</a></li>
+	<li><a href="https://www.coursera.org/landing/hub.php">Coursera</a></li>
+	<li><a href="http://www.udacity.com/">Udacity</a></li>
+</ul>

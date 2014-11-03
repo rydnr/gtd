@@ -1,0 +1,6 @@
+* Algorithms 1, anyone?
+
+I'm following <a href="https://www.coursera.org/course/algs4partI" title="this course" target="_blank">this course</a> again, aiming to get more of it than last time.
+Now that I'm a fully <a href="http://www.ankisrs.net" title="Anki" target="_blank">Anki</a> advocate, obviously am using it to make sure I learn, not just understand.
+
+Should anyone is interested, <a href='http://devblog.office.tipp24.de/wp-content/uploads/2013/02/Coursera-Algorithms-1-week-1.apkg_.txt'>here</a> are the flashcards for week one. Just remove the _.txt from the file name, import into Anki, and enjoy! :)

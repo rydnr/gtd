@@ -1,0 +1,20 @@
+* Java quiz: Testing private methods
+
+<p>This one is easy, but still could be interesting...</p>
+
+<p>Let's say you have:</p>
+
+<pre><code>class A {
+    public A() { ... }
+    private String m() { ... }
+}
+</code></pre>
+
+<p>And you want to test method m(). Which of the options are valid?</p>
+
+<ol>
+<li>Write the test in Groovy.</li>
+<li>Use <code>Method mRef = ...; mRef.setAccessible(true); mRef.invoke(instance, ...);</code></li>
+<li>Use: <code>A testedInstance = ...; A hook = new A() {{ Assert.assertNotNull(testedInstance.m()); }};</code></li>
+<li>All of the above.</li>
+</ol>

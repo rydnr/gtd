@@ -1,0 +1,21 @@
+* Why we thought we could use triggers this time
+
+Hi,
+
+After a conversation with Jörg when he requested information about why we used triggers, it probably makes sense to spread it. First, to preserve my reputation regarding the role of databases :), and second, to make sure the path we took was a decision based on what we considered best in terms of costs/benefits, and risks. It was definitely not a matter of taste.
+
+The rationale behind this is the following. The customer, product and site limits were implemented already, but the requirements changed. So we refactored that logic last sprint, keeping our 'beloved' Alinghi component design: BL/service, DB/DAO, and of course an Oracle instance underneath. But in this sprint we had a requirement which on the surface didn't mean much, but in reality was a dramatic change at several levels.
+
+The change was stated saying that the limits can only be changed by sysadmins, who (to my surprise) have the right to use its own tool and only such tool. We were told that the limits (site and product) had to be migrated as properties in property-mgmt. We couldn't convince anyone that it'd be more reasonable to use a special role in the backoffice. We're now serving sysadmins!!! ;)
+
+So we internally proposed several options.
+- Refactoring of all DB/BL/DAO to split into Oracle vs PM properties. Huge change, which made this change visible to every piece of 'client' code.
+- Heterogeneous DAO/DB, keeping BLs intact. Lot of unexpected noise in the otherwise transparent persistence layer, not to mention the failure to preserve transactions.
+- Using directly the DB backend of PM, and use views. We didn't try, but could work since the limits are read-only from the BO.
+- Synchronizing limit information via triggers. The source is always PM, so the synchronization is one-way-only.
+
+As we've just noticed, we have reasons not to believe new requirements of limits inside PM are here to stay. We find much more reasonable to design based on the concepts than on the convenience of who will use it. With that in mind, our decision was to start with the trigger solution, which is the cheapest and less risky by far. We'll adapt the solution as circumstances evolve.
+
+But as a general rule we always avoid triggers as much as possible. This time, however, as ugly as it seems, it's the prettiest of the candidates. Well, it'd be much better to keep using the same design as before, or if necessary (and possible in terms of dependencies) register PM hooks to update the values. But that would have been the same synchronization mechanism, this time using application logic instead of triggers.
+
+As a summary, you won't find trigger advocates here, just people who couldn't convince (despite all our efforts) and decided the better solution under the circumstances.

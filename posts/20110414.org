@@ -1,0 +1,7 @@
+* Hibernate 4 webinar
+
+Forgive me for the copy/paste:
+
+<a href="http://www.jboss.org/webinars">Hibernate 4: The Next Generation</a>
+Date: April 20th, 2011
+Time: 16:00 UTC, 12:00 Noon Boston, 9:00 San Francisco, 12:00 Midnight Singapore

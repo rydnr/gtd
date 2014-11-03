@@ -1,0 +1,14 @@
+* Spreadsheets are evil
+
+I've been warning people for years! The proof that I wasn't wrong! :D
+<h1 class="title">Spreadsheets and the Financial Collapse</h1>
+"[..]
+We summarise the available evidence and suggest that there is a
+link between the use of spreadsheets and the recent collapse of the
+global financial system. We provide governments and regulating
+authorities with some simple recommendations to reduce the risks of
+continued overdependence on [..] spreadsheets.
+[..]"
+<a title="Spreadsheets and the Financial Collapse [arxiv]" href="http://arxiv.org/abs/0908.4420" target="_self">http://arxiv.org/abs/0908.4420</a>
+
+P.D.: I hope this time censorship doesn't prevent this from publication, as in yesterday's post ;). Is there a problem with the wp installation? Sometimes it complains about missing folders, it takes you back and forth from argoblog to devblog. Yesterday I thought a post of mine would appear, but now it is as if it never existed.

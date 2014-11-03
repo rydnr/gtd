@@ -1,0 +1,11 @@
+* Statistician Cracks Code For Lottery Tickets
+
+From 
+<a href="http://science.slashdot.org/story/11/02/02/2345225/Statistician-Cracks-Code-For-Lottery-Tickets?from=rss&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Slashdot%2Fslashdot+%28Slashdot%29">slashdot</a>:
+
+<blockquote>"The tickets are clearly mass-produced, which means there must be some computer program that lays down the numbers. Of course, it would be really nice if the computer could just spit out random digits. But that's not possible, since the lottery corporation needs to control the number of winning tickets. The game can't be truly random. Instead, it has to generate the illusion of randomness while actually being carefully determined."</blockquote>
+
+Never thought about the probable correlation between low income and good customers: <blockquote>"While approximately half of Americans buy at least one lottery ticket at some point, the vast majority of tickets are purchased by about 20 percent of the population. These high-frequency players tend to be poor and uneducated, which is why critics refer to lotteries as a regressive tax. (In a 2006 survey, 30 percent of people without a high school degree said that playing the lottery was a wealth-building strategy.) On average, households that make less than $12,400 a year spend 5 percent of their income on lotteries — a source of hope for just a few bucks a throw"</blockquote>.
+
+Edit: Real data from google's adplanner seems to support the assumption for low income, but not for education...
+[caption id="attachment_2531" align="alignnone" width="900" caption="Ventura24 customers"]<a href="https://www.google.com/adplanner/site_profile#siteDetails?identifier=ventura24.es&#38;geo=ES&#38;trait_type=1&#38;lp=false"><img src="http://devblog.office.tipp24.de/wp-content/uploads/2011/02/ventura24-adplanner.png" alt="Ventura24 customers" width="900" height="892" class="size-full wp-image-2531" /></a>[/caption]

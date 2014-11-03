@@ -1,0 +1,18 @@
+* Java quiz on declaring exceptions as final
+
+Which of the following statements hold for 'final' keywords in exception declarations for catch blocks?
+
+<code>try {
+} catch (<strong>final </strong>TypeAException ...
+}
+</code>
+
+1) It's useless. The languaje allows it but it adds no value. The language also allows you to rewrite:
+   <code>return Boolean.TRUE;</code>
+with
+<code>final Boolean result = Boolean.TRUE;
+return result;</code>
+2) Adds clutter discarded at runtime.
+3) It treats the declared exceptions as final parameters, so they cannot be reassigned inside the block.
+4) In Java 7+ it's used to avoid duplicated catch blocks.
+5) In Java 7+ it's not allowed anymore.

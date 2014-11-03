@@ -1,0 +1,4 @@
+* Defective Java: Mistakes that matter
+
+Interesting <a href="http://vimeo.com/17157772">video</a> from Google...
+

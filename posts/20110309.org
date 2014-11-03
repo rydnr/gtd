@@ -1,0 +1,3 @@
+* Web application marketplace
+
+We could try to publish Alinghi in <a href="http://cherokee-market.com/">Cherokee market</a> under an open-source license: first 10 bets/day free ;).

@@ -1,0 +1,9 @@
+* Stop using mocks
+
+Just forwarding a <a href="http://openmymind.net/2011/3/23/Stop-Using-Mocks">post</a> (which, btw, uses examples in .NET, but the idea remains).
+
+I've never liked the so-called integration tests: those in which most of the time writing the test is spent dealing with the correct context data. And I'm not talking about Alinghi, but in general.
+
+Which is the alternative? Don't use in-memory databases. Don't use databases. Just fake the behavior of external entities to behave as it the data was there already, but don't waste time building it.
+
+In other words: if the test can be implemented with Mockito, then go for it. If for some reason it's not possible (for conceptual reasons, not framework limitations/bugs), then I'd think twice. And probably would reject wasting my time on it afterwards :).

@@ -1,0 +1,19 @@
+* #protolol ... what about #alinghilol
+
+It's been a constant flood during the weekend. There're some <a href="http://attrition.org/misc/ee/protolol.txt">pretty funny</a> <a href="http://twitter.com/#!/search?q=%23protolol">out there</a>.
+
+Hoping not to bother anyone, and only trying to make people write much funnier ones, some initial (private) #alinghilol:
+
+- The great thing about Alinghi architecture jokes is that you have to wait in a queue to actually understand them.
+- The great thing about Alinghi db jokes is that you think you got it, only to find out it was in json.
+- The great thing about Alinghi dev script jokes is that you usually don't listen to them until you do.
+- The worst thing of Jenkins jokes is forcing you to remember that you have to send a 'I got it' message before anything else, unless you want public embarrasment.
+- The worst thing of Alinghi accountancy jokes is that you know they'll never stop.
+
+For #nlplol...
+
+- The great thing about open item jokes are that you have to re-check if they are positive or negative.
+- The worst thing about price calc jokes are that are better off if you are unaware them.
+- The worst thing about (pw) rollback jokes is that you think you got it, only to find out you actually didn't.
+- The worst thing about oracle db locks jokes is that you know they are too often when they shouldn't, even though always someone tries to deny it.
+- The great thing about JavaMelody monitoring jokes is that you know you should pay more attention, but disappears immediately.

@@ -1,0 +1,13 @@
+* Comparing web frameworks
+
+Matt Raible provides the slides [1] for his presentation [2] at devoxx last october. It's interesting. The outcome is a matrix [3]. 
+Personally, if there're (contextual) reasons to use Java, I'd always start with Play, or Clojure, and maybe switch to Spring MVC but only if the rest of the architecture relies on Spring.
+But I think the approach to avoid the expensive development cycle means a lot in terms of productivity and fun.
+I don't really care about whether the demand for Rails developers is higher in USA, or which framework has more published books. Pretty much the kind of things I'd like to see in a framework are not what the average developer would vote for, so for me, the less hype, the better.
+
+The statement from Craig McClanahan is impressive [4].
+
+[1] http://static.raibledesigns.com/repository/presentations/Comparing_JVM_Web_Frameworks_Devoxx2010.pdf
+[2] http://raibledesigns.com/rd/entry/my_comparing_jvm_web_frameworks
+[3] http://spreadsheets.google.com/pub?key=0AtkkDCT2WDMXdC1HOEtnUHpCejJMbUhGeGJWUmh5dVE&amp;hl=en&amp;output=html
+[4] http://markmail.org/thread/qfb5sekad33eobh2 (at the end)

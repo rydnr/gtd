@@ -1,0 +1,29 @@
+* RFC: Knowledge sharing tool
+
+I've had an idea I'd like to share hoping you are kind enough to give feedback (that probably doesn't apply to you, kutzi*).
+Additionally, if some of you want to help me building a free-software project with this, that'd be awesome.
+
+Here it is (the ideal approach):
+
+<ul>
+	<li>client side</li>
+<ol>
+	<li> Each developer, using ifontmaker (there're probably alternatives if there's no iPad available, but using this app it takes just 10 minutes) creates his/her own .ttf.</li>
+	<li> The tool 'hooks' all syscalls to save files under the project's base folder (filtering somehow the mvn process), and, using <a href="http://libgit2.github.com/">libgit2</a>, annotates some metadata for each file change: timestamp, author, diff.</li>
+	<li> Somehow (probably using a hook on svn <strong>client</strong>), each commit publishes all metadata changes for the affected files on a centralized server.</li>
+</ol>
+	<li>Server side</li>
+<ol>
+	<li>The metadata gets sorted chronologically.</li>
+	<li>On a post-commit svn hook, we call the server to build a screencast for each file, using a <a href="http://comment.rsablogs.org.uk/videos/">RSA Animate</a>-like look&amp;feel (a hand writing the code using each author's ttf), striking, removing stuff, highlighting svn comments at the bottom, with a time bar. At the end, you see the code with mixed handwriting, with unbiased and clear knowledge of the evolution of the code you're looking at.</li>
+</ol>
+
+</ul>
+
+Right now, I'm thinking of JavaFX for building this kind of auto-generated screencasts. But I don't know whether it's good enough for producing video. I guess so. Any other ideas?
+
+Personally, I'd find very helpful to have this easy-to-consume way to find out the whys of every piece of code. Ideally, each developer would annotate a comment on each file change. That way, the screencasts would be just awesome. But I think it'd slow down and be too annoying.
+
+What do you think? I'm not aware of anything similar already.
+
+* @kutzi: it's a joke. I couldn't resist ;)

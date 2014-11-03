@@ -1,0 +1,11 @@
+* Port knocking
+
+I came up with an interesting topic called 'port knocking' [1] and 'single packet authorization' [2]. It's a way to make firewalls conditionally stop dropping network packets whenever a concrete IP reaches certain ports in sequence during a limited time interval. There's even a physical port knocking lock!
+
+Even though some people thinks of this as 'security through obscurity' [3], I think it has its uses. And SPA seems an obvious and nice extension to SSH.
+
+I'm wondering if there's any real effort to spread the concept to areas like web servers or server-side Java, albeit it could be useful to strengthen the security to any architectural component, like databases.
+
+[1] http://www.portknocking.org/
+[2] http://cipherdyne.org/fwknop/
+[3] http://web.archive.org/web/20070202151534/http://www.bastille-linux.org/jay/obscurity-revisited.html

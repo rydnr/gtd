@@ -1,0 +1,8 @@
+* Javascript, C++0x, node.js, Erlang
+
+<a href="http://blog.vjeux.com/2011/javascript/jspp-morph-cpp-into-javascript.html">JSPP – Morph C++ Into Javascript</a> announces a prototype of a language translator from the new C++ standard to Javascript. In the comments, someone included an interesting link: a <a href="http://www.artificialworlds.net/wiki/IGCC/IGCC">gcc-based C++ interpreter</a>.
+
+It's kind of surprising the current efforts trying to use C++ to the client side, and at the same time <a href="http://nodejs.org/">node.js</a> is a hot trend.
+Actually, reading about <a href="http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb">what node.js is good for</a>, makes me think if Kutzi should rewrite hudson in node.js! ;)
+
+For me, while node.js seems interesting, I feel it's competing with Erlang. node.js could be fancier, it's Google-backed, but less scalable and mature. I bought the <a href="http://pragprog.com/screencasts/v-kserl/erlang-in-practice">Erlang in practice</a> screencast series, but never finished them :(. I remember ten years ago back at Ericsson even they thought it was a deprecated (sixties') language. Has someone tried <a href="http://nitrogenproject.com/doc/tutorial.html">Nitrogen</a> already?

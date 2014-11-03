@@ -1,0 +1,10 @@
+* Twitter for something serious
+
+I'm wondering... What if we implement the following variation of 1-click buy?
+1) We ask the customer to provide his Twitter/identi.ca/quora nick.
+2) We add ourselves (t24/v24 twitter account) as followers of such account.
+3) We parse customer tweets: if it contains something like $t24:eu:12,44,23,41,8,3#1,2, we (conceptually) fill a shopping cart with given bet. Or it could be just $t24:eu and we'll use a random/optimized bet.
+4) We send an email asking the customer to confirm the purchase.
+5) The customer clicks and the operation is accomplished the usual way.
+
+Twitter is not exactly the same case as SMS, but nowadays with the absolute indifference people manage their privacy, I think it's pretty much the same. Nobody would probably care much about whether their bets are public. And we always could tie the purchase to his/her 'preferred' bet...

@@ -1,0 +1,5 @@
+* Effectiveness Of Defect Prevention In I.T. For Product Development
+
+An <a href="http://arxiv.org/abs/1001.3725">article</a> analyzing defect prevention and 'lessons learned' from real-world projects has just been published in Arxiv.
+
+I also found some <a href="http://www.cs.umd.edu/~mvz/mswe609/oort1.pdf">slides</a> dscussing "OO reading techinques" to improve defect prevention.

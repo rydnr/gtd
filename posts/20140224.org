@@ -1,0 +1,17 @@
+* In praise of "final" :)
+
+<p>Sorry if this is easy. It came up recently as a nice surprise to me, but I think I knew it already... If only I had better memory...</p>
+
+<p>Let's say you have a class such as:</p>
+
+<pre>public class A {
+    private static boolean DEBUG = false;
+    static {
+        if (DEBUG) {
+            Log log = ...;
+            log.debug("Static initialization"),
+        }
+    }
+}</pre>
+
+<p>What if you define the DEBUG variable as "final"? Does it make any difference (besides the obvious of making it read-only)? How?</p>

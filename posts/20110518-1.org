@@ -1,0 +1,5 @@
+* Decrypting a .pem file to get the passphrase
+
+It was part of a Defcon CTF, so it's not (fortunately) a silver bullet. But very interesting anyway.
+
+http://barok.foi.hr/~tkisason/

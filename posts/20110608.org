@@ -1,0 +1,29 @@
+* Sending emails with fake sender
+
+It's always funny to notice that, although in Linux is trivial to configure the MUA (mail client) to use whichever email you wish to appear as sender*, in Outlook it checks it beforehand and doesn't allow you to fake it so easily.
+
+Ideally, if every mail server out there checked <a href="http://www.openspf.org/Introduction">SPF</a>, it wouldn't be so easy. My incoming mail server receives a mail stating I'm the recipient (so it passes the anti-relay checks), but takes the <em>From</em> header and performs a DNS query for the domain of the sender to check if the TXT record has SPF information. If so, it checks whether that record allows the incoming server the message comes from to send messages "from me".
+
+Another protection would mean using <a href="http://www.dkim.org/">DKIM</a>, but anyway, chances are that you can still have some fun (and get yourself fired as well, depending on what you do or what you think is funny!) using a <a href="http://emkei.cz/">fake mailer</a>.
+
+Next time, don't be surprised if you get email bounces for messages you didn't send: someone is using your email as sender address and reached non-existing destinations in SPF-unaware mail servers.
+
+* You can also do it easily by telnet'ing directly to port 25:
+<code>
+#telnet mailserver 25
+HELO mailserver.example.com
+MAIL FROM: jose.sanleandro@ventura24.es
+RCPT TO: michael.schuller@esailors.de
+DATA
+Subject: Re: Salary reward
+Thanks a lot! This is totally unexpected!
+&gt; Hi,
+&gt; I've had so much fun with your rickrolls that I finally decided to rise your salary 200%.
+&gt; Keep up the good work!
+&gt; Kind regards,
+&gt; Michael Schuller
+.
+
+
+</code>
+Notice that for this kind of joke there's no need to fake any headers (unless you're copying and pasting just to give it a try: please don't!). The intention was just to show a typical SMTP conversation for those unfamiliar.

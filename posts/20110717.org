@@ -1,0 +1,120 @@
+* Pentesting links
+
+I've just came across this list:<br>
+
+<h1>Information gathering</h1>
+<ul>
+<li>(multi) <a href="http://www.subnetonline.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.subnetonline.com/</a></li>
+<li>(multi) <a href="http://ping.eu/" class="bbc_url" title="External link" rel="nofollow external">http://ping.eu/</a></li>
+<li>(multi) <a href="http://serversniff.net/" class="bbc_url" title="External link" rel="nofollow external">http://serversniff.net/</a></li>
+<li>(multi) <a href="http://www.yougetsignal.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.yougetsignal.com/</a></li>
+<li>(dig/nslookup,whois,traceroute) <a href="http://networking.ringofsaturn.com/Tools/" class="bbc_url" title="External link" rel="nofollow external">http://networking.ringofsaturn.com/Tools/</a></li>
+<li>(whois,dns_tools,service_scan,traceroute) <a href="http://centralops.net/co/DomainDossier.aspx" class="bbc_url" title="External link" rel="nofollow external">http://centralops.net/co/DomainDossier.aspx</a></li>
+<li>(whois,dns_tools,domain_search) <a href="http://www.whois.ws/" class="bbc_url" title="External link" rel="nofollow external">http://www.whois.ws/</a></li>
+<li>(whois,dns_tools) <a href="http://www.robtex.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.robtex.com/</a></li>
+<li>(whois) <a href="http://www.ripn.net:8080/nic/whois" class="bbc_url" title="External link" rel="nofollow external">http://www.ripn.net:8080/nic/whois</a></li>
+<li>(domain_search) <a href="http://searchdns.netcraft.com/" class="bbc_url" title="External link" rel="nofollow external">http://searchdns.netcraft.com/</a></li>
+<li>(iplookup,BGP AS lookup) <a href="http://bgp.he.net/" class="bbc_url" title="External link" rel="nofollow external">http://bgp.he.net/</a></li>
+<li>(ASN search) <a href="http://fixedorbit.com/search.htm" class="bbc_url" title="External link" rel="nofollow external">http://fixedorbit.com/search.htm</a></li>
+<li> (dns,whois, network lookup, ...) <a href="http://www.network-tools.com">www.network-tools.com</a></li>
+</ul>
+<h1>Exploit Search</h1>
+<ul>
+<li>(google engine) <a href="http://exploitsearch.com/" class="bbc_url" title="External link" rel="nofollow external">http://exploitsearch.com/</a></li>
+<li>(nvd,osvdb,metasploit,...) <a href="http://www.exploitsearch.net/" class="bbc_url" title="External link" rel="nofollow external">http://www.exploitsearch.net/</a></li>
+<li>(engine) <a href="http://shodan.surtri.com/" class="bbc_url" title="External link" rel="nofollow external">http://shodan.surtri.com/</a></li>
+<li><a href="http://www.hack0wn.com/advisories.php" class="bbc_url" title="External link" rel="nofollow external">http://www.hack0wn.com/advisories.php</a></li>
+<li><a href="http://www.1337day.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.1337day.com/</a></li>
+<li><a href="http://www.exploit-db.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.exploit-db.com/</a></li>
+<li><a href="http://securityvulns.com/" class="bbc_url" title="External link" rel="nofollow external">http://securityvulns.com/</a></li>
+</ul>
+<h1>Scanning networks,web structures,..</h1>
+<ul>
+<li>(nmap,openvas,sqlix,sqlmap,nikto,sub_domain) <a href="http://hackertarget.com/free-security-vulnerability-scans/" class="bbc_url" title="External link" rel="nofollow external">http://hackertarget.com/free-security-vulnerability-scans/</a></li>
+<li>(nmap,traceroute,whois) <a href="http://hackerfantastic.com/" class="bbc_url" title="External link" rel="nofollow external">http://hackerfantastic.com/</a></li>
+<li>(structure) <a href="http://madnet.name/tools/madss/" class="bbc_url" title="External link" rel="nofollow external">http://madnet.name/tools/madss/</a></li>
+<li>(SQLi,XSS,..) <a href="http://hackvertor.co.uk/public" class="bbc_url" title="External link" rel="nofollow external">http://hackvertor.co.uk/public</a></li>
+<li>(structure) <a href="http://sucuri.net/index.php?page=scan" class="bbc_url" title="External link" rel="nofollow external">http://sucuri.net/index.php?page=scan</a></li>
+<li>(Drupal Vulnerability Scanner) <a href="http://raz0r.name/drupalscan/" class="bbc_url" title="External link" rel="nofollow external">http://raz0r.name/drupalscan/</a></li>
+<li>(Joomla scanner) <a href="https://www.joomlascan.com/" class="bbc_url" title="External link" rel="nofollow external">https://www.joomlascan.com/</a></li>
+<li>(Cross Site Scripting Scanner) <a href="http://xss-scanner.com/" class="bbc_url" title="External link" rel="nofollow external">http://xss-scanner.com/</a></li>
+</ul>
+<h1>XSS Guide</h1>
+<ul>
+<li><a href="http://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29" class="bbc_url" title="External link" rel="nofollow external">http://www.owasp.org/index.php/Cross-site_Scripting_%28XSS%29</a></li>
+<li><a href="http://www.businessinfo.co.uk/labs/hackvertor/hackvertor.php" class="bbc_url" title="External link" rel="nofollow external">http://www.businessinfo.co.uk/labs/hackvertor/hackvertor.php</a></li>
+<li><a href="http://www.googlebig.com/forum/xss-cheats-t-18771.html" class="bbc_url" title="External link" rel="nofollow external">http://www.googlebig.com/forum/xss-cheats-t-18771.html</a></li>
+<li><a href="http://ha.ckers.org/xss.html" class="bbc_url" title="External link" rel="nofollow external">http://ha.ckers.org/xss.html</a></li>
+<li><a href="http://utf-8.jp/public/jjencode.html" class="bbc_url" title="External link" rel="nofollow external">http://utf-8.jp/public/jjencode.html</a></li>
+<li><a href="http://0x416d73.name/jstb/" class="bbc_url" title="External link" rel="nofollow external">http://0x416d73.name/jstb/</a></li>
+</ul>
+<h1>SQL Injection Guide</h1>
+<ul>
+<li><a href="http://ha.ckers.org/sqlinjection/" class="bbc_url" title="External link" rel="nofollow external">http://ha.ckers.org/sqlinjection/</a></li>
+<li><a href="http://pentestmonkey.net/cheat-sheets/" class="bbc_url" title="External link" rel="nofollow external">http://pentestmonkey.net/cheat-sheets/</a></li>
+<li><a href="http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/" class="bbc_url" title="External link" rel="nofollow external">http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/</a></li>
+</ul>
+<h1>Browser test</h1>
+<ul>
+<li><a href="http://www.browserscope.org/" class="bbc_url" title="External link" rel="nofollow external">http://www.browserscope.org/</a></li>
+</ul>
+<h1>Encode/Decode</h1>
+<ul>
+<li><a href="http://www.crypo.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.crypo.com/</a></li>
+<li><a href="http://coderstoolbox.net/string/" class="bbc_url" title="External link" rel="nofollow external">http://coderstoolbox.net/string/</a></li>
+<li><a href="http://ostermiller.org/calc/encode.html" class="bbc_url" title="External link" rel="nofollow external">http://ostermiller.org/calc/encode.html</a></li>
+<li><a href="http://www.showmycode.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.showmycode.com/</a></li>
+<li><a href="http://home2.paulschou.net/tools/xlate/" class="bbc_url" title="External link" rel="nofollow external">http://home2.paulschou.net/tools/xlate/</a></li>
+</ul>
+<h1>Shellcode to exe</h1>
+<ul>
+<li><a href="http://tools88.com/safe/shellcode_2_exe.php" class="bbc_url" title="External link" rel="nofollow external">http://tools88.com/safe/shellcode_2_exe.php</a></li>
+<li><a href="http://freechina.org.ru/shellcode_2_exe.php" class="bbc_url" title="External link" rel="nofollow external">http://freechina.org.ru/shellcode_2_exe.php</a> (offline)</li>
+<li><a href="http://sandsprite.com/shellcode_2_exe.php" class="bbc_url" title="External link" rel="nofollow external">http://sandsprite.com/shellcode_2_exe.php</a></li>
+</ul>
+<h1>Hashcrack</h1>
+<ul>
+<li>(lm,ntlm,md5,mysql/3/4) <a href="http://hashcrack.com/" class="bbc_url" title="External link" rel="nofollow external">http://hashcrack.com/</a></li>
+<li>(md5,sha1) <a href="http://md5.rednoize.com/" class="bbc_url" title="External link" rel="nofollow external">http://md5.rednoize.com/</a></li>
+<li>(md5,sha1) <a href="http://isc.sans.org/tools/reversehash.html" class="bbc_url" title="External link" rel="nofollow external">http://isc.sans.org/tools/reversehash.html</a></li>
+<li>(md5) <a href="http://www.tmto.org/pages/passwordtools/hashcracker/" class="bbc_url" title="External link" rel="nofollow external">http://www.tmto.org/pages/passwordtools/hashcracker/</a></li>
+<li>(md5,lm) <a href="http://www.c0llision.net/webcrack.php" class="bbc_url" title="External link" rel="nofollow external">http://www.c0llision.net/webcrack.php</a></li>
+<li>(md5) <a href="http://md5cracker.tk/" class="bbc_url" title="External link" rel="nofollow external">http://md5cracker.tk/</a></li>
+<li>(md5) <a href="http://www.hashchecker.de/" class="bbc_url" title="External link" rel="nofollow external">http://www.hashchecker.de/</a></li>
+<li>(md5) <a href="http://askcheck.com/" class="bbc_url" title="External link" rel="nofollow external">http://askcheck.com/</a></li>
+<li>(md5) <a href="http://www.kinginfet.net/md5_cracker/" class="bbc_url" title="External link" rel="nofollow external">http://www.kinginfet.net/md5_cracker/</a> (offline)</li>
+<li>(lm) <a href="http://lmcrack.com/" class="bbc_url" title="External link" rel="nofollow external">http://lmcrack.com/</a></li>
+<li>(lm) <a href="http://cracker.offensive-security.com/" class="bbc_url" title="External link" rel="nofollow external">http://cracker.offensive-security.com/</a></li>
+<li>(md5) <a href="http://gdataonline.com/seekhash.php" class="bbc_url" title="External link" rel="nofollow external">http://gdataonline.com/seekhash.php</a> (offline)</li>
+<li>(md5) <a href="http://opencrack.hashkiller.com/" class="bbc_url" title="External link" rel="nofollow external">http://opencrack.hashkiller.com/</a></li>
+<li>(md5) <a href="http://cracker.fox21.at/" class="bbc_url" title="External link" rel="nofollow external">http://cracker.fox21.at/</a></li>
+<li>(md5) <a href="http://md5crack.com/" class="bbc_url" title="External link" rel="nofollow external">http://md5crack.com/</a></li>
+<li>(md5) <a href="http://md5decryption.com/" class="bbc_url" title="External link" rel="nofollow external">http://md5decryption.com/</a></li>
+<li>(md5) <a href="http://authsecu.com/decrypter-dechiffrer-cracker-hash-md5/decrypter-dechiffrer-cracker-hash-md5.php" class="bbc_url" title="External link" rel="nofollow external">http://authsecu.com/decrypter-dechiffrer-cracker-hash-md5/decrypter-dechiffrer-cracker-hash-md5.php</a></li>
+<li>(md5) <a href="http://hash.insidepro.com/" class="bbc_url" title="External link" rel="nofollow external">http://hash.insidepro.com/</a></li>
+<li>(md5) <a href="http://md5decrypter.com/" class="bbc_url" title="External link" rel="nofollow external">http://md5decrypter.com/</a></li>
+<li>(md5) <a href="http://md5pass.info/" class="bbc_url" title="External link" rel="nofollow external">http://md5pass.info/</a></li>
+<li>(md5) <a href="http://crackfor.me/" class="bbc_url" title="External link" rel="nofollow external">http://crackfor.me/</a></li>
+<li>(md5) <a href="http://www.xmd5.org/" class="bbc_url" title="External link" rel="nofollow external">http://www.xmd5.org/</a></li>
+<li>(md5) <a href="http://socialware.ru/md5_crack.php" class="bbc_url" title="External link" rel="nofollow external">http://socialware.ru/md5_crack.php</a> (offline)</li>
+<li>(md5) <a href="http://md5.my-addr.com/md5_decrypt-md5_cracker_online/md5_decoder_tool.php" class="bbc_url" title="External link" rel="nofollow external">http://md5.my-addr.com/md5_decrypt-md5_cracker_online/md5_decoder_tool.php</a></li>
+<li>(md5) <a href="http://www.md5cracker.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.md5cracker.com/</a></li>
+<li>(md5) <a href="http://www.md5decrypter.co.uk/" class="bbc_url" title="External link" rel="nofollow external">http://www.md5decrypter.co.uk/</a></li>
+<li>(md5) <a href="http://md5.noisette.ch/" class="bbc_url" title="External link" rel="nofollow external">http://md5.noisette.ch/</a></li>
+<li>(md5) <a href="http://md5.igrkio.info/md5-hash-database.html" class="bbc_url" title="External link" rel="nofollow external">http://md5.igrkio.info/md5-hash-database.html</a></li>
+<li>(md5) <a href="http://www.hashhack.com" class="bbc_url" title="External link" rel="nofollow external">http://www.hashhack.com</a></li>
+<li>(WebSphere) <a href="http://www.sysman.nl/wasdecoder/" class="bbc_url" title="External link" rel="nofollow external">http://www.sysman.nl/wasdecoder/</a></li>
+<li>(SHA1/MD5 hash cracker on ATI and NVIDIA GPUs) <a href="http://www.golubev.com/hashgpu.htm" class="bbc_url" title="External link" rel="nofollow external">http://www.golubev.com/hashgpu.htm</a></li>
+<li>(Default Password List) <a href="http://www.phenoelit-us.org/dpl/dpl.html" class="bbc_url" title="External link" rel="nofollow external">http://www.phenoelit-us.org/dpl/dpl.html</a></li>
+</ul>
+<h1>Malware Analysis</h1>
+<ul>
+<li>(AV) <a href="http://www.virustotal.com/" class="bbc_url" title="External link" rel="nofollow external">http://www.virustotal.com/</a></li>
+<li>(AV) <a href="http://www.virscan.org/" class="bbc_url" title="External link" rel="nofollow external">http://www.virscan.org/</a></li>
+<li>(AV) <a href="http://virusscan.jotti.org/" class="bbc_url" title="External link" rel="nofollow external">http://virusscan.jotti.org/</a></li>
+<li>(analysis system) <a href="http://mwanalysis.org/?site=1&amp;page=submit" class="bbc_url" title="External link" rel="nofollow external">http://mwanalysis.org/?site=1&amp;page=submit</a></li>
+<li>(behavior analysis) <a href="http://anubis.iseclab.org/" class="bbc_url" title="External link" rel="nofollow external">http://anubis.iseclab.org/</a></li>
+<li><a href="http://www.netscty.com/malware-tool" class="bbc_url" title="External link" rel="nofollow external">http://www.netscty.com/malware-tool</a></li>
+<li>(behavior analysis) <a href="http://mwanalysis.org/?site=1&amp;page=submit" class="bbc_url" title="External link" rel="nofollow external">http://mwanalysis.org/?site=1&amp;page=submit</a></li>
+<li>(javascript,flash) <a href="http://wepawet.cs.ucsb.edu/" class="bbc_url" title="External link" rel="nofollow external">http://wepawet.cs.ucsb.edu/</a></li>
+</ul>						

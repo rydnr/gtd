@@ -1,0 +1,12 @@
+* To consider wherever Alinghi uses floating-point numbers
+
+<code>
+#java -cp ~/.m2/repository/bsh/bsh/2.0b2/bsh-2.0b2.jar bsh.Interpreter
+bsh % a = new BigDecimal("2.2250738585072012e-308");
+bsh % print(a);
+2.2250738585072012E-308
+bsh % double b = 2.2250738585072012e-308;
+</code>
+hangs!
+
+<a href="http://www.oracle.com/technetwork/topics/security/alert-cve-2010-4476-305811.html">cve-2010-4476</a>

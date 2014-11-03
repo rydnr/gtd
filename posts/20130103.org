@@ -1,0 +1,5 @@
+* Projectnova.org
+
+It sounds like a sophisticated and unified honeypot, but for the network, not specific to hosts:
+
+<a href="http://www.projectnova.org/" target="_blank">http://www.projectnova.org/</a>

@@ -1,0 +1,7 @@
+* The ultimate tool for automating repetitive tasks or GUI testing
+
+At first glance, it'd say it's a killer <a href="//sikuli.org/">app</a> !!
+It's like expect but not constrained to the command-line. I'm guessing it can be used for overcoming once and for all the nightmare of QA when it comes to Flash.
+Additionally, it could be useful as Eclipse macro engine (in case it doesn't have one already). At least, for creating receipts or similar stuff... I'm thinking of all you unfortunate non-Emacs users :).
+
+There's also another <a href="//www.autoitscript.com/site/autoit/">tool</a> that seem to be competing, but only for Windows. None of them works yet on Linux, though :(.

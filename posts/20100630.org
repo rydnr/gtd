@@ -1,0 +1,5 @@
+* How to build utterly reliable systems
+
+I've just read it 'diagonally', but it got my interest, and made me realize there're things I should reconsider about my own opinions and approaches.
+
+<a href="http://www.imatix.com/articles:how-to-build-utterly-reliable-systems">http://www.imatix.com/articles:how-to-build-utterly-reliable-systems</a>

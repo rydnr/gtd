@@ -1,0 +1,17 @@
+* [OT:quiz] What's the missing number in the sequence? Given a definition, can you name the algorithm?
+
+<ul>
+<ol>
+
+<blockquote>
+1,2,3,6, -&gt; X &lt;-,46,...
+</blockquote>
+</ol>
+
+<ol>
+
+<blockquote>A special form of recursion where the last operation of a function is a recursive call. The recursion may be optimized away by executing the call in the current stack frame and returning its result rather than creating a new stack frame.</blockquote>
+</ol>
+</ul>
+
+Hints: Use this <a href="http://oeis.org/">this</a> and <a href="http://xlinux.nist.gov/">that</a>.

@@ -1,0 +1,5 @@
+* Teach yourself programming in 10 years
+
+A classic essay, ten years later.
+
+http://norvig.com/21-days.html

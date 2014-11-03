@@ -1,0 +1,22 @@
+* Java value types
+
+<p>From the colleagues-from-the-past department :):</p>
+
+<p><a href="http://%20http://cr.openjdk.java.net/~jrose/values/values-0.html">http://cr.openjdk.java.net/~jrose/values/values-0.html</a></p>
+
+<p>A very interesting read.</p>
+
+<p>I didn't stop to think the object identity is mandatory for synchronized blocks, i.e., you cannot write stuff like</p>
+
+<pre><code>public class A {
+    private boolean LOCK;
+
+    ...
+
+    public void methodB() {
+        synchronized (LOCK) { ... }
+    }
+}
+</code></pre>
+
+<p>You cannot because LOCK lacks identity semantics.</p>

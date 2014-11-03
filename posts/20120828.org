@@ -1,0 +1,11 @@
+* New Java exploit, sold for about 250k - 500k euros
+
+To check if you're vulnerable:
+
+<a href="http://isjavaexploitable.com/">http://isjavaexploitable.com/</a>
+
+More information:
+
+<a href="http://krebsonsecurity.com/2012/08/attackers-pounce-on-zero-day-java-exploit/">http://krebsonsecurity.com/2012/08/attackers-pounce-on-zero-day-java-exploit/</a>
+
+It seems it's available within Metasploit and <a href="http://en.wikipedia.org/wiki/Blackhole_exploit_kit">BlackHole</a> (!!).

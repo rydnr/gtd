@@ -1,0 +1,5 @@
+* Misusing statistics
+
+Great <a href="http://www.zedshaw.com/essays/programmer_stats.html">article</a> about common practices in our industry. I've felt myself embarrased, even though I tend to convince myself I deserve less severe punishment since I have read some of the mentioned books and have the "Introductory statistics with R" in my desktop :).
+
+Nice reading anyway.

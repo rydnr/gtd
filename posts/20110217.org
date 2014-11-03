@@ -1,0 +1,12 @@
+* [OT] Vintage terminal emulators
+
+Those cli-lovers out there tired of yakuake can try some of these alternatives just for fun...
+
+If you are using a Mac, <a href="http://www.youtube.com/watch?v=CP_4ZJEIH3U">Cathode</a>. For Linux users, try this 
+
+<code>/usr/lib64/misc/xscreensaver/phosphor -program bash</code>
+<code>/usr/lib64/misc/xscreensaver/apple2 -program bash -text</code>
+
+You can see some screenshots <a href="https://bbs.archlinux.org/viewtopic.php?pid=303997">here</a>.
+
+Cathode is more useful, let's hope it gets ported to Linux someday soon.

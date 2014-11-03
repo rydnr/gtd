@@ -1,0 +1,35 @@
+* JSR 305 (and 308, and FindBugs, and Checker Framework)
+
+To praise some of my (few) level-3 scores on the programmer competency matrix, I was using a design-by-contract enforcement tool based on xdoclet(now extinct)-like annotations:
+<code>
+/**
+[..]
+ @param service the {@link XXXService} instance.
+[..]
+ * @precondition service != null
+ */
+public [..] whatever([..], final XXXService service)
+{
+}
+</code>
+
+The above 'annotation' allows documenting better the expected pre-conditions, and can be enforced by a homebrew tool (whose main feature is to throw the NPE in the caller, not within the called).
+
+Anyway, the contracts are not always clear, and sometimes you have to fix NPEs, and wrap calls checking for nulls. In the best case, throwing a meaningful exception instead.
+
+If the NPE happens on circumstances which prevent the application to function properly (Spring's xml not available, for example), then it makes little point to add the null-check boilerplate. If it's null, everything is screwed up. If not, everything is working fine and there's no need to perform the same check millions of times at runtime.
+
+I recently received a FindBugs warning about an unnecessary null-check, stating that the method was annotated as return a @NotNull, and therefore the check is pointless. That seemed interesting, so a 5-minute research (<a href="http://robaustin.wikidot.com/annotations-and-notnull">[1]</a>, <a href="http://stackoverflow.com/questions/2289694/what-is-the-status-of-jsr-305">[2]</a>, <a href="http://stackoverflow.com/questions/1476757/jsr305-vs-jsr308-java-type-anotations-which-is-going-to-be-the-standard">[3]</a>) showed that those constraint-enforcement annotations were proposed back in <a href="http://jcp.org/en/jsr/detail?id=305">2006</a> (jsr 305), but so far they <a href="http://openjdk.java.net/projects/jdk7/features/">won't be included in Java 7</a>. JSR 308 tries to extend where you can use annotations.
+
+So the options to use annotations instead of null-check boilerplate are:
+- Use <a href="http://findbugs.sourceforge.net/manual/annotations.html">findbugs' annotations</a> (available as a <a href="http://repo2.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/">separate artifact</a>).
+- Use <a href="http://code.google.com/p/jsr-305/">jsr305 google group</a>'s annotations.
+- Use <a href="http://types.cs.washington.edu/checker-framework/">checker-framework</a>.
+
+There're other interesting annotations, such as Goetz's <a href="http://jcip.net/annotations/doc/index.html">Java concurrency in practice</a>.
+
+Let's see if I can convince locally to incrementally replace ifs with @s... I'm curious about checker-frameworks annotations, beyond null checks.
+
+[1] <a href="http://robaustin.wikidot.com/annotations-and-notnull">http://robaustin.wikidot.com/annotations-and-notnull</a>
+[2] <a href="http://stackoverflow.com/questions/2289694/what-is-the-status-of-jsr-305">http://stackoverflow.com/questions/2289694/what-is-the-status-of-jsr-305</a>
+[3] <a href="http://stackoverflow.com/questions/1476757/jsr305-vs-jsr308-java-type-anotations-which-is-going-to-be-the-standard">http://stackoverflow.com/questions/1476757/jsr305-vs-jsr308-java-type-anotations-which-is-going-to-be-the-standard</a>

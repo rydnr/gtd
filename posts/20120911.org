@@ -1,0 +1,7 @@
+* Java8: No jigsaw
+
+This is two months late, but still important.
+
+<a href="http://mreinhold.org/blog/late-for-the-train">http://mreinhold.org/blog/late-for-the-train</a>
+
+Additionally, I've come across this <a href="https://blogs.oracle.com/javaspotlight">Java podcast</a> which I was unaware of.

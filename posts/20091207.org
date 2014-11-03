@@ -1,0 +1,10 @@
+* About RequestPerformanceKPI, PerformanceMonitoringMethodInterceptor, CallTreeProfiler
+
+After spending some time debugging, I've found the interceptor mechanism for profiling method calls across layer boundaries interesting, but always wondering what we would be using it for. Alright, the filter logs stuff on each request, but for what?
+
+On the one hand, I think it should be done only a fraction of the times. Even if we use it to compute statistics regularly, not just because they'll be useful should we need them, a fraction of all possible samples should suffice.
+Moreover, profiling in Java since JDK 5 is much less intrusive. Just launch visualvm, activate the profiler plugin, and you get immediate information about both memory and performance profiling, application agnostic.
+
+I may seem advocating premature optimization, but unless I'm missing part of the big picture, I think this is a realization of Heisemberg's uncertainty principle applied to software. I've always complained about logging: this is much more intrusive :).
+
+No offense. I'd like to know how we plan to use that vast amount of information, and wondering why not taking samples instead of measuring the whole universe (statistically speaking) makes sense.

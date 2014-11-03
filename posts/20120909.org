@@ -1,0 +1,7 @@
+* Free hosting for geeks
+
+But only for Ruby, Php or Perl applications, using MySQL or SQLite.
+
+You don't get root access neither, but it's interesting.
+
+<a href="http://1.ai/">http://1.ai/</a>

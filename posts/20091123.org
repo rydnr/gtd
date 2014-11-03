@@ -1,0 +1,42 @@
+* Sorry Christoph!
+
+Last friday I decided it was time to commit my changes.
+
+After all, I was pretty sure nobody else was working on the files I need to change. So my approach was: change the webshop. pull the new information needed from the FE objects, and get such information from the BL layer. So I was changing both BL and WS, neither of them compiling. I fixed BL, which means it compiled successfully against previous version of WS. Then, WS compiled, against the new version of BL. I recompiled all again, so that BL was actually seeing the correct WS. And after that double-check, I decided I had to commit. I couldn't delay it any longer, otherwise if Hudson detected problems I wouldn't be there to fix them.
+
+So I committed my changes, and they failed, for Hudson. Even though I do 'svn up' constantly, between last compile and my commit there were other commits on BL, which needed uptating to be compatible with latest WS.
+
+Unfortunately, Christoph suffered Hudson's wraith as well :)
+
+I'm not going to do a deep analysis on this. But in case someone is interested, my counter-measure:
+<code>#!/bin/bash
+REMOTE_SVNROOT="`head -n 5 .svn/entries | tail -n 1 2&gt; /dev/null`";
+function checkValidWorkingCopy() {
+&nbsp;&nbsp;local _rescode=1;
+&nbsp;&nbsp;if [ "x${REMOTE_SVNROOT}" == "x" ]; then
+&nbsp;&nbsp;&nbsp;&nbsp;echo "Could not figure out remote SVN path. Are you in a working copy?";
+&nbsp;&nbsp;&nbsp;&nbsp;echo "Exiting...";
+&nbsp;&nbsp;else
+&nbsp;&nbsp;&nbsp;&nbsp;local _latestRev=`svn info ${REMOTE_SVNROOT} | grep 'Revision:' | cut -d' ' -f 2`;
+&nbsp;&nbsp;&nbsp;&nbsp;local _localRev=`svn info ${PWD} | grep 'Revision:' | cut -d' ' -f 2`;
+#    echo "local=${_localRev}, ${REMOTE_SVNROOT}=${_latestRev}";
+&nbsp;&nbsp;&nbsp;&nbsp;if [ "${_localRev}" == "${_latestRev}" ]; then
+&nbsp;&nbsp;&nbsp;&nbsp;  _rescode=0;
+&nbsp;&nbsp;&nbsp;&nbsp;else
+&nbsp;&nbsp;&nbsp;&nbsp;  echo "Not latest revision: update and try again (yours ${_localRev}, latest ${_latestRev})";
+&nbsp;&nbsp;&nbsp;&nbsp;fi
+&nbsp;&nbsp;fi
+&nbsp;&nbsp;return ${_rescode};
+}
+if&nbsp;&nbsp;&nbsp;[ "x${1}" == "xcommit" ] \
+&nbsp;&nbsp;|| [ "x${1}" == "xci" ]; then
+&nbsp;&nbsp;if checkValidWorkingCopy; then
+&nbsp;&nbsp;&nbsp;&nbsp;`which svn` $@
+&nbsp;&nbsp;fi
+else
+&nbsp;&nbsp;`which svn` $@
+fi</code>
+And making sure the wrapper gets called with
+<blockquote>alias svn="~/bin/svn.sh"</blockquote>
+
+Of course, it can fail: someone else could be committing just before the check and my commit.

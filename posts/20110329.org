@@ -1,0 +1,11 @@
+* Java encapsulation
+
+I just wanted to point out the distinction between the 'pure' OOP concept of encapsulation, and the Java implementation, in case you didn't noticed.
+In OOP, data + behavior are bundled as a unit. There's no point in defining encapsulation since everybody knows it.
+
+One could say: if both data + logic are encapsulated, doesn't that mean the logic is unnecessarily duplicated among all runtime instances of the same class?
+Of course it doesn't happen in Java, but in my opinion is not part of the implementation details of the way the VM works. I mean, it's transparent. That's why you can marshal/unmarshal instances of classes already present in the classloader, but nothing more. Try to generate a lengthy (in terms of code) and a short implementation of the same class, and inspect the differences in terms of memory footprint.
+
+Another 'feature' of it is allowing you to circumvent 'protected' policies by using them from a different instance. I mean, I want to access a protected method of a given instance. Well, you can just create another instance wrapping the original one, and call the wrapped instance's protected logic from therein. And that's because the logic resides at class level, whereas the data doesn't.
+
+In other words, in Java, logic is always static. Data isn't, which means they're not really 'encapsulated'. I'm not saying it's bad or it should be done differently... but the different meanings of 'protected' (depending on whether it applies to methods or data), kind of pisses me off a little bit :).

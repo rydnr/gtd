@@ -1,0 +1,15 @@
+* HTTPS secure?
+
+I hope this is not too much off-topic.
+
+All https sites state that they (us) offer secure services just by provide them via https with a trusted certificate.
+The trust comes from an external authority (which on the other hand is just selling trust for money, so it's kind of ironic).
+The only problem seems to be man-in-the-middle attacks, which affect only naive users that don't pay enough attention to their browsers' warning messages.
+
+However, it's a fact that some IDS allow sniffing over SSL channels, upon providing them the certificates the host is using. And not only that: the SSL encryption often (as in our case) ends on the external layer of the IT systems (AJP is not encrypted). From the user's perspective is not really a difference, since she knows little about how her information is used on the other end (although she should worry about someone else knowing now her password).
+
+My point is: the trust from the user's point of view comes from a) the company has paid for a certificate signature from a 'trustworthy' CA (I'm not buying that with enthusiasm, but could be worse); b) the company is able to detect -and defend itself- from external attacks. If they're not able to detect the attack, they could be sniffing our SSL data. One of the most valuable assets in a company is the certificate's key file. Protecting it doesn't make the service 'secure', but losing it opens up a lot of uncomfortable possibilities.
+
+The SSL claim is too weak. And stating that our customers can feel confident just by using a valid and trusted certificate is just not true. It should be accomplished with policies like PCI, but they don't usually review in detail that you're telling the truth.
+
+So yes, your certificate is valid, so what?

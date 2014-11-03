@@ -1,0 +1,9 @@
+* Interesting BlackHat webcast for today at 20:00
+
+<a href="http://blackhat.com/html/webcast/webcast-2011_vulnerabilities.html">HTTP Parameter Pollution Vulnerabilities in Web Applications</a>
+
+This might be interesting as well, scheduled for June, 1st:
+
+<a href="http://blackhat.com/html/webcast/webcast-2011_att_vect.html">PlayStation Network Attack Vectors Expanded</a>
+
+The videos are usually openly available for everyone some days later.

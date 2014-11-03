@@ -1,0 +1,17 @@
+* Tool to draw diagrams
+
+I feel like I'm sending spam, but...
+
+I found a website that allows you to draw diagrams online, with a Flash application. It's like a featureless version of Visio or Dia, but it provides nicer stencils and icons. At least, I get nicer results in my diagrams than what I'm used to.
+
+The drawback: the free version only supports "I'm going to do it all before I leave" *, only one diagram at a time, and a watermark when you export it as png/jpg (which can be removed manually in Gimp or even automatically with ImageMagick).
+
+Here's an example of what you can expect with the tool.
+
+[caption id="attachment_937" align="alignnone" width="300" caption="Network diagram for proval"]<img class="size-medium wp-image-937" src="http://devblog.office.tipp24.de/wp-content/uploads/2009/11/Proval-Network-diagram-300x197.png" alt="Network diagram for proval" width="300" height="197" />[/caption]
+
+* Maybe because I've been using a 'bugmenot' account, and therefore all work gets discarded.
+
+I almost forgot :), the website is <a title="LovelyCharts.com" href="http://www.lovelycharts.com" target="_blank">http://www.lovelycharts.com</a> (not a very fortunate name in my opinion).
+
+P.D.: The image is too small. Maybe you can access it <a href="https://trac/attachment/wiki/Proval_TechDoc/Proval%20%28Network%20diagram%29.png" target="_blank">here</a>.

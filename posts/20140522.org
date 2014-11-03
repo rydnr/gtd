@@ -1,0 +1,9 @@
+* Async manifesto
+
+<p>I have to say I feel some of their pain as well:</p>
+
+<p><a href="https://news.ycombinator.com/item?id=7781517">http://asyncmanifesto.org/</a></p>
+
+<p>On the one hand, like most of things in life, you're better off if you love or have fun doing what you do for a living. The less fun, the less motivated, the less productive. No matter how focused, on-track and reliable your team becomes. Scrum's Sprint Planning is pretty much the opposite of fun.</p>
+
+<p>On the other hand, Lean's feedback loops are great (as well as Scrum's retrospectives), but it's nevertheless a <a href="https://en.wikipedia.org/wiki/Hill_climbing">hill climbing</a> <a href="https://en.wikibooks.org/wiki/Algorithms/Hill_Climbing">algorithm</a>: Only suboptimal solutions are guaranteed, so we shouldn't be overenthusiastic about it, even with perfect retrospectives (whatever that means).</p>

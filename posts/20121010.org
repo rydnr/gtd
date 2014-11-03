@@ -1,0 +1,19 @@
+* Any Randori experience out there?
+
+I'm reading "The code cleaner", from Robert C. Martin. I was curious about the claim: "A code of conduct for professional programmers". So I decided to give it an opportunity, even though such author is not really one of my favorites.
+
+I'd love to talk with anyone about what the book proposes. But sometimes it's just too 'religious'.
+
+As you know, the author is a big fan of TDD. He depicts a practice called "Randori", which seems interesting to me.
+
+It basically consists of:
+- All participants meet in the same room, with a projector and a wireless keyboard and mouse;
+- The first participant writes a test;
+- The next-in-turn writes the code to make the test succeed, and writes the next test;
+- The iteration goes on until the code is complete.
+
+For simplicity, the code is usually a kata: something that we do just for the sole sake of practicing, and we repeat and repeat until we do it fast and mostly automatic. It's clearly defined and doesn't take too long.
+
+I'm thinking of the best way to 'sell' the idea to my colleagues here. My initial proposal is the Minesweeper in CoffeeScript, but I'm not completely sure it'd be interesting enough for others to give it a try.
+
+Any experience to share?

@@ -1,0 +1,8 @@
+* Star wars version of Subversion history
+
+I've extracted some periods of our Subversion repository and created a video using <a href="http://code.google.com/p/gource/">gource</a>.
+Unfortunately wordpress doesn't allow uploading files this big, so temporarily it's available online:
+
+http://www.megaupload.com/?d=DDZF7ODC
+
+If you do the same for Alinghi, it'd be interesting!

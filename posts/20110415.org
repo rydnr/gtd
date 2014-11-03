@@ -1,0 +1,63 @@
+* Java Quiz: Do we need a @NoOverride annotation?
+
+Iteration 1:
+<pre>
+package superstandard.stuff;
+public class Parent {
+  public void doSomething() {
+    specificStuff();
+  }
+  protected void specificStuff() {
+    System.out.println(Parent.class.getName() + "#specificStuff()");
+  }
+}
+</pre>
+<code>
+# javac superstandard/stuff/*
+</code>
+<pre>
+package veryconcrete.stuff;
+public class Child
+  extends Parent {
+  @Override
+  protected void specificStuff() {
+    System.out.println(Child.class.getName() + "#specificStuff()");
+    myOwnStuff();
+  }
+  protected void myOwnStuff() {
+    System.out.println(Child.class.getName() + "#myOwnStuff()");
+  }  
+  public static void main(final String[] args) {
+    new Child().doSomething();
+  }
+}
+</pre>
+<code>
+# javac veryconcrete/stuff/*
+# java veryconcrete.stuff.Child
+veryconcrete.stuff.Child#specificStuff()
+veryconcrete.stuff.Child#myOwnStuff()
+</code>
+Iteration 2:
+<pre>
+package superstandard.stuff;
+public class Parent {
+  public void doSomething() {
+    specificStuff();
+    myOwnStuff();
+  }
+  protected void specificStuff() {
+    System.out.println(Parent.class.getName() + "#specificStuff()");
+  }
+  protected void myOwnStuff() {
+    System.out.println(Parent.class.getName() + "#myOwnStuff()");
+  }
+}
+</pre>
+<code>
+# javac superstandard/stuff/*
+# java veryconcrete.stuff.Child
+veryconcrete.stuff.Child#specificStuff()
+veryconcrete.stuff.Child#myOwnStuff()
+veryconcrete.stuff.Child#myOwnStuff()
+</code>

@@ -1,0 +1,18 @@
+* ORMs a thing of the past
+
+It seems there's been new discussions about this topic lately.
+
+Here's the post: <a href="http://codemonkeyism.com/orms">ORMs are a thing of the past</a>
+
+And some responses:
+<ul>
+	<li><a href="http://java.dzone.com/news/orm-debate-obsolete-technology" target="_blank">The ORM Debate: Experts Weigh In</a></li>
+	<li><a href="http://java.dzone.com/articles/are-orms-really-thing-past" target="_blank">Are ORMs really a thing of the past?</a></li>
+	<li><a title="Hibernate has Problems, but where is the Alternative?" href="http://blog.schauderhaft.de/2009/10/18/hibernate-problems-alternative/">Hibernate has Problems, but where is the Alternativ</a></li>
+	<li><a href="http://www.crazymcphee.net/x/2009/10/19/orm-is-dead-meme" target="_blank">ORM is dead meme</a></li>
+</ul>
+In my opinion, I don't like ORMs either. But I'm actually more inclined to rethink why is that we build our architectures based on a single (conceptually at least) database? And it seems there're some others advocating the end of SQL:
+
+<a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9135086" target="_blank">No to SQL? Anti-database movement gains steam</a>
+
+And, a worth-reading for sure: <a href="http://adamblog.heroku.com/past/2009/7/6/sql_databases_dont_scale/" target="_blank">SQL databases don't scale</a>

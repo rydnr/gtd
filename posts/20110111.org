@@ -1,0 +1,8 @@
+* Apache Shiro
+
+I've just come across <a href="http://shiro.apache.org">Apache Shiro</a>.
+It seems that Apache is again pushing forward framework-agnostic improvements to painful-to-use Java specs, in this case JAAS.
+
+Has anyone used it already?
+
+Reading its 10-minute tutorial, it seems it includes an abstraction to Session, which can be used outside HTTP and supports features such as clustering.

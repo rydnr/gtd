@@ -1,0 +1,11 @@
+* Java quiz
+
+Let's say you have a Collection of a potpourri of different types of objects: Integer, String, Date.
+
+<code>List&lt;?&gt; bag = ...;</code>
+
+How'd you implement a "filter" method, so you can call it like:
+
+<code>List&lt;Integer&gt; ints = filter(bag);
+List&lt;String&gt; strs = filter(bag);
+List&lt;Date&gt; dates = filter(bag);</code>

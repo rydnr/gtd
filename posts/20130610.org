@@ -1,0 +1,13 @@
+* Java quiz: covariant return types
+
+Does this compile? Why (not)?
+
+<code>import java.util.ArrayList;
+    import java.util.List;
+    public class A {
+    &nbsp;&nbsp;&nbsp;&nbsp;public List&lt;Integer&gt; getList() { ... }
+    }
+    public class B extends A {
+    &nbsp;&nbsp;&nbsp;&nbsp;@Override
+        &nbsp;&nbsp;&nbsp;&nbsp;public ArrayList&lt;Integer&gt; getList() { ... }
+    }</code>

@@ -1,0 +1,13 @@
+* Programming Top 10 lists, according to 6 guys
+
+Here it <a href="http://www.codinghorror.com/blog/2007/03/top-6-list-of-programming-top-10-lists.html">is</a>.
+
+It'd be interesting to publish our own top-10 list. That would tell a lot about each one of us!
+But meanwhile, the easy way out:
+
+- Jerry Weinberg: +1
+- Dare Obasanjo: 0 (some +1, some -1)
+- Omar Shahine: +1 (mostly)
+- Michael McDonough: -1
+- Andres Taylor: 0
+- Steve Yegge: +1

@@ -1,0 +1,55 @@
+* Lottery designs
+
+With the new Euromillions prize category of 2+0, we needed to find the smallest set of 5/50 bets to guarantee that the winning number will share a pair of numbers with one bet of given set.
+
+Initially, It seemed reasonable to use the same approach as we used initially for Quiniela (soccer): finding the set of bets with a <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Hamming_distance">Hamming distance</a> equal or less than 3 to <strong>any other bet</strong>. For Quiniela we directly used a <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Ternary_Golay_code">Ternary Golay Code</a>, as part of our <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Branch_and_bound">Branch and Bound</a> algorithm framework. This time, after a while I ended up asking for help <a href="http://mathoverflow.net/questions/67041/how-many-elements-with-a-hamming-distance-of-3-or-less">publicly</a>. Although I haven't used the solutions so far, it led me to finding out that, to my surprise, Lottery games are actually an active area of modern mathematics. In particular, lottery designs [1] and lottery wheels. It turns out that what we actually were looking for is the value of L(50,5,5,2), which is currently unknown (AFAIK), only some lower and upper boundaries.
+
+We found (and verified) that the following set of <strong>36</strong> bets provide (at least) prizes for the 2+0 category:
+
+<code>01 09 13 25 34
+01 14 26 40 45
+01 20 31 35 43
+02 03 09 11 23
+02 10 23 30 33
+02 13 23 37 47
+02 18 21 23 41
+02 23 32 49 50
+03 10 13 21 49
+03 11 37 42 47
+03 13 18 33 50
+03 13 30 32 41
+04 05 16 38 46
+04 07 08 15 28
+04 11 13 17 39
+05 07 15 16 39
+05 08 16 17 28
+06 12 24 36 44
+06 19 27 29 44
+06 22 42 44 48
+07 15 17 38 46
+08 28 38 39 46
+09 10 37 41 50
+09 12 22 27 47
+09 18 30 37 49
+09 21 32 33 37
+10 11 18 32 47
+11 21 30 47 50
+11 33 41 47 49
+12 19 29 42 48
+14 20 25 35 45
+14 31 34 43 45
+19 22 24 29 36
+20 26 34 35 40
+24 27 36 42 48
+25 26 31 40 43
+</code>
+
+The other recommended approach is to use graph theory to find a "minimum covering design". There's a nice database <a href="http://www.ccrwest.org/cover.html">online</a>, but for C(50,5,2) the best it can give so far is 130, which obviously is a lot worse than 36.
+
+[1] From "Handbook of Combinatorial Designs. 2nd Edition.":
+<blockquote>An (n, k, p, t)-lotto design is an n-set, V , of elements and a set B of k-element subsets
+(blocks) of V , so that for any p-subset P of V , there is a block B ∈ B, for which
+|P ∩B| ≥ t. L(n, k, p, t) denotes the smallest number of blocks in any (n, k, p, t)-lotto
+design.
+</blockquote>
+

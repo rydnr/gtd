@@ -1,0 +1,7 @@
+* Executable requirements
+
+I never asked it here: Have you considered using <a href="http://agile.dzone.com/articles/executable-specifications">executable requirements</a>?
+
+<a href="http://www.concordion.org/">Concordium</a> seems worth trying...
+
+Some alternatives can be found in <a href="http://stackoverflow.com/questions/12815/anyone-using-executable-requirements">stack overflow</a>, of course, where else lately?

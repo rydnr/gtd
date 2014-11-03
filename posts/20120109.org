@@ -1,0 +1,11 @@
+* java.util.concurrent
+
+I was trying to use iAP Cracker to get <a href="http://jaxenter.com/java-tech-journal/JTJ-2011-10">JavaTech Journal</a> directly to my iPad (with no success), when I decided to watch a presentation about <a href="http://jaxenter.com/modern-java-concurrency-martijn-verburg-ben-evans-at-jax-london-39557.html">Modern Java Concurrency</a>.
+
+Even though I've used java.util.concurrent, in particular for non-blocking algorithms, I didn't spend enough time to figure out the convenience of rethinking 'synchronized' and replace it with 'ReentrantLock'. I recommend the video, even though it lasts 50 minutes.
+
+Also interesting is the remark on this <a href="http://code.google.com/p/disruptor/">Disruptor</a> framework. From its home page:
+
+<blockquote>We found that cache misses at the CPU-level, and locks requiring kernel arbitration are both extremely costly, so we created a framework which has "mechanical sympathy" for the hardware it's running on, and that's lock-free.</blockquote>
+
+Let's wait for Java 7 and test its <a href="http://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html">Fork/Join</a> (MapReduce) implementation...

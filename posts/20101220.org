@@ -1,0 +1,10 @@
+* non-serializable objects in HttpSession in V24's cash machine
+
+Hi,
+
+First of all, a minor update on our long-lasting 503/'session expired' issue. We still have them, about 500 per day. That means about once per two visits. So I'd say our customer is pretty used to it :(.
+The symptoms are: maybe you're logged in, or not, but in the process of filling-in the shopping cart, the server complains that your session has expired, and you're now logged-out, and your shopping cart is empty. The cause: Apache's mod_jk thinks Jetty is too busy to service new requests, and it connects the request to another worker, which means another Java process, with no idea of the session id the browser is requesting.
+
+After installing JavaMelody, I've noticed some entries in the session don't implement the Serializable interface. Do you think it'd have any implications? I'm wondering if Jetty decides to write the session down upon certain conditions, and failing to do so makes it throw an exception, which gets interpreted my the AJP peer as 'exhausted to accept more requests'.
+
+We are trying to upgrade Jetty, but meanwhile we will have to deal with this old friend of ours. And past attempts didn't solve the issue...

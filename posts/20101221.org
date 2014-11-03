@@ -1,0 +1,11 @@
+* Innocent DDoS
+
+Hi,
+
+I was wondering how vulnerable are Internet users to be part of DDoS involuntarily (mainly from malicious page trackers), when I received a Slashdot review of such an example.
+
+Google-analytics could easily include in its handleEvent code a DOM rewrite (to cheat the same-origin policy), and start sending requests to any domain they wish. Say wikileaks, Chinese government, or whichever. And it could be done very stealthy and segmented. They could possibly filter whether the browser has RequestPolicy installed.
+
+The Slashdot entry is about <a href="http://d0z.me">http://d0z.me/</a>, a 'value-added' :) url shortener:
+
+<a href="http://translate.google.de/translate?js=n&amp;prev=_t&amp;hl=de&amp;ie=UTF-8&amp;layout=2&amp;eotf=1&amp;sl=en&amp;tl=de&amp;u=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoHg5SJYRHA0&amp;act=url">http://it.slashdot.org/story/10/12/20/2248219/D0zme-mdash-the-Evil-URL-Shortener</a>.

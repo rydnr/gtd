@@ -1,0 +1,17 @@
+* Highly-paid developers as Scrum Masters?
+
+(Second attempt)
+
+I've read this discussion [1] in Slashdot, and found interesting opinions. I invite you to read it if you can.
+
+To be honest, I'm not a big fan of Scrum, but I prefer adopting it than doing nothing. What I don't like about it is the marketing accompanying it, and its 'ethereal' domain: so-called experts / trainers / authors avoid answering trivial questions about how to apply Scrum in practical situations, with motivated and unmotivated, lazy and enthusiastic people. Everything depends on the context, which is unknown to them, so they just throw very theoretical ideas, many of them plain common sense. <strong>The Scrum audience</strong> <strong>needs a Scrum patterns book</strong>. That would be helpful to some of the people answering in Slashdot. In particular, Scrum is cowardly hiding under the premise that 'If with Scrum you failed, it was your fault; otherwise it was Scrum's success."
+
+Scrum propaganda is heavily based on depicting situations in 'old'/'new' ('bad'/'better') terms. So people asking himself 'Why this is good for me?'/'Am I doing business with it?' rapidly can be cataloged as reluctant to change... One might suspect if they were actually part of the problems in the past.
+
+We should always try to avoid dogmatic approaches, criticism is required to improve and overcome any problems we face. For some (suspicious for me) reason, (people behind) Scrum doesn't seem to be very interested in using criticism to improve itself. It gets explained if you assume the goal behind Scrum is broad adoption so that the market they've created is even bigger.
+
+I'm not interested in trying to figure out that kind of hidden interests. My brief experience with Scrum makes me think it's worth trying: we started building stronger teams. But I want to compare with my past experience and use my best practices, being them granted by Scrum or not. And for Scrum, past is synonym of waterfall, failure, nerds without any sense of what the business needs, etc. I don't agree with that, and again, it's hard to say it without apparently becoming a Scrum attacker.
+
+In your opinion, even though we as organization have just started using Scrum, what is the most valuable asset in Scrum that we didn't had previously, and the other way around: don't you think that we are just condemned to play the 'servant' role? For me, it's clear that Scrum takes power from developers and gives them to Project Owners. I'm not talking about selfishness, but the risk associated to the fact that we have nothing to say when someone decides to use Excel as GUI for accessing the database, or whether a process workflow engine makes sense or not.
+
+[1] <a title="http://ask.slashdot.org/story/09/08/29/0228215/Highly-Paid-Developers-As-ScrumMasters" href="http://ask.slashdot.org/story/09/08/29/0228215/Highly-Paid-Developers-As-ScrumMasters" target="_blank">http://ask.slashdot.org/story/09/08/29/0228215/Highly-Paid-Developers-As-ScrumMasters</a>

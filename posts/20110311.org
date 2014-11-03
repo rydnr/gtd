@@ -1,0 +1,20 @@
+* microblogging@devblog
+
+May I ask for better support for microblogging?
+
+My 5-minutes research on this topic gives these results:
+<ul>
+  <li>Wordpress <a href="http://wordpress.org/extend/plugins/tags/microblogging">plugins</a>:
+    <ul>
+      <li><a href="http://wordpress.org/extend/plugins/wp-admin-microblog/">wp-admin-microblog</a></li>
+      <li><a href="http://wordpress.org/extend/plugins/mingle/">Mingle</a></li>
+    </ul>
+  </li>
+  <li><a href="http://status.net/download">StatusNet</a> (<a href="http://identi.ca/">identi.ca</a> engine)</li>
+</ul>
+
+I appraise people posting long and detailed entries, and I feel I could be misusing the blog for microblogging. And maybe that could happen to some other people. At least, rcres, bmigu sends me interesting links via jabber regularly, which sometimes I repost here as 'mine' (whatever that means) ;).
+
+So the question is: If we had a private microblogging engine/wp plugin, do you think it would be useful? Otherwise, another option could be sharing a Twitter account, but that means no difference but the lack of privacy...
+
+Either case, I vote +1.

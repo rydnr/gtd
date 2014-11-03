@@ -1,0 +1,5 @@
+* [OT] Online course: Power searching with Google
+
+After reading about Google's new <a href="edudemic.com/2012/09/google-course-builder/">tool for creating your own online courses</a>, this <a href="http://www.powersearchingwithgoogle.com/">online course</a> could be interesting. Both the content and the <a href="http://norvig.com/">teacher</a>.
+
+It launches at the same time as the summer event, so you have a week to take a decision...

@@ -1,0 +1,7 @@
+* WarGame #1
+
+For anyone interested, I'm proposing a wargame :).
+
+I provide you a compiled class: <a href='http://devblog.office.tipp24.de/wp-content/uploads/2011/03/WarGame1.class'>devblog.WarGame1.class</a>, which doesn't work. The challenge is to find out what would get printed to stdout in case it worked :).
+
+I can provide some hints, but it'd be less fun, I think.

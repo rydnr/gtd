@@ -1,0 +1,6 @@
+* Trends in web technology
+
+<a href="http://httparchive.org">HTTP archive</a> offers <a href="http://httparchive.org/trends.php">trends</a> and some other <a href="http://httparchive.org/interesting.php">interesting</a> and useful stats.
+Nice.
+
+P.D.: No, tipp24 is not listed.

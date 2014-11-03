@@ -1,0 +1,9 @@
+* We need better IDEs
+
+After watching <a href="http://www.youtube.com/watch?v=PUv66718DII">Bret Victor</a>'s talk, it's clear to me that I'd enjoy a lot a similar environment in my daily work.
+
+Recently we are able to try <a href="http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/">LightTable</a>, which allows us to have a dynamic Clojure environment <a href="http://app.kodowa.com/playground">inside a web browser</a>.
+
+I hope this approach gains 'momentum' and we can have features such as Bret Victor's Javascript environment, in which for each loop you code you can get immediate information about the values each variable gets.
+
+Bret Victor's talk is one of the most inspiring ones I've watched.

@@ -1,0 +1,17 @@
+* XSS vs Grails talk
+
+<p>Hi,</p>
+
+<p>I finished re-editing the talk I gave (with a friend of mine) a couple of months ago, in codemotion-ES 2013: "XSS vs Grails".
+Here it is:</p>
+
+<p><a href="https://vimeo.com/86002921" title="Codemotion talk" target="_blank">https://vimeo.com/86002921</a></p>
+
+<p>And the slides:</p>
+
+<p><a href="http://www.slideshare.net/theratpack/grails-vsxss" title="Slides">http://www.slideshare.net/theratpack/grails-vsxss</a></p>
+
+<p>Hope you like it! :D</p>
+
+<p>Kind regards,
+Jose</p>
