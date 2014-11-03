@@ -19,6 +19,9 @@
 ** STARTED Outline of the speech				 :codemotion:
    - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
 ** TODO PoF Beamer via org				    :codemotion:CALL:
+** STARTED Find out why the current draw is missing in result pages	:v24:
+   - State "STARTED"    from "TODO"       [2014-10-31 Fri 10:33]
+   [2014-10-31 Fri]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
