@@ -16,15 +16,17 @@
 ** STARTED Setup laptop for codemotion
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** STARTED Outline of the speech				 :codemotion:
-   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
-** TODO PoF Beamer via org				    :codemotion:CALL:
-** STARTED Find out why the current draw is missing in result pages	:v24:
-   - State "STARTED"    from "TODO"       [2014-10-31 Fri 10:33]
-   [2014-10-31 Fri]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
+** Commit and push changes in ehcache:
+*** TODO nlp-administrations
+*** TODO nlp-common
+*** TODO nlp-services
+*** TODO nlp-useraccount
+*** TODO nlp-messaging-manager
+*** TODO nlp-games
+   [2014-11-03 Mon]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
@@ -1547,3 +1549,10 @@
    CLOSED: [2014-10-30 Thu 06:30]
    - State "DONE"       from "TODO"       [2014-10-30 Thu 06:30]
    [2014-10-25 Sat]
+** DONE PoF Beamer via org					 :codemotion:
+   CLOSED: [2014-11-03 Mon 06:46]
+   - State "DONE"       from "TODO"       [2014-11-03 Mon 06:46]
+** DONE Outline of the speech					 :codemotion:
+   CLOSED: [2014-11-03 Mon 06:46]
+   - State "DONE"       from "STARTED"    [2014-11-03 Mon 06:46]
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
