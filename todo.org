@@ -16,9 +16,8 @@
 ** STARTED Setup laptop for codemotion
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** STARTED Outline of the speech				 :codemotion:
-   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
-** TODO PoF Beamer via org				    :codemotion:CALL:
+** TODO Create a new background image for talk
+   [2014-11-01 Sat]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
@@ -1544,3 +1543,10 @@
    CLOSED: [2014-10-30 Thu 06:30]
    - State "DONE"       from "TODO"       [2014-10-30 Thu 06:30]
    [2014-10-25 Sat]
+** DONE PoF Beamer via org					 :codemotion:
+   CLOSED: [2014-11-03 Mon 06:46]
+   - State "DONE"       from "TODO"       [2014-11-03 Mon 06:46]
+** DONE Outline of the speech					 :codemotion:
+   CLOSED: [2014-11-03 Mon 06:46]
+   - State "DONE"       from "STARTED"    [2014-11-03 Mon 06:46]
+   - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
