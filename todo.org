@@ -19,14 +19,6 @@
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-** Commit and push changes in ehcache:
-*** TODO nlp-administrations
-*** TODO nlp-common
-*** TODO nlp-services
-*** TODO nlp-useraccount
-*** TODO nlp-messaging-manager
-*** TODO nlp-games
-   [2014-11-03 Mon]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
@@ -1556,3 +1548,23 @@
    CLOSED: [2014-11-03 Mon 06:46]
    - State "DONE"       from "STARTED"    [2014-11-03 Mon 06:46]
    - State "STARTED"    from "TODO"       [2014-10-22 Wed 19:52]
+** Commit and push changes in ehcache:
+*** DONE nlp-administrations
+    CLOSED: [2014-11-03 Mon 11:19]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:19]
+*** DONE nlp-common
+    CLOSED: [2014-11-03 Mon 11:19]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:19]
+*** DONE nlp-services
+    CLOSED: [2014-11-03 Mon 11:19]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:19]
+*** DONE nlp-useraccount
+    CLOSED: [2014-11-03 Mon 11:20]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
+*** DONE nlp-messaging-manager
+    CLOSED: [2014-11-03 Mon 11:20]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
+*** DONE nlp-games
+    CLOSED: [2014-11-03 Mon 11:20]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
+   [2014-11-03 Mon]

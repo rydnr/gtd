@@ -166,3 +166,71 @@
 ** Reddit.st in 10 cool pharo classes https://medium.com/@svenvc/reddit-st-in-10-cool-pharo-classes-1b5327ca0740 :smalltalk:
 ** Propuestas asambleas ciudadanas de Podemos: http://propuestas.podemos.info/propuestas.html :politics:podemos:
 ** Entrevista Pablo Iglesias en Reddit: https://docs.google.com/document/d/1_dk6EWUFolpgvdPf6YjvQhEUVpadlHGSkSTCQwUY3fo/pub :politics:podemos:
+* V24
+#+CATEGORY: FirefoxV24
+** What is spray? http://spray.io/introduction/what-is-spray/	      :scala:
+** Mastering Emacs http://www.masteringemacs.org/		      :emacs:
+** Out of the Tar Pit http://elegantcode.com/2014/05/09/out-of-the-tar-pit/ :programming:
+** cool-retro-term https://github.com/Swordfish90/cool-retro-term     :linux:
+** Bye bye Javascript promises! http://sriku.org/blog/2014/02/11/bye-bye-js-promises/ :javascript:
+** SILE typesetting tool http://www.sile-typesetter.org/index.html :latex:tool:
+** Tab key == 4 spaces and auto-indent after curly braces in VIM https://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim :vim:
+** Immutable value-type code generation for Java 1.6+ https://github.com/google/auto/tree/master/value
+** Nervatura framework http://nervatura.com/			       :tool:
+** Spree: ruby e-commerce https://www.openshift.com/quickstarts/spree :ecommerce:openshift:
+** OpenShift Cartridge Development Kit: https://github.com/smarterclayton/openshift-cdk-cart :openshift:
+** Seven Versions of One Web Application http://www.oreilly.com/pub/e/3047 :programming:html5:
+** Openshift Origin https://openshift.github.io/		  :openshift:
+** Crap4J: helping you find crappy Java code http://www.crap4j.org :java:tool:
+** The good hacker: the wonderful life and strange death of Barnaby Jack http://metromag.co.nz/current-affairs/the-good-hacker-barnaby-jack/ :blog:
+** Hackyeaster http://hackyeaster.hacking-lab.com/hackyeaster/	    :hacking:
+** Why I like Java http://blog.plover.com/prog/Java.html	       :java:
+** Puppet on the edge http://puppet-on-the-edge.blogspot.com.es/     :puppet:
+** localtunnel.me: expose yourself to the world http://localtunnel.me :linux:
+** How Project Management tools kill more companies than any other SaaS out there http://lnbogen.com/2014/04/14/how-project-management-tools-kill-more-companies-than-any-other-saas-out-there/ :blog:
+** A list of meteor resources http://www.okgrow.com/posts/2014/03/24/meteor-resources/ :programming:meteor:
+** Bret Victor's links of 2013 http://worrydream.com/Links2013/?_escaped_fragment_=/Links2013#!/Links2013 :bretvictor:blog:
+** Learn CSS layout http://learnlayout.com/				:css:
+** CTO wants me to leave https://news.ycombinator.com/item?id=7579845 :blog:hackernews:
+** Transcribing Piano Rolls, the Pythonic Way https://zulko.github.io/blog/2014/02/12/transcribing-piano-rolls/ :blog:music:
+** Trianglify is a javascript library for generating colorful triangle meshes that can be used as SVG images and CSS backgrounds. http://qrohlf.com/trianglify/ :javascript:
+** Reactive Cloud Actors: no-nonsense MicroServices http://byterot.blogspot.com.es/2014/04/reactive-cloud-actors-no-nonsense-microservice-beehive-restful-evolvable-web-events-orleans-framework.html :microservices:rest:
+** How To: Create Sexy bookmark like effect using pure css : re-cleaned http://www.webdeveloperjuice.com/2009/12/15/sexy-bookmark-like-effect-using-pure-css/ :css:
+** RoboVM: CREATE TRULY NATIVE iOS APPS IN JAVA http://www.robovm.com/ :ios:java:
+** Github cheat sheet: https://github.com/tiimgreen/github-cheat-sheet :github:
+** Light painting wifi: https://github.com/tiimgreen/github-cheat-sheet :wifi:post:science:
+** Coder's read: http://www.codersgrid.com/read/		       :blog:
+** How a key opens a lock: http://www.blurofinsanity.com/mit/chapter2.html :blog:lockpicking:
+** Bitcoin by analogy: http://brikis98.blogspot.com.es/2014/04/bitcoin-by-analogy.html :bitcoin:
+** Attack of the week: triple handshakes http://blog.cryptographyengineering.com/2014/04/attack-of-week-triple-handshakes-3shake.html :hacking:security:
+** Project Naptha automatically applies state-of-the-art computer vision algorithms on every image you see while browsing the web http://projectnaptha.com/ :tool:image:
+** Consul : Distributed, highly available, datacenter-aware service discovery https://www.consul.io/ :tool:sysadmin:
+** JDBC Fast Connection Failover with Oracle RAC http://www.drdobbs.com/jvm/jdbc-fast-connection-failover-with-oracl/222700353 :jdbc:java:oracle:
+** An Opinionated Guide to Modern Java, Part 3: Web Development http://blog.paralleluniverse.co/2014/05/15/modern-java-pt3/ :java:blog:
+** The hidden perils of cookie syncing https://freedom-to-tinker.com/blog/englehardt/the-hidden-perils-of-cookie-syncing/ :http:cookie:security:
+** Try-catch to speed up my code https://stackoverflow.com/questions/8928403/try-catch-speeding-up-my-code :java:
+** What are common mistakes that new or inexperienced managers make? https://www.quora.com/What-are-common-mistakes-that-new-or-inexperienced-managers-make?share=1 :blog:
+** Using org-mode as a day planner http://newartisans.com/2007/08/using-org-mode-as-a-day-planner/ :org:gtd:emacs:
+** An introduction to Magit, an Emacs mode for Git http://www.masteringemacs.org/article/introduction-magit-emacs-mode-git :emacs:magit:
+** MELPA (Milkypostman’s Emacs Lisp Package Archive) http://melpa.org/#/getting-started :emacs:
+** Emacs: How to Set a Color Theme http://ergoemacs.org/emacs/emacs_playing_with_color_theme.html :emacs:
+** Smalltalk free books: http://stephane.ducasse.free.fr/FreeBooks/ :smalltalk:
+** Metacompilers tutorial part 1: http://www.bayfronttechnologies.com/mc_tutorial.html :programming:
+** TLS is not used widely enough https://istlsfastyet.com/    :security:http:
+** Overclocking SSL https://www.imperialviolet.org/2010/06/25/overclocking-ssl.html :security:http:
+** Recommended security reading: http://dfir.org/?q=node/8	   :security:
+** Instalar openshift origin en Fedora 19, parte 1 http://www.dmartin.es/2014/09/instalar-openshift-origin-en-fedora-19-mega-tutorial-parte-1/ :openshift:
+** Towards an architecture for never-ending language learning http://arnetminer.org/publication/toward-an-architecture-for-never-ending-language-learning-2773801.html :programming:blog:
+** Automated Acceptance Testing http://www.slideshare.net/toddbr/automated-acceptance-tests-tool-choice?next_slideshow=1 :atdd:slides:
+** Linux performance analysis and tools http://www.joyent.com/blog/linux-performance-analysis-and-tools-brendan-gregg-s-talk-at-scale-11x :linux:tool:performance:
+** Peter Thiel on Mapping A Life http://daslee.me/peter-thiel-on-career-planning?beta=1 :blog:programming:
+** Zero to ONE. Notes on startups, or how to build the future. http://blakemasters.com/peter-thiels-cs183-startup :blog:
+** John Carmack: thoughts on Haskell http://functionaltalks.org/2013/08/26/john-carmack-thoughts-on-haskell/ :video:haskell:carmack:
+** Java algorithms and clients http://algs4.cs.princeton.edu/code/ :book:java:algorithms:
+** Reclaiming Software Engineering http://www.zerobanana.com/essays/reclaiming-software-engineering/ :blog:programming:
+** Hermit: a font for programmers, by a programmer https://pcaro.es/p/hermit/ :font:programming:
+** Anonymous pro: a fixed-width sans designed for coders http://www.marksimonson.com/fonts/view/anonymous-pro :font:programming:
+** Government like you've never imagined https://government.github.com/ :github:
+** Resiliency through Failure - Netflix's Approach to Extreme Availability in the Cloud http://www.infoq.com/presentations/netflix-resiliency-failure-cloud :netflix:scalability:
+** OWASP testing guide https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents :owasp:
+** 
