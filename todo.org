@@ -13,12 +13,17 @@
    [2014-10-10 Fri]
 ** STARTED Take a Vim book or screencast and practice new features	:vim:
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
-** STARTED Setup laptop for codemotion
-   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
-   [2014-10-25 Sat]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
+** TODO Fix again dev environment in jlean				:v24:
+   [2014-11-04 Tue]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   [2014-11-04 Tue]
+** TODO Find out why DNS traffic is so slow on feynman		       :home:
+   [2014-11-04 Tue]
+** TODO Add "synchronize templates step to v24 pipeline"     :codemotion:v24:
+   [2014-11-04 Tue]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
@@ -1568,3 +1573,17 @@
     CLOSED: [2014-11-03 Mon 11:20]
     - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
    [2014-11-03 Mon]
+** DONE Setup laptop for codemotion				 :codemotion:
+   CLOSED: [2014-11-04 Tue 05:45]
+   - State "DONE"       from "STARTED"    [2014-11-04 Tue 05:45]
+   - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
+   [2014-10-25 Sat]
+** DONE Install tikzit						 :codemotion:
+   CLOSED: [2014-11-04 Tue 06:00]
+   - State "DONE"       from "TODO"       [2014-11-04 Tue 06:00]
+   [2014-11-04 Tue]
+
+** DONE Make touchpad work on laptop				 :codemotion:
+   CLOSED: [2014-11-04 Tue 06:16]
+   - State "DONE"       from "TODO"       [2014-11-04 Tue 06:16]
+   [2014-11-04 Tue]
