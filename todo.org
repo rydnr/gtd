@@ -6,23 +6,16 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** WAITING Implement a page in phabricator to refresh the caches in Tomcat processes
-   - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
-     Waiting until Didier fixes the vhosts
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
-   [2014-10-10 Fri]
-** STARTED Take a Vim book or screencast and practice new features	:vim:
-   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
 ** TODO Fix again dev environment in jlean				:v24:
    [2014-11-04 Tue]
 ** TODO Fix gnu-screen in laptop				 :codemotion:
    [2014-11-04 Tue]
 ** TODO Find out why DNS traffic is so slow on feynman		       :home:
-   [2014-11-04 Tue]
-** TODO Add "synchronize templates step to v24 pipeline"     :codemotion:v24:
    [2014-11-04 Tue]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
@@ -64,6 +57,8 @@
 * VIM
   #+CATEGORY: VIM
 ** TODO Read VILEARN							:vim:
+** STARTED Take a Vim book or screencast and practice new features	:vim:
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
 ** TODO Change Emacs theme					      :emacs:
@@ -1587,3 +1582,24 @@
    CLOSED: [2014-11-04 Tue 06:16]
    - State "DONE"       from "TODO"       [2014-11-04 Tue 06:16]
    [2014-11-04 Tue]
+** DONE Test xrandr in laptop					 :codemotion:
+   CLOSED: [2014-11-07 Fri 06:09]
+   - State "DONE"       from "TODO"       [2014-11-07 Fri 06:09]
+   [2014-11-07 Fri]
+
+** DONE Add "synchronize templates step to v24 pipeline"		:v24:
+   CLOSED: [2014-11-07 Fri 06:10]
+   - State "DONE"       from "TODO"       [2014-11-07 Fri 06:10]
+   [2014-11-04 Tue]
+
+** CANCELLED Fix title/description para la home en seo.properties   :cms:v24:
+   CLOSED: [2014-11-07 Fri 06:11]
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+
+** DONE Implement a page in phabricator to refresh the caches in Tomcat processes
+   CLOSED: [2014-11-07 Fri 06:12]
+   - State "DONE"       from "WAITING"    [2014-11-07 Fri 06:12]
+   - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
+     Waiting until Didier fixes the vhosts
