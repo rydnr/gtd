@@ -16,13 +16,15 @@
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-** TODO Fix again dev environment in jlean				:v24:
+** TODO Recover access to admin.ventura24.es/backoffice
+   [2014-11-05 Wed]
+** TODO Bomberismo: mails carpe						:v24:
+   [2014-11-05 Wed]
+** TODO Add new rules to imapfilter
    [2014-11-04 Tue]
 ** TODO Fix gnu-screen in laptop				 :codemotion:
    [2014-11-04 Tue]
 ** TODO Find out why DNS traffic is so slow on feynman		       :home:
-   [2014-11-04 Tue]
-** TODO Add "synchronize templates step to v24 pipeline"     :codemotion:v24:
    [2014-11-04 Tue]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
@@ -1569,6 +1571,9 @@
 *** DONE nlp-messaging-manager
     CLOSED: [2014-11-03 Mon 11:20]
     - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
+*** DONE nlp-usermanagement
+    CLOSED: [2014-11-03 Mon 11:20]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
 *** DONE nlp-games
     CLOSED: [2014-11-03 Mon 11:20]
     - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
@@ -1586,4 +1591,23 @@
 ** DONE Make touchpad work on laptop				 :codemotion:
    CLOSED: [2014-11-04 Tue 06:16]
    - State "DONE"       from "TODO"       [2014-11-04 Tue 06:16]
+   [2014-11-04 Tue]
+** DONE Fix again dev environment in jlean				:v24:
+   CLOSED: [2014-11-05 Wed 11:00]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 11:00]
+   [2014-11-04 Tue]
+
+** DONE T110 -> acutes							:v24:
+   CLOSED: [2014-11-05 Wed 13:49]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:49]
+   [2014-11-05 Wed]
+
+** DONE Fix nlp-messaging-workflow					:v24:
+   CLOSED: [2014-11-05 Wed 13:49]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:49]
+   [2014-11-05 Wed]
+
+** DONE Add "synchronize templates step to v24 pipeline"     :codemotion:v24:
+   CLOSED: [2014-11-05 Wed 13:50]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:50]
    [2014-11-04 Tue]

@@ -233,4 +233,6 @@
 ** Government like you've never imagined https://government.github.com/ :github:
 ** Resiliency through Failure - Netflix's Approach to Extreme Availability in the Cloud http://www.infoq.com/presentations/netflix-resiliency-failure-cloud :netflix:scalability:
 ** OWASP testing guide https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents :owasp:
-** 
+** Diagrams made easy http://www.gliffy.com/		       :tool:diagram:
+** Automate anything you see http://www.sikuli.org/	   :tool:testing:gui:
+** Using OpenCMS at V24 https://prezi.com/i6otbxptdc1w/cms/	    :cms:v24:

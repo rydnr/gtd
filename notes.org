@@ -1,4 +1,5 @@
 * Notes
+** [2014-11-04 Tue] Add ip alias: ifconfig eno1:idea 10.34.17.6
 ** [2014-10-07 Tue]
 Authorization: Basic bmxwLXdlYmFwcDo0NkU0JDZNZ2dzeGE3Nzg2
 Host: cms1
