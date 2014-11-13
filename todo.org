@@ -6,6 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Fix apache for companies (tokenization-ok.jsp)
+   [2014-11-13 Thu]
 ** STARTED Review app-es-0{1,2,3,4}-c processes
    - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
    [2014-11-11 Tue]
@@ -99,8 +101,6 @@
 ** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
    [2014-10-21 Tue]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
-   [2014-10-10 Fri]
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
 ** TODO Fix sound on newjlean					   :homework:
    - State "TODO"       from "STARTED"    [2014-10-22 Wed 19:41] \\
@@ -1645,3 +1645,8 @@
    - State "DONE"       from "WAITING"    [2014-11-07 Fri 06:12]
    - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
      Waiting until Didier fixes the vhosts
+** DONE Fix title/description para la home en seo.properties	    :cms:v24:
+   CLOSED: [2014-11-13 Thu 12:32]
+   - State "DONE"       from "STARTED"    [2014-11-13 Thu 12:32]
+   - State "STARTED"    from "TODO"       [2014-11-13 Thu 10:13]
+   [2014-10-10 Fri]
