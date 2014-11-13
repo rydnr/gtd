@@ -154,3 +154,12 @@ with its own headline, is displayed in a block:
     \end{tikzpicture}
   \end{frame}
 }
+* Notas charla
+** JSANC
+*** Docker no expone puertos públicamente. Hay que mapearlos.
+*** Cambiar url maven.apache.org
+*** Quitar lo de major.minor.BUILD_NUMBER
+*** Poner ejemplos en Dockerfile templates
+*** Contar usos bǻsicos de docker
+*** shipyard -> pegar screenshot
+*** Dibujar flujo: git -> jenkins -> docker -> shipyard / puppet
