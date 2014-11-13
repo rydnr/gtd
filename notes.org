@@ -55,6 +55,7 @@ git status
 vc-update
 git pull
 ** [2014-09-05 Fri] Remind to learn org!
+** C-c l -> insert link [[http://www.google.es][google]]
 * Acta 2014/10/06
 ** Reuniones trimestrales:
 - Agenda concreta
@@ -98,6 +99,10 @@ https://stackoverflow.com/questions/24733160/docker-rmi-cannot-remove-images-wit
 http://blog.mague.com/?p=382
 Copy from https://github.com/puppetlabs/mcollective-package-agent.git
 * Beamer
+** C-c C-e l P (org-beamer-export-to-pdf)
+** C-c C-e l b (org-beamer-export-to-latex)
+** C-c C-e l B (org-beamer-export-as-latex)
+** C-c C-e l O : Export as LaTeX, process to PDF, and then open the resulting PDF file.
 ** #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 
 ** Frame 1
