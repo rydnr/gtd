@@ -163,3 +163,35 @@ with its own headline, is displayed in a block:
 *** Contar usos bǻsicos de docker
 *** shipyard -> pegar screenshot
 *** Dibujar flujo: git -> jenkins -> docker -> shipyard / puppet
+* Magit
+** Install:
+- M-x package-install magit
+** Use
+- M-x magit status
+- q : exit
+- ? : action list
+- s : stage
+- TAB : expand / collapse changes
+- n / p : next / previous section
+- M-n / M-p : next / previous sibling section
+- + / - : Enlarge / shrink each hunk
+- 0 : reset to the default view of the hunk
+- H : toggle additional diff highlighting
+** Commit (c)
+- e : Add more diffs to a given commit
+- a : Amend the commit message
+- r : Reword the commit message
+- f : Fixup against the current commit.
+- s : Squash against the current commit.
+** Logging (l)
+- l : Short log
+- h : reflog
+- . : marks the commit (for fixup and squash)
+- x : reset HEAD to the selected commit
+- v : revert the commit
+- d : diff between commit and working tree
+- A : cherry pick the commit on top of the working tree
+- E : rebase from HEAD to the selected commit
+- C-w : copy the commit hash
+- SPC : displays the full commit message
+- M-n / M-p : Displays the commit in a separate buffer

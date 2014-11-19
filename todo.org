@@ -6,43 +6,54 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Fix apache for companies (tokenization-ok.jsp)
-   [2014-11-13 Thu]
-** STARTED Review app-es-0{1,2,3,4}-c processes
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
+** TODO Research decimo state bug
+   [2014-11-18 Tue]
+** TODO Fix account number bug for companies T556		   :T556:v24:
+   [2014-11-17 Mon]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
+** STARTED Add Arquilian test for seo.properties
+   - State "STARTED"    from "TODO"       [2014-11-14 Fri 10:51]
+   [2014-11-14 Fri]
+** TODO Review selenium code
+   [2014-11-14 Fri]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-** TODO Review the exact phrase to use for acknowledging shutterstock images
-   [2014-11-11 Tue]
-** TODO Recover access to admin.ventura24.es/backoffice
-   [2014-11-05 Wed]
-** TODO Bomberismo: mails carpe						:v24:
-   [2014-11-05 Wed]
-** TODO Add new rules to imapfilter
-** TODO Fix restricted.ventura24.es virtual host			:v24:
-   [2014-11-07 Fri]
-** TODO Fix again dev environment in jlean				:v24:
-   [2014-11-04 Tue]
-** TODO Fix gnu-screen in laptop				 :codemotion:
-   [2014-11-04 Tue]
-** TODO Find out why DNS traffic is so slow on feynman		       :home:
-   [2014-11-04 Tue]
+** TODO New timecard
+   [2014-11-18 Tue]
+** TODO Fix wisent error when installing malabar		      :emacs:
+   [2014-11-18 Tue]
+** TODO Fix NPE in nlpcc when sending emails				:v24:
+17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
+java.lang.NullPointerException
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
+        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
+        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
+
+  [2014-11-17 Mon]
+** TODO Elaborate a plan for QA roadmap					:v24:
+   [2014-11-17 Mon]
+** TODO Convocar reunión sindicato				  :sindicato:
+   [2014-11-17 Mon]
+** TODO kata emacs						      :emacs:
+   [2014-11-17 Mon]
+** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
+   [2014-11-17 Mon]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   [2014-11-04 Tue]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -85,7 +96,6 @@
   #+CATEGORY: emacs
 ** TODO Change Emacs theme					      :emacs:
    [2014-09-10 Wed]
-** TODO Install and use magit					      :emacs:
 ** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
 ** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
@@ -96,6 +106,21 @@
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Review app-es-0{1,2,3,4}-c processes
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Add new rules to imapfilter
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
 ** TODO Write notes for git workshop
    [2014-10-21 Tue]
 ** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
@@ -153,6 +178,8 @@
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Find out why DNS traffic is so slow on feynman		       :home:
+   [2014-11-04 Tue]
 ** TODO Mount euler disks by name with udev		     :homework:acmsl:
    [2014-10-27 Mon]
 ** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
@@ -1634,12 +1661,6 @@
    - State "DONE"       from "TODO"       [2014-11-07 Fri 06:10]
    [2014-11-04 Tue]
 
-** CANCELLED Fix title/description para la home en seo.properties   :cms:v24:
-   CLOSED: [2014-11-07 Fri 06:11]
-   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
-     Not needed anymore
-   [2014-10-10 Fri]
-
 ** DONE Implement a page in phabricator to refresh the caches in Tomcat processes
    CLOSED: [2014-11-07 Fri 06:12]
    - State "DONE"       from "WAITING"    [2014-11-07 Fri 06:12]
@@ -1650,3 +1671,42 @@
    - State "DONE"       from "STARTED"    [2014-11-13 Thu 12:32]
    - State "STARTED"    from "TODO"       [2014-11-13 Thu 10:13]
    [2014-10-10 Fri]
+** DONE Fix apache for companies (tokenization-ok.jsp)
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-13 Thu]
+
+** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-11 Tue]
+
+** DEFERRED Bomberismo: mails carpe					:v24:
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DEFERRED"   from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-05 Wed]
+
+** DONE Fix again dev environment in jlean				:v24:
+   CLOSED: [2014-11-14 Fri 10:47]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:47]
+   [2014-11-04 Tue]
+
+** DONE Recover access to admin.ventura24.es/backoffice
+   CLOSED: [2014-11-14 Fri 10:48]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:48]
+   [2014-11-05 Wed]
+** DONE Ticket guardia 2014/11/16: espacio en app-es-06-d
+   CLOSED: [2014-11-17 Mon 09:55]
+   - State "DONE"       from "TODO"       [2014-11-17 Mon 09:55]
+   [2014-11-17 Mon]
+   Ticket: #201411179000028
+** DONE Install and use magit					      :emacs:
+   CLOSED: [2014-11-18 Tue 11:10]
+   - State "DONE"       from "TODO"       [2014-11-18 Tue 11:10]
+** CANCELLED Update git-es OS (phabricator suggestion)
+   CLOSED: [2014-11-18 Tue 11:10]
+   - State "CANCELLED"  from "DONE"       [2014-11-18 Tue 11:11] \\
+     Upgrading the OS is not straight-forward.
+   - State "DONE"       from "STARTED"    [2014-11-18 Tue 11:10]
+   - State "STARTED"    from "TODO"       [2014-11-17 Mon 11:01]
+   [2014-11-17 Mon]
