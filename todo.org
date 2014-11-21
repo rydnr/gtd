@@ -7,37 +7,30 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED New openshift account for podemosvillaviciosa	    :podemos:
-   - State "STARTED"    from "TODO"       [2014-11-08 Sat 08:50]
-   [2014-11-08 Sat]
-** TODO Decide the final font in background images
-   [2014-11-09 Sun]
+** STARTED Fix again dev environment in jlean				:v24:
+   - State "STARTED"    from "TODO"       [2014-11-19 Wed 05:57]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
+   [2014-11-04 Tue]
+** TODO Apply tokenization apache fix in production			:v24:
+   [2014-11-19 Wed]
+** TODO Use the new images in the slides: outline + shipyard snapshots :org:codemotion:
+   [2014-11-19 Wed]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-** TODO Find out how to use the digital tablet in Linux
-   [2014-11-09 Sun]
-** TODO Find out why the frame title is hidden when using a background image in beamer
-   [2014-11-09 Sun]
-** TODO Fix cd-book image
-   [2014-11-09 Sun]
-** TODO Fix cd-pipeline image
-   [2014-11-09 Sun]
+** TODO Check error messages at shell login
+   [2014-11-19 Wed]
+** TODO Add "shutdown port" to tomcats					:v24:
+   [2014-11-19 Wed]
+* Tasks
+#+CATEGORY: Tasks
+   [2014-10-30 Thu]
+* Podemos
 ** TODO Install wordpress in openshift for villaviciosa		    :podemos:
    [2014-11-08 Sat]
-** TODO Use a different font					 :codemotion:
-   [2014-11-07 Fri]
-** TODO Find out a clipboard manager for xmonad			      :acmsl:
-   [2014-11-07 Fri]
-** TODO Fix restricted.ventura24.es virtual host			:v24:
-   [2014-11-07 Fri]
-** TODO Fix again dev environment in jlean				:v24:
-   [2014-11-04 Tue]
+* Codemotion
 ** TODO Fix gnu-screen in laptop				 :codemotion:
    [2014-11-04 Tue]
-** TODO Find out why DNS traffic is so slow on feynman		       :home:
-   [2014-11-04 Tue]
-* Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
@@ -90,17 +83,29 @@
    [2014-09-11 Thu]
 * LaTeX
   #+CATEGORY: latex
-** TODO Write a pgf shape
-   [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
+** TODO Bomberismo: mails carpe						:v24:
+   [2014-11-05 Wed]
+** TODO Add new rules to imapfilter
+>>>>>>> 6c317208c5bfe29a516c7bdb45998c18bd3aff52
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
 ** TODO Write notes for git workshop
    [2014-10-21 Tue]
 ** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
    [2014-10-21 Tue]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
-   [2014-10-10 Fri]
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    [2014-10-10 Fri]
 ** TODO Fix sound on newjlean					   :homework:
    - State "TODO"       from "STARTED"    [2014-10-22 Wed 19:41] \\
@@ -153,6 +158,13 @@
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Find out why DNS traffic is so slow on feynman		       :home:
+   [2014-11-04 Tue]
+** TODO Find out a clipboard manager for xmonad			      :acmsl:
+   [2014-11-07 Fri]
+=======
+** TODO Find out how to use the digital tablet in Linux
+   [2014-11-09 Sun]
 ** TODO Mount euler disks by name with udev		     :homework:acmsl:
    [2014-10-27 Mon]
 ** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
@@ -1584,6 +1596,9 @@
 *** DONE nlp-messaging-manager
     CLOSED: [2014-11-03 Mon 11:20]
     - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
+*** DONE nlp-usermanagement
+    CLOSED: [2014-11-03 Mon 11:20]
+    - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
 *** DONE nlp-games
     CLOSED: [2014-11-03 Mon 11:20]
     - State "DONE"       from "TODO"       [2014-11-03 Mon 11:20]
@@ -1601,6 +1616,25 @@
 ** DONE Make touchpad work on laptop				 :codemotion:
    CLOSED: [2014-11-04 Tue 06:16]
    - State "DONE"       from "TODO"       [2014-11-04 Tue 06:16]
+   [2014-11-04 Tue]
+** DONE Fix again dev environment in jlean				:v24:
+   CLOSED: [2014-11-05 Wed 11:00]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 11:00]
+   [2014-11-04 Tue]
+
+** DONE T110 -> acutes							:v24:
+   CLOSED: [2014-11-05 Wed 13:49]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:49]
+   [2014-11-05 Wed]
+
+** DONE Fix nlp-messaging-workflow					:v24:
+   CLOSED: [2014-11-05 Wed 13:49]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:49]
+   [2014-11-05 Wed]
+
+** DONE Add "synchronize templates step to v24 pipeline"     :codemotion:v24:
+   CLOSED: [2014-11-05 Wed 13:50]
+   - State "DONE"       from "TODO"       [2014-11-05 Wed 13:50]
    [2014-11-04 Tue]
 ** DONE Test xrandr in laptop					 :codemotion:
    CLOSED: [2014-11-07 Fri 06:09]
@@ -1623,6 +1657,7 @@
    - State "DONE"       from "WAITING"    [2014-11-07 Fri 06:12]
    - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
      Waiting until Didier fixes the vhosts
+<<<<<<< HEAD
 ** DONE Research elisp to export from org to beamer
    CLOSED: [2014-11-09 Sun 08:02]
    - State "DONE"       from "STARTED"    [2014-11-09 Sun 08:02]
@@ -1643,3 +1678,69 @@
    CLOSED: [2014-11-10 Mon 11:54]
    - State "DONE"       from "TODO"       [2014-11-10 Mon 11:54]
    [2014-11-10 Mon]
+=======
+** DONE Fix title/description para la home en seo.properties	    :cms:v24:
+   CLOSED: [2014-11-13 Thu 12:32]
+   - State "DONE"       from "STARTED"    [2014-11-13 Thu 12:32]
+   - State "STARTED"    from "TODO"       [2014-11-13 Thu 10:13]
+   [2014-10-10 Fri]
+>>>>>>> 6c317208c5bfe29a516c7bdb45998c18bd3aff52
+** DONE Decide the final font in background images	     :codemotion:org:
+   CLOSED: [2014-11-19 Wed 05:54]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:54]
+   [2014-11-09 Sun]
+
+** DONE Find out why the frame title is hidden when using a background image in beamer :org:codemotion:
+   CLOSED: [2014-11-19 Wed 05:54]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:54]
+   [2014-11-09 Sun]
+** DONE Fix cd-book image				     :org:codemotion:
+   CLOSED: [2014-11-19 Wed 05:54]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:54]
+   [2014-11-09 Sun]
+** DONE Fix cd-pipeline image				     :org:codemotion:
+   CLOSED: [2014-11-19 Wed 05:54]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:54]
+   [2014-11-09 Sun]
+
+** DONE Use a different font				     :org:codemotion:
+   CLOSED: [2014-11-19 Wed 05:55]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:55]
+   [2014-11-07 Fri]
+
+** DONE New openshift account for podemosvillaviciosa		    :podemos:
+   CLOSED: [2014-11-19 Wed 05:55]
+   - State "DONE"       from "STARTED"    [2014-11-19 Wed 05:55]
+   - State "STARTED"    from "TODO"       [2014-11-08 Sat 08:50]
+   [2014-11-08 Sat]
+
+** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
+   CLOSED: [2014-11-19 Wed 05:56]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
+   [2014-11-11 Tue]
+** DONE Recover access to admin.ventura24.es/backoffice			:v24:
+   CLOSED: [2014-11-19 Wed 05:56]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
+   [2014-11-05 Wed]
+
+** DONE Fix apache for companies (tokenization-ok.jsp)			:v24:
+   CLOSED: [2014-11-19 Wed 05:56]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
+   [2014-11-13 Thu]
+
+** DONE Write a pgf shape					      :latex:
+   CLOSED: [2014-11-19 Wed 05:59]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:59]
+   [2014-09-10 Wed]
+
+** DONE Review app-es-0{1,2,3,4}-c processes				:v24:
+   CLOSED: [2014-11-19 Wed 06:00]
+   - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:00]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+
+** DONE Restart app-es-d webapp servers					:v24:
+   CLOSED: [2014-11-19 Wed 06:13]
+   - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:13]
+   - State "DONE"       from "DONE"       [2014-11-19 Wed 05:57]
+   [2014-11-19 Wed]
