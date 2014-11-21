@@ -6,6 +6,23 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** STARTED Review and fix acutes: T110
+   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
+   [2014-11-21 Fri]
+** TODO Review app-es-0{1,2,3,4}-c processes
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
 ** TODO Research decimo state bug
    [2014-11-18 Tue]
 ** TODO Fix account number bug for companies T556		   :T556:v24:
@@ -17,16 +34,15 @@
 
 ** TODO Fix restricted.ventura24.es virtual host			:v24:
    [2014-11-07 Fri]
-** STARTED Add Arquilian test for seo.properties
-   - State "STARTED"    from "TODO"       [2014-11-14 Fri 10:51]
-   [2014-11-14 Fri]
 ** TODO Review selenium code
    [2014-11-14 Fri]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-** TODO New timecard
-   [2014-11-18 Tue]
+** TODO Add a maven task to generate Dockerfiles
+   [2014-11-21 Fri]
+** TODO Create first poll on "interests"
+   [2014-11-21 Fri]
 ** TODO Fix wisent error when installing malabar		      :emacs:
    [2014-11-18 Tue]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
@@ -41,10 +57,6 @@ java.lang.NullPointerException
 
   [2014-11-17 Mon]
 ** TODO Elaborate a plan for QA roadmap					:v24:
-   [2014-11-17 Mon]
-** TODO Convocar reunión sindicato				  :sindicato:
-   [2014-11-17 Mon]
-** TODO kata emacs						      :emacs:
    [2014-11-17 Mon]
 ** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
    [2014-11-17 Mon]
@@ -90,7 +102,9 @@ java.lang.NullPointerException
 * VIM
   #+CATEGORY: VIM
 ** TODO Read VILEARN							:vim:
-** STARTED Take a Vim book or screencast and practice new features	:vim:
+** TODO Take a Vim book or screencast and practice new features		:vim:
+   - State "TODO"       from "STARTED"    [2014-11-21 Fri 10:16] \\
+     Need to be resumed
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
@@ -106,21 +120,12 @@ java.lang.NullPointerException
    [2014-09-10 Wed]
 * Ventura24
   #+CATEGORY: V24
-** TODO Review app-es-0{1,2,3,4}-c processes
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
+** TODO Add Arquilian test for seo.properties
+   - State "TODO"       from "STARTED"    [2014-11-21 Fri 10:16] \\
+     Still problems when running Arquillian tests
+   - State "STARTED"    from "TODO"       [2014-11-14 Fri 10:51]
+   [2014-11-14 Fri]
 ** TODO Add new rules to imapfilter
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
 ** TODO Write notes for git workshop
    [2014-10-21 Tue]
 ** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
@@ -1709,4 +1714,18 @@ java.lang.NullPointerException
      Upgrading the OS is not straight-forward.
    - State "DONE"       from "STARTED"    [2014-11-18 Tue 11:10]
    - State "STARTED"    from "TODO"       [2014-11-17 Mon 11:01]
+   [2014-11-17 Mon]
+** DONE New timecard
+   CLOSED: [2014-11-21 Fri 10:13]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:13]
+   [2014-11-18 Tue]
+
+** DONE Convocar reunión sindicato				  :sindicato:
+   CLOSED: [2014-11-21 Fri 10:14]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:14]
+   [2014-11-17 Mon]
+
+** DONE kata emacs						      :emacs:
+   CLOSED: [2014-11-21 Fri 10:14]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:14]
    [2014-11-17 Mon]

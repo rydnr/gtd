@@ -55,6 +55,11 @@ git status
 vc-update
 git pull
 ** [2014-09-05 Fri] Remind to learn org!
+* Org
+** Check how to use todo.org_archive -> C-c C-x a
+   - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:38]
+   [2014-09-22 Mon]
+
 ** C-c l -> insert link [[http://www.google.es][google]]
 * Acta 2014/10/06
 ** Reuniones trimestrales:
