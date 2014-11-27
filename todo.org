@@ -6,9 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Review and fix acutes: T110
-   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
-   [2014-11-21 Fri]
+** TODO Solicitud vacaciones
+   [2014-11-26 Wed]
 ** TODO Review app-es-0{1,2,3,4}-c processes
    - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
    - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
@@ -23,10 +22,6 @@
    [2014-11-11 Tue]
 ** TODO Deploy and review nlp-backoffice in C
    [2014-11-11 Tue]
-** TODO Research decimo state bug
-   [2014-11-18 Tue]
-** TODO Fix account number bug for companies T556		   :T556:v24:
-   [2014-11-17 Mon]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
    - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
      Not needed anymore
@@ -39,9 +34,9 @@
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
+** TODO Fix java-config-2 error messages
+   [2014-11-26 Wed]
 ** TODO Add a maven task to generate Dockerfiles
-   [2014-11-21 Fri]
-** TODO Create first poll on "interests"
    [2014-11-21 Fri]
 ** TODO Fix wisent error when installing malabar		      :emacs:
    [2014-11-18 Tue]
@@ -1729,3 +1724,29 @@ java.lang.NullPointerException
    CLOSED: [2014-11-21 Fri 10:14]
    - State "DONE"       from "TODO"       [2014-11-21 Fri 10:14]
    [2014-11-17 Mon]
+
+** DONE Review and fix acutes: T110				   :T110:v24:
+   CLOSED: [2014-11-26 Wed 09:35]
+   - State "DONE"       from "STARTED"    [2014-11-26 Wed 09:35]
+   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
+   [2014-11-21 Fri]
+
+** DONE Create first poll on "interests"				:v24:
+   CLOSED: [2014-11-26 Wed 09:48]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 09:48]
+   [2014-11-21 Fri]
+
+** DONE Fix account number bug for companies T556                  :T556:v24:
+   CLOSED: [2014-11-26 Wed 10:24]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 10:24]
+   [2014-11-17 Mon]
+
+** DONE Ticket T632: Error result page mobile                      :T632:v24:
+   CLOSED: [2014-11-26 Wed 12:58]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:58]
+   [2014-11-26 Wed]
+
+** DONE Research decimo state bug                                       :v24:
+   CLOSED: [2014-11-26 Wed 12:59]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:59]
+   [2014-11-18 Tue]
