@@ -200,3 +200,7 @@ with its own headline, is displayed in a block:
 - C-w : copy the commit hash
 - SPC : displays the full commit message
 - M-n / M-p : Displays the commit in a separate buffer
+* VIM
+** C-x C-o : Omnicomplete
+** C-x C-f : Complete filename
+** C-x C-n : Complete based on ctags

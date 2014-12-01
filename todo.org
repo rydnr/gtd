@@ -6,22 +6,34 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Apply tokenization apache fix in production			:v24:
-   [2014-11-19 Wed]
-** STARTED Follow a tutorial on scrapy
-   - State "STARTED"    from "TODO"       [2014-11-26 Wed 06:20]
-   [2014-11-26 Wed]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Follow Introduction to emacs lisp from within emacs
-   [2014-11-26 Wed]
-*** First chapter
+** TODO Fix java-config-2 error messages
    [2014-11-26 Wed]
 ** TODO Add a maven task to generate Dockerfiles
    [2014-11-21 Fri]
-** TODO Fix wisent error when installing malabar		      :emacs:
-   [2014-11-18 Tue]
+** STARTED Upgrade kernel in feynman
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+** TODO Talk to Rafa about enterpreneur camp at cybercamp
+   [2014-11-28 Fri]
+** TODO Follow Gimp course
+   [2014-11-28 Fri]
+** TODO Find out whether the Java architect certification exams can be extended
+   [2014-11-28 Fri]
+** TODO Research magazine LaTex template                            :podemos:
+   [2014-11-28 Fri]
+** TODO Setup trayer in xmonad
+   [2014-11-28 Fri]
+** TODO Find out cheap PaaS-like service for Windows
+   [2014-11-28 Fri]
+* Tasks
+#+CATEGORY: tasks
 * Podemos
+* Python
+** TODO Follow a tutorial on scrapy                           :scrapy:python:
+   - State "TODO"       from "STARTED"    [2014-11-28 Fri 08:49] \\
+     Not really started yet
+   - State "STARTED"    from "TODO"       [2014-11-26 Wed 06:20]
+   [2014-11-26 Wed]
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
@@ -68,8 +80,8 @@
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
-** TODO Change Emacs theme					      :emacs:
-   [2014-09-10 Wed]
+** TODO Follow Introduction to emacs lisp from within emacs
+   [2014-11-26 Wed]
 ** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
 ** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
@@ -78,6 +90,30 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Review app-es-0{1,2,3,4}-c processes
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
+** TODO Review selenium code
+   [2014-11-14 Fri]
+** TODO Talk to m.a. about test certification
+   [2014-11-28 Fri]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
 17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
 java.lang.NullPointerException
@@ -198,6 +234,8 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Build paper for siro
+   [2014-11-28 Fri]
 ** TODO Check error messages at shell login
    [2014-11-19 Wed]
    [2014-11-21 Fri]
@@ -307,7 +345,6 @@ java.lang.NullPointerException
 ** TODO API rest to export a git diff as a json object			 :RT:
 ** TODO Allow scripts to override defineEnv() function in drywit     :drywit:
 
-** TODO Setup blog using github					     :github:
 * Graal / Truffle                                                     
 ** TODO Download / install                                            :graal:
 ** TODO Find an example of its capabilities and test it               :graal:
@@ -1782,10 +1819,6 @@ java.lang.NullPointerException
    - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:13]
    - State "DONE"       from "DONE"       [2014-11-19 Wed 05:57]
    [2014-11-19 Wed]
-** DONE Fix apache for companies (tokenization-ok.jsp)
-   CLOSED: [2014-11-14 Fri 10:46]
-   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
-   [2014-11-13 Thu]
 
 ** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
    CLOSED: [2014-11-14 Fri 10:46]
@@ -1882,3 +1915,65 @@ java.lang.NullPointerException
    CLOSED: [2014-11-26 Wed 06:16]
    - State "DONE"       from "TODO"       [2014-11-26 Wed 06:16]
    [2014-11-21 Fri]
+** DONE Review and fix acutes: T110				   :T110:v24:
+   CLOSED: [2014-11-26 Wed 09:35]
+   - State "DONE"       from "STARTED"    [2014-11-26 Wed 09:35]
+   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
+   [2014-11-21 Fri]
+
+** DONE Create first poll on "interests"				:v24:
+   CLOSED: [2014-11-26 Wed 09:48]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 09:48]
+   [2014-11-21 Fri]
+
+** DONE Fix account number bug for companies T556                  :T556:v24:
+   CLOSED: [2014-11-26 Wed 10:24]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 10:24]
+   [2014-11-17 Mon]
+
+** DONE Ticket T632: Error result page mobile                      :T632:v24:
+   CLOSED: [2014-11-26 Wed 12:58]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:58]
+   [2014-11-26 Wed]
+
+** DONE Research decimo state bug                                       :v24:
+   CLOSED: [2014-11-26 Wed 12:59]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:59]
+   [2014-11-18 Tue]
+** DONE Apply tokenization apache fix in production			:v24:
+   CLOSED: [2014-11-27 Thu 10:12]
+   - State "DONE"       from "TODO"       [2014-11-27 Thu 10:12]
+   [2014-11-19 Wed]
+** DONE Solicitud vacaciones						:v24:
+   CLOSED: [2014-11-27 Thu 10:13]
+   - State "DONE"       from "TODO"       [2014-11-27 Thu 10:13]
+   [2014-11-26 Wed]
+** DONE Fix wisent error when installing malabar                      :emacs:
+   CLOSED: [2014-11-28 Fri 08:49]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:49]
+   [2014-11-18 Tue]
+
+** DONE Change Emacs theme                                            :emacs:
+   CLOSED: [2014-11-28 Fri 08:49]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:49]
+   [2014-09-10 Wed]
+
+** DONE Fix CNAMEs virtual hosts                                        :v24:
+   CLOSED: [2014-11-28 Fri 08:50]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:50]
+   [2014-11-27 Thu]
+
+** DONE Setup lastpass in ipad
+   CLOSED: [2014-11-28 Fri 08:52]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+
+** DONE Setup blog using github                                      :github:
+   CLOSED: [2014-11-28 Fri 09:18]
+   - State "DONE"       from "STARTED"    [2014-11-28 Fri 09:18]
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:51]
+
+** DONE Buy udemy courses
+   CLOSED: [2014-11-28 Fri 09:32]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 09:32]
+   [2014-11-28 Fri]
