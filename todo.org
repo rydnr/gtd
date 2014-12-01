@@ -16,8 +16,6 @@
    [2014-11-11 Tue]
 ** TODO Review nlp-dss in C					       :0/1p:
    [2014-11-11 Tue]
-** TODO Fix java-config-2 error messages			   :0/1p:v24:
-   [2014-11-26 Wed]
 ** TODO Add a maven task to generate Dockerfiles		       :0/5p:
    [2014-11-21 Fri]
 * Tasks
@@ -1997,3 +1995,8 @@ java.lang.NullPointerException
    [2014-12-01 Mon]
 *** https://github.com/Ericsson/exchangecalendar/releases 
 *** https://sentinelprime/EWS/Exchange.asmx 
+** DONE Fix java-config-2 error messages			   :1/1p:v24:
+   CLOSED: [2014-12-01 Mon 16:48]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 16:48]
+   [2014-11-26 Wed]
+   - emerge -1 python-exec
