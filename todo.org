@@ -6,25 +6,20 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Fix java-config-2 error messages
+** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C					       :0/1p:
+   [2014-11-11 Tue]
+** TODO Fix java-config-2 error messages			   :0/1p:v24:
    [2014-11-26 Wed]
-** TODO Add a maven task to generate Dockerfiles
+** TODO Add a maven task to generate Dockerfiles		       :0/5p:
    [2014-11-21 Fri]
-** STARTED Upgrade kernel in feynman
-   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
-   [2014-11-28 Fri]
-** TODO Talk to Rafa about enterpreneur camp at cybercamp
-   [2014-11-28 Fri]
-** TODO Follow Gimp course
-   [2014-11-28 Fri]
-** TODO Find out whether the Java architect certification exams can be extended
-   [2014-11-28 Fri]
-** TODO Research magazine LaTex template                            :podemos:
-   [2014-11-28 Fri]
-** TODO Setup trayer in xmonad
-   [2014-11-28 Fri]
-** TODO Find out cheap PaaS-like service for Windows
-   [2014-11-28 Fri]
 * Tasks
 #+CATEGORY: tasks
 * Podemos
@@ -90,16 +85,8 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
-** TODO Review app-es-0{1,2,3,4}-c processes
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
+** TODO Find out whether the Java architect certification exams can be extended :0/1p:
+   [2014-11-28 Fri]
 ** TODO Deploy and review nlp-cc in C
    [2014-11-11 Tue]
 ** TODO Deploy and review nlp-backoffice in C
@@ -234,6 +221,13 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Follow Gimp course
+   [2014-11-28 Fri]
+** STARTED Upgrade kernel in feynman
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+** TODO Find out cheap PaaS-like service for Windows
+   [2014-11-28 Fri]
 ** TODO Build paper for siro
    [2014-11-28 Fri]
 ** TODO Check error messages at shell login
@@ -1977,3 +1971,29 @@ java.lang.NullPointerException
    CLOSED: [2014-11-28 Fri 09:32]
    - State "DONE"       from "TODO"       [2014-11-28 Fri 09:32]
    [2014-11-28 Fri]
+** DONE Talk to Rafa about enterpreneur camp at cybercamp
+   CLOSED: [2014-12-01 Mon 10:46]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 10:46]
+   [2014-11-28 Fri]
+
+** DONE Research magazine LaTex template			    :podemos:
+   CLOSED: [2014-12-01 Mon 10:46]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 10:46]
+   [2014-11-28 Fri]
+
+** DONE Setup trayer in xmonad					       :1/1p:
+   CLOSED: [2014-12-01 Mon 11:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 11:11]
+   [2014-11-28 Fri]
+
+** DONE Schedule meeting on redesign architecture			:v24:
+   CLOSED: [2014-12-01 Mon 12:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 12:11]
+   [2014-12-01 Mon]
+
+** DONE Configure corporate calendar in thunderbird			:v24:
+   CLOSED: [2014-12-01 Mon 12:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 12:11]
+   [2014-12-01 Mon]
+*** https://github.com/Ericsson/exchangecalendar/releases 
+*** https://sentinelprime/EWS/Exchange.asmx 
