@@ -6,6 +6,11 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** STARTED Fix again T556                                            :2/4p:T556:
+   - State "STARTED"    from "TODO"       [2014-12-02 Tue 10:39]
+   [2014-12-02 Tue]
+** TODO SMS ticket                                                :0/5p:T571:
+   [2014-12-02 Tue]
 ** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
    - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
    - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
@@ -21,6 +26,10 @@
    [2014-11-21 Fri]
 * Tasks
 #+CATEGORY: tasks
+** TODO Request holidays
+   [2014-12-02 Tue]
+** TODO Fix CMS issue jtorr
+   [2014-12-02 Tue]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
