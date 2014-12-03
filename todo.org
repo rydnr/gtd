@@ -6,6 +6,12 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Revisar bbva
+   [2014-12-03 Wed]
+** TODO Fix surefire/failsafe test issue                           :v24:T685:
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :0/2p:
 ** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
    - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
    - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
@@ -2024,3 +2030,8 @@ java.lang.NullPointerException
    CLOSED: [2014-12-03 Wed 05:51]
    - State "DONE"       from "TODO"       [2014-12-03 Wed 05:51]
    [2014-12-02 Tue]
+** DONE Vacaciones + mail 9/12
+   CLOSED: [2014-12-03 Wed 11:11]
+   - State "DONE"       from "STARTED"    [2014-12-03 Wed 11:11]
+   - State "STARTED"    from "TODO"       [2014-12-03 Wed 09:56]
+   [2014-12-03 Wed]
