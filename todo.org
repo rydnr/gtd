@@ -16,7 +16,8 @@
    [2014-11-11 Tue]
 ** TODO Review nlp-dss in C					       :0/1p:
    [2014-11-11 Tue]
-** TODO Add a maven task to generate Dockerfiles		       :0/5p:
+** STARTED Add a maven task to generate Dockerfiles		       :0/5p:
+   - State "STARTED"    from "TODO"       [2014-12-02 Tue 06:55]
    [2014-11-21 Fri]
 * Tasks
 #+CATEGORY: tasks
