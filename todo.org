@@ -6,29 +6,12 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Revisar bbva
-   [2014-12-03 Wed]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
-   [2014-12-03 Wed]
-*** psp-computop                                                       :3/3p:
-*** nlp-pricemodel                                                     :0/2p:
-** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C				       :0/1p:
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C				       :0/1p:
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C					       :0/1p:
-   [2014-11-11 Tue]
-** STARTED Add a maven task to generate Dockerfiles		       :0/5p:
-   - State "STARTED"    from "TODO"       [2014-12-02 Tue 06:55]
-   [2014-11-21 Fri]
-** TODO Define a plan for the superlearner course
+** TODO Define a plan for the superlearner course          :0/1p:learn:udemy:
    [2014-12-03 Wed]
 * Tasks
 #+CATEGORY: tasks
+** TODO Dar de baja numero 659589553 de movistar
+   [2014-12-03 Wed]
 ** TODO Add jenkins job for dockerfile plugin
    [2014-12-03 Wed]
 * Podemos
@@ -94,6 +77,16 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C					       :0/1p:
+   [2014-11-11 Tue]
 ** TODO Find out whether the Java architect certification exams can be extended :0/1p:
    [2014-11-28 Fri]
 ** TODO Deploy and review nlp-cc in C
@@ -2035,3 +2028,27 @@ java.lang.NullPointerException
    - State "DONE"       from "STARTED"    [2014-12-03 Wed 11:11]
    - State "STARTED"    from "TODO"       [2014-12-03 Wed 09:56]
    [2014-12-03 Wed]
+** DONE Revisar bbva
+   CLOSED: [2014-12-03 Wed 18:58]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+
+** DONE Fix surefire/failsafe test issue                           :v24:T685:
+   CLOSED: [2014-12-03 Wed 18:58]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+** DONE Dockerfile-maven-plugin: process a template		       :2/2p: :d-m-p:acmsl:
+   CLOSED: [2014-12-04 Thu 05:55]
+   - State "DONE"       from "STARTED"    [2014-12-04 Thu 05:55]
+   - State "STARTED"    from "TODO"       [2014-12-02 Tue 06:55]
+   [2014-11-21 Fri]
+
+** DONE Access target process' properties/metadata         :1/2p:d-m-p:acmsl:
+   CLOSED: [2014-12-04 Thu 06:33]
+   - State "DONE"       from "STARTED"    [2014-12-04 Thu 06:33]
+   - State "STARTED"    from "TODO"       [2014-12-04 Thu 06:02]
+   [2014-12-04 Thu]
