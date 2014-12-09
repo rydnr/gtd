@@ -1,4 +1,3 @@
-
 #:MY PROJECTS  -*- mode: org; fill-column: 78 -*-
 #:PROPERTIES:
 :LOGGING: TODO(!) STARTED(!) DONE(!) CANCELLED(!) 
@@ -7,33 +6,78 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Fix again dev environment in jlean				:v24:
-   - State "STARTED"    from "TODO"       [2014-11-19 Wed 05:57]
-   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
-   [2014-11-04 Tue]
 ** TODO Apply tokenization apache fix in production			:v24:
+   CLOCK: [2014-11-25 Tue 13:20]
    [2014-11-19 Wed]
-** TODO Use the new images in the slides: outline + shipyard snapshots :org:codemotion:
-   [2014-11-19 Wed]
-* Tasks
-#+CATEGORY: Tasks
-   [2014-10-30 Thu]
 ** TODO Check error messages at shell login
    [2014-11-19 Wed]
-** TODO Add "shutdown port" to tomcats					:v24:
-   [2014-11-19 Wed]
+   [2014-11-21 Fri]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Practice presentation with laptop			 :codemotion:
+   [2014-11-21 Fri]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
+     Not working yet
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
+   [2014-11-04 Tue]
+* Podemos
+* Codemotion
+** TODO Review app-es-0{1,2,3,4}-c processes
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
+** TODO Fix account number bug for companies T556		   :T556:v24:
+   [2014-11-17 Mon]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
+** TODO Review selenium code
+   [2014-11-14 Fri]
 * Tasks
 #+CATEGORY: Tasks
    [2014-10-30 Thu]
-* Podemos
-** TODO Install wordpress in openshift for villaviciosa		    :podemos:
-   [2014-11-08 Sat]
+** TODO Add a maven task to generate Dockerfiles
+   [2014-11-21 Fri]
+** TODO Create first poll on "interests"
+   [2014-11-21 Fri]
+** TODO Fix wisent error when installing malabar		      :emacs:
+   [2014-11-18 Tue]
+** TODO Fix NPE in nlpcc when sending emails				:v24:
+17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
+java.lang.NullPointerException
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
+        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
+        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
+
+  [2014-11-17 Mon]
+** TODO Elaborate a plan for QA roadmap					:v24:
+   [2014-11-17 Mon]
+** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
+   [2014-11-17 Mon]
 * Codemotion
-** TODO Fix gnu-screen in laptop				 :codemotion:
-   [2014-11-04 Tue]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   [2014-11-04 Tue]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -70,13 +114,14 @@
 * VIM
   #+CATEGORY: VIM
 ** TODO Read VILEARN							:vim:
-** STARTED Take a Vim book or screencast and practice new features	:vim:
+** TODO Take a Vim book or screencast and practice new features		:vim:
+   - State "TODO"       from "STARTED"    [2014-11-21 Fri 10:16] \\
+     Need to be resumed
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
 ** TODO Change Emacs theme					      :emacs:
    [2014-09-10 Wed]
-** TODO Install and use magit					      :emacs:
 ** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
 ** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
@@ -85,6 +130,8 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Add "shutdown port" to tomcats					:v24:
+   [2014-11-19 Wed]
 ** TODO Review and start nlp-ws in C
    [2014-11-11 Tue]
 ** TODO Review and start opencms in C
@@ -98,9 +145,14 @@
 ** TODO Bomberismo: mails carpe						:v24:
    [2014-11-05 Wed]
 ** TODO Add new rules to imapfilter
->>>>>>> 6c317208c5bfe29a516c7bdb45998c18bd3aff52
 ** TODO Fix restricted.ventura24.es virtual host			:v24:
    [2014-11-07 Fri]
+** TODO Add Arquilian test for seo.properties
+   - State "TODO"       from "STARTED"    [2014-11-21 Fri 10:16] \\
+     Still problems when running Arquillian tests
+   - State "STARTED"    from "TODO"       [2014-11-14 Fri 10:51]
+   [2014-11-14 Fri]
+** TODO Add new rules to imapfilter
 ** TODO Write notes for git workshop
    [2014-10-21 Tue]
 ** TODO Find out why the generated jsps are not available when deploying nlp-companies-webapp locally. Either the .class files are included, or their mappings are excluded from the web.xml :v24:
@@ -162,7 +214,6 @@
    [2014-11-04 Tue]
 ** TODO Find out a clipboard manager for xmonad			      :acmsl:
    [2014-11-07 Fri]
-=======
 ** TODO Find out how to use the digital tablet in Linux
    [2014-11-09 Sun]
 ** TODO Mount euler disks by name with udev		     :homework:acmsl:
@@ -1646,18 +1697,11 @@
    - State "DONE"       from "TODO"       [2014-11-07 Fri 06:10]
    [2014-11-04 Tue]
 
-** CANCELLED Fix title/description para la home en seo.properties   :cms:v24:
-   CLOSED: [2014-11-07 Fri 06:11]
-   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
-     Not needed anymore
-   [2014-10-10 Fri]
-
 ** DONE Implement a page in phabricator to refresh the caches in Tomcat processes
    CLOSED: [2014-11-07 Fri 06:12]
    - State "DONE"       from "WAITING"    [2014-11-07 Fri 06:12]
    - State "WAITING"    from "TODO"       [2014-10-22 Wed 19:41] \\
      Waiting until Didier fixes the vhosts
-<<<<<<< HEAD
 ** DONE Research elisp to export from org to beamer
    CLOSED: [2014-11-09 Sun 08:02]
    - State "DONE"       from "STARTED"    [2014-11-09 Sun 08:02]
@@ -1678,13 +1722,11 @@
    CLOSED: [2014-11-10 Mon 11:54]
    - State "DONE"       from "TODO"       [2014-11-10 Mon 11:54]
    [2014-11-10 Mon]
-=======
 ** DONE Fix title/description para la home en seo.properties	    :cms:v24:
    CLOSED: [2014-11-13 Thu 12:32]
    - State "DONE"       from "STARTED"    [2014-11-13 Thu 12:32]
    - State "STARTED"    from "TODO"       [2014-11-13 Thu 10:13]
    [2014-10-10 Fri]
->>>>>>> 6c317208c5bfe29a516c7bdb45998c18bd3aff52
 ** DONE Decide the final font in background images	     :codemotion:org:
    CLOSED: [2014-11-19 Wed 05:54]
    - State "DONE"       from "TODO"       [2014-11-19 Wed 05:54]
@@ -1744,3 +1786,93 @@
    - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:13]
    - State "DONE"       from "DONE"       [2014-11-19 Wed 05:57]
    [2014-11-19 Wed]
+** DONE Fix apache for companies (tokenization-ok.jsp)
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-13 Thu]
+
+** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-11 Tue]
+
+** DEFERRED Bomberismo: mails carpe					:v24:
+   CLOSED: [2014-11-14 Fri 10:46]
+   - State "DEFERRED"   from "TODO"       [2014-11-14 Fri 10:46]
+   [2014-11-05 Wed]
+
+** DONE Fix again dev environment in jlean				:v24:
+   CLOSED: [2014-11-14 Fri 10:47]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:47]
+   [2014-11-04 Tue]
+
+** DONE Recover access to admin.ventura24.es/backoffice
+   CLOSED: [2014-11-14 Fri 10:48]
+   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:48]
+   [2014-11-05 Wed]
+** DONE Ticket guardia 2014/11/16: espacio en app-es-06-d
+   CLOSED: [2014-11-17 Mon 09:55]
+   - State "DONE"       from "TODO"       [2014-11-17 Mon 09:55]
+   [2014-11-17 Mon]
+   Ticket: #201411179000028
+** DONE Install and use magit					      :emacs:
+   CLOSED: [2014-11-18 Tue 11:10]
+   - State "DONE"       from "TODO"       [2014-11-18 Tue 11:10]
+** CANCELLED Update git-es OS (phabricator suggestion)
+   CLOSED: [2014-11-18 Tue 11:10]
+   - State "CANCELLED"  from "DONE"       [2014-11-18 Tue 11:11] \\
+     Upgrading the OS is not straight-forward.
+   - State "DONE"       from "STARTED"    [2014-11-18 Tue 11:10]
+   - State "STARTED"    from "TODO"       [2014-11-17 Mon 11:01]
+   [2014-11-17 Mon]
+** DONE New timecard
+   CLOSED: [2014-11-21 Fri 10:13]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:13]
+   [2014-11-18 Tue]
+
+** DONE Convocar reunión sindicato				  :sindicato:
+   CLOSED: [2014-11-21 Fri 10:14]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:14]
+   [2014-11-17 Mon]
+
+** DONE kata emacs						      :emacs:
+   CLOSED: [2014-11-21 Fri 10:14]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 10:14]
+   [2014-11-17 Mon]
+** DONE Fix again dev environment in jlean				:v24:
+   CLOSED: [2014-11-21 Fri 17:56]
+   - State "DONE"       from "STARTED"    [2014-11-21 Fri 17:56]
+   - State "STARTED"    from "TODO"       [2014-11-19 Wed 05:57]
+   - State "DONE"       from "TODO"       [2014-11-19 Wed 05:56]
+   [2014-11-04 Tue]
+
+** CANCELLED Install wordpress in openshift for villaviciosa	    :podemos:
+   CLOSED: [2014-11-21 Fri 17:57]
+   - State "CANCELLED"  from "TODO"       [2014-11-21 Fri 17:57] \\
+     It's better to use Podemos TICs official wordpress instead.
+   [2014-11-08 Sat]
+
+** DONE Review and fix acutes: T110					:v24:
+   CLOSED: [2014-11-21 Fri 17:57]
+   - State "DONE"       from "STARTED"    [2014-11-21 Fri 17:57]
+   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
+   [2014-11-21 Fri]
+
+** DONE Research decimo state bug					:v24:
+   CLOSED: [2014-11-21 Fri 17:58]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 17:58]
+   [2014-11-18 Tue]
+
+** DONE Use the new images in the slides: outline + shipyard snapshots :org:codemotion:
+   CLOSED: [2014-11-21 Fri 17:58]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 17:58]
+   [2014-11-19 Wed]
+
+** DONE Check if laser pointer works on laptop			 :codemotion:
+   CLOSED: [2014-11-21 Fri 18:02]
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
+   [2014-11-21 Fri]
+** DONE Fix codemotion slide					 :codemotion:
+   CLOSED: [2014-11-25 Tue 13:24]
+   - State "DONE"       from "TODO"       [2014-11-25 Tue 13:24]
+   [2014-11-21 Fri]
