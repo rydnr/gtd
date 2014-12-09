@@ -236,3 +236,27 @@
 ** Diagrams made easy http://www.gliffy.com/		       :tool:diagram:
 ** Automate anything you see http://www.sikuli.org/	   :tool:testing:gui:
 ** Using OpenCMS at V24 https://prezi.com/i6otbxptdc1w/cms/	    :cms:v24:
+* 2014/11/28
+** A gentle introduction to CEDET [[http://alexott.net/en/writings/emacs-devenv/EmacsCedet.html][A gentle introduction to CEDET]]      :emacs:
+** Cedet Smart completion [[http://cedet.sourceforge.net/intellisense.shtml]] :emacs:
+** ECB incremental search [[http://ecb.sourceforge.net/docs/Incremental-search.html#Incremental-search]] :emacs:
+** Emacs auto-complete mode [[http://cx4a.org/software/auto-complete/]]   :emacs:
+** Malabar-mode blog [[http://blog.grumblesmurf.org]]                     :emacs:
+** Ruby tapas [[http://www.rubytapas.com/]]                    :ruby:screencasts:
+** GetTor : tor for email [[https://blog.torproject.org/blog/say-hi-new-gettor]] :tor:email:
+** Lessons learned from 10 failed startup ideas [[http://kristapsmors.com/2014/11/25/lessons-learned-from-10-failed-startup-ideas/]]
+** Java 8 meets tests slides [[http://www.slideshare.net/asotobu/java-8-meets-tests]] :java:slides:codemotion:
+** The OpNewblood Super Secret Security Handbook [[http://serpentsembrace.wordpress.com/2011/04/23/the-opnewblood-super-secret-security-handbook/]] :hacking:
+** Scrapy tutorial                                            :scrapy:python:[[http://doc.scrapy.org/en/latest/intro/tutorial.html]]
+** Magit cheatsheet [[http://daemianmack.com/magit-cheatsheet.html]] :emacs:magit:
+** Elisp cookbook [[http://www.emacswiki.org/emacs/ElispCookbook]]  :emacs:elisp:
+** Emacs Lisp for Hackers [[https://joelmccracken.github.io/entries/emacs-lisp-for-hackers-all-things-variables/]] :emacs:elisp:
+** PGF plots [[http://pgfplots.net/]]                            :latex:pgf:tikz:
+** Mastering Emacs [[http://www.masteringemacs.org/]]               :emacs:elisp:
+** Emacs debugging mode [[http://www.emacswiki.org/emacs/DebuggerMode]] :emacs:elisp:
+** Java9 ultimate feature list [[http://blog.takipi.com/java-9-the-ultimate-feature-list/]] :java:
+** Java shortcomings will be addressed by Project Jigsaw [[http://www.javaworld.com/article/2689893/java-platform/oracle-exec-java-shortcomings-will-be-addressed-by-project-jigsaw.html]] :java:
+** More Java 9 features announced [[http://www.infoq.com/news/2014/11/MoreJava9Features]] :java:
+** Codemotion 2014 slides [[https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli%3D1#gid%3D0][https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli=1#gid=0]] :codemotion:slides:
+** Scrum en 5 minutos [[http://albertoromeu.com/scrum/]]             :scrum:blog:
+

@@ -1,0 +1,132 @@
+% Created 2014-12-04 Thu 15:38
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\usepackage[spanish]{babel}
+\author{Development Ventura24}
+\date{\today}
+\title{Reunión Cambios BE por el Rediseño}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.3.1 (Org mode 8.2.6)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Introducción}
+\label{sec-1}
+De cara al próximo rediseño es conveniente estudiar y discutir la oportunidad de realizar cambios en la plataforma, en cuanto a tecnologías de back-end.
+Con ese objeto se ha realizado una reunión el día 04/12/2014, con los siguientes asistentes:
+\begin{itemize}
+\item Sergio García-Mejía
+\item Jose Luís Sánchez
+\item Ramón Crespo
+\item Jose Juan
+\item Jose San Leandro
+\end{itemize}
+\section{Análisis de la solución actual}
+\label{sec-2}
+Se ha comenzado analizando y debatiendo la solución actual, enfocándonos inicialmente en sus puntos fuertes y puntos débiles.
+El objetivo de este análisis es servir de marco comparativo para poder dotar de cierto rigor las futuras propuestas.
+\subsection{Puntos fuertes}
+\label{sec-2-1}
+\begin{itemize}
+\item Estabilidad
+\item Gestión de integraciones
+\item Se basa en tecnologías conocidas, no propietarias
+\item Integración con un sistema CMS
+\item Capacidad de adaptación a los requisitos de www.ventura24.es
+\end{itemize}
+\subsection{Puntos débiles}
+\label{sec-2-2}
+\begin{itemize}
+\item Mantenimiento y estado actual de los JSPs
+\item Mapping de URLs opaco (no se puede conocer rápida ni fácilmente, a partir de una URL, su action y jsp)
+\item Redirecciones repartidas en Java y Apache
+\item Rendimiento de los actions: WebAppAction se ejecuta múltiples veces en cada request
+\item Se basa en Struts 1, que es una tecnología de hace 10 años.
+\item Poco flexible en contextos diferentes a www.ventura24.es
+\item Las validaciones con struts-validator son incómodas de implementar, y frágiles
+\end{itemize}
+\section{Pruebas de concepto}
+\label{sec-3}
+Se han clasificado los distintos enfoques en función de una estimación a priori de envergadura de los cambios respecto a la solución actual.
+Los requisitos que deben cumplir las propuestas son:
+\begin{itemize}
+\item Requisitos funcionales: implementar /, /login.do, /loginerror.do, /depot.do
+\item Requisitos no funcionales:
+\begin{itemize}
+\item soportar integraciones.
+\item rendimiento equivalente.
+\end{itemize}
+\end{itemize}
+
+Se creará un repositorio PoC para hospedar las propuestas.
+
+En la reunión se ha decidido clasificar las mismas de acuerdo a su impacto:
+\subsection{Propuestas conservadoras}
+\label{sec-3-1}
+En ese grupo se contemplan las propuestas que a priori conllevan menos coste o riesgo, pero que a la vez mejorarían la deuda técnica, la mantenibilidad, y la flexibilidad.
+Serían cambios que afectan únicamente al módulo nlp-webapp.
+Las propuestas dentro de este grupo son:
+\subsubsection{Refactoring Struts 1}
+\label{sec-3-1-1}
+\begin{itemize}
+\item Responsable: Jose San Leandro
+\item Objetivo:
+\begin{itemize}
+\item Definir una propuesta de cómo hacer el mapping de urls y organizar los JSPs.
+\item proponer cómo implementar los JSPs, tiles y jsp:include, etc.
+\end{itemize}
+\end{itemize}
+\subsection{Propuestas intermedias}
+\label{sec-3-2}
+En esta categoría tienen cabida aquellas propuestas que impliquen un cambio de framework en la capa de presentación (nlp-webapp).
+Cada propuesta debe servir para contrastar las características de la solución propuesta, respecto a los puntos definidos como base.
+\subsubsection{Play}
+\label{sec-3-2-1}
+\begin{itemize}
+\item Responsable: Ramón Crespo
+\item Objetivo:
+\begin{itemize}
+\item Implementar la funcionalidad de las urls citadas con Play.
+\item Describir la solución (mapeo de urls, gestión de las vistas, etc).
+\end{itemize}
+\end{itemize}
+\subsubsection{Spring MVC}
+\label{sec-3-2-2}
+\begin{itemize}
+\item Responsable: José Luís Sánchez
+\item Objetivo:
+\begin{itemize}
+\item Implementar la funcionalidad de las urls citadas con Spring MVC.
+\item Describir la solución (mapeo de urls, gestión de las vistas, etc).
+\end{itemize}
+\end{itemize}
+\subsection{Propuestas más agresivas}
+\label{sec-3-3}
+Esta categoría incluye aquellas propuestas que impliquen cambios más significativos en la arquitectura, no sólo nlp-webapp.
+\subsubsection{TBD}
+\label{sec-3-3-1}
+No hay propuestas por el momento.
+\section{Siguientes pasos}
+\label{sec-4}
+El jueves 18/12/2014 se expondrán las soluciones propuestas de cara a su evaluación y discusión.
+% Emacs 24.3.1 (Org mode 8.2.6)
+\end{document}

@@ -6,6 +6,7 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+<<<<<<< HEAD
 ** TODO Apply tokenization apache fix in production			:v24:
    CLOCK: [2014-11-25 Tue 13:20]
    [2014-11-19 Wed]
@@ -72,12 +73,47 @@ java.lang.NullPointerException
    [2014-11-17 Mon]
 ** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
    [2014-11-17 Mon]
+=======
+** TODO Fix indentation in emacs
+   [2014-12-04 Thu]
+** TODO Fix surefire/failsafe test issue                           :v24:T685:
+   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
+     Missing projects
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
+*** nlp-processes                                                      :1/3p:
+*** nlp-webapp-api                                                     :3/3p:
+* Tasks
+#+CATEGORY: tasks
+** TODO PoC concordion + arquillian
+   [2014-12-05 Fri]
+** TODO Read stgit, progit, git-wip
+   [2014-12-05 Fri]
+** TODO PoC CMIS
+   [2014-12-05 Fri]
+** TODO Learn how to use abbrev or autocomplete in emacs
+   [2014-12-04 Thu]
+** TODO Dar de baja numero 659589553 de movistar
+   [2014-12-03 Wed]
+** TODO Add jenkins job for dockerfile plugin
+   [2014-12-03 Wed]
+* Podemos
+* Python
+** TODO Follow a tutorial on scrapy                           :scrapy:python:
+   - State "TODO"       from "STARTED"    [2014-11-28 Fri 08:49] \\
+     Not really started yet
+   - State "STARTED"    from "TODO"       [2014-11-26 Wed 06:20]
+   [2014-11-26 Wed]
+>>>>>>> a94181488b9942d7922f23eb6faa8a088ee5a8d3
 * Codemotion
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** TODO Fix gnu-screen in laptop				 :codemotion:
-   [2014-11-04 Tue]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -120,8 +156,8 @@ java.lang.NullPointerException
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
-** TODO Change Emacs theme					      :emacs:
-   [2014-09-10 Wed]
+** TODO Follow Introduction to emacs lisp from within emacs
+   [2014-11-26 Wed]
 ** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
 ** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
@@ -130,6 +166,75 @@ java.lang.NullPointerException
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+<<<<<<< HEAD
+=======
+** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C				       :0/1p:
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C					       :0/1p:
+   [2014-11-11 Tue]
+** TODO Find out whether the Java architect certification exams can be extended :0/1p:
+   [2014-11-28 Fri]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
+** TODO Review selenium code
+   [2014-11-14 Fri]
+** TODO Talk to m.a. about test certification
+   [2014-11-28 Fri]
+** TODO Fix NPE in nlpcc when sending emails				:v24:
+17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
+java.lang.NullPointerException
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
+        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
+        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
+
+  [2014-11-17 Mon]
+** TODO Elaborate a plan for QA roadmap					:v24:
+   [2014-11-17 Mon]
+** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
+   [2014-11-17 Mon]
+** TODO Review app-es-0{1,2,3,4}-c processes
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** TODO Review and start nlp-ws in C
+   [2014-11-11 Tue]
+** TODO Review and start opencms in C
+   [2014-11-11 Tue]
+** TODO Review nlp-dss in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-cc in C
+   [2014-11-11 Tue]
+** TODO Deploy and review nlp-backoffice in C
+   [2014-11-11 Tue]
+** TODO Fix account number bug for companies T556		   :T556:v24:
+   [2014-11-17 Mon]
+** TODO Fix title/description para la home en seo.properties	    :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
+** TODO Review selenium code
+   [2014-11-14 Fri]
+>>>>>>> a94181488b9942d7922f23eb6faa8a088ee5a8d3
 ** TODO Add "shutdown port" to tomcats					:v24:
    [2014-11-19 Wed]
 ** TODO Review and start nlp-ws in C
@@ -210,6 +315,23 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Follow Gimp course
+   [2014-11-28 Fri]
+** STARTED Upgrade kernel in feynman
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+** TODO Find out cheap PaaS-like service for Windows
+   [2014-11-28 Fri]
+** TODO Build paper for siro
+   [2014-11-28 Fri]
+** TODO Check error messages at shell login
+   [2014-11-19 Wed]
+   [2014-11-21 Fri]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
+     Not working yet
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
+   [2014-11-04 Tue]
 ** TODO Find out why DNS traffic is so slow on feynman		       :home:
    [2014-11-04 Tue]
 ** TODO Find out a clipboard manager for xmonad			      :acmsl:
@@ -311,7 +433,6 @@ java.lang.NullPointerException
 ** TODO API rest to export a git diff as a json object			 :RT:
 ** TODO Allow scripts to override defineEnv() function in drywit     :drywit:
 
-** TODO Setup blog using github					     :github:
 * Graal / Truffle                                                     
 ** TODO Download / install                                            :graal:
 ** TODO Find an example of its capabilities and test it               :graal:
@@ -1786,10 +1907,13 @@ java.lang.NullPointerException
    - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:13]
    - State "DONE"       from "DONE"       [2014-11-19 Wed 05:57]
    [2014-11-19 Wed]
+<<<<<<< HEAD
 ** DONE Fix apache for companies (tokenization-ok.jsp)
    CLOSED: [2014-11-14 Fri 10:46]
    - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
    [2014-11-13 Thu]
+=======
+>>>>>>> a94181488b9942d7922f23eb6faa8a088ee5a8d3
 
 ** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
    CLOSED: [2014-11-14 Fri 10:46]
@@ -1873,6 +1997,196 @@ java.lang.NullPointerException
    - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
    [2014-11-21 Fri]
 ** DONE Fix codemotion slide					 :codemotion:
+<<<<<<< HEAD
    CLOSED: [2014-11-25 Tue 13:24]
    - State "DONE"       from "TODO"       [2014-11-25 Tue 13:24]
    [2014-11-21 Fri]
+=======
+   CLOSED: [2014-11-26 Wed 06:14]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 06:14]
+   [2014-11-21 Fri]
+
+** DONE Practice presentation with laptop			 :codemotion:
+   CLOSED: [2014-11-26 Wed 06:14]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 06:14]
+   [2014-11-21 Fri]
+
+** DONE Create first poll on "interests"				:v24:
+   CLOSED: [2014-11-26 Wed 06:16]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 06:16]
+   [2014-11-21 Fri]
+** DONE Review and fix acutes: T110				   :T110:v24:
+   CLOSED: [2014-11-26 Wed 09:35]
+   - State "DONE"       from "STARTED"    [2014-11-26 Wed 09:35]
+   - State "STARTED"    from "TODO"       [2014-11-21 Fri 12:10]
+   [2014-11-21 Fri]
+
+** DONE Create first poll on "interests"				:v24:
+   CLOSED: [2014-11-26 Wed 09:48]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 09:48]
+   [2014-11-21 Fri]
+
+** DONE Fix account number bug for companies T556                  :T556:v24:
+   CLOSED: [2014-11-26 Wed 10:24]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 10:24]
+   [2014-11-17 Mon]
+
+** DONE Ticket T632: Error result page mobile                      :T632:v24:
+   CLOSED: [2014-11-26 Wed 12:58]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:58]
+   [2014-11-26 Wed]
+
+** DONE Research decimo state bug                                       :v24:
+   CLOSED: [2014-11-26 Wed 12:59]
+   - State "DONE"       from "TODO"       [2014-11-26 Wed 12:59]
+   [2014-11-18 Tue]
+** DONE Apply tokenization apache fix in production			:v24:
+   CLOSED: [2014-11-27 Thu 10:12]
+   - State "DONE"       from "TODO"       [2014-11-27 Thu 10:12]
+   [2014-11-19 Wed]
+** DONE Solicitud vacaciones						:v24:
+   CLOSED: [2014-11-27 Thu 10:13]
+   - State "DONE"       from "TODO"       [2014-11-27 Thu 10:13]
+   [2014-11-26 Wed]
+** DONE Fix wisent error when installing malabar                      :emacs:
+   CLOSED: [2014-11-28 Fri 08:49]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:49]
+   [2014-11-18 Tue]
+
+** DONE Change Emacs theme                                            :emacs:
+   CLOSED: [2014-11-28 Fri 08:49]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:49]
+   [2014-09-10 Wed]
+
+** DONE Fix CNAMEs virtual hosts                                        :v24:
+   CLOSED: [2014-11-28 Fri 08:50]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:50]
+   [2014-11-27 Thu]
+
+** DONE Setup lastpass in ipad
+   CLOSED: [2014-11-28 Fri 08:52]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+
+** DONE Setup blog using github                                      :github:
+   CLOSED: [2014-11-28 Fri 09:18]
+   - State "DONE"       from "STARTED"    [2014-11-28 Fri 09:18]
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:51]
+
+** DONE Buy udemy courses
+   CLOSED: [2014-11-28 Fri 09:32]
+   - State "DONE"       from "TODO"       [2014-11-28 Fri 09:32]
+   [2014-11-28 Fri]
+** DONE Talk to Rafa about enterpreneur camp at cybercamp
+   CLOSED: [2014-12-01 Mon 10:46]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 10:46]
+   [2014-11-28 Fri]
+
+** DONE Research magazine LaTex template			    :podemos:
+   CLOSED: [2014-12-01 Mon 10:46]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 10:46]
+   [2014-11-28 Fri]
+
+** DONE Setup trayer in xmonad					       :1/1p:
+   CLOSED: [2014-12-01 Mon 11:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 11:11]
+   [2014-11-28 Fri]
+
+** DONE Schedule meeting on redesign architecture			:v24:
+   CLOSED: [2014-12-01 Mon 12:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 12:11]
+   [2014-12-01 Mon]
+
+** DONE Configure corporate calendar in thunderbird			:v24:
+   CLOSED: [2014-12-01 Mon 12:11]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 12:11]
+   [2014-12-01 Mon]
+*** https://github.com/Ericsson/exchangecalendar/releases 
+*** https://sentinelprime/EWS/Exchange.asmx 
+** DONE Fix java-config-2 error messages			   :1/1p:v24:
+   CLOSED: [2014-12-01 Mon 16:48]
+   - State "DONE"       from "TODO"       [2014-12-01 Mon 16:48]
+   [2014-11-26 Wed]
+   - emerge -1 python-exec
+** DONE Fix again T556                                            :4/4p:T556:
+   CLOSED: [2014-12-03 Wed 05:50]
+   - State "DONE"       from "STARTED"    [2014-12-03 Wed 05:50]
+   - State "STARTED"    from "TODO"       [2014-12-02 Tue 10:39]
+   [2014-12-02 Tue]
+
+** DONE SMS ticket                                                :1/5p:T571:
+   CLOSED: [2014-12-03 Wed 05:50]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 05:50]
+   [2014-12-02 Tue]
+
+** DONE Request holidays                                                :v24:
+   CLOSED: [2014-12-03 Wed 05:51]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 05:51]
+   [2014-12-02 Tue]
+** DONE Fix CMS issue jtorr                                        :3/3p:v24:
+   CLOSED: [2014-12-03 Wed 05:51]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 05:51]
+   [2014-12-02 Tue]
+** DONE Vacaciones + mail 9/12
+   CLOSED: [2014-12-03 Wed 11:11]
+   - State "DONE"       from "STARTED"    [2014-12-03 Wed 11:11]
+   - State "STARTED"    from "TODO"       [2014-12-03 Wed 09:56]
+   [2014-12-03 Wed]
+** DONE Revisar bbva
+   CLOSED: [2014-12-03 Wed 18:58]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+
+** DONE Fix surefire/failsafe test issue                           :v24:T685:
+   CLOSED: [2014-12-03 Wed 18:58]
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+** DONE Dockerfile-maven-plugin: process a template		       :2/2p: :d-m-p:acmsl:
+   CLOSED: [2014-12-04 Thu 05:55]
+   - State "DONE"       from "STARTED"    [2014-12-04 Thu 05:55]
+   - State "STARTED"    from "TODO"       [2014-12-02 Tue 06:55]
+   [2014-11-21 Fri]
+
+** DONE Access target process' properties/metadata         :1/2p:d-m-p:acmsl:
+   CLOSED: [2014-12-04 Thu 06:33]
+   - State "DONE"       from "STARTED"    [2014-12-04 Thu 06:33]
+   - State "STARTED"    from "TODO"       [2014-12-04 Thu 06:02]
+   [2014-12-04 Thu]
+
+** DONE Define a plan for the superlearner course          :0/1p:learn:udemy: :speedreading:
+   CLOSED: [2014-12-05 Fri 10:39]
+   - State "DONE"       from "TODO"       [2014-12-05 Fri 10:39]
+*** week 1: Learning the basics
+- 15min daily: [[http://www.keytostudy.com/short-term-visual-memory-training/][visual short-term memory training]]
+- 10min daily: [[http://www.keytostudy.com/visual-marker-creation/][create visual markers for abstract stuff]]
+- 15min daily: [[http://www.keytostudy.com/linking-markers-exercise/][practice linking markers]]
+- 10min daily: [[http://www.keytostudy.com/test-psychological-testing][learn more about yourself]]
+*** week 2: Train visualization and memory
+- 20min daily: [[http://www.keytostudy.com/visualization-exercise/][Improve your visualization]]
+- 20min daily: [[http://www.keytostudy.com/random-images-generator/][Memorize remember images]]
+- 20min daily: [[http://www.keytostudy.com/20-random-words-generator/][memorize words]]
+*** week 3: Starting working with texts
+- 5-10min daily: previous exercises
+- 60min daily: [[http://www.keytostudy.com/remembering-long-numbers/][remember all the numbers]] ([[http://www.keytostudy.com/tag-cloud-generation/][select words for initial visual markers]])
+*** week 4: Starting speedreading - subvocalization
+- 20min daily: [[http://www.keytostudy.com/avoiding-subvocalization/][subvocalization suppression]]
+- 10min daily: [[http://www.keytostudy.com/short-term-visual-memory-training/][visual perception speed]]
+- 20min daily: [[http://www.keytostudy.com/cascade-reading-tool/][scroll through text with high speed]]
+*** week 5: Speedreading - saccades
+- 40min daily: [[http://www.keytostudy.com/running-text-exercise/][running text]]
+- 10min daily: [[http://www.keytostudy.com/visual-angle-training][speedreading Schulz tables]]
+- 10min daily: [[http://www.keytostudy.com/multicolumn-saccade-formatter/][multicolumn saccades]]
+*** week 6: Book reading
+- 60min daily: Measure how much time it takes to read a page from a book.
+               Then 5 pages at x2 speed.
+               Then 3 pages at x1.5 speed.
+               Then 5 pages at x1.2 speed.
+*** Everyday training
+- [[http://www.keytostudy.com/amazing-list-simple-exercises-time-limited-offer/][Simple exercises]]
+   [2014-12-03 Wed]
+
+>>>>>>> a94181488b9942d7922f23eb6faa8a088ee5a8d3
