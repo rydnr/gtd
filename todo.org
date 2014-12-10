@@ -6,34 +6,13 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Fix indentation in emacs
-   [2014-12-04 Thu]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
-   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
-     Missing projects
-   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
-   [2014-12-03 Wed]
-*** psp-computop                                                       :3/3p:
-*** nlp-pricemodel                                                     :1/2p:
-*** nlp-creditcard                                                     :1/1p:
-*** common-processes                                                   :1/1p:
-*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
-*** nlp-processes                                                      :1/3p:
-*** nlp-webapp-api                                                     :3/3p:
+** STARTED Elaborate a new-skill plan
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]
 * Tasks
 #+CATEGORY: tasks
-** TODO PoC concordion + arquillian
-   [2014-12-05 Fri]
-** TODO Read stgit, progit, git-wip
-   [2014-12-05 Fri]
-** TODO PoC CMIS
-   [2014-12-05 Fri]
-** TODO Learn how to use abbrev or autocomplete in emacs
-   [2014-12-04 Thu]
-** TODO Dar de baja numero 659589553 de movistar
-   [2014-12-03 Wed]
-** TODO Add jenkins job for dockerfile plugin
-   [2014-12-03 Wed]
+** TODO Use zsh and customize prompt
+   [2014-12-08 Mon]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -97,6 +76,10 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO PoC concordion + arquillian
+   [2014-12-05 Fri]
+** TODO PoC CMIS
+   [2014-12-05 Fri]
 ** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
    - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
    - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
@@ -121,8 +104,6 @@
    [2014-11-07 Fri]
 ** TODO Review selenium code
    [2014-11-14 Fri]
-** TODO Talk to m.a. about test certification
-   [2014-11-28 Fri]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
 17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
 java.lang.NullPointerException
@@ -192,10 +173,8 @@ java.lang.NullPointerException
    [2014-10-21 Tue]
 ** TODO Redirect cms.ventura24.es.live.tipp24.net/opencms/opencms/index.html to /opencms/opencms/system/login :v24:
    [2014-10-10 Fri]
-** TODO Fix sound on newjlean					   :homework:
-   - State "TODO"       from "STARTED"    [2014-10-22 Wed 19:41] \\
-     PulseAudio is not working yet
-   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+** TODO Setup v24-test-categories repo                                 :0/1p:
+   [2014-12-06 Sat]
 ** TODO Find out how to make Intellij to generate its .class in target/classes for jrebel
    [2014-10-15 Wed]
 ** TODO Fix parsing version in jenkins jobs for B2G 			:v24:
@@ -243,10 +222,29 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** STARTED Add jenkins job for dockerfile plugin                          :4/1p:
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 07:03]
+   [2014-12-03 Wed]
+** TODO Fix indentation in emacs                                 :0/1p:emacs:
+   [2014-12-04 Thu]
+** TODO Learn how to define newspaper top banners in TiKZ :tikz:latex:podemos:
+   [2014-12-06 Sat]
+** STARTED Write d-m-p readme                                             :0/1p:
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
+   [2014-12-06 Sat]
+** TODO Read stgit, progit, git-wip                                    :0/1p:
+   [2014-12-05 Fri]
+** TODO Learn how to use abbrev or autocomplete in emacs               :0/1p:
+   [2014-12-04 Thu]
+** TODO Dar de baja numero 659589553 de movistar                       :0/1p:
+   [2014-12-03 Wed]
+** TODO Check whether target properties are accessible out-of-the-box  :0/1p:
+   - State "TODO"       from "STARTED"    [2014-12-08 Mon 12:15]
+   - State "DONE"       from "TODO"       [2014-12-08 Mon 12:15]
+   [2014-12-06 Sat]
+** TODO How to add jenkins status in github
+   [2014-12-06 Sat]
 ** TODO Follow Gimp course
-   [2014-11-28 Fri]
-** STARTED Upgrade kernel in feynman
-   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
    [2014-11-28 Fri]
 ** TODO Find out cheap PaaS-like service for Windows
    [2014-11-28 Fri]
@@ -266,8 +264,6 @@ java.lang.NullPointerException
    [2014-11-07 Fri]
 ** TODO Find out how to use the digital tablet in Linux
    [2014-11-09 Sun]
-** TODO Mount euler disks by name with udev		     :homework:acmsl:
-   [2014-10-27 Mon]
 ** TODO Read "Troubleshooting network tools" to find out the cause for the DNS and network problems in "caballo" network :homework:acmsl:
    [2014-10-27 Mon]
 ** TODO Revisar tutoriales					      :acmsl:
@@ -286,9 +282,6 @@ java.lang.NullPointerException
    [2014-10-04 Sat]
 ** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it :homework:
    [2014-10-05 Sun]
-** STARTED Think about a new-skill plan
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
-   [2014-09-12 Fri]
 ** TODO Read The first 20 hours				     :ebook:homework:
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:39]
    - State "TODO"       from "DONE"       [2014-09-22 Mon 09:20] \\
@@ -2061,7 +2054,7 @@ java.lang.NullPointerException
 *** nlp-pricemodel                                                     :1/2p:
 *** nlp-creditcard                                                     :1/1p:
 *** common-processes                                                   :1/1p:
-** DONE Dockerfile-maven-plugin: process a template		       :2/2p: :d-m-p:acmsl:
+** DONE Dockerfile-maven-plugin: process a template		       :2/2p:d-m-p:acmsl:
    CLOSED: [2014-12-04 Thu 05:55]
    - State "DONE"       from "STARTED"    [2014-12-04 Thu 05:55]
    - State "STARTED"    from "TODO"       [2014-12-02 Tue 06:55]
@@ -2105,3 +2098,60 @@ java.lang.NullPointerException
 - [[http://www.keytostudy.com/amazing-list-simple-exercises-time-limited-offer/][Simple exercises]]
    [2014-12-03 Wed]
 
+** DONE Make template be provided by the target project                 :d-m-p:2/2p: :acmsl:
+   CLOSED: [2014-12-06 Sat 06:56]
+   - State "DONE"       from "TODO"       [2014-12-06 Sat 06:56]
+   [2014-12-05 Fri]
+** TODO Fix surefire/failsafe test issue                           :v24:T685:
+   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
+     Missing projects
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
+*** nlp-processes                                                      :1/3p:
+*** nlp-webapp-api                                                     :3/3p:
+** DONE Fix surefire/failsafe test issue                           :v24:T685:
+   CLOSED: [2014-12-06 Sat 06:59]
+   - State "DONE"       from "TODO"       [2014-12-06 Sat 06:59]
+   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
+     Missing projects
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
+*** nlp-processes                                                      :1/3p:
+*** nlp-webapp-api                                                     :3/3p:
+** DONE Talk to m.a. about test certification
+   CLOSED: [2014-12-06 Sat 07:00]
+   - State "DONE"       from "TODO"       [2014-12-06 Sat 07:00]
+   [2014-11-28 Fri]
+** DONE Mount euler disks by name with udev             :1/1p:homework:acmsl:
+   CLOSED: [2014-12-07 Sun 10:32]
+   - State "DONE"       from "STARTED"    [2014-12-07 Sun 10:32]
+   - State "STARTED"    from "TODO"       [2014-12-07 Sun 09:56]
+   [2014-10-27 Mon]
+** DONE Fix sound on newjlean                                      :homework:
+   CLOSED: [2014-12-08 Mon 12:15]
+   - State "DONE"       from "TODO"       [2014-12-08 Mon 12:15]
+   - State "TODO"       from "STARTED"    [2014-10-22 Wed 19:41] \\
+     PulseAudio is not working yet
+   - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
+
+** DONE Upgrade kernel in feynman
+   CLOSED: [2014-12-08 Mon 12:15]
+   - State "DONE"       from "STARTED"    [2014-12-08 Mon 12:15]
+   - State "STARTED"    from "TODO"       [2014-11-28 Fri 08:52]
+   [2014-11-28 Fri]
+
+** DONE Think about a new-skill plan                                  :learn:
+   CLOSED: [2014-12-08 Mon 12:17]
+   - State "DONE"       from "STARTED"    [2014-12-08 Mon 12:17]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]

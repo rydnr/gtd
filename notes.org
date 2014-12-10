@@ -61,6 +61,13 @@ git pull
    [2014-09-22 Mon]
 
 ** C-c l -> insert link [[http://www.google.es][google]]
+** C-c C-o -> visit link
+** Agenda
+*** C-c [ (org-agenda-file-to-front) -> add file to the agenda files
+*** C-c ] (org-remove-file) -> remove file from the li
+*** C-c ' (org-cycle-agenda-files) -> Cycle through the agenda list
+*** C-c , -> Cycle through the agenda list, in reverse order
+*** C-c a -> agenda distpatcher
 * Acta 2014/10/06
 ** Reuniones trimestrales:
 - Agenda concreta
@@ -204,3 +211,9 @@ with its own headline, is displayed in a block:
 ** C-x C-o : Omnicomplete
 ** C-x C-f : Complete filename
 ** C-x C-n : Complete based on ctags
+* Disks
+** 32F0490EF048DA2D -> HD-LBU2
+** B8103DB1103D7788 -> IOMEGA HDD
+** FCCC585FCC58166C -> SAMSUNG 1_5T
+** F086EAE086EAA676 -> TOSHIBA EXT
+** CE4CAF864CAF67C3 ->
