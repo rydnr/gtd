@@ -6,24 +6,18 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Elaborate a new-skill plan
+** STARTED Fix get-new-version in jenkins
+   - State "STARTED"    from "TODO"       [2014-12-16 Tue 05:51]
+   [2014-12-16 Tue]
+** TODO Elaborate a new-skill plan
+   - State "TODO"       from "STARTED"    [2014-12-16 Tue 05:51] \\
+     Not started really
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
-** TODO Apply tokenization apache fix in production			:v24:
-   CLOCK: [2014-11-25 Tue 13:20]
-   [2014-11-19 Wed]
-** TODO Check error messages at shell login
-   [2014-11-19 Wed]
-   [2014-11-21 Fri]
+** TODO Ensure Jenkins uses maven installation on the host
+   [2014-12-16 Tue]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Practice presentation with laptop			 :codemotion:
-   [2014-11-21 Fri]
-** TODO Fix gnu-screen in laptop				 :codemotion:
-   - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
-     Not working yet
-   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
-   [2014-11-04 Tue]
 * Podemos
 * Codemotion
 ** TODO Review app-es-0{1,2,3,4}-c processes
@@ -156,6 +150,9 @@ java.lang.NullPointerException
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Apply tokenization apache fix in production			:v24:
+   CLOCK: [2014-11-25 Tue 13:20]
+   [2014-11-19 Wed]
 ** TODO PoC concordion + arquillian
    [2014-12-05 Fri]
 ** TODO PoC CMIS
@@ -302,11 +299,16 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
-** STARTED Add jenkins job for dockerfile plugin                          :4/1p:
-   - State "STARTED"    from "TODO"       [2014-12-06 Sat 07:03]
-   [2014-12-03 Wed]
+** TODO Fix gnu-screen in laptop				 :codemotion:
+   - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
+     Not working yet
+   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
+   [2014-11-04 Tue]
 ** TODO Fix indentation in emacs                                 :0/1p:emacs:
    [2014-12-04 Thu]
+** TODO Check error messages at shell login
+   [2014-11-19 Wed]
+   [2014-11-21 Fri]
 ** TODO Learn how to define newspaper top banners in TiKZ :tikz:latex:podemos:
    [2014-12-06 Sat]
 ** STARTED Write d-m-p readme                                             :0/1p:
@@ -2241,3 +2243,8 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2014-12-08 Mon 12:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
+** DONE Add jenkins job for dockerfile plugin                          :4/1p:
+   CLOSED: [2014-12-17 Wed 06:16]
+   - State "DONE"       from "STARTED"    [2014-12-17 Wed 06:16]
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 07:03]
+   [2014-12-03 Wed]

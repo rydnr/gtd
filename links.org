@@ -259,4 +259,13 @@
 ** More Java 9 features announced [[http://www.infoq.com/news/2014/11/MoreJava9Features]] :java:
 ** Codemotion 2014 slides [[https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli%3D1#gid%3D0][https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli=1#gid=0]] :codemotion:slides:
 ** Scrum en 5 minutos [[http://albertoromeu.com/scrum/]]             :scrum:blog:
-
+* Superlearn
+** Memory
+*** [[http://www.flashi.co.il/media/subfiles/1470.swf][Camera Mind 2]]
+** Saccades
+*** [[http://www.yugzone.ru/speed_reading/wider_eye_span/shultc04.swf][Wider eye span]]
+*** [[http://www.fasterreader.eu/pages/en/schultz-boards-generator-to-clicks-en.html][Schultz generator]]
+** Memory + Saccades
+*** [[http://flashfabrica.com/f_learning/brain/brainload.swf][Brainload]]
+** Mind maps
+*** [[iqmatrix.com]]
