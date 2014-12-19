@@ -1,0 +1,93 @@
+#+TITLE: Struts2 + CMIS PoC
+#+AUTHOR: Jose San Leandro
+#+LANGUAGE: es
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+* Introduction
+This document describes an approach to evolve the current web application behind www.ventura24.es.
+While introducing new technologies, all changes are incremental and backward compatible.
+Therefore, controlling risk and maintaining current development speed is the motivating factor.
+
+* Struts2
+Currently, the application relies on an outdated MVC stack: Struts 1 + Tiles + JSP.
+Such stack has been useful for more than 10 years, which is a proof of its stability and resilience.
+It also provides some extra features we'd like to preserve at least.
+
+Current situation in the Java ecosystem, regarding the MVC framework space, would probably change soon.
+The reason is the standarization of an upcoming JavaEE standard for MVC: JSR 371. It would be
+annotations-based, which simplifies the migration from other annotations-based frameworks.
+
+Struts2 is a MVC framework which allows specifying the routes with annotations. In fact, all
+configuration stored in our struts-config.xml files can be now defined via annotations.
+
+Struts2 supports also XML files, and helper classes to extend from. However, we'd be in a better position
+towards a future migration to JSR 371 if we stick to plain old Java objects enrichened with annotations.
+Then, switching from one to another would mean adding new annotations and configuring the web.xml to
+activate the framework engine.
+
+The design principle behind Struts2 actions are both Struts forms and actions. They are beans with
+attributes for the expected request parameters, and an "execute" method to perform the logic.
+
+The PoC needs to prove the following features already available in Struts 1 are supported as well.
+
+** Integrations
+
+What we call "integrations" is represented by the "module" concept in Struts 1. In Struts 2 it's
+been renamed to "namespace". It's fully supported out-of-the-box.
+
+There're, however, some differences. By convention, the views are expected to follow a folder structure
+under "src/main/webapp". So views for the integration "msn" would be expected to be available under
+"src/main/webapp/msn".
+
+** Validation
+
+Struts2 comes with validation support. It's more elegant since it's declared in a per-action XML file.
+For example, the validation rules for "src/main/java/com/foo/bar/actions/SignUp.java" Action,
+would be defined in "src/main/java/com/foo/bar/actions/SignUp-validation.xml".
+
+Additionally, the client-side validation rules can be enabled or disabled on a per-case basis, when
+using Struts2 taglib for forms.
+
+** Template engines
+
+Struts2 enables injecting different template engines via "ResultTypes". They're defined via annotations
+at the Action scope.
+
+The PoC's objective is to integrate the CMS view layer into Struts 2 as seamlessly as possible.
+
+* CMIS
+
+CMIS is the standarized protocol to access and manage CMS content. Currently, the application uses
+an evolved WebDAV-based layer to access external content served by an OpenCMS service.
+
+The base concepts are equivalent in CMIS and WebDAV (CMIS evolved WebDAV for CMS), so replacing our
+current WebDAV stub is neither risky nor expensive. Additionally, both connectors can coexist.
+
+** CMS as view layer
+
+Leveraging Struts 2 template engine capabilities would allow us to use a custom engine to produce the
+views using the CMS.
+
+For that, we define some application concepts, that would be mapped as CMIS objects:
+
+*** Concepts
+
+- Block: any HTML content, for a defined language.
+- Page: represents the content behind an URL, depending on the language. Exports a mime-type.
+- Integration: a namespace (or group) of pages.
+- Teaser: a custom block type aimed for teasers. It defines different attributes such as "size" and optionally "product".
+
+Optionally, it should allow a validation engine to avoid displaying content with only partial internationalization.
+
+*** DAO-like API
+
+The process of building the final views needs every block to be resolved. For that, the PoC uses a DAO-like API, even
+though the underlying implementation would not be a database datastore.
+
+The solution involves two DAO implementations:
+
+- A CMIS wrapper
+- A local filesystem resolver
+
+*** Rest API
+
+The CMS service would allow a REST interface.

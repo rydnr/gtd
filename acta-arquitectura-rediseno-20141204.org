@@ -1,0 +1,69 @@
+#+TITLE: Reunión Cambios BE por el Rediseño
+#+AUTHOR: Development Ventura24
+#+LANGUAGE: es
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+* Introducción
+De cara al próximo rediseño es conveniente estudiar y discutir la oportunidad de realizar cambios en la plataforma, en cuanto a tecnologías de back-end.
+Con ese objeto se ha realizado una reunión el día 04/12/2014, con los siguientes asistentes:
+- Sergio García-Mejía
+- Jose Luís Sánchez
+- Ramón Crespo
+- Jose Juan
+- Jose San Leandro
+* Análisis de la solución actual
+Se ha comenzado analizando y debatiendo la solución actual, enfocándonos inicialmente en sus puntos fuertes y puntos débiles.
+El objetivo de este análisis es servir de marco comparativo para poder dotar de cierto rigor las futuras propuestas.
+** Puntos fuertes
+- Estabilidad
+- Gestión de integraciones
+- Se basa en tecnologías conocidas, no propietarias
+- Integración con un sistema CMS
+- Capacidad de adaptación a los requisitos de www.ventura24.es
+** Puntos débiles
+- Mantenimiento y estado actual de los JSPs
+- Mapping de URLs opaco (no se puede conocer rápida ni fácilmente, a partir de una URL, su action y jsp)
+- Redirecciones repartidas en Java y Apache
+- Rendimiento de los actions: WebAppAction se ejecuta múltiples veces en cada request
+- Se basa en Struts 1, que es una tecnología de hace 10 años.
+- Poco flexible en contextos diferentes a www.ventura24.es
+- Las validaciones con struts-validator son incómodas de implementar, y frágiles
+* Pruebas de concepto
+Se han clasificado los distintos enfoques en función de una estimación a priori de envergadura de los cambios respecto a la solución actual.
+Los requisitos que deben cumplir las propuestas son:
+- Requisitos funcionales: implementar /, /login.do, /loginerror.do, /depot.do
+- Requisitos no funcionales:
+  - soportar integraciones.
+  - rendimiento equivalente.
+
+Se creará un repositorio PoC para hospedar las propuestas.
+
+En la reunión se ha decidido clasificar las mismas de acuerdo a su impacto:
+** Propuestas conservadoras
+En ese grupo se contemplan las propuestas que a priori conllevan menos coste o riesgo, pero que a la vez mejorarían la deuda técnica, la mantenibilidad, y la flexibilidad.
+Serían cambios que afectan únicamente al módulo nlp-webapp.
+Las propuestas dentro de este grupo son:
+*** Refactoring Struts 1
+- Responsable: Jose San Leandro
+- Objetivo:
+  - Definir una propuesta de cómo hacer el mapping de urls y organizar los JSPs.
+  - proponer cómo implementar los JSPs, tiles y jsp:include, etc.
+** Propuestas intermedias
+En esta categoría tienen cabida aquellas propuestas que impliquen un cambio de framework en la capa de presentación (nlp-webapp).
+Cada propuesta debe servir para contrastar las características de la solución propuesta, respecto a los puntos definidos como base.
+*** Play
+- Responsable: Ramón Crespo
+- Objetivo:
+  - Implementar la funcionalidad de las urls citadas con Play.
+  - Describir la solución (mapeo de urls, gestión de las vistas, etc).
+*** Spring MVC
+- Responsable: José Luís Sánchez
+- Objetivo:
+  - Implementar la funcionalidad de las urls citadas con Spring MVC.
+  - Describir la solución (mapeo de urls, gestión de las vistas, etc).
+** Propuestas más agresivas
+Esta categoría incluye aquellas propuestas que impliquen cambios más significativos en la arquitectura, no sólo nlp-webapp.
+*** TBD
+No hay propuestas por el momento.
+* Siguientes pasos
+El jueves 18/12/2014 se expondrán las soluciones propuestas de cara a su evaluación y discusión.
+
