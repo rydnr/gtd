@@ -168,6 +168,8 @@
 ** Entrevista Pablo Iglesias en Reddit: https://docs.google.com/document/d/1_dk6EWUFolpgvdPf6YjvQhEUVpadlHGSkSTCQwUY3fo/pub :politics:podemos:
 * V24
 #+CATEGORY: FirefoxV24
+** [[https://www.voxxed.com/blog/2014/12/exploring-microservices-in-the-enterprise/][Microservices in the enterprise]]               :architecture:microservices:
+** [[http://www.smashingmagazine.com/2014/12/08/upcoming-web-design-events-dec-2014-june-2015/][Upcoming web design events 2014-2015]]                           :webdesign:
 ** What is spray? http://spray.io/introduction/what-is-spray/	      :scala:
 ** Mastering Emacs http://www.masteringemacs.org/		      :emacs:
 ** Out of the Tar Pit http://elegantcode.com/2014/05/09/out-of-the-tar-pit/ :programming:

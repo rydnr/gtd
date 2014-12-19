@@ -9,90 +9,19 @@
 ** STARTED Elaborate a new-skill plan
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
-** TODO Apply tokenization apache fix in production			:v24:
-   CLOCK: [2014-11-25 Tue 13:20]
-   [2014-11-19 Wed]
 ** TODO Check error messages at shell login
    [2014-11-19 Wed]
-   [2014-11-21 Fri]
+** STARTED Test lastest JDK
+   - State "STARTED"    from "TODO"       [2014-12-16 Tue 09:49]
+   [2014-12-10 Wed]
+** WAITING Finish jdocs installation
+   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
+     Waiting for sudo to work
+   [2014-12-16 Tue]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Practice presentation with laptop			 :codemotion:
-   [2014-11-21 Fri]
-** TODO Fix gnu-screen in laptop				 :codemotion:
-   - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
-     Not working yet
-   - State "DONE"       from "TODO"       [2014-11-21 Fri 18:02]
-   [2014-11-04 Tue]
-* Podemos
-* Codemotion
-** TODO Review app-es-0{1,2,3,4}-c processes
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
-** TODO Fix account number bug for companies T556		   :T556:v24:
-   [2014-11-17 Mon]
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
-   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
-     Not needed anymore
-   [2014-10-10 Fri]
-
-** TODO Fix restricted.ventura24.es virtual host			:v24:
-   [2014-11-07 Fri]
-** TODO Review selenium code
-   [2014-11-14 Fri]
-* Tasks
-#+CATEGORY: Tasks
-   [2014-10-30 Thu]
-** TODO Add a maven task to generate Dockerfiles
-   [2014-11-21 Fri]
-** TODO Create first poll on "interests"
-   [2014-11-21 Fri]
-** TODO Fix wisent error when installing malabar		      :emacs:
-   [2014-11-18 Tue]
-** TODO Fix NPE in nlpcc when sending emails				:v24:
-17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
-java.lang.NullPointerException
-        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
-        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
-        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
-        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
-        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
-        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
-
-  [2014-11-17 Mon]
-** TODO Elaborate a plan for QA roadmap					:v24:
-   [2014-11-17 Mon]
-** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
-   [2014-11-17 Mon]
-** TODO Fix indentation in emacs
-   [2014-12-04 Thu]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
-   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
-     Missing projects
-   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
-   [2014-12-03 Wed]
-*** psp-computop                                                       :3/3p:
-*** nlp-pricemodel                                                     :1/2p:
-*** nlp-creditcard                                                     :1/1p:
-*** common-processes                                                   :1/1p:
-*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
-*** nlp-processes                                                      :1/3p:
-*** nlp-webapp-api                                                     :3/3p:
-* Tasks
-#+CATEGORY: tasks
-** TODO Use zsh and customize prompt
-   [2014-12-08 Mon]
+** TODO Evaluate walkmod
+   [2014-12-11 Thu]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -100,7 +29,8 @@ java.lang.NullPointerException
      Not really started yet
    - State "STARTED"    from "TODO"       [2014-11-26 Wed 06:20]
    [2014-11-26 Wed]
-* Codemotion
+* Docker
+#+CATEGORY: Docker
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
@@ -113,6 +43,8 @@ java.lang.NullPointerException
 ** TODO github example project					 :codemotion:
 * Sindicato
   #+CATEGORY: sindicato
+** TODO Create first poll on "interests"
+   [2014-11-21 Fri]
 ** TODO Redactar propuesta "Racismo, machismo, etc."		  :sindicato:
   [2014-09-27 Sat]
 ** TODO Redactar propuesta Control de presencia			  :sindicato:
@@ -156,6 +88,21 @@ java.lang.NullPointerException
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Fix NPE in nlpcc when sending emails				:v24:
+17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
+java.lang.NullPointerException
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
+        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
+        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
+        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
+        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
+
+  [2014-11-17 Mon]
+** TODO Elaborate a plan for QA roadmap					:v24:
+   [2014-11-17 Mon]
+** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
+   [2014-11-17 Mon]
 ** TODO PoC concordion + arquillian
    [2014-12-05 Fri]
 ** TODO PoC CMIS
@@ -302,6 +249,26 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Fix surefire/failsafe test issue                           :v24:T685:
+   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
+     Missing projects
+   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
+   [2014-12-03 Wed]
+*** psp-computop                                                       :3/3p:
+*** nlp-pricemodel                                                     :1/2p:
+*** nlp-creditcard                                                     :1/1p:
+*** common-processes                                                   :1/1p:
+*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
+*** nlp-processes                                                      :1/3p:
+*** nlp-webapp-api                                                     :3/3p:
+** TODO Fix indentation in emacs
+   [2014-12-04 Thu]
+** TODO Use zsh and customize prompt
+   [2014-12-08 Mon]
+** TODO Fix wisent error when installing malabar		      :emacs:
+   [2014-11-18 Tue]
+** TODO Add a maven task to generate Dockerfiles
+   [2014-11-21 Fri]
 ** STARTED Add jenkins job for dockerfile plugin                          :4/1p:
    - State "STARTED"    from "TODO"       [2014-12-06 Sat 07:03]
    [2014-12-03 Wed]
@@ -1908,10 +1875,6 @@ java.lang.NullPointerException
    - State "DONE"       from "STARTED"    [2014-11-19 Wed 06:13]
    - State "DONE"       from "DONE"       [2014-11-19 Wed 05:57]
    [2014-11-19 Wed]
-** DONE Fix apache for companies (tokenization-ok.jsp)
-   CLOSED: [2014-11-14 Fri 10:46]
-   - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
-   [2014-11-13 Thu]
 ** DONE Review the exact phrase to use for acknowledging shutterstock images :codemotion:
    CLOSED: [2014-11-14 Fri 10:46]
    - State "DONE"       from "TODO"       [2014-11-14 Fri 10:46]
@@ -2188,7 +2151,9 @@ java.lang.NullPointerException
 CLOSED: [2014-12-06 Sat 06:56]
 - State "DONE"       from "TODO"       [2014-12-06 Sat 06:56]
 [2014-12-05 Fri]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
+** DONE Fix surefire/failsafe test issue                           :v24:T685:
+   CLOSED: [2014-12-10 Wed 09:49]
+   - State "DONE"       from "TODO"       [2014-12-10 Wed 09:49]
 - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
  Missing projects
 - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
@@ -2241,3 +2206,17 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2014-12-08 Mon 12:17]
    - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
    [2014-09-12 Fri]
+** CANCELLED Fix nlp-processes-api
+   CLOSED: [2014-12-12 Fri 09:57]
+   - State "CANCELLED"  from "TODO"       [2014-12-12 Fri 09:57] \\
+     It was a bug indeed introduced by mistake and reverted already
+   [2014-12-10 Wed]
+** DONE Install anonymous pro in emacs and intellij                    :1/1p:
+   CLOSED: [2014-12-12 Fri 09:37]
+   - State "DONE"       from "TODO"       [2014-12-12 Fri 09:37]
+   [2014-12-12 Fri]
+
+** DONE Send UGT training request
+   CLOSED: [2014-12-16 Tue 12:31]
+   - State "DONE"       from "TODO"       [2014-12-16 Tue 12:31]
+   [2014-12-16 Tue]
