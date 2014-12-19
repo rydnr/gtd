@@ -1,0 +1,42 @@
+* Openshift
+** wordpress villaviciosa
+
+sslconfig=tlsv1 en ~/.openshift/express.conf
+
+rhc login
+rhc app create -n podemos --scaling 'villaviciosa' php-5.4 mysql-5.5 --from-code=https://github.com/robertovg/wordpress-example
+
+chous@feynman $ rhc app create -n podemos --scaling 'villaviciosa' php-5.4 mysql-5.5 --from-code=https://github.com/robertovg/wordpress-example
+Application Options
+-------------------
+Domain:      podemos
+Cartridges:  php-5.4, mysql-5.5
+Source Code: https://github.com/robertovg/wordpress-example
+Gear Size:   default
+Scaling:     yes
+
+Creating application 'villaviciosa' ... done
+
+  MySQL 5.5 database added.  Please make note of these credentials:
+
+       Root User: admin4kEwnkI
+   Root Password: suUPZXRMDCdp
+   Database Name: villaviciosa
+
+Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+You can manage your new MySQL database by also embedding phpmyadmin.
+The phpmyadmin username and password will be the same as the MySQL credentials above.
+
+Waiting for your DNS name to be available ... done
+
+Cloning into 'villaviciosa'...
+Warning: Permanently added the RSA host key for IP address '54.160.173.39' to the list of known hosts.
+X11 forwarding request failed on channel 1
+
+Your application 'villaviciosa' is now available.
+
+  URL:        http://villaviciosa-podemos.rhcloud.com/
+  SSH to:     545debe45973cab0d1000022@villaviciosa-podemos.rhcloud.com
+  Git remote: ssh://545debe45973cab0d1000022@villaviciosa-podemos.rhcloud.com/~/git/villaviciosa.git/
+  Cloned to:  /home/chous/openshift/villaviciosa
