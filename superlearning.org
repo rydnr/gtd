@@ -1,0 +1,39 @@
+* Goals
+** Read, retain and learn all the books I have pending.
+** Fight the hussle and drama of procastrination
+** Be consistent
+** Succeed so I can teach my relatives
+* Notes
+First thing: improve my memory
+- 357wpm / 13 
+Practice every occasion
+* Plan
+** week 1: Learning the basics
+- 15min daily: [[http://www.keytostudy.com/short-term-visual-memory-training/][visual short-term memory training]]
+- 10min daily: [[http://www.keytostudy.com/visual-marker-creation/][create visual markers for abstract stuff]]
+- 15min daily: [[http://www.keytostudy.com/linking-markers-exercise/][practice linking markers]]
+- 10min daily: [[http://www.keytostudy.com/test-psychological-testing][learn more about yourself]]
+** week 2: Train visualization and memory
+- 20min daily: [[http://www.keytostudy.com/visualization-exercise/][Improve your visualization]]
+- 20min daily: [[http://www.keytostudy.com/random-images-generator/][Memorize remember images]]
+- 20min daily: [[http://www.keytostudy.com/20-random-words-generator/][memorize words]]
+** week 3: Starting working with texts
+- 5-10min daily: previous exercises
+- 60min daily: [[http://www.keytostudy.com/remembering-long-numbers/][remember all the numbers]] ([[http://www.keytostudy.com/tag-cloud-generation/][select words for initial visual markers]])
+** week 4: Starting speedreading - subvocalization
+- 20min daily: [[http://www.keytostudy.com/avoiding-subvocalization/][subvocalization suppression]]
+- 10min daily: [[http://www.keytostudy.com/short-term-visual-memory-training/][visual perception speed]]
+- 20min daily: [[http://www.keytostudy.com/cascade-reading-tool/][scroll through text with high speed]]
+** week 5: Speedreading - saccades
+- 40min daily: [[http://www.keytostudy.com/running-text-exercise/][running text]]
+- 10min daily: [[http://www.keytostudy.com/visual-angle-training][speedreading Schulz tables]]
+- 10min daily: [[http://www.keytostudy.com/multicolumn-saccade-formatter/][multicolumn saccades]]
+** week 6: Book reading
+- 60min daily: Measure how much time it takes to read a page from a book.
+               Then 5 pages at x2 speed.
+               Then 3 pages at x1.5 speed.
+               Then 5 pages at x1.2 speed.
+** Everyday training
+- [[http://www.keytostudy.com/amazing-list-simple-exercises-time-limited-offer/][Simple exercises]]
+   [2014-12-03 Wed]
+

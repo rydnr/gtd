@@ -6,87 +6,19 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Fix get-new-version in jenkins
-   - State "STARTED"    from "TODO"       [2014-12-16 Tue 05:51]
-   [2014-12-16 Tue]
-** TODO Elaborate a new-skill plan
-   - State "TODO"       from "STARTED"    [2014-12-16 Tue 05:51] \\
-     Not started really
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
-   [2014-09-12 Fri]
 ** TODO Ensure Jenkins uses maven installation on the host
    [2014-12-16 Tue]
+** STARTED Write d-m-p readme                                             :0/1p:
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
+   [2014-12-06 Sat]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Upgrade Artifactory to 4.0.2
+   [2014-12-19 Fri]
+** TODO Deploy jenkins image in luna
+   [2014-12-19 Fri]
 * Podemos
 * Codemotion
-** TODO Review app-es-0{1,2,3,4}-c processes
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
-** TODO Fix account number bug for companies T556		   :T556:v24:
-   [2014-11-17 Mon]
-** TODO Fix title/description para la home en seo.properties	    :cms:v24:
-   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
-     Not needed anymore
-   [2014-10-10 Fri]
-
-** TODO Fix restricted.ventura24.es virtual host			:v24:
-   [2014-11-07 Fri]
-** TODO Review selenium code
-   [2014-11-14 Fri]
-* Tasks
-#+CATEGORY: Tasks
-   [2014-10-30 Thu]
-** TODO Add a maven task to generate Dockerfiles
-   [2014-11-21 Fri]
-** TODO Create first poll on "interests"
-   [2014-11-21 Fri]
-** TODO Fix wisent error when installing malabar		      :emacs:
-   [2014-11-18 Tue]
-** TODO Fix NPE in nlpcc when sending emails				:v24:
-17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
-java.lang.NullPointerException
-        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:235)
-        at com.ventura24.nlp.cache.EhCacheWrapper.getCache(EhCacheWrapper.java:225)
-        at com.ventura24.nlp.cache.EhCacheWrapper.get(EhCacheWrapper.java:163)
-        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey_aroundBody1$advice(OracleMsTemplateDAO.java:59)
-        at com.ventura24.nlp.messaging.dao.rdb.oracle.OracleMsTemplateDAO.findByPrimaryKey(OracleMsTemplateDAO.java:1)
-        at com.ventura24.nlp.messaging.workflow.aportodas.RenewalEmailServiceProvider.sendEmail(RenewalEmailServiceProvider.java:180)
-
-  [2014-11-17 Mon]
-** TODO Elaborate a plan for QA roadmap					:v24:
-   [2014-11-17 Mon]
-** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
-   [2014-11-17 Mon]
-** TODO Fix indentation in emacs
-   [2014-12-04 Thu]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
-   - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
-     Missing projects
-   - State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
-   [2014-12-03 Wed]
-*** psp-computop                                                       :3/3p:
-*** nlp-pricemodel                                                     :1/2p:
-*** nlp-creditcard                                                     :1/1p:
-*** common-processes                                                   :1/1p:
-*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
-*** nlp-processes                                                      :1/3p:
-*** nlp-webapp-api                                                     :3/3p:
-* Tasks
-#+CATEGORY: tasks
-** TODO Use zsh and customize prompt
-   [2014-12-08 Mon]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -150,12 +82,19 @@ java.lang.NullPointerException
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Fix account number bug for companies T556		   :T556:v24:
+   [2014-11-17 Mon]
+** TODO Fix title/description for / in seo.properties               :cms:v24:
+   - State "CANCELLED"  from "TODO"       [2014-11-07 Fri 06:11] \\
+     Not needed anymore
+   [2014-10-10 Fri]
+
+** TODO Fix restricted.ventura24.es virtual host			:v24:
+   [2014-11-07 Fri]
 ** TODO Apply tokenization apache fix in production			:v24:
    CLOCK: [2014-11-25 Tue 13:20]
    [2014-11-19 Wed]
 ** TODO PoC concordion + arquillian
-   [2014-12-05 Fri]
-** TODO PoC CMIS
    [2014-12-05 Fri]
 ** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
    - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
@@ -256,10 +195,6 @@ java.lang.NullPointerException
    [2014-10-15 Wed]
 ** TODO Fix parsing version in jenkins jobs for B2G 			:v24:
    [2014-09-26 Fri]
-** STARTED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
-   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
-   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
-   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
 ** TODO Build a Puppet master image, for a tag in "sysadmin" repository :v24:
    [2014-09-22 Mon]
 ** TODO Deploy nlp-companies-webapp Docker image in app-b2g-01-hh1	:v24:
@@ -299,6 +234,8 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Fix cron errors on luna
+   [2014-12-18 Thu]
 ** TODO Fix gnu-screen in laptop				 :codemotion:
    - State "TODO"       from "DONE"       [2014-11-21 Fri 19:03] \\
      Not working yet
@@ -310,9 +247,6 @@ java.lang.NullPointerException
    [2014-11-19 Wed]
    [2014-11-21 Fri]
 ** TODO Learn how to define newspaper top banners in TiKZ :tikz:latex:podemos:
-   [2014-12-06 Sat]
-** STARTED Write d-m-p readme                                             :0/1p:
-   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
    [2014-12-06 Sat]
 ** TODO Read stgit, progit, git-wip                                    :0/1p:
    [2014-12-05 Fri]
@@ -360,8 +294,6 @@ java.lang.NullPointerException
    [2014-10-15 Wed]
 ** STARTED Read Mastering Puppet		      :puppet:ebook:homework:
    - State "STARTED"    from "TODO"       [2014-10-06 Mon 13:18]
-** TODO Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
-   [2014-10-04 Sat]
 ** TODO Read "Visualizing threads with UML" in euler:/mnt/sdg1/libros-it :homework:
    [2014-10-05 Sun]
 ** TODO Read The first 20 hours				     :ebook:homework:
@@ -430,7 +362,6 @@ java.lang.NullPointerException
 ** TODO Test docker-backup					     :docker:
 ** TODO Recover bm.acm-sl.org					     :docker:
 ** TODO Build Puppet image					     :docker:
-** TODO Implement a script to generate Dockerfiles based on templates, as wking's :docker:
 * github
   #+CATEGORY: GITHUB
 ** TODO API rest to export a git diff as a json object			 :RT:
@@ -2190,18 +2121,6 @@ java.lang.NullPointerException
 CLOSED: [2014-12-06 Sat 06:56]
 - State "DONE"       from "TODO"       [2014-12-06 Sat 06:56]
 [2014-12-05 Fri]
-** TODO Fix surefire/failsafe test issue                           :v24:T685:
-- State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
- Missing projects
-- State "DONE"       from "TODO"       [2014-12-03 Wed 18:58]
-[2014-12-03 Wed]
-*** psp-computop                                                       :3/3p:
-*** nlp-pricemodel                                                     :1/2p:
-*** nlp-creditcard                                                     :1/1p:
-*** common-processes                                                   :1/1p:
-*** psp-api, common-errorcodes, messaging, nlp-acquirers, nlp-processworkflow                                        :1/1p:
-*** nlp-processes                                                      :1/3p:
-*** nlp-webapp-api                                                     :3/3p:
 ** DONE Fix surefire/failsafe test issue                           :v24:T685:
 CLOSED: [2014-12-06 Sat 06:59]
 - State "DONE"       from "TODO"       [2014-12-06 Sat 06:59]
@@ -2248,3 +2167,71 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2014-12-17 Wed 06:16]
    - State "STARTED"    from "TODO"       [2014-12-06 Sat 07:03]
    [2014-12-03 Wed]
+** DONE Fix get-new-version in jenkins
+   CLOSED: [2014-12-18 Thu 19:34]
+   - State "DONE"       from "STARTED"    [2014-12-18 Thu 19:34]
+   - State "STARTED"    from "TODO"       [2014-12-16 Tue 05:51]
+   [2014-12-16 Tue]
+
+** DONE Add a maven task to generate Dockerfiles               :d:m:p:docker:
+   CLOSED: [2014-12-18 Thu 19:35]
+   - State "DONE"       from "TODO"       [2014-12-18 Thu 19:35]
+   [2014-11-21 Fri]
+
+** DONE Create first poll on "interests"                                :v24:
+   CLOSED: [2014-12-18 Thu 19:35]
+   - State "DONE"       from "TODO"       [2014-12-18 Thu 19:35]
+   [2014-11-21 Fri]
+*
+** DONE PoC CMIS                                                        :v24:
+   CLOSED: [2014-12-18 Thu 19:38]
+   - State "DONE"       from "TODO"       [2014-12-18 Thu 19:38]
+   [2014-12-05 Fri]
+** DONE Check jenkins.acm-sl.org can be recovered using the Dockerfile plus acmsl-jenkins-configs.git
+   CLOSED: [2014-12-19 Fri 06:00]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 06:00]
+   [2014-10-04 Sat]
+
+** DONE Implement a script to generate Dockerfiles based on templates, as wking's :docker:
+   CLOSED: [2014-12-19 Fri 06:00]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 06:00]
+** CANCELLED Build a docker image for nlp-webapp, even with hard-coded env settings :docker:v24:
+   CLOSED: [2014-12-19 Fri 06:00]
+   - State "CANCELLED"  from "STARTED"    [2014-12-19 Fri 06:00] \\
+     Not needed. I'll use dockerfile-maven-plugin.
+   - State "STARTED"    from "TODO"       [2014-09-18 Thu 11:35]
+   - State "TODO"       from "STARTED"    [2014-09-15 Mon 11:17]
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:36]
+
+** DONE Elaborate a new-skill plan                            :superlearning:
+   CLOSED: [2014-12-19 Fri 06:03]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 06:03]
+   - State "TODO"       from "STARTED"    [2014-12-16 Tue 05:51] \\
+     Not started really
+   - State "STARTED"    from "TODO"       [2014-09-12 Fri 01:45]
+   [2014-09-12 Fri]
+
+** DONE Make dockerfile-maven-plugin deploy a -dockerfile file        :d:m:p:
+   CLOSED: [2014-12-19 Fri 06:04]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 06:04]
+   [2014-12-19 Fri]
+
+** DONE Add cron to perform mvn update:properties to refresh the local repository in jenkins :jenkins:acmsl:
+   CLOSED: [2014-12-19 Fri 07:50]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 07:50]
+   [2014-12-19 Fri]
+
+** DONE Make QueryJ job work                           :queryj:jenkins:acmsl:
+   CLOSED: [2014-12-19 Fri 07:51]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 07:51]
+   [2014-12-18 Thu]
+
+** DONE Use zsh and customize prompt                                  :acmsl:
+   CLOSED: [2014-12-19 Fri 07:51]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 07:51]
+   [2014-12-08 Mon]
+
+** DONE Add radiator-like view in jenkins                     :acmsl:jenkins:
+   CLOSED: [2014-12-19 Fri 07:51]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 07:51]
+   [2014-12-19 Fri]
