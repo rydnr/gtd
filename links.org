@@ -188,6 +188,8 @@
 ** [[https://www.youtube.com/watch?v%3DIy8Wu3J4ivY][Michael Sandel: Sociedades de mercado]]                                :ted:
 * V24
 #+CATEGORY: FirefoxV24
+** [[https://www.voxxed.com/blog/2014/12/exploring-microservices-in-the-enterprise/][Microservices in the enterprise]]               :architecture:microservices:
+** [[http://www.smashingmagazine.com/2014/12/08/upcoming-web-design-events-dec-2014-june-2015/][Upcoming web design events 2014-2015]]                           :webdesign:
 ** What is spray? http://spray.io/introduction/what-is-spray/	      :scala:
 ** Mastering Emacs http://www.masteringemacs.org/		      :emacs:
 ** Out of the Tar Pit http://elegantcode.com/2014/05/09/out-of-the-tar-pit/ :programming:

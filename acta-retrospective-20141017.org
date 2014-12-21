@@ -1,0 +1,50 @@
+#+TITLE: Retrospective
+#+AUTHOR: Titane (antes Tinane)
+#+LANGUAGE: es
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+* Retrospective
+** Freeze
+*** Problemas
+- Estamos entrando en un círculo vicioso: con el paso del tiempo, el freeze se alarga, entran más tickets a probar, se tarda más en probar, y se alarga el freeze.
+- El taggeo tarda demasiado y obliga a mandar mails con la lista de proyectos a taggear.
+- El ``dependency analysis'' de Jenkins a veces entra en un bucle infinito y por eso se ha deshabilitado.
+*** Soluciones
+- Quitar el freeze. Se suben los cambios de Alex y Pablo, se taggea de nuevo. A partir de ahora, si hay tickets que no pasan las pruebas se crearán branches, y, opcionalmente, jobs en jenkins.
+- Se prueba y se cambia el job de v24-pom para que sea compatible con los branches de bugfixing.
+- Se introduce el plugin de ``Maven dependency analysis'' para comprobar si sigue dándose el problema del bucle infinito. Se investigará también si el bucle infinito es en realidad un falso positivo o no.
+** properties de nlp-acquirers
+*** Problemas
+- Se han reproducido como el ébola en todos los proyectos, dando lugar (o pudiendo dar lugar) a inconsistencias.
+- Al acabar dentro de los jars taggeados, se puede dar el caso de que valores de test acaben en producción.
+*** Soluciones
+1) Cambiar que la clase de la que extiendan los Acquirers sea DAOConfigurationManager en lugar de ConfigurationManager, y leer los valores de la bd.
+1) Cambiar que la clase de la que extiendan los Acquirers sea una implementación de DAOConfigurationManager, para usar una tabla aparte manteniendo clave / valor.
+1) Cambiar que la clase de la que extiendan los Acquirers tire de un DAO asociado a tablas nuevas, diseñadas específicamente para los acquirers.
+** BDs para desarrollo
+*** Problemas
+- Con maven y jenkins acabas con código incompatible con tu base de datos, y hay que investigar qué changes usar, con el consiguiente retraso.
+- Actualmente, no hay forma de regenerar una base de datos, si no es con un import. Los scripts no existen, o son incompletos.
+*** Soluciones
+- Evaluar herramientas que gestionan los cambios de bd, como MyBatis Migrations (https://mybatis.github.io/migrations/), Liquibase (http://www.liquibase.org), o sqitch (http://sqitch.org/).
+- Antes de ejecutar el job de QueryJ, ejecutar el sql-maven-plugin para borrar todos los objetos, y recrearlos a partir de scripts (generados por DBSD).
+** Bomberismos
+*** Problemas
+- Hay dos filosofías detrás de la figura del bombero: como aprendizaje de cara a las guardias; y un sacrificio en pos de que el resto del equipo mantenga su productividad. No hemos respaldado la intención inicial de utilizar los bomberismos para arreglar o protegernos de las causas reales. Una de las razones es que hay tantos tickets por resolver para ayer, que no hay margen para este tipo de tareas.
+- En la última reunión se decidió utilizar la semana del bombero para ese tipo de tareas, pero en la práctica no se hace.
+- Tolerancia CERO con los ``eso pasa desde siempre'', que no tengan tickets asociados.
+*** Soluciones
+- Adoptar Scrum, y dejar flexibilidad para añadir bomberismos i\-nes\-pe\-ra\-dos dentro del sprint. Gestionarlos dentro del equipo de una forma más racional que símplemente por turnos.
+** Tickets
+*** Problemas
+- Los tickets por lo general, se encolan, y la cola de tickets crece indefinidamente. Eso hace que nuestros ``clientes internos'' no confíen en el sistema de tickets, y no los creen, o intenten pedir las cosas por vías alternativas.
+- Nuestra forma de resolver tickets es, por distintas razones, menos ágil y rápida que lo que se espera.
+*** Soluciones
+- Adoptar Scrum. Relajar la figura de product owner, pero dar visibilidad a los sprints para los ``clientes internos'', y ceder X unidades de trabajo cada sprint para tareas de cada departamento.
+** Monitorización
+*** Problemas
+- No monitorizamos nada de los entornos de producción. Ni los logs. Sólo actuamos cuando nos enteramos indirectamente de los problemas.
+*** Soluciones
+- Arreglar las excepciones que son falsas alarmas: LoginAlreadyExists, etc. También los fallos al parsear nulos. Obtener la lista de excepciones y arreglarlas o refactorizarlo para no usar excepciones cuando no lo son.
+- Habilitar JAMon (http://jamonapi.sourceforge.net/log4j_jamonappender.html) para poder ver los logs fácilmente.
+- Introducir logstash (http://logstash.net/).
+
