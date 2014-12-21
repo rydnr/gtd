@@ -8,15 +8,14 @@
 #+CATEGORY: today
 ** TODO Check error messages at shell login
    [2014-11-19 Wed]
-** STARTED Test lastest JDK
-   - State "STARTED"    from "TODO"       [2014-12-16 Tue 09:49]
-   [2014-12-10 Wed]
 ** WAITING Finish jdocs installation
    - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
      Waiting for sudo to work
    [2014-12-16 Tue]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Create exim image
+   [2014-12-19 Fri]
 ** TODO Evaluate walkmod
    [2014-12-11 Thu]
 ** TODO Ensure Jenkins uses maven installation on the host
@@ -24,8 +23,6 @@
 ** STARTED Write d-m-p readme                                             :0/1p:
    - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
    [2014-12-06 Sat]
-* Tasks
-#+CATEGORY: Tasks
 ** TODO Upgrade Artifactory to 4.0.2
    [2014-12-19 Fri]
 ** TODO Deploy jenkins image in luna
@@ -2297,3 +2294,13 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2014-12-19 Fri 07:51]
    - State "DONE"       from "TODO"       [2014-12-19 Fri 07:51]
    [2014-12-19 Fri]
+** DONE Send mail to Bernardo                                           :ugt:
+   CLOSED: [2014-12-19 Fri 11:56]
+   - State "DONE"       from "TODO"       [2014-12-19 Fri 11:56]
+   [2014-12-19 Fri]
+
+** DONE Test lastest JDK
+   CLOSED: [2014-12-19 Fri 11:57]
+   - State "DONE"       from "STARTED"    [2014-12-19 Fri 11:57]
+   - State "STARTED"    from "TODO"       [2014-12-16 Tue 09:49]
+   [2014-12-10 Wed]
