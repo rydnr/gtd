@@ -166,6 +166,26 @@
 ** Reddit.st in 10 cool pharo classes https://medium.com/@svenvc/reddit-st-in-10-cool-pharo-classes-1b5327ca0740 :smalltalk:
 ** Propuestas asambleas ciudadanas de Podemos: http://propuestas.podemos.info/propuestas.html :politics:podemos:
 ** Entrevista Pablo Iglesias en Reddit: https://docs.google.com/document/d/1_dk6EWUFolpgvdPf6YjvQhEUVpadlHGSkSTCQwUY3fo/pub :politics:podemos:
+** [[http://pcsupport.about.com/od/tipstricks/a/free-public-dns-servers.htm][Free and public DNS servers]]                                          :dns:
+** [[http://www.computerworld.com/article/2545279/networking/hack-dns-for-lightning-fast-web-browsing.html][Hack DNS for lightning-fast web browsing]]                             :dns:
+** [[http://techcrunch.com/2014/06/06/productivity-and-the-education-delusion/][Productivity and the Education delusion]]                        :education:
+** [[http://www.psychologytoday.com/blog/hidden-motives/201405/there-is-no-job-security][There's no job security]]
+** [[http://www.manchesteruniversitypress.co.uk/cgi-bin/indexer?product%3D9780719096679][Anarchism and utopianism book]]
+** [[http://tic.circulospodemos.info/2014/11/05/herramientas/][Herramientas PODEMOS TICs]]                                        :podemos:
+** [[http://tic.circulospodemos.info/proyectos/][Proyectos PODEMOS TICs]]                                           :podemos:
+** [[https://www.reddit.com/r/podemos][Plaza PODEMOS]]                                                    :podemos:
+** [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Expanding-Abbrevs.html#Expanding-Abbrevs][Controlling Abbrev expansion in Emacs]]                              :emacs:
+** [[http://www.the-magus.in/][The magus : functional programming]]                                  :blog:
+** [[http://blog.languager.org/][languager.org : functional programming]]                              :blog:
+** [[http://robertovg.com/hosting/getting-started-with-wordpress-in-openshift/][Getting started with Wordpress in Openshift]]     :wordpress:openshift:blog:
+** [[http://code.tutsplus.com/tutorials/running-wordpress-on-openshift-part-2--cms-19947][Running Wordpress on Openshift part 2]]           :wordpress:openshift:blog:
+** [[http://www.emacswiki.org/emacs/IndentingC][Indenting C in Emacs]]                                               :emacs:
+** [[https://help.github.com/articles/writing-on-github/][Writing on github]]                                                 :github:
+** [[https://www.sharelatex.com/learn/Lengths_in_LaTeX][ShareLaTeX: Lengths in LaTeX]]                                       :latex:
+** [[http://cloudacademy.com/blog/architecting-on-aws-optimizing-the-application-design/][Architecting on AWS: Optimizing the application design]]               :aws:
+* Youtube                                                           :youtube:
+** [[https://www.youtube.com/watch?v%3Dc_Eutci7ack][How to understand power - Eric Liu]]
+** [[https://www.youtube.com/watch?v%3DIy8Wu3J4ivY][Michael Sandel: Sociedades de mercado]]                                :ted:
 * V24
 #+CATEGORY: FirefoxV24
 ** [[https://www.voxxed.com/blog/2014/12/exploring-microservices-in-the-enterprise/][Microservices in the enterprise]]               :architecture:microservices:
@@ -261,13 +281,24 @@
 ** More Java 9 features announced [[http://www.infoq.com/news/2014/11/MoreJava9Features]] :java:
 ** Codemotion 2014 slides [[https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli%3D1#gid%3D0][https://docs.google.com/a/witworks.es/spreadsheets/d/1aaf6Tj33pjxB53ifPg0IU9EpeLN7X95N-49A87fyFlw/edit?pli=1#gid=0]] :codemotion:slides:
 ** Scrum en 5 minutos [[http://albertoromeu.com/scrum/]]             :scrum:blog:
-* Superlearn
-** Memory
-*** [[http://www.flashi.co.il/media/subfiles/1470.swf][Camera Mind 2]]
-** Saccades
-*** [[http://www.yugzone.ru/speed_reading/wider_eye_span/shultc04.swf][Wider eye span]]
-*** [[http://www.fasterreader.eu/pages/en/schultz-boards-generator-to-clicks-en.html][Schultz generator]]
-** Memory + Saccades
-*** [[http://flashfabrica.com/f_learning/brain/brainload.swf][Brainload]]
-** Mind maps
-*** [[iqmatrix.com]]
+* org-mode
+** [[http://orgmode.org/manual/Agenda-dispatcher.html#Agenda-dispatcher][The agenda dispatcher]]                                                :org:
+* Superlearn                                                     :superlearn:
+** Posts                                                         :superlearn:
+*** [[http://www.keytostudy.com/visualization-focus-training/][Visualization focus training]]                                 :superlearn:
+*** [[http://www.keytostudy.com/examplary-training-schedule/][Proposed training schedule]]                                   :superlearn:
+*** [[http://www.keytostudy.com/subjects-read/][Subjects to read about]]                                       :superlearn:
+*** [[http://www.keytostudy.com/setting-your-superlearning-goals/][Setting your superlearning goals]]                             :superlearn:
+*** [[http://www.keytostudy.com/gaming-mental-templates/][Gaming and mental templates]]                                  :superlearn:
+*** [[http://www.smart-goals-guide.com/goal-setting-strategies.html][Goal-setting strategies]]                                      :superlearn:
+*** [[http://www.keytostudy.com/matheconomy-memorization/][Math/economy memorization]]                                    :superlearn:
+** Memory                                                        :superlearn:
+*** [[http://www.flashi.co.il/media/subfiles/1470.swf][Camera Mind 2]]                                                :superlearn:
+*** [[http://mnemonicdictionary.com/][Nemonic dictionary]]                                           :superlearn:
+** Saccades                                                      :superlearn:
+*** [[http://www.yugzone.ru/speed_reading/wider_eye_span/shultc04.swf][Wider eye span]]                                               :superlearn:
+*** [[http://www.fasterreader.eu/pages/en/schultz-boards-generator-to-clicks-en.html][Schultz generator]]                                            :superlearn:
+** Memory + Saccades                                             :superlearn:
+*** [[http://flashfabrica.com/f_learning/brain/brainload.swf][Brainload]]                                                    :superlearn:
+** Mind maps                                                     :superlearn:
+*** [[iqmatrix.com]]                                                 :superlearn:
