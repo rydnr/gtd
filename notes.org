@@ -218,3 +218,9 @@ with its own headline, is displayed in a block:
 ** FCCC585FCC58166C -> SAMSUNG 1_5T
 ** F086EAE086EAA676 -> TOSHIBA EXT
 ** CE4CAF864CAF67C3 ->
+* github blog
+For projects, the content must be under "gh-pages" branch.
+To run jekyll:
+> cd ~/github/rydnr.github.io
+> bundle exec jekyll serve
+To refresh, restart jekyll
