@@ -6,6 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Prepare location switch                                         :v24:
+   [2015-01-12 Mon]
 ** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
    - State "TODO"       from "STARTED"    [2014-12-22 Mon 10:50] \\
      To be resumed after SMS is fixed
@@ -22,11 +24,17 @@
    [2014-12-22 Mon]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Objective: make Jenkins push the Backoffice image 
+   [2015-01-12 Mon]
+** TODO Objectives: backoffice image
+   [2015-01-12 Mon]
+** TODO Review own tickets
+   [2015-01-12 Mon]
+** TODO Answer Arancha
+   [2015-01-12 Mon]
 ** TODO Fix decrypt
    [2014-12-23 Tue]
 =======
-** TODO List recurrent payments
-   [2015-01-07 Wed]
 ** TODO 30 min of sl
    [2014-12-26 Fri]
 * Tasks
@@ -44,16 +52,11 @@
 #+CATEGORY: Docker
 ** TODO Upgrade Artifactory to 4.0.2
    [2014-12-19 Fri]
-** TODO Deploy jenkins image in luna
-   [2014-12-19 Fri]
-=======
 ** TODO Split build.inc.sh among images
    [2015-01-07 Wed]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -2524,3 +2527,37 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2015-01-10 Sat 11:31]
    - State "DONE"       from "TODO"       [2015-01-10 Sat 11:31]
    [2015-01-08 Thu]
+** DONE List recurrent payments
+   CLOSED: [2015-01-12 Mon 10:48]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 10:48]
+   [2015-01-07 Wed]
+
+** DONE List of tickets from 2014 (trac + phabricator)             :2/2p:v24:
+   CLOSED: [2015-01-12 Mon 12:02]
+   - State "DONE"       from "STARTED"    [2015-01-12 Mon 12:02]
+   - State "STARTED"    from "TODO"       [2015-01-12 Mon 10:49]
+   [2015-01-12 Mon]
+
+** DONE Review CMS error
+   CLOSED: [2015-01-12 Mon 13:19]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 13:19]
+   [2015-01-12 Mon]
+
+** DONE Transfer to AJ
+   CLOSED: [2015-01-12 Mon 13:28]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 13:28]
+   [2015-01-12 Mon]
+
+** DONE Find out where [[http://blog.ventura24.es/wp-content/plugins/creare-eu-cookie-law-banner/images/close.png]] comes from in v24 blog
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
+** DONE Enable https-only in both locations
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
+
+** DONE Review objectives
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
