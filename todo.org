@@ -6,42 +6,24 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Check error messages at shell login
-   [2014-11-19 Wed]
-** WAITING Finish jdocs installation
-   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
-     Waiting for sudo to work
-   [2014-12-16 Tue]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Create exim image
-   [2014-12-19 Fri]
-** TODO Evaluate walkmod
-   [2014-12-11 Thu]
-** TODO Ensure Jenkins uses maven installation on the host
-   [2014-12-16 Tue]
-** TODO Write d-m-p readme                                             :0/1p:
-   - State "TODO"       from "STARTED"    [2014-12-20 Sat 18:06] \\
-     Not finished
-   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
-   [2014-12-06 Sat]
-<<<<<<< HEAD
-=======
-** TODO Make sure all QueryJ artifacts get deployed in Artifactory
-   [2014-12-20 Sat]
->>>>>>> f2823c3625bca4accdb90c78a6c9d39563580f1b
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
-** TODO Deploy jenkins image in luna
-   [2014-12-19 Fri]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Fix jekyll deploy
+** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
+   - State "TODO"       from "STARTED"    [2014-12-22 Mon 10:50] \\
+     To be resumed after SMS is fixed
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:43]
+*** DONE Simple Archilian test                                              :3/1p:
+    CLOSED: [2014-12-23 Tue 11:33]
+    - State "DONE"       from ""           [2014-12-23 Tue 11:33]
    [2014-12-21 Sun]
-** TODO Fix QueryJ-SQL tests
-   [2014-12-20 Sat]
-** TODO Fix QueryJ-debugging tests
-   [2014-12-20 Sat]
+*** TODO Use an external JBoss AS
+    - State "TODO"       from ""           [2014-12-23 Tue 11:33] \\
+      Needed for in-client tests
+** STARTED Fix why sms confirmations are not sent
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
+   [2014-12-22 Mon]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Fix decrypt
+   [2014-12-23 Tue]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -51,6 +33,10 @@
    [2014-11-26 Wed]
 * Docker
 #+CATEGORY: Docker
+** TODO Upgrade Artifactory to 4.0.2
+   [2014-12-19 Fri]
+** TODO Deploy jenkins image in luna
+   [2014-12-19 Fri]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
@@ -108,6 +94,10 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** WAITING Finish jdocs installation
+   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
+     Waiting for sudo to work
+   [2014-12-16 Tue]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
 17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
 java.lang.NullPointerException
@@ -266,6 +256,10 @@ java.lang.NullPointerException
    [2014-09-11 Thu]
 * QueryJ
   #+CATEGORY: QUERYJ
+** TODO Fix QueryJ-SQL tests                                         :queryj:
+   [2014-12-20 Sat]
+** TODO Fix QueryJ-debugging tests                                   :queryj:
+   [2014-12-20 Sat]
 ** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
 ** TODO Fix template bugs					     :queryj:
 ** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
@@ -275,6 +269,24 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Check error messages at shell login
+   [2014-11-19 Wed]
+** TODO Fix jekyll deploy
+   [2014-12-21 Sun]
+** TODO Ensure Jenkins uses maven installation on the host
+   [2014-12-16 Tue]
+** TODO Write d-m-p readme                                             :0/1p:
+   - State "TODO"       from "STARTED"    [2014-12-20 Sat 18:06] \\
+     Not finished
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
+   [2014-12-06 Sat]
+<<<<<<< HEAD
+=======
+** TODO Make sure all QueryJ artifacts get deployed in Artifactory
+   [2014-12-20 Sat]
+>>>>>>> f2823c3625bca4accdb90c78a6c9d39563580f1b
+** TODO Evaluate walkmod
+   [2014-12-11 Thu]
 ** TODO Fix surefire/failsafe test issue                           :v24:T685:
    - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
      Missing projects
@@ -2332,3 +2344,13 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "STARTED"    from "TODO"       [2014-12-20 Sat 18:06]
    [2014-12-20 Sat]
 >>>>>>> f2823c3625bca4accdb90c78a6c9d39563580f1b
+** CANCELLED Create exim image
+   CLOSED: [2014-12-21 Sun 10:55]
+   - State "CANCELLED"  from "TODO"       [2014-12-21 Sun 10:55] \\
+     Created a vmware image instead
+   [2014-12-19 Fri]
+
+** DONE Reset BO password
+   CLOSED: [2014-12-23 Tue 11:33]
+   - State "DONE"       from "TODO"       [2014-12-23 Tue 11:33]
+   [2014-12-22 Mon]
