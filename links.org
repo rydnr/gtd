@@ -4,6 +4,9 @@
 :END:
 * Firefox
 #+CATEGORY: Firefox
+** [[https://github.com/aristus/packet-flight][Packet-flight: tcpdump to Processing animation]] :hacking:tcpip:processing:animation:visualization:
+** [[http://cvtalize.com/][Beautiful resumes CV]]                                          :cv:resumes:
+** [[https://news.ycombinator.com/item?id%3D8781966][From web dev to game dev]]                      :programming:webdev:gamedev:
 ** Postel's principle is a bad idea: http://programmingisterrible.com/post/42215715657/postels-principle-is-a-bad-idea :programming:
 ** Taking control of chaos with docker and puppet: http://es.slideshare.net/PuppetLabs/docker-puppetcamp-london :docker:puppet:
 ** Six container orchestration frameworks to keep an eye on: http://www.perehospital.cat/blog/six-container-orchestration-frameworks-to-keep-an-eye-on :docker:deis:flynn:mesos:maestrong:tsuru:
@@ -302,3 +305,6 @@
 *** [[http://flashfabrica.com/f_learning/brain/brainload.swf][Brainload]]                                                    :superlearn:
 ** Mind maps                                                     :superlearn:
 *** [[iqmatrix.com]]                                                 :superlearn:
+* Books
+** [[http://www.ccs.neu.edu/home/matthias/HtDP2e/Draft/index.html][How to design program, 2ndEd]]                                 :programming:
+** [[http://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/][Causal Inference Book]]                                         :statistics:
