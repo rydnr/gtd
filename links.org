@@ -5,6 +5,7 @@
 * Firefox
 #+CATEGORY: Firefox
 ** [[https://github.com/aristus/packet-flight][Packet-flight: tcpdump to Processing animation]] :hacking:tcpip:processing:animation:visualization:
+** [[http://cvtalize.com/][Beautiful resumes CV]]                                          :cv:resumes:
 ** [[https://news.ycombinator.com/item?id%3D8781966][From web dev to game dev]]                      :programming:webdev:gamedev:
 ** Postel's principle is a bad idea: http://programmingisterrible.com/post/42215715657/postels-principle-is-a-bad-idea :programming:
 ** Taking control of chaos with docker and puppet: http://es.slideshare.net/PuppetLabs/docker-puppetcamp-london :docker:puppet:

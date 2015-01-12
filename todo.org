@@ -6,33 +6,14 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Check error messages at shell login
-   [2014-11-19 Wed]
-** WAITING Finish jdocs installation
-   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
-     Waiting for sudo to work
-   [2014-12-16 Tue]
+** TODO List recurrent payments
+   [2015-01-07 Wed]
+** TODO 30 min of sl
+   [2014-12-26 Fri]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Evaluate walkmod
-   [2014-12-11 Thu]
-** TODO Ensure Jenkins uses maven installation on the host
-   [2014-12-16 Tue]
-** TODO Write d-m-p readme                                             :0/1p:
-   - State "TODO"       from "STARTED"    [2014-12-20 Sat 18:06] \\
-     Not finished
-   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
-   [2014-12-06 Sat]
-** TODO Make sure all QueryJ artifacts get deployed in Artifactory
-   [2014-12-20 Sat]
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
-** TODO Deploy jenkins image in luna
-   [2014-12-19 Fri]
-** TODO Fix QueryJ-SQL tests
-   [2014-12-20 Sat]
-** TODO Fix QueryJ-debugging tests
-   [2014-12-20 Sat]
+** TODO Find and follow a tutorial on C/C++ on linux
+   [2015-01-10 Sat]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -42,9 +23,13 @@
    [2014-11-26 Wed]
 * Docker
 #+CATEGORY: Docker
+** TODO Split build.inc.sh among images
+   [2015-01-07 Wed]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
+** TODO Upgrade Artifactory to 4.0.2
+   [2014-12-19 Fri]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -66,8 +51,17 @@
    [2014-09-27 Sat]
 ** TODO Redactar propuesta Moderación en el gasto		  :sindicato:
    [2014-09-27 Sat]
+* Finance
 * GTD / org
   #+CATEGORY: GTD
+** TODO List bad habits
+   [2015-01-07 Wed] 
+** TODO Extract private-todo.org from todo.org and encrypt it with gnupg
+   [2015-01-07 Wed]
+** TODO Extract private-notes.org from notes.org and encrypt it with gnupg
+   [2015-01-07 Wed]
+** TODO Follow tutorial on how to blog in github using org
+   [2014-12-26 Fri]
 ** STARTED Check how to use todo.org_archive -> C-c C-x a
    - State "STARTED"    from "TODO"       [2014-09-23 Tue 09:38]
    [2014-09-22 Mon]
@@ -89,16 +83,24 @@
    - State "STARTED"    from "TODO"       [2014-10-15 Wed 09:17]
 * emacs
   #+CATEGORY: emacs
+** TODO Create Emacs macro for dry-wit's ENV entries
+   [2015-01-07 Wed]
 ** TODO Follow Introduction to emacs lisp from within emacs
    [2014-11-26 Wed]
 ** TODO Check how to customize the indentation amount when editing bash files in emacs :emacs:
    [2014-09-11 Thu]
 ** TODO Check how to go back camel-case-sensitive words in emacs      :emacs:
    [2014-09-11 Thu]
+* Java
+** TODO Evaluate walkmod
+   [2014-12-11 Thu]
+
 * LaTeX
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** TODO Add a managed script to specify ${previous-version} from maven-metadata-artifactory.xml to maven steps
+   [2014-12-24 Wed]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
 17-nov-2014 10:36:54,130 ERROR [main][com.ventura24.nlp.processes.payment.SendSuccessfulPaymentEmailsProcessAction:77] [error sending email]
 java.lang.NullPointerException
@@ -257,6 +259,8 @@ java.lang.NullPointerException
    [2014-09-11 Thu]
 * QueryJ
   #+CATEGORY: QUERYJ
+** TODO Fix QueryJ-debugging tests
+   [2014-12-20 Sat]
 ** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
 ** TODO Fix template bugs					     :queryj:
 ** TODO Replace for loop in BasePerTableTemplateBuildHandler	     :queryj:
@@ -266,6 +270,11 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Write d-m-p readme                                             :0/1p:
+   - State "TODO"       from "STARTED"    [2014-12-20 Sat 18:06] \\
+     Not finished
+   - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
+   [2014-12-06 Sat]
 ** TODO Fix surefire/failsafe test issue                           :v24:T685:
    - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
      Missing projects
@@ -312,8 +321,6 @@ java.lang.NullPointerException
 ** TODO Check whether target properties are accessible out-of-the-box  :0/1p:
    - State "TODO"       from "STARTED"    [2014-12-08 Mon 12:15]
    - State "DONE"       from "TODO"       [2014-12-08 Mon 12:15]
-   [2014-12-06 Sat]
-** TODO How to add jenkins status in github
    [2014-12-06 Sat]
 ** TODO Follow Gimp course
    [2014-11-28 Fri]
@@ -389,7 +396,6 @@ java.lang.NullPointerException
 ** TODO Read about etcd						     :docker:
 ** TODO Create image for exim					     :docker:
 ** TODO Automate shrinking of images				     :docker:
-** TODO Setup firefox sync					     :docker:
 ** TODO Define a procedure to recover the acm-sl.org web sites:	     :docker:
 *** Launch docker
 *** Launch shipyard
@@ -2324,3 +2330,144 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2014-12-23 Tue 08:20]
    - State "DONE"       from "TODO"       [2014-12-23 Tue 08:20]
    [2014-12-21 Sun]
+** DONE Prepare T-shirt design                                         :2/2p: :podemos:
+   CLOSED: [2014-12-24 Wed 09:20]
+   - State "DONE"       from "TODO"       [2014-12-24 Wed 09:20]
+   [2014-12-24 Wed]
+** DONE Finish jdocs installation                                       :v24:
+   CLOSED: [2014-12-26 Fri 08:37]
+   - State "DONE"       from "STARTED"    [2014-12-26 Fri 08:37]
+   - State "STARTED"    from "WAITING"    [2014-12-23 Tue 19:33]
+   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
+     Waiting for sudo to work
+   [2014-12-16 Tue]
+*** DONE Autologin for jenkins via ssh                                      :0/1p:
+    CLOSED: [2014-12-23 Tue 19:59]
+    - State "DONE"       from "TODO"       [2014-12-23 Tue 19:59]
+    - State "TODO"       from ""           [2014-12-23 Tue 19:32] \\
+      jdocs available now
+*** v24-pom update to upload javadocs                                  :2/2p:
+** DONE Initial canvas for podemos                                     :3/3p:
+   CLOSED: [2014-12-26 Fri 08:37]
+   - State "DONE"       from "TODO"       [2014-12-26 Fri 08:37]
+   [2014-12-24 Wed]
+
+** DONE Use managed scripts in jenkins
+   CLOSED: [2014-12-26 Fri 08:38]
+   - State "DONE"       from "TODO"       [2014-12-26 Fri 08:38]
+   [2014-12-24 Wed]
+
+** DONE Ensure Jenkins uses maven installation on the host
+   CLOSED: [2014-12-26 Fri 08:38]
+   - State "DONE"       from "TODO"       [2014-12-26 Fri 08:38]
+   [2014-12-16 Tue]
+
+** CANCELLED Check error messages at shell login
+   CLOSED: [2014-12-26 Fri 08:38]
+   - State "CANCELLED"  from "TODO"       [2014-12-26 Fri 08:38] \\
+     I forgot what was this about
+   [2014-11-19 Wed]
+** DONE Fix integration tests issue
+   CLOSED: [2014-12-26 Fri 09:38]
+   - State "DONE"       from "TODO"       [2014-12-26 Fri 09:38]
+   [2014-12-23 Tue]
+** DONE Fix QueryJ-SQL tests
+   CLOSED: [2014-12-26 Fri 13:16]
+   - State "DONE"       from "TODO"       [2014-12-26 Fri 13:16]
+   [2014-12-20 Sat]
+** DONE Make sure all QueryJ artifacts get deployed in Artifactory
+   CLOSED: [2014-12-27 Sat 17:35]
+   - State "DONE"       from "TODO"       [2014-12-27 Sat 17:35]
+   [2014-12-20 Sat]
+
+** DONE Finish default wordpress installation in openshift, for podemos villaviciosa
+   CLOSED: [2014-12-27 Sat 20:00]
+   - State "DONE"       from "TODO"       [2014-12-27 Sat 20:00]
+   [2014-12-26 Fri]
+   [[file:~/org/todo.org::*Fix%20QueryJ-debugging%20tests][Fix QueryJ-debugging tests]]
+** DONE Find out how to inject Jenkins status in github
+   CLOSED: [2014-12-30 Tue 10:45]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 10:45]
+   [2014-12-26 Fri]
+   [[file:~/org/todo.org::*Fix%20QueryJ-debugging%20tests][Fix QueryJ-debugging tests]]
+
+** DONE Find and read Manuel article
+   CLOSED: [2014-12-30 Tue 10:46]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 10:46]
+   [2014-12-26 Fri]
+
+** DONE Upload missing artifacts to Artifactory
+   CLOSED: [2014-12-30 Tue 11:07]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 11:07]
+   [2014-12-30 Tue]
+   [[file:~/org/todo.org::*Tasks][Tasks]]
+
+** DONE Deploy jenkins image in luna
+   CLOSED: [2014-12-30 Tue 11:07]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 11:07]
+   [2014-12-19 Fri]
+
+** DONE Think of an article on Podemos and religion
+   CLOSED: [2014-12-30 Tue 12:36]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 12:36]
+   [2014-12-28 Sun]
+   [[file:~/org/todo.org::*Tasks][Tasks]]
+
+** DONE Fix jenkins@acm-sl.org
+   CLOSED: [2014-12-30 Tue 12:40]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 12:40]
+   [2014-12-27 Sat]
+** DONE New music
+   CLOSED: [2014-12-30 Tue 17:19]
+   - State "DONE"       from "TODO"       [2014-12-30 Tue 17:19]
+   [2014-12-29 Mon]
+   [[file:~/org/todo.org::*Fix%20jenkins@acm-sl.org][Fix jenkins@acm-sl.org]]
+** DONE Call fluvert
+   CLOSED: [2015-01-07 Wed 10:30]
+   - State "DONE"       from "TODO"       [2015-01-07 Wed 10:30]
+   [2015-01-07 Wed]
+-  916 343 167
+- Amortiguadores
+- Aceite
+- Luz antiniebla
+- Sistema descontaminación motor
+
+** DONE Fix ww charges
+   CLOSED: [2015-01-07 Wed 10:31]
+   - State "DONE"       from "TODO"       [2015-01-07 Wed 10:31]
+   [2015-01-07 Wed]
+** DONE Write Podemos post
+   CLOSED: [2015-01-08 Thu 10:50]
+   - State "DONE"       from "TODO"       [2015-01-08 Thu 10:50]
+   [2015-01-07 Wed]
+** DONE Call log provider
+   CLOSED: [2015-01-09 Fri 11:26]
+   - State "DONE"       from "TODO"       [2015-01-09 Fri 11:26]
+   [2015-01-08 Thu]
+
+** DONE MariaDB image
+   CLOSED: [2015-01-09 Fri 11:26]
+   - State "DONE"       from "TODO"       [2015-01-09 Fri 11:26]
+   [2015-01-08 Thu]
+
+** DONE Setup firefox sync                                      :1/3p:docker:
+   CLOSED: [2015-01-09 Fri 11:26]
+   - State "DONE"       from "TODO"       [2015-01-09 Fri 11:26]
+** DONE Acta Podemos
+   CLOSED: [2015-01-10 Sat 07:48]
+   - State "DONE"       from "TODO"       [2015-01-10 Sat 07:48]
+   [2015-01-09 Fri]
+
+** CANCELLED Write about proposal for Podemos
+   CLOSED: [2015-01-10 Sat 07:48]
+   - State "CANCELLED"  from "TODO"       [2015-01-10 Sat 07:48] \\
+     Not working on Podemos anymore
+   [2014-12-26 Fri]
+
+** DONE Write Arancha
+   CLOSED: [2015-01-10 Sat 08:53]
+   - State "DONE"       from "TODO"       [2015-01-10 Sat 08:53]
+** DONE resume
+   CLOSED: [2015-01-10 Sat 11:31]
+   - State "DONE"       from "TODO"       [2015-01-10 Sat 11:31]
+   [2015-01-08 Thu]

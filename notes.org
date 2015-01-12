@@ -111,6 +111,10 @@ https://stackoverflow.com/questions/24733160/docker-rmi-cannot-remove-images-wit
 ** Write a mcollective plugin:
 http://blog.mague.com/?p=382
 Copy from https://github.com/puppetlabs/mcollective-package-agent.git
+** Run mariadb:
+shipyard run --name acmsl/mariadb --container-name db --cpus 0.2 --memory 512 --type service --hostname sql --domain acm-sl.org --label service --pull
+** Run firefox-sync 1.5
+shipyard run --name acmsl/firefox-sync --cpus 0.2 --memory 256 --type service --hostname firefox-sync --domain acm-sl.org --port tcp/8083:5000 --label service --pull --link db:db
 * Beamer
 ** C-c C-e l P (org-beamer-export-to-pdf)
 ** C-c C-e l b (org-beamer-export-to-latex)
@@ -224,3 +228,6 @@ To run jekyll:
 > cd ~/github/rydnr.github.io
 > bundle exec jekyll serve
 To refresh, restart jekyll
+* Maven
+** mvn site
+If you have a multi module project, then the links between the parent and child modules will not work when you use 'mvn site' or 'mvn site:site'. If you want to use those links, you should use 'mvn site:stage' instead. You can read more about that goal further down on this page in the section called 'Staging a Site'.
