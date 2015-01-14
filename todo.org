@@ -6,8 +6,35 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO List recurrent payments
-   [2015-01-07 Wed]
+** TODO Objectives: backoffice image
+   [2015-01-12 Mon]
+** TODO Objective: make Jenkins push the Backoffice image 
+   [2015-01-12 Mon]
+** TODO Prepare location switch                                         :v24:
+   [2015-01-12 Mon]
+** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
+   - State "TODO"       from "STARTED"    [2014-12-22 Mon 10:50] \\
+     To be resumed after SMS is fixed
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:43]
+*** DONE Simple Archilian test                                              :3/1p:
+    CLOSED: [2014-12-23 Tue 11:33]
+    - State "DONE"       from ""           [2014-12-23 Tue 11:33]
+   [2014-12-21 Sun]
+*** TODO Use an external JBoss AS
+    - State "TODO"       from ""           [2014-12-23 Tue 11:33] \\
+      Needed for in-client tests
+** STARTED Fix why sms confirmations are not sent
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
+   [2014-12-22 Mon]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Review own tickets
+   [2015-01-12 Mon]
+** TODO Answer Arancha
+   [2015-01-12 Mon]
+** TODO Fix decrypt
+   [2014-12-23 Tue]
+=======
 ** TODO 30 min of sl
    [2014-12-26 Fri]
 * Tasks
@@ -23,13 +50,13 @@
    [2014-11-26 Wed]
 * Docker
 #+CATEGORY: Docker
+** TODO Upgrade Artifactory to 4.0.2
+   [2014-12-19 Fri]
 ** TODO Split build.inc.sh among images
    [2015-01-07 Wed]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
    - State "STARTED"    from "TODO"       [2014-10-25 Sat 13:47]
    [2014-10-25 Sat]
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
 *** Use a ubuntu image to package the plugin
 ** TODO Write an initial version of an mcollective plugin	 :codemotion:
    [2014-10-20 Mon]
@@ -99,6 +126,11 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
+** WAITING Finish jdocs installation
+   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
+     Waiting for sudo to work
+   [2014-12-16 Tue]
+=======
 ** TODO Add a managed script to specify ${previous-version} from maven-metadata-artifactory.xml to maven steps
    [2014-12-24 Wed]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
@@ -259,7 +291,10 @@ java.lang.NullPointerException
    [2014-09-11 Thu]
 * QueryJ
   #+CATEGORY: QUERYJ
-** TODO Fix QueryJ-debugging tests
+** TODO Fix QueryJ-SQL tests                                         :queryj:
+   [2014-12-20 Sat]
+** TODO Fix QueryJ-debugging tests                                   :queryj:
+=======
    [2014-12-20 Sat]
 ** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
 ** TODO Fix template bugs					     :queryj:
@@ -270,11 +305,21 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Check error messages at shell login
+   [2014-11-19 Wed]
+** TODO Fix jekyll deploy
+   [2014-12-21 Sun]
+** TODO Ensure Jenkins uses maven installation on the host
+   [2014-12-16 Tue]
 ** TODO Write d-m-p readme                                             :0/1p:
    - State "TODO"       from "STARTED"    [2014-12-20 Sat 18:06] \\
      Not finished
    - State "STARTED"    from "TODO"       [2014-12-06 Sat 17:30]
    [2014-12-06 Sat]
+** TODO Make sure all QueryJ artifacts get deployed in Artifactory
+   [2014-12-20 Sat]
+** TODO Evaluate walkmod
+   [2014-12-11 Thu]
 ** TODO Fix surefire/failsafe test issue                           :v24:T685:
    - State "TODO"       from "DONE"       [2014-12-04 Thu 09:46] \\
      Missing projects
@@ -2326,6 +2371,17 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2014-12-21 Sun 07:51]
    - State "STARTED"    from "TODO"       [2014-12-20 Sat 18:06]
    [2014-12-20 Sat]
+** CANCELLED Create exim image
+   CLOSED: [2014-12-21 Sun 10:55]
+   - State "CANCELLED"  from "TODO"       [2014-12-21 Sun 10:55] \\
+     Created a vmware image instead
+   [2014-12-19 Fri]
+
+** DONE Reset BO password
+   CLOSED: [2014-12-23 Tue 11:33]
+   - State "DONE"       from "TODO"       [2014-12-23 Tue 11:33]
+   [2014-12-22 Mon]
+=======
 ** DONE Fix jekyll deploy                                            :github:
    CLOSED: [2014-12-23 Tue 08:20]
    - State "DONE"       from "TODO"       [2014-12-23 Tue 08:20]
@@ -2471,3 +2527,37 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2015-01-10 Sat 11:31]
    - State "DONE"       from "TODO"       [2015-01-10 Sat 11:31]
    [2015-01-08 Thu]
+** DONE List recurrent payments
+   CLOSED: [2015-01-12 Mon 10:48]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 10:48]
+   [2015-01-07 Wed]
+
+** DONE List of tickets from 2014 (trac + phabricator)             :2/2p:v24:
+   CLOSED: [2015-01-12 Mon 12:02]
+   - State "DONE"       from "STARTED"    [2015-01-12 Mon 12:02]
+   - State "STARTED"    from "TODO"       [2015-01-12 Mon 10:49]
+   [2015-01-12 Mon]
+
+** DONE Review CMS error
+   CLOSED: [2015-01-12 Mon 13:19]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 13:19]
+   [2015-01-12 Mon]
+
+** DONE Transfer to AJ
+   CLOSED: [2015-01-12 Mon 13:28]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 13:28]
+   [2015-01-12 Mon]
+
+** DONE Find out where [[http://blog.ventura24.es/wp-content/plugins/creare-eu-cookie-law-banner/images/close.png]] comes from in v24 blog
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
+** DONE Enable https-only in both locations
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
+
+** DONE Review objectives
+   CLOSED: [2015-01-12 Mon 16:16]
+   - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
+   [2015-01-12 Mon]
