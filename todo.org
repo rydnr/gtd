@@ -6,6 +6,10 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** TODO Objectives: backoffice image
+   [2015-01-12 Mon]
+** TODO Objective: make Jenkins push the Backoffice image 
+   [2015-01-12 Mon]
 ** TODO Prepare location switch                                         :v24:
    [2015-01-12 Mon]
 ** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
@@ -24,10 +28,6 @@
    [2014-12-22 Mon]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Objective: make Jenkins push the Backoffice image 
-   [2015-01-12 Mon]
-** TODO Objectives: backoffice image
-   [2015-01-12 Mon]
 ** TODO Review own tickets
    [2015-01-12 Mon]
 ** TODO Answer Arancha

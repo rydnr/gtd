@@ -231,3 +231,7 @@ To refresh, restart jekyll
 * Maven
 ** mvn site
 If you have a multi module project, then the links between the parent and child modules will not work when you use 'mvn site' or 'mvn site:site'. If you want to use those links, you should use 'mvn site:stage' instead. You can read more about that goal further down on this page in the section called 'Staging a Site'.
+* git
+** submodules
+git pull && git submodule init && git submodule update && git submodule status
+git submodule foreach git pull origin master
