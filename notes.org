@@ -115,6 +115,8 @@ Copy from https://github.com/puppetlabs/mcollective-package-agent.git
 shipyard run --name acmsl/mariadb --container-name db --cpus 0.2 --memory 512 --type service --hostname sql --domain acm-sl.org --label service --pull
 ** Run firefox-sync 1.5
 shipyard run --name acmsl/firefox-sync --cpus 0.2 --memory 256 --type service --hostname firefox-sync --domain acm-sl.org --port tcp/8083:5000 --label service --pull --link db:db
+** Run getboo
+shipyard run --name acmsl/getboo --memory 512 --type service --hostname bm --domain acm-sl.org --port tcp/8084:80 --label service --pull --link db:db
 * Beamer
 ** C-c C-e l P (org-beamer-export-to-pdf)
 ** C-c C-e l b (org-beamer-export-to-latex)
