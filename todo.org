@@ -6,6 +6,9 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
+** STARTED Ensure nlp-backoffice dockerfile gets uploaded to Artifactory
+   - State "STARTED"    from "TODO"       [2015-01-14 Wed 11:05]
+   [2015-01-14 Wed]
 ** TODO Objectives: backoffice image
    [2015-01-12 Mon]
 ** TODO Objective: make Jenkins push the Backoffice image 
@@ -2561,3 +2564,7 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2015-01-12 Mon 16:16]
    - State "DONE"       from "TODO"       [2015-01-12 Mon 16:16]
    [2015-01-12 Mon]
+** DONE Stream audio from phone to pc via bluetooth
+   CLOSED: [2015-01-14 Wed 10:40]
+   - State "DONE"       from "TODO"       [2015-01-14 Wed 10:40]
+   [2015-01-14 Wed]
