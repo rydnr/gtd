@@ -1,0 +1,70 @@
+#+TITLE: Política /Lean/ y /Holacrática/
+#+AUTHOR: Jose San Leandro Armendáriz
+#+LANGUAGE: es
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+* Introducción
+* Formulario
+** Título
+Política /Lean/ y /Holacrática/: acercando la política al ciudadano y viceversa
+** Participantes
+- Jose San Leandro Armendáriz
+*** TODO Carta del círculo
+*** Contrapartes del proyecto
+Ninguno
+** Contexto territorial, diagnóstico y justificación del proyecto
+Los sistemas de democracia representativa no son fieles a la voluntad del pueblo, sólo rinden cuentas ante él una vez cada cuatro años.
+Por este motivo, a la larga se dan ciertos patrones claramente identificables, conforme se profesionaliza la política: los gobernantes, acostumbrados al poder, se erigen en una casta en la que conviven la rivalidad por el poder con la protección de ciertos privilegios comunes.
+pEl pueblo, relegado a un papel pasivo, decide qué partido le decepciona menos, sabiendo que no intervendrá en ninguna decisión. El ciudadano no sólo no es soberano, sino que debe dejarse convencer de que es mejor que las decisiones las tomen supuestos ``expertos'' o /tecnócratas/, antes que una mayoría de conciudadanos con dudosa capacidad.
+Llegados a este punto, la democracia se ha desvirtuado.
+
+Creemos que el indicador que mejor refleja la calidad democrática de un sistema de gobierno es la *distancia*: al tomar una decisión de índole política, coincide con respecto a la opinión de la población?
+Valiéndonos de metodologías de gestión y organización de empresas, proponemos aplicar prácticas análogas en el ámbito de la política.
+
+En primer lugar, la metodología /Lean/, que se caracteriza por reducir al mínimo el tiempo desde la formulación de una hipótesis hasta su validación, así como por optimizar los recursos y poder rectificar lo antes posible. De acuerdo a la terminología /Lean/, cada propuesta vendrá descrita por su co\-rres\-pon\-dien\-te /Mínimo producto viable/ (/MVP/ por sus siglas en inglés): lo mínimo necesario para presentarle al ciudadano la problemática, las soluciones, y las previsibles consecuencias, y recopilar la opinión mayoritaria.
+En segundo lugar, una forma de organización similar a /Holacracy/, que reniega de jerarquías, que se autoorganiza en grupos de trabajo, y en la que las decisiones se toman conjuntamente pero siempre respaldadas por las personas más en contacto  con la problemática concreta.
+
+** Objetivos y resultados esperados
+*** Objetivos
+- Aplicar la metodología, ganar experiencia, adaptarla y mejorarla.
+- Hacer llegar la nueva forma de política local al vecino de Villaviciosa de Odón.
+- Demostrar que Podemos es lo que parece, y que merece la pena: recuperar la soberanía.
+*** Resultados esperados:
+- A corto plazo, acercamiento real de la toma de decisiones, al ciudadano.
+- A medio plazo, mejorar la efectividad.
+- A medio/largo plazo, mejorar la desafección.
+- A largo plazo, impulsar el activismo del ciudadano.
+
+** Descripción del proyecto y metodologías de trabajo
+
+Desde Podemos queremos poner en práctica un plan para acercar la política local a los vecinos.
+Para ello definiremos un plan de Política /Lean/:
+- Identificar problemas. El contacto regular, cooperativo y /holacrático/ con colectivos y asociaciones nos permitirá llevar a cabo medidas proactivas, no reactivas.
+- Proponer y debatir medidas, de una forma abierta y transparente, pero efectiva.
+- Transmitir la propuesta a la ciudadanía y medir su respaldo.
+- Aplicar (o presionar para que se aplique) la medida si tiene el respaldo suficiente.
+
+A grandes rasgos, el plan incluye los siguientes pasos:
+- Definir nuevos indicadores: *distancia*, desafección, participación, activismo, efectividad.
+- Realizar una primera medición que permita comparar la evolución de cada indicador.
+- Identificar y priorizar problemas a nivel municipal, en estrecha co\-la\-bo\-ra\-ción con el colectivo más afectado.
+- En paralelo, analizar y preparar una propuesta (/MVP/) por cada pro\-ble\-ma de suficiente relevancia.
+- *salir a la calle* y contrastar la propuesta con la opinión de los ciudadanos.
+- poner en marcha la propuesta, o descartarla y trabajar en otra de acuerdo a la opinión recogida.
+- *salir a la calle* e informar de la evolución de la propuesta.
+- Discutir sobre si descartar, o mejorar el /MVP/.
+- Publicar y transmitir los resultados.
+- Iterar
+
+*** Acciones con 3000 euros
+- Detallar el plan, los indicadores, y las encuestas iniciales que permitan medirlos.
+- Realizar un mínimo de 4 encuentros y/o talleres para explicar la o\-pe\-ra\-ti\-va, aclarar dudas, y convencer de que el fin último es el respeto escrupuloso de la opinión del pueblo.
+- Desarrollar un sitio web donde se puede consultar la metodología, identificar problemas, y participar en cada propuesta.
+- Publicar y difundir en soporte físico una ``guía de participación ciudadana'', con una tirada inicial de 5000 ejemplares.
+*** Acciones con 2000 euros
+- Detallar el plan, los indicadores, y las encuestas iniciales que permitan medirlos.
+- Realizar un mínimo de 4 encuentros y/o talleres para explicar la o\-pe\-ra\-ti\-va, aclarar dudas, y convencer de que el fin último es el respeto escrupuloso de la opinión del pueblo.
+- Desarrollar un sitio web donde se puede consultar la metodología, identificar problemas, y participar en cada propuesta.
+*** Acciones con 1000 euros
+- Detallar el plan, los indicadores, y las encuestas iniciales que permitan medirlos.
+- Realizar un mínimo de 4 encuentros y/o talleres para explicar la o\-pe\-ra\-ti\-va, aclarar dudas, y convencer de que el fin último es el respeto escrupuloso de la opinión del pueblo.
+** Presupuesto

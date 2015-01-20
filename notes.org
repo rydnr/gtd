@@ -88,8 +88,28 @@ git pull
 * Docker/Shipyard
 ** Run jenkins:
 shipyard run --name acmsl/jenkins --cpus 0.3 --memory 1024 --type service --hostname jenkins --domain acm-sl.org --label service --pull --port tcp/8081:8080 -vol /home/chous/acmsl-jenkins-configs/:/home/jenkins
+** Upgrade jenkins:
+- docker stop
+- docker rm
+- cd /home/chous/github/acmsl-jenkins-configs
+- chown -R chous:users .
+- git add ...
+- git commit ...
+- git push
+- cd /home/chous/github/dockerfile/
+- ./build.sh jenkins
+- cp /home/chous/.ssh/id_rsa-github* /home/chous/github/acmsl/jenkins-configs
+- [Run jenkins]
 ** Run artifactory:
 shipyard run --name acmsl/artifactory --cpus 0.3 --memory 1024 --type service --hostname maven --domain acm-sl.org --label service --pull --port tcp/8082:8080 -vol /home/chous/artifactory-data/:/home/artifactory
+** Upgrade artifactory
+- login in artifactory
+- Visit http://maven.acm-sl.org/webapp/importexportsystem.html
+- Mark "Create .m2 Compatible Export"
+- Target Export Dir -> /home/artifactory/export
+- Click "Export"
+- ARTIFACTORY_VERSION="4.0.2" ./build.sh artifactory
+- [Run artifactory]
 ** Stop container
 shipyard stop [containerId]
 ** Destroy container
