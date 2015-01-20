@@ -119,6 +119,12 @@ shipyard run --name acmsl/firefox-sync --cpus 0.2 --memory 256 --type service --
 shipyard run --name acmsl/getboo --memory 512 --type service --hostname bm --domain acm-sl.org --port tcp/8084:80 --label service --pull --link db:db
 ** dockerfile-maven-plugin
 mvn org.acmsl:dockerfile-maven-plugin:dockerfile
+** Run registry
+docker pull samalba/docker-registry
+docker run -d -p 5000:5000 samalba/docker-registry
+** Push to a local registry
+docker tag [namespace]/[image]:[tag] [registry-host]:[registry-port]/[namespace]/[image]:[tag]
+docker push [registry-host]:[registry-port]/[namespace]/[image]:[tag]
 * Beamer
 ** C-c C-e l P (org-beamer-export-to-pdf)
 ** C-c C-e l b (org-beamer-export-to-latex)
@@ -248,3 +254,10 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="050d", ATTRS{idProduct}=="065a", RUN+="/bin/
 # BlueZ 5
 ACTION=="add", KERNEL=="hci0", TEST=="/usr/bin/hciconfig", RUN+="/usr/bin/hciconfig hci0 up"
 ** [[http://wiki.gentoo.org/wiki/Bluetooth][Gentoo Bluetooth]]
+*** root
+/etc/init.d/bluetooth start
+rc-update add bluetooth default
+hciconfig -a
+hciconfig hci0 up
+*** user
+bluetoothctl

@@ -6,9 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** STARTED Ensure nlp-backoffice dockerfile gets uploaded to Artifactory
-   - State "STARTED"    from "TODO"       [2015-01-14 Wed 11:05]
-   [2015-01-14 Wed]
+** TODO Plantilla horas sindicales
+   [2015-01-15 Thu]
 ** TODO Objectives: backoffice image
    [2015-01-12 Mon]
 ** TODO Objective: make Jenkins push the Backoffice image 
@@ -31,19 +30,24 @@
    [2014-12-22 Mon]
 * Tasks
 #+CATEGORY: Tasks
+** TODO Find out why Jenkins doesn't see changes in github
+   [2015-01-15 Thu]
+** TODO Learn about client certificates
+   [2015-01-15 Thu]
 ** TODO Review own tickets
    [2015-01-12 Mon]
 ** TODO Answer Arancha
    [2015-01-12 Mon]
 ** TODO Fix decrypt
    [2014-12-23 Tue]
-=======
 ** TODO 30 min of sl
    [2014-12-26 Fri]
-* Tasks
-#+CATEGORY: Tasks
+** TODO Create jenkins image
+   [2015-01-20 Tue]
 ** TODO Find and follow a tutorial on C/C++ on linux
    [2015-01-10 Sat]
+** TODO Upload images to hh1 docker registry
+   [2015-01-20 Tue]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -124,7 +128,6 @@
 * Java
 ** TODO Evaluate walkmod
    [2014-12-11 Thu]
-
 * LaTeX
   #+CATEGORY: latex
 * Ventura24
@@ -133,7 +136,6 @@
    - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
      Waiting for sudo to work
    [2014-12-16 Tue]
-=======
 ** TODO Add a managed script to specify ${previous-version} from maven-metadata-artifactory.xml to maven steps
    [2014-12-24 Wed]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
@@ -297,7 +299,6 @@ java.lang.NullPointerException
 ** TODO Fix QueryJ-SQL tests                                         :queryj:
    [2014-12-20 Sat]
 ** TODO Fix QueryJ-debugging tests                                   :queryj:
-=======
    [2014-12-20 Sat]
 ** TODO AspectJ in LambdaControlFlowPoC				     :queryj:
 ** TODO Fix template bugs					     :queryj:
@@ -2384,7 +2385,6 @@ CLOSED: [2014-12-07 Sun 10:32]
    CLOSED: [2014-12-23 Tue 11:33]
    - State "DONE"       from "TODO"       [2014-12-23 Tue 11:33]
    [2014-12-22 Mon]
-=======
 ** DONE Fix jekyll deploy                                            :github:
    CLOSED: [2014-12-23 Tue 08:20]
    - State "DONE"       from "TODO"       [2014-12-23 Tue 08:20]
@@ -2567,4 +2567,13 @@ CLOSED: [2014-12-07 Sun 10:32]
 ** DONE Stream audio from phone to pc via bluetooth
    CLOSED: [2015-01-14 Wed 10:40]
    - State "DONE"       from "TODO"       [2015-01-14 Wed 10:40]
+   [2015-01-14 Wed]
+** DONE Fix credentials for jenkins when deploying to plugin-releases-local in maven.acm-sl.org
+   CLOSED: [2015-01-16 Fri 11:32]
+   - State "DONE"       from "TODO"       [2015-01-16 Fri 11:32]
+   [2015-01-15 Thu]
+** DONE Ensure nlp-backoffice dockerfile gets uploaded to Artifactory
+   CLOSED: [2015-01-20 Tue 09:56]
+   - State "DONE"       from "STARTED"    [2015-01-20 Tue 09:56]
+   - State "STARTED"    from "TODO"       [2015-01-14 Wed 11:05]
    [2015-01-14 Wed]
