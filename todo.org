@@ -6,16 +6,11 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Fix QueryJ errors in Java7
-   [2015-01-18 Sun]
-** STARTED Ensure nlp-backoffice dockerfile gets uploaded to Artifactory
-   - State "STARTED"    from "TODO"       [2015-01-14 Wed 11:05]
-   [2015-01-14 Wed]
+** TODO Location switch: nlp-cc
+   [2015-01-23 Fri]
 ** TODO Plantilla horas sindicales
    [2015-01-15 Thu]
 ** TODO Objectives: backoffice image
-   [2015-01-12 Mon]
-** TODO Objective: make Jenkins push the Backoffice image 
    [2015-01-12 Mon]
 ** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
    - State "TODO"       from "STARTED"    [2014-12-22 Mon 10:50] \\
@@ -49,14 +44,6 @@
    [2015-01-17 Sat]
 ** TODO Fill-in Podemos project form
    [2015-01-17 Sat]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Create jenkins image
-   [2015-01-20 Tue]
-** TODO Find and follow a tutorial on C/C++ on linux
-   [2015-01-10 Sat]
-** TODO Upload images to hh1 docker registry
-   [2015-01-20 Tue]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -318,6 +305,8 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Find and follow a tutorial on C/C++ on linux
+   [2015-01-10 Sat]
 ** TODO Check error messages at shell login
    [2014-11-19 Wed]
 ** TODO Fix jekyll deploy
@@ -2601,3 +2590,31 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2015-01-20 Tue 09:56]
    - State "STARTED"    from "TODO"       [2015-01-14 Wed 11:05]
    [2015-01-14 Wed]
+** DONE Fix QueryJ errors in Java7
+   CLOSED: [2015-01-21 Wed 11:01]
+   - State "DONE"       from "TODO"       [2015-01-21 Wed 11:01]
+   [2015-01-18 Sun]
+** DONE Deploy a jenkins slave in cm-es-01-hh1
+   CLOSED: [2015-01-22 Thu 09:54]
+   - State "DONE"       from "TODO"       [2015-01-22 Thu 09:54]
+   [2015-01-21 Wed]
+** DONE Upload images to hh1 docker registry
+   CLOSED: [2015-01-22 Thu 09:54]
+   - State "DONE"       from "TODO"       [2015-01-22 Thu 09:54]
+   [2015-01-20 Tue]
+
+** DONE Create jenkins image                                            :v24:
+   CLOSED: [2015-01-22 Thu 09:55]
+   - State "DONE"       from "TODO"       [2015-01-22 Thu 09:55]
+   [2015-01-20 Tue]
+
+** DONE Create CMS users                                                :v24:
+** DONE Objective: make Jenkins push the Backoffice image               :v24:
+   CLOSED: [2015-01-23 Fri 09:45]
+   - State "DONE"       from "TODO"       [2015-01-23 Fri 09:45]
+   [2015-01-12 Mon]
+** DONE Implement Xiana's script
+   CLOSED: [2015-01-23 Fri 12:17]
+   - State "DONE"       from "STARTED"    [2015-01-23 Fri 12:17]
+   - State "STARTED"    from "TODO"       [2015-01-23 Fri 09:45]
+   [2015-01-22 Thu]
