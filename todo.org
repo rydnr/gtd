@@ -35,8 +35,6 @@
    [2015-01-15 Thu]
 ** TODO 30 min of sl
    [2014-12-26 Fri]
-** TODO Write to Carlos
-   [2015-02-03 Tue]
 * Podemos
 * Tasks
 #+CATEGORY: Tasks
@@ -2726,3 +2724,7 @@ CLOSED: [2014-12-07 Sun 10:32]
 ** DONE Watch tutorial on blender "rendering with cycles"
    CLOSED: [2015-01-25 Sun 11:18]
    - State "DONE"       from "TODO"       [2015-01-25 Sun 11:18]
+** DONE Write to Carlos
+   CLOSED: [2015-02-03 Tue 20:23]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 20:23]
+   [2015-02-03 Tue]
