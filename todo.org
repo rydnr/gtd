@@ -6,10 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Location switch: nlp-cc
-   [2015-01-23 Fri]
-** TODO Plantilla horas sindicales
-   [2015-01-15 Thu]
+** TODO Review how to check computop stuff in runtime.
+   [2015-02-03 Tue]
 ** TODO Objectives: backoffice image
    [2015-01-12 Mon]
 ** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
@@ -23,27 +21,20 @@
 *** TODO Use an external JBoss AS
     - State "TODO"       from ""           [2014-12-23 Tue 11:33] \\
       Needed for in-client tests
-** STARTED Fix why sms confirmations are not sent
-   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
-   [2014-12-22 Mon]
-* Tasks
-#+CATEGORY: Tasks
-** TODO Find out why Jenkins doesn't see changes in github
-   [2015-01-15 Thu]
-** TODO Learn about client certificates
-   [2015-01-15 Thu]
 ** TODO Review own tickets
    [2015-01-12 Mon]
-** TODO Answer Arancha
-   [2015-01-12 Mon]
-** TODO Fix decrypt
-   [2014-12-23 Tue]
 ** TODO 30 min of sl
    [2014-12-26 Fri]
-** TODO Ensure javadocs.jar are deployed in each release
-   [2015-01-17 Sat]
-** TODO Fill-in Podemos project form
-   [2015-01-17 Sat]
+** TODO Ask for taking ugt course on 18/2/2015
+   [2015-02-03 Tue]
+* Tasks
+#+CATEGORY: Tasks
+** TODO Learn about client certificates
+   [2015-01-15 Thu]
+** TODO 30 min of sl
+   [2014-12-26 Fri]
+** TODO Write to Carlos
+   [2015-02-03 Tue]
 * Podemos
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
@@ -53,8 +44,6 @@
    [2014-11-26 Wed]
 * Docker
 #+CATEGORY: Docker
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
 ** TODO Split build.inc.sh among images
    [2015-01-07 Wed]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
@@ -128,10 +117,8 @@
   #+CATEGORY: latex
 * Ventura24
   #+CATEGORY: V24
-** WAITING Finish jdocs installation
-   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
-     Waiting for sudo to work
-   [2014-12-16 Tue]
+** TODO Ensure javadocs.jar are deployed in each release
+   [2015-01-17 Sat]
 ** TODO Add a managed script to specify ${previous-version} from maven-metadata-artifactory.xml to maven steps
    [2014-12-24 Wed]
 ** TODO Fix NPE in nlpcc when sending emails				:v24:
@@ -156,27 +143,12 @@ java.lang.NullPointerException
      Not needed anymore
    [2014-10-10 Fri]
 
-** TODO Fix restricted.ventura24.es virtual host			:v24:
-   [2014-11-07 Fri]
-** TODO Apply tokenization apache fix in production			:v24:
-   CLOCK: [2014-11-25 Tue 13:20]
-   [2014-11-19 Wed]
 ** TODO PoC concordion + arquillian
    [2014-12-05 Fri]
-** TODO Review app-es-0{1,2,3,4}-c processes			       :0/1p:
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C				       :0/1p:
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C				       :0/1p:
-   [2014-11-11 Tue]
 ** TODO Review nlp-dss in C					       :0/1p:
    [2014-11-11 Tue]
 ** TODO Find out whether the Java architect certification exams can be extended :0/1p:
    [2014-11-28 Fri]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
 ** TODO Deploy and review nlp-backoffice in C
    [2014-11-11 Tue]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
@@ -202,20 +174,6 @@ java.lang.NullPointerException
    [2014-11-17 Mon]
 ** TODO Implement vagrantfile for nlp-webapp			:vagrant:v24:
    [2014-11-17 Mon]
-** TODO Review app-es-0{1,2,3,4}-c processes
-   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
-   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
-   [2014-11-11 Tue]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
 ** TODO Fix account number bug for companies T556		   :T556:v24:
    [2014-11-17 Mon]
 ** TODO Fix title/description para la home en seo.properties	    :cms:v24:
@@ -229,16 +187,6 @@ java.lang.NullPointerException
    [2014-11-14 Fri]
 ** TODO Add "shutdown port" to tomcats					:v24:
    [2014-11-19 Wed]
-** TODO Review and start nlp-ws in C
-   [2014-11-11 Tue]
-** TODO Review and start opencms in C
-   [2014-11-11 Tue]
-** TODO Review nlp-dss in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-cc in C
-   [2014-11-11 Tue]
-** TODO Deploy and review nlp-backoffice in C
-   [2014-11-11 Tue]
 ** TODO Bomberismo: mails carpe						:v24:
    [2014-11-05 Wed]
 ** TODO Add new rules to imapfilter
@@ -2618,3 +2566,97 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2015-01-23 Fri 12:17]
    - State "STARTED"    from "TODO"       [2015-01-23 Fri 09:45]
    [2015-01-22 Thu]
+** DONE Location switch: nlp-cc
+   CLOSED: [2015-01-27 Tue 09:39]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:39]
+   [2015-01-23 Fri]
+
+** CANCELLED Fix why sms confirmations are not sent
+   CLOSED: [2015-01-27 Tue 09:39]
+   - State "CANCELLED"  from "DONE"       [2015-01-27 Tue 09:39]
+   - State "DONE"       from "STARTED"    [2015-01-27 Tue 09:39]
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
+   [2014-12-22 Mon]
+
+** CANCELLED Fill-in Podemos project form
+   CLOSED: [2015-01-27 Tue 09:39]
+   - State "CANCELLED"  from "TODO"       [2015-01-27 Tue 09:39]
+   [2015-01-17 Sat]
+
+** DONE Finish jdocs installation
+   CLOSED: [2015-01-27 Tue 09:40]
+   - State "DONE"       from "WAITING"    [2015-01-27 Tue 09:40]
+   - State "WAITING"    from "TODO"       [2014-12-16 Tue 13:01] \\
+     Waiting for sudo to work
+   [2014-12-16 Tue]
+
+** DONE Apply tokenization apache fix in production                     :v24:
+   CLOSED: [2015-01-27 Tue 09:40]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:40]
+   CLOCK: [2014-11-25 Tue 13:20]
+   [2014-11-19 Wed]
+
+** DONE Fix restricted.ventura24.es virtual host                        :v24:
+   CLOSED: [2015-01-27 Tue 09:41]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:41]
+   [2014-11-07 Fri]
+
+** DONE Review and start nlp-ws in C				       :0/1p:
+   CLOSED: [2015-01-27 Tue 09:41]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:41]
+   [2014-11-11 Tue]
+** DONE Review app-es-0{1,2,3,4}-c processes			       :0/1p:
+   CLOSED: [2015-01-27 Tue 09:41]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:41]
+   - State "DONE"       from "STARTED"    [2014-11-14 Fri 10:47]
+   - State "STARTED"    from "TODO"       [2014-11-11 Tue 09:54]
+   [2014-11-11 Tue]
+** DONE Review and start opencms in C				       :0/1p:
+   CLOSED: [2015-01-27 Tue 09:41]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:41]
+   [2014-11-11 Tue]
+
+** DONE Deploy and review nlp-cc in C
+   CLOSED: [2015-01-27 Tue 09:42]
+   - State "DONE"       from "TODO"       [2015-01-27 Tue 09:42]
+   [2014-11-11 Tue]
+** DONE Review nlp-dss in C
+   CLOSED: [2015-02-03 Tue 09:44]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 09:44]
+   [2014-11-11 Tue]
+** DONE Deploy and review nlp-backoffice in C
+   CLOSED: [2015-02-03 Tue 09:44]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 09:44]
+   [2014-11-11 Tue]
+
+** DONE Answer Arancha
+   CLOSED: [2015-02-03 Tue 09:44]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 09:44]
+   [2015-01-12 Mon]
+
+** DONE Find out why Jenkins doesn't see changes in github
+   Closed: [2015-02-03 Tue 09:45]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 09:45]
+   [2015-01-15 Thu]
+
+** CANCELLED Fix decrypt
+   CLOSED: [2015-02-03 Tue 09:45]
+   - State "CANCELLED"  from "TODO"       [2015-02-03 Tue 09:45] \\
+     Can't remember what this was about.
+   [2014-12-23 Tue]
+
+** CANCELLED Plantilla horas sindicales
+   CLOSED: [2015-02-03 Tue 11:12]
+   - State "CANCELLED"  from "TODO"       [2015-02-03 Tue 11:12] \\
+     It will be done by m.a.
+   [2015-01-15 Thu]
+
+** DONE Upgrade Artifactory to 4.0.2
+   CLOSED: [2015-02-03 Tue 11:13]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 11:13]
+   [2014-12-19 Fri]
+
+** DONE Review git subtree / freeze / etc.
+   CLOSED: [2015-02-03 Tue 11:58]
+   - State "DONE"       from "TODO"       [2015-02-03 Tue 11:58]
+   [2015-02-03 Tue]
