@@ -6,12 +6,8 @@
 #+TODO: TODO(t@/!) STARTED() WAITING(w@/!) | DONE(d!) CANCELLED(c@)
 * Today
 #+CATEGORY: today
-** TODO Location switch: nlp-cc
-   [2015-01-23 Fri]
 ** TODO Plantilla horas sindicales
    [2015-01-15 Thu]
-** TODO Objectives: backoffice image
-   [2015-01-12 Mon]
 ** TODO PoC: ATDD with Archilian and Struts 2                           :v24:
    - State "TODO"       from "STARTED"    [2014-12-22 Mon 10:50] \\
      To be resumed after SMS is fixed
@@ -23,28 +19,27 @@
 *** TODO Use an external JBoss AS
     - State "TODO"       from ""           [2014-12-23 Tue 11:33] \\
       Needed for in-client tests
-** STARTED Fix why sms confirmations are not sent
-   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
-   [2014-12-22 Mon]
 * Tasks
 #+CATEGORY: Tasks
-** TODO Find out why Jenkins doesn't see changes in github
-   [2015-01-15 Thu]
+** TODO Location switch: nlp-cc
+   [2015-01-23 Fri]
 ** TODO Learn about client certificates
    [2015-01-15 Thu]
-** TODO Review own tickets
-   [2015-01-12 Mon]
-** TODO Answer Arancha
-   [2015-01-12 Mon]
 ** TODO Fix decrypt
    [2014-12-23 Tue]
 ** TODO 30 min of sl
    [2014-12-26 Fri]
-** TODO Ensure javadocs.jar are deployed in each release
-   [2015-01-17 Sat]
+** TODO Watch holacracy webinar
+   [2015-01-24 Sat]
+   [[file:~/org/todo.org]]
+** TODO Docker image for Snort
+   [2015-01-25 Sun]
+* Podemos
 ** TODO Fill-in Podemos project form
    [2015-01-17 Sat]
-* Podemos
+** TODO Define the concept of "organization" in Podemos proposal
+   [2015-01-24 Sat]
+   [[file:~/org/todo.org]]
 * Python
 ** TODO Follow a tutorial on scrapy                           :scrapy:python:
    - State "TODO"       from "STARTED"    [2014-11-28 Fri 08:49] \\
@@ -53,8 +48,6 @@
    [2014-11-26 Wed]
 * Docker
 #+CATEGORY: Docker
-** TODO Upgrade Artifactory to 4.0.2
-   [2014-12-19 Fri]
 ** TODO Split build.inc.sh among images
    [2015-01-07 Wed]
 ** STARTED mcollective-docker-plugin: docker pull and docker push
@@ -305,6 +298,8 @@ java.lang.NullPointerException
    [2014-10-27 Mon]
 * ACM-SL
   #+CATEGORY: ACM-SL
+** TODO Answer Arancha
+   [2015-01-12 Mon]
 ** TODO Find and follow a tutorial on C/C++ on linux
    [2015-01-10 Sat]
 ** TODO Check error messages at shell login
@@ -2571,6 +2566,10 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "TODO"       [2015-01-18 Sun 11:23]
    [2015-01-17 Sat]
 
+** DONE Upgrade Artifactory to 4.0.2
+   CLOSED: [2015-01-25 Sun 08:17]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 08:17]
+   [2014-12-19 Fri]
 ** DONE Prepare location switch                                         :v24:
    CLOSED: [2015-01-18 Sun 11:23]
    - State "DONE"       from "TODO"       [2015-01-18 Sun 11:23]
@@ -2618,3 +2617,42 @@ CLOSED: [2014-12-07 Sun 10:32]
    - State "DONE"       from "STARTED"    [2015-01-23 Fri 12:17]
    - State "STARTED"    from "TODO"       [2015-01-23 Fri 09:45]
    [2015-01-22 Thu]
+** DONE Objectives: backoffice image
+   CLOSED: [2015-01-24 Sat 08:56]
+   - State "DONE"       from "TODO"       [2015-01-24 Sat 08:56]
+   [2015-01-12 Mon]
+** CANCELLED Fix why sms confirmations are not sent
+   CLOSED: [2015-01-25 Sun 08:30]
+   - State "CANCELLED"  from "STARTED"    [2015-01-25 Sun 08:30] \\
+     Not needed
+   - State "STARTED"    from "TODO"       [2014-12-22 Mon 10:49]
+   [2014-12-22 Mon]
+
+** DONE Ensure javadocs.jar are deployed in each release
+   CLOSED: [2015-01-25 Sun 08:31]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 08:31]
+   [2015-01-17 Sat]
+
+** DONE Review own tickets
+   CLOSED: [2015-01-25 Sun 08:31]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 08:31]
+   [2015-01-12 Mon]
+
+** DONE Find out why Jenkins doesn't see changes in github
+   CLOSED: [2015-01-25 Sun 08:32]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 08:32]
+   [2015-01-15 Thu]
+
+** DONE Watch tutorial on blender animation
+   CLOSED: [2015-01-25 Sun 09:29]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 09:29]
+   [2015-01-25 Sun]
+
+** DONE Watch tutorial on blender shading and lighting
+   CLOSED: [2015-01-25 Sun 11:06]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 11:06]
+   [2015-01-25 Sun]
+
+** DONE Watch tutorial on blender "rendering with cycles"
+   CLOSED: [2015-01-25 Sun 11:18]
+   - State "DONE"       from "TODO"       [2015-01-25 Sun 11:18]

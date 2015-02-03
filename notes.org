@@ -281,3 +281,6 @@ hciconfig -a
 hciconfig hci0 up
 *** user
 bluetoothctl
+* Oracle
+- [[https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id%3D653&get_params%3Dp_id:212][JavaEE6 Enterprise Architect]]
+- Service Request: 497386-745709107
